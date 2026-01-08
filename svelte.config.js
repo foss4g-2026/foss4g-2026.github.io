@@ -19,7 +19,8 @@ const config = {
         '/ja',
         '/en/_crawl',
         '/ja/_crawl',
-      ]
+      ],
+      handleUnseenRoutes: 'warn'
     }
   }
 }

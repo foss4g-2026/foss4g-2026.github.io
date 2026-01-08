@@ -114,14 +114,14 @@
       "registration": "Registration",
       "studentship": "Studentship Program",
       "travel_grant": "Travel Grant Program",
+      "adopt_a_ticket": "Adopt-a-ticket",
       "volunteering": "Volunteering",
       "cancellation": "Cancellation Policy"
     },
     "cfp_sub": {
       "general_sessions": "General Sessions",
       "academic_track": "Academic Track",
-      "workshops": "Workshop Proposals",
-      "code_sprint": "Code Sprint"
+      "workshops": "Workshop Proposals"
     },
     "program_sub": {
       "outline": "Outline",
@@ -199,6 +199,7 @@
     }
   },
   "keynote": {
+    "announcement": "Program details will be announced in April 2026",
     "title": "Keynote Speakers",
     "coming_soon_message": "Keynote speakers will be announced in Spring 2026",
     "program": {
@@ -243,6 +244,7 @@
     }
   },
   "presentations": {
+    "announcement": "Program details will be announced in April 2026",
     "title": "Presentations",
     "coming_soon_message": "Program details will be available in July 2026",
     "intro": {
@@ -322,6 +324,7 @@
     }
   },
   "events": {
+    "announcement": "Program details will be announced in April 2026",
     "title": "Events",
     "coming_soon_message": "Program details will be available in July 2026",
     "intro": {
@@ -339,6 +342,7 @@
     }
   },
   "workshops": {
+    "announcement": "Program details will be announced in April 2026",
     "title": "Workshops",
     "coming_soon_message": "Program details will be available in July 2026",
     "intro": {
@@ -367,8 +371,8 @@
       "main_auditorium": "Main auditorium (1,500 seats)",
       "breakout_rooms": "Multiple breakout rooms",
       "exhibition_hall": "Exhibition hall",
-      "wifi": "High-speed WiFi throughout",
-      "accessible": "Accessible facilities"
+      "wifi": "(TBC)High-speed WiFi throughout",
+      "accessible": "(TBC)Accessible facilities"
     },
     "address": {
       "title": "Address",
@@ -516,34 +520,28 @@
       }
     },
     "organizer": {
-      "title": "Organizers",
+      "photo_placeholder": "Photo",
       "roles": {
-        "co_chair": "Co-Chair",
-        "program_committee_chair": "Program Committee Chair"
+        "representative": "OSGeo Japan Chapter Representative Director",
+        "director": "OSGeo Japan Chapter Director"
       },
-      "sample_organizers": {
-        "co_chair_1": {
-          "name": "Dr. Sample Name",
-          "organization": "University/Organization",
-          "description": "Brief description of the organizer's background and role in FOSS4G community."
+      "organizers": {
+        "iwasaki": {
+          "name": "Nobusuke Iwasaki",
+          "title": "OSGeo Japan Chapter Representative Director",
+          "organization": "Professor, Faculty of Agriculture, Tottori University"
         },
-        "co_chair_2": {
-          "name": "Prof. Sample Name",
-          "organization": "University/Organization",
-          "description": "Brief description of the organizer's background and role in FOSS4G community."
-        },
-        "program_chair": {
-          "name": "Dr. Sample Name",
-          "organization": "University/Organization",
-          "description": "Brief description of the organizer's background and role in FOSS4G community."
+        "tamura": {
+          "name": "Kenya Tamura",
+          "title": "OSGeo Japan Chapter Director",
+          "organization": "CEO, Eukarya Inc."
         }
       },
       "organizing_committee": {
         "title": "Organizing Committee",
         "description_1": "The FOSS4G 2026 Hiroshima organizing committee consists of dedicated volunteers from the Japanese and international geospatial community. Our team brings together expertise in open source geospatial technologies, event management, and local knowledge of Hiroshima.",
         "description_2": "Detailed information about all organizing committee members will be updated as the conference approaches."
-      },
-      "photo_placeholder": "Photo"
+      }
     },
     "concept": {
       "title": "Concept",
@@ -608,8 +606,6 @@
         "intro": "If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a conference organizer as soon as possible.",
         "contact_title": "Contact Information",
         "email": "Email",
-        "phone": "Phone",
-        "phone_note": "(during conference)",
         "confidentiality": "All reports will be handled with discretion and confidentiality."
       }
     },
@@ -690,91 +686,76 @@
       "force_majeure": {
         "title": "Force Majeure",
         "content": "In the event of circumstances beyond our control (natural disasters, government restrictions, etc.), the conference may be postponed, cancelled, or moved to a virtual format. Refund policies will be communicated in such cases."
-      },
-      "important_note": {
-        "title": "Important Note",
-        "content": "These terms are preliminary and subject to change. Final terms and conditions will be provided during the registration process in 2026."
       }
     },
     "sponsors": {
-      "title": "Sponsors",
-      "intro": "FOSS4G 2026 Hiroshima offers unique sponsorship opportunities to connect with the global geospatial community. Join us in supporting open-source geospatial technologies and humanitarian applications.",
-      "diamond": {
-        "title": "Diamond Sponsor",
-        "price": "¥5,000,000",
-        "benefits": [
-          "Logo on all conference materials",
-          "Keynote speaking opportunity",
-          "Premium exhibition space",
-          "15 complimentary registrations",
-          "Exclusive networking reception",
-          "Customized sponsorship package"
-        ]
+      "title": "Information for Sponsors",
+      "benefits": {
+        "title": "Benefits of Sponsorship",
+        "global_audience": "FOSS4G attracts diverse participants from around the world including developers, researchers, government officials, and companies involved in geospatial information technology. This is an excellent opportunity to showcase your company's advanced technologies and initiatives while gaining insights into the latest global trends in geospatial information technology.",
+        "various_benefits": "Depending on the sponsorship level, we offer various benefits including conference tickets, sponsor sessions, and sponsor booths.",
+        "community_support": "Your sponsorship support enables travel grants and registration fee reductions for students and participants from developing countries, contributing to the formation of a global FOSS4G community."
       },
-      "platinum": {
-        "title": "Platinum Sponsor",
-        "price": "¥3,500,000",
-        "benefits": [
-          "Logo on all conference materials",
-          "Keynote speaking opportunity",
-          "Premium exhibition space",
-          "10 complimentary registrations",
-          "Exclusive networking reception"
-        ]
-      },
-      "gold": {
-        "title": "Gold Sponsor",
-        "price": "¥2,000,000",
-        "benefits": [
-          "Logo on conference website and materials",
-          "Exhibition space",
-          "6 complimentary registrations",
-          "Workshop hosting opportunity",
-          "Social media promotion"
-        ]
-      },
-      "silver": {
-        "title": "Silver Sponsor",
-        "price": "¥1,000,000",
-        "benefits": [
-          "Logo on conference website",
-          "Small exhibition space",
-          "4 complimentary registrations",
-          "Networking opportunities"
-        ]
-      },
-      "bronze": {
-        "title": "Bronze Sponsor",
-        "price": "¥500,000",
-        "benefits": [
-          "Logo on conference website",
-          "2 complimentary registrations",
-          "Promotional materials in welcome bag"
-        ]
-      },
-      "why_sponsor": {
-        "title": "Why Sponsor FOSS4G 2026?",
-        "global_reach": {
-          "title": "Global Reach",
-          "description": "Connect with 800+ geospatial professionals from around the world"
+      "packages": {
+        "title": "Sponsorship Levels and Benefits",
+        "diamond": {
+          "title": "Diamond",
+          "cost": "5,000,000",
+          "slots": "1",
+          "tickets": "10",
+          "cxo_tickets": "1",
+          "session": "25min×2 slots",
+          "booth": "4×2m"
         },
-        "innovation_focus": {
-          "title": "Innovation Focus",
-          "description": "Showcase your commitment to open-source and humanitarian technology"
+        "platinum": {
+          "title": "Platinum",
+          "cost": "3,500,000",
+          "slots": "3",
+          "tickets": "6",
+          "cxo_tickets": "1",
+          "session": "25min×1 slot",
+          "booth": "4×2m"
         },
-        "networking": {
-          "title": "Networking",
-          "description": "Build relationships with key decision-makers and technical experts"
+        "gold": {
+          "title": "Gold",
+          "cost": "2,000,000",
+          "slots": "6",
+          "tickets": "3",
+          "cxo_tickets": "1",
+          "session": "13min×1 slot",
+          "booth": "3×2m"
         },
-        "brand_visibility": {
-          "title": "Brand Visibility",
-          "description": "Increase brand awareness in the geospatial community"
+        "silver": {
+          "title": "Silver",
+          "cost": "1,000,000",
+          "slots": "9",
+          "tickets": "2",
+          "cxo_tickets": "1",
+          "session": "8min×1 slot",
+          "booth": "2×2m"
+        },
+        "bronze": {
+          "title": "Bronze",
+          "cost": "500,000",
+          "slots": "20",
+          "tickets": "1",
+          "cxo_tickets": "1",
+          "session": "5min×1 slot",
+          "booth": "Table"
+        },
+        "labels": {
+          "title": "Category",
+          "cost": "Cost (JPY)",
+          "slots": "Available Slots",
+          "tickets": "Conference Tickets (incl. social events)",
+          "cxo_tickets": "CxO Tickets",
+          "session": "Sponsor Session",
+          "booth": "Sponsor Booth"
         }
       },
-      "interested": {
-        "title": "Interested in Sponsoring?",
-        "description": "Contact our sponsorship team to discuss custom packages and opportunities.",
-        "contact_button": "Contact Sponsorship Team"
+      "contact": {
+        "title": "Contact Information",
+        "email": "foss4g2026[at]osgeo.jp"
       }
     }
   },
@@ -789,16 +770,17 @@
       "fees_title": "Registration Fees (Preliminary)",
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in early 2026.",
       "registration_types": [
-        ["Early Bird (until March 31, 2026)", "¥65,000"],
-        ["Regular (April 1 - July 31, 2026)", "¥90,000"],
-        ["Student Early Bird", "¥25,000"],
-        ["Student Regular", "¥35,000"],
-        ["Workshop (per workshop)", "¥15,000"]
+        ["Early Bird (until March 31, 2026)", "TBD"],
+        ["Regular (April 1 - July 31, 2026)", "TBD"],
+        ["Student Early Bird", "TBD"],
+        ["Student Regular", "TBD"]
       ],
+      "get_ticket_button": "Get your ticket here",
+      "ticket_link_note": "Registration link will be available soon",
       "whats_included": {
         "title": "What's Included",
         "items": [
-          "Access to all main conference sessions (September 1-3)",
+          "Access to all main conference sessions",
           "Conference materials and welcome package",
           "Coffee breaks and networking sessions",
           "Access to exhibition area",
@@ -807,7 +789,7 @@
       },
       "registration_process": {
         "title": "Registration Process",
-        "description": "Registration will open in December 2025. Detailed instructions and the registration portal will be available on this website closer to the opening date."
+        "description": "Registration will open in January 2026."
       }
     },
     "studentship": {
@@ -830,12 +812,12 @@
         "title": "Student Registration Fees",
         "early_bird": {
           "title": "Student Early Bird",
-          "price": "¥25,000",
+          "price": "TBD",
           "period": "Until March 31, 2026"
         },
         "regular": {
           "title": "Student Regular",
-          "price": "¥35,000",
+          "price": "TBD",
           "period": "April 1 - July 31, 2026"
         }
       },
@@ -861,6 +843,26 @@
         "title": "Questions?",
         "description": "Contact our student program coordinator:",
         "email": "foss4g2026[at]osgeo.jp"
+      }
+    },
+    "adopt_a_ticket": {
+      "title": "Adopt-a-ticket",
+      "intro": "Adopt-a-ticket is your chance to support FOSS4G 2026 by purchasing any number of extra tickets for the conference that will be donated to our wonderful workshop instructors and Travel Grant Program (TGP) receivers.",
+      "why": {
+        "title": "Why?",
+        "tgp_support": "We are dedicated to running the Travel Grant Program (TGP) - a way to facilitate accessibility and diversity in the event. In addition to a monetary grant for grantees' travel and accommodation expenses handled in cooperation with OSGeo, the LOC will grant free access to the conference main days plus one workshop of choice for all Travel Grant receivers.",
+        "workshop_instructors": "The LOC understands that preparing and conducting an educative and successful workshop takes quite some effort and time. This is the reason we are giving away free tickets to all workshop instructors.",
+        "belief": "We do this because we believe this is the right thing to do.",
+        "funding_challenge": "But this also means that the conference will miss out on some of the income funds although we still need to cover the related expenses (lunches, coffee breaks, etc). This is where we would appreciate your help. Instead of increasing the ticket cost for all we chose to allow you to make a conscious choice."
+      },
+      "how": {
+        "title": "How does this work?",
+        "description": "When registering for the conference, you can choose between any of the add-ons: a t-shirt, a mug, workshop tickets and so on. One of the add-ons there is called 'Adopt-a-ticket', your chance to help us raise extra funds to do the right thing.",
+        "opportunity": "We see it equally as an opportunity for smaller organizations and individuals who would like to support the conference but for whom the existing sponsorship levels are too expensive."
+      },
+      "benefits": {
+        "title": "What's in it for you?",
+        "description": "With 'Adopt-a-ticket' you can purchase any number of extra tickets. In return we would like to show our gratitude by having you included in the 'Honorable mentions' section of the conference homepage. If you buy more than one extra ticket with 'adopt-a-ticket' then you would instead be eligible for any of the predefined sponsor packages in an equal amount."
       }
     },
     "travel_grant": {
@@ -964,7 +966,7 @@
     },
     "cancellation": {
       "title": "Cancellation Policy",
-      "description": "Cancellation policy and refund information.",
+      "description": "Cancellation policy will be announced in February 2026.",
       "intro": "We understand that plans can change. Please review our cancellation and refund policy below.",
       "refund_schedule": {
         "title": "Refund Schedule",
@@ -1057,9 +1059,69 @@
       "title": "Academic Track",
       "description": "Details about academic paper submissions and presentations.",
       "coming_soon_message": "Academic Track submissions will open in December 2025",
+      "submit_button": "Submit a proposal for Academic Track",
       "overview": {
         "title": "Academic Track Overview",
-        "description": "The Academic Track at FOSS4G 2026 Hiroshima provides a platform for researchers to present peer-reviewed scientific contributions to the open-source geospatial community. We welcome high-quality research papers that advance the state of knowledge in geospatial science and technology."
+        "description": "The Academic Track provides a forum for researchers and practitioners to present original research and developments in the field of free and open source geospatial software and data. The submission procedure is divided into two mandatory steps for authors to present their work at FOSS4G 2026."
+      },
+      "timeline": {
+        "title": "Timeline",
+        "headers": {
+          "phase": "Phase",
+          "deadline": "Deadline",
+          "description": "Description"
+        },
+        "rows": {
+          "abstract_submission": {
+            "phase": "Step 1: Abstract Submission",
+            "deadline": "March 2, 2026",
+            "description": "Submit 800-1,000 word abstracts for evaluation"
+          },
+          "review_period": {
+            "phase": "Abstract Review Period",
+            "deadline": "March 3 - April 24, 2026",
+            "description": "Scientific Committee review process"
+          },
+          "notification": {
+            "phase": "Abstract Acceptance Notification",
+            "deadline": "April 25, 2026",
+            "description": "Authors receive feedback and acceptance status"
+          },
+          "full_paper": {
+            "phase": "Step 2: Full Paper Submission",
+            "deadline": "April 15, 2026",
+            "description": "Submit extended papers (max 8 pages) if abstract accepted"
+          }
+        }
+      },
+      "submission_process": {
+        "title": "Submission Process",
+        "step1": {
+          "title": "Step 1: Abstract Submission",
+          "items": [
+            "Submit abstracts in English (800-1,000 words)",
+            "Include approach, results, concepts, and relevance to FOSS4G community",
+            "Abstracts reviewed for originality, relevance, clarity, and scientific value",
+            "Reproducibility considered as evaluation criteria"
+          ]
+        },
+        "step2": {
+          "title": "Step 2: Full Paper Submission",
+          "items": [
+            "Required only if abstract is accepted",
+            "Maximum 8 pages using ISPRS template",
+            "Must include original and unpublished research",
+            "Papers checked for template conformance and plagiarism"
+          ]
+        }
+      },
+      "important_notes": {
+        "title": "Important Notes",
+        "items": [
+          "Both steps are mandatory for presentation at FOSS4G 2026",
+          "Template available at: <a href=\"https://www.isprs.org/documents/orangebook/app5.aspx\" class=\"text-blue-600 underline\" target=\"_blank\">ISPRS Template</a>",
+          "Proposals can be shared privately for feedback during review period"
+        ]
       }
     },
     "workshop_proposals": {
@@ -1071,17 +1133,92 @@
         "description": "FOSS4G 2026 Hiroshima workshops provide hands-on learning experiences with open-source geospatial tools and technologies. We invite proposals for half-day and full-day workshops that offer practical, interactive sessions for conference attendees."
       }
     },
-    "code_sprint": {
-      "title": "Code Sprint",
-      "description": "Information about code sprint participation.",
-      "coming_soon_message": "Code Sprint registration will open in March 2026",
+    "workshops": {
+      "title": "Workshops",
+      "description": "Information about workshop submissions and requirements.",
+      "submit_button": "Submit a proposal for Workshops",
       "overview": {
-        "title": "Code Sprint Overview",
-        "description": "Code Sprints are collaborative coding events where developers, users, and contributors work together on open-source geospatial projects. These intensive sessions foster innovation, fix bugs, implement new features, and strengthen the FOSS4G community."
+        "title": "Workshop Overview",
+        "description": "Workshops are the showcase of FOSS4G projects. During 2 or 4 highly stimulating hours, experienced community members will guide participants through the features of various software projects. Everything happens in a hands-on manner and everyone is invited to use their own computer and bring back home all of their achievements."
+      },
+      "timeline": {
+        "title": "Timeline",
+        "headers": {
+          "phase": "Phase",
+          "deadline": "Deadline",
+          "description": "Description"
+        },
+        "rows": {
+          "submission": {
+            "phase": "Call for Workshop Submissions",
+            "deadline": "January 12 - March 16, 2026",
+            "description": "Submit workshop proposals with detailed content and requirements"
+          },
+          "vote": {
+            "phase": "Community Vote",
+            "deadline": "March 17 - March 24, 2026",
+            "description": "Community voting period for submitted workshops"
+          },
+          "announcement": {
+            "phase": "Announce Accepted Workshops",
+            "deadline": "April 15, 2026",
+            "description": "Notification of accepted workshop proposals"
+          },
+          "program": {
+            "phase": "Full Program Release",
+            "deadline": "April 22, 2026 (TBC)",
+            "description": "Complete workshop schedule and details published"
+          }
+        }
+      },
+      "details": {
+        "title": "Workshop Details",
+        "when_where": {
+          "title": "When & Where",
+          "items": [
+            "Dates: August 30-31, 2026",
+            "Location: RCC Bunka Center, Hiroshima",
+            "Duration: 2 or 4 hours per workshop",
+            "Format: Hands-on, interactive sessions"
+          ]
+        },
+        "requirements": {
+          "title": "Requirements",
+          "items": [
+            "Participants bring their own laptops",
+            "Both beginner and advanced levels welcome",
+            "Difficulty scale: 1 (beginner) to 4 (advanced)",
+            "Clear prerequisite skills specification required"
+          ]
+        }
+      },
+      "guidelines": {
+        "title": "Submission Guidelines",
+        "proposal": {
+          "title": "What to Include in Your Proposal",
+          "items": [
+            "Clear description of workshop content to attract the right audience",
+            "List of topics you will cover during the session",
+            "Prerequisite skills and knowledge required (e.g., \"basic Python programming skills\")",
+            "Difficulty level indication (1-4 scale)",
+            "Software installation requirements (if any)",
+            "Links to datasets and documentation that will be used"
+          ]
+        },
+        "important_notes": {
+          "title": "Important Notes",
+          "items": [
+            "This is a Free and Open Source Software conference",
+            "Submissions promoting restricted license/closed source software will not be accepted",
+            "Clearly indicate if prior software installation is required",
+            "Consider offering both beginner and advanced levels to cover majority of user needs"
+          ]
+        }
       }
     }
   },
   "program_schedule": {
+    "announcement": "Program details will be announced in April 2026",
     "title": "Program Schedule",
     "outline": {
       "title": "Outline",

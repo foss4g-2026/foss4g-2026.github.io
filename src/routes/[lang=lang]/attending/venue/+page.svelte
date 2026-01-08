@@ -1,5 +1,6 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
+  import Map from '$components/Map.svelte'
 </script>
 
 <svelte:head>
@@ -31,12 +32,22 @@
     </div>
     
     <div>
-      <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center mb-4">
-        <span class="text-gray-500">{$t('venue.placeholders.venue_photo')}</span>
+      <div class="mb-4">
+        <img src="/images/meeting_place.webp" alt="{$t('venue.main_venue.title')}" class="w-full h-64 object-cover rounded-lg">
       </div>
-      <div class="bg-gray-200 h-48 rounded-lg flex items-center justify-center">
-        <span class="text-gray-500">{$t('venue.placeholders.venue_map')}</span>
-      </div>
+      <Map
+        mapClass="w-full h-48 rounded-lg"
+        center={[132.451043, 34.392077]}
+        zoom={15}
+        style={$t('map.settings.style')}
+        items={[
+          {
+            coordinates: [132.451043, 34.392077],
+            title: $t('venue.main_venue.title'),
+            description: $t('venue.main_venue.description')
+          }
+        ]}
+      />
     </div>
   </div>
 

@@ -1,6 +1,7 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
   import ComingSoon from '$components/ComingSoon.svelte'
+  import Table from '$components/Table.svelte'
 </script>
 
 <svelte:head>
@@ -10,7 +11,12 @@
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.general_sessions')}</h1>
   
-  <ComingSoon message={$t('call_for_papers.general_sessions.coming_soon_message')} class="mb-8" />
+  <!-- Submit Button -->
+  <div class="text-center mb-8">
+    <a href="javascript:void(0)" class="btn btn-primary btn-lg">
+      Submit a proposal for General Sessions
+    </a>
+  </div>
   
   <div class="prose max-w-none">
     <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.topics.title')}</h2>
@@ -37,27 +43,16 @@
       </div>
     </div>
 
-    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.presentation_formats.title')}</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-      <div class="bg-blue-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('call_for_papers.general_sessions.presentation_formats.standard_talk.title')}</h3>
-        <p class="text-sm">{$t('call_for_papers.general_sessions.presentation_formats.standard_talk.description')}</p>
-      </div>
-      <div class="bg-green-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('call_for_papers.general_sessions.presentation_formats.lightning_talk.title')}</h3>
-        <p class="text-sm">{$t('call_for_papers.general_sessions.presentation_formats.lightning_talk.description')}</p>
-      </div>
-      <div class="bg-purple-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('call_for_papers.general_sessions.presentation_formats.poster_session.title')}</h3>
-        <p class="text-sm">{$t('call_for_papers.general_sessions.presentation_formats.poster_session.description')}</p>
-      </div>
-    </div>
-
-    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.important_dates.title')}</h2>
-    <ul class="list-disc pl-6 mb-6">
-      {#each $t('call_for_papers.general_sessions.important_dates.dates') as date}
-        <li><strong>{date}</strong></li>
-      {/each}
-    </ul>
+    <h2 class="text-2xl font-semibold mb-4">Timeline</h2>
+    <Table 
+      headers={['Phase', 'Date']}
+      rows={[
+        ['Call for Talks Submissions', 'January 12 - March 16, 2026'],
+        ['Community Vote', 'March 17 - March 24, 2026'],
+        ['Announce accepted talks', 'April 15, 2026'],
+        ['Full program', 'April 22, 2026 (TBC)']
+      ]}
+      class="mb-8"
+    />
   </div>
 </div>

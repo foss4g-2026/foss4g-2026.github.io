@@ -10,6 +10,13 @@
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.register_sub.registration')}</h1>
   
+  <!-- Get your ticket here button -->
+  <div class="text-center mb-8">
+    <a href="https://2026.foss4g.org/" class="btn btn-primary btn-lg">
+      {$t('register.registration.get_ticket_button')}
+    </a>
+  </div>
+  
   <div class="mb-8">
     <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.fees_title')}</h2>
     
@@ -20,16 +27,6 @@
     />
   </div>
   
-  <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
-    <div class="flex">
-      <div class="ml-3">
-        <p class="text-sm text-blue-700">
-          <strong>Note:</strong> {$t('register.registration.fees_note')}
-        </p>
-      </div>
-    </div>
-  </div>
-  
   <div class="prose max-w-none">
     <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.whats_included.title')}</h2>
     
@@ -38,11 +35,5 @@
         <li>{item}</li>
       {/each}
     </ul>
-    
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.registration_process.title')}</h2>
-    
-    <p class="mb-4">
-      {$t('register.registration.registration_process.description')}
-    </p>
   </div>
 </div>

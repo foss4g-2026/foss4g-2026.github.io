@@ -44,8 +44,8 @@
     <div class="bg-gray-50 p-8 rounded-lg mb-8">
       <h3 class="text-2xl font-semibold mb-4">{$t('about.concept.logo.title')}</h3>
       <div class="flex flex-col lg:flex-row items-center gap-8">
-        <div class="w-48 h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-          <span class="text-gray-500">{$t('about.concept.logo.placeholder')}</span>
+        <div class="w-48 h-48 rounded-lg flex items-center justify-center">
+          <img src="/images/logo.webp" alt="FOSS4G 2026 Hiroshima Conference Logo" class="w-full h-full object-contain rounded-lg" />
         </div>
         <div class="flex-1">
           <p class="mb-4">

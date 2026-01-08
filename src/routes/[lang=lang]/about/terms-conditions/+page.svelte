@@ -46,12 +46,5 @@
     <p class="mb-6">
       {$t('about.terms_conditions.force_majeure.content')}
     </p>
-
-    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6">
-      <h3 class="text-lg font-semibold mb-2">{$t('about.terms_conditions.important_note.title')}</h3>
-      <p>
-        {$t('about.terms_conditions.important_note.content')}
-      </p>
-    </div>
   </div>
 </div>

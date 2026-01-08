@@ -95,6 +95,7 @@
               <li><Link href={'/' + data.locale + '/register/registration'}>{$t('nav.register_sub.registration')}</Link></li>
               <li><Link href={'/' + data.locale + '/register/studentship'}>{$t('nav.register_sub.studentship')}</Link></li>
               <li><Link href={'/' + data.locale + '/register/travel-grant'}>{$t('nav.register_sub.travel_grant')}</Link></li>
+              <li><Link href={'/' + data.locale + '/register/adopt-a-ticket'}>{$t('nav.register_sub.adopt_a_ticket')}</Link></li>
               <li><Link href={'/' + data.locale + '/register/volunteering'}>{$t('nav.register_sub.volunteering')}</Link></li>
               <li><Link href={'/' + data.locale + '/register/cancellation'}>{$t('nav.register_sub.cancellation')}</Link></li>
             </ul>
@@ -107,7 +108,6 @@
               <li><Link href={'/' + data.locale + '/call-for-papers/general-sessions'}>{$t('nav.cfp_sub.general_sessions')}</Link></li>
               <li><Link href={'/' + data.locale + '/call-for-papers/academic-track'}>{$t('nav.cfp_sub.academic_track')}</Link></li>
               <li><Link href={'/' + data.locale + '/call-for-papers/workshops'}>{$t('nav.cfp_sub.workshops')}</Link></li>
-              <li><Link href={'/' + data.locale + '/call-for-papers/code-sprint'}>{$t('nav.cfp_sub.code_sprint')}</Link></li>
             </ul>
           </details>
         </li>
@@ -179,6 +179,7 @@
             <li><Link href={'/' + data.locale + '/register/registration'}>{$t('nav.register_sub.registration')}</Link></li>
             <li><Link href={'/' + data.locale + '/register/studentship'}>{$t('nav.register_sub.studentship')}</Link></li>
             <li><Link href={'/' + data.locale + '/register/travel-grant'}>{$t('nav.register_sub.travel_grant')}</Link></li>
+            <li><Link href={'/' + data.locale + '/register/adopt-a-ticket'}>{$t('nav.register_sub.adopt_a_ticket')}</Link></li>
             <li><Link href={'/' + data.locale + '/register/volunteering'}>{$t('nav.register_sub.volunteering')}</Link></li>
             <li><Link href={'/' + data.locale + '/register/cancellation'}>{$t('nav.register_sub.cancellation')}</Link></li>
           </ul>
@@ -193,7 +194,6 @@
             <li><Link href={'/' + data.locale + '/call-for-papers/general-sessions'}>{$t('nav.cfp_sub.general_sessions')}</Link></li>
             <li><Link href={'/' + data.locale + '/call-for-papers/academic-track'}>{$t('nav.cfp_sub.academic_track')}</Link></li>
             <li><Link href={'/' + data.locale + '/call-for-papers/workshops'}>{$t('nav.cfp_sub.workshops')}</Link></li>
-            <li><Link href={'/' + data.locale + '/call-for-papers/code-sprint'}>{$t('nav.cfp_sub.code_sprint')}</Link></li>
           </ul>
         </details>
       </li>

@@ -14,6 +14,7 @@ const base_routes = [
   '/register',
   '/register/registration',
   '/register/studentship',
+  '/register/adopt-a-ticket',
   '/register/travel-grant',
   '/register/volunteering',
   '/register/cancellation',
@@ -22,7 +23,6 @@ const base_routes = [
   '/call-for-papers/general-sessions',
   '/call-for-papers/academic-track',
   '/call-for-papers/workshops',
-  '/call-for-papers/code-sprint',
   // Program Schedule sub-pages
   '/program-schedule',
   '/program-schedule/outline',
