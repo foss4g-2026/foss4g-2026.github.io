@@ -12,13 +12,11 @@
   
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
     <!-- Organizer 1 -->
-    <Card title={$t('about.organizer.roles.representative')} class="text-center">
+    <Card title={$t('about.organizer.roles.representative')} class="text-center" centerTitle={true}>
       <div class="flex justify-center mb-4">
         <div class="avatar">
-          <div class="w-24 rounded-full bg-gray-300">
-            <div class="w-full h-full flex items-center justify-center text-gray-600">
-              {$t('about.organizer.photo_placeholder')}
-            </div>
+          <div class="w-24 rounded-full">
+            <img src="/images/organizers/NobusukeIwasaki.webp" alt={$t('about.organizer.organizers.iwasaki.name')} class="rounded-full" />
           </div>
         </div>
       </div>
@@ -29,13 +27,11 @@
     </Card>
 
     <!-- Organizer 2 -->
-    <Card title={$t('about.organizer.roles.director')} class="text-center">
+    <Card title={$t('about.organizer.roles.director')} class="text-center" centerTitle={true}>
       <div class="flex justify-center mb-4">
         <div class="avatar">
-          <div class="w-24 rounded-full bg-gray-300">
-            <div class="w-full h-full flex items-center justify-center text-gray-600">
-              {$t('about.organizer.photo_placeholder')}
-            </div>
+          <div class="w-24 rounded-full">
+            <img src="/images/organizers/KenyaTamura.webp" alt={$t('about.organizer.organizers.tamura.name')} class="rounded-full" />
           </div>
         </div>
       </div>

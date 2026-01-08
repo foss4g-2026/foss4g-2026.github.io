@@ -680,7 +680,8 @@
         }
       },
       "contact": {
-        "title": "連絡先情報",
+        "title": "連絡先",
+        "content": "スポンサーシップに関する質問は下記までお問い合わせください。",
         "email": "foss4g2026[at]osgeo.jp"
       }
     }

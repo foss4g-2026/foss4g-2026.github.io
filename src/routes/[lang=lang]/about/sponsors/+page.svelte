@@ -89,8 +89,8 @@
     />
   </div>
 
-  <div class="text-center">
-    <h2 class="text-2xl font-semibold mb-4">{$t('about.sponsors.contact.title')}</h2>
-    <p class="text-lg">{$t('about.sponsors.contact.email')}</p>
+  <div class="bg-gray-50 p-6 rounded-lg">
+    <h3 class="text-lg font-semibold mb-2">{$t('about.sponsors.contact.title')}</h3>
+    <p>{$t('about.sponsors.contact.content')} <strong>foss4g2026[at]osgeo.jp</strong></p>
   </div>
 </div>

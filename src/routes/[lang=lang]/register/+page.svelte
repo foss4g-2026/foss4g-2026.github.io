@@ -1,5 +1,8 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
+  import { page } from '$app/stores'
+  
+  $: lang = $page.params.lang
 </script>
 
 <svelte:head>
@@ -9,52 +12,59 @@
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('register.title')}</h1>
   
-  <!-- Registration -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.title')}</h2>
-    <div class="bg-white p-6 rounded-lg shadow-md">
-      <table class="w-full border-collapse border border-gray-300">
-        <thead>
-          <tr class="bg-gray-100">
-            <th class="border border-gray-300 px-4 py-2">{$t('register.registration.type')}</th>
-            <th class="border border-gray-300 px-4 py-2">{$t('register.registration.price')}</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="border border-gray-300 px-4 py-2">{$t('register.registration.early_bird')}</td>
-            <td class="border border-gray-300 px-4 py-2">$XXX</td>
-          </tr>
-          <tr>
-            <td class="border border-gray-300 px-4 py-2">{$t('register.registration.regular')}</td>
-            <td class="border border-gray-300 px-4 py-2">$XXX</td>
-          </tr>
-        </tbody>
-      </table>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Registration -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <h2 class="text-xl font-semibold mb-2">
+        <a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">
+          {$t('nav.register_sub.registration')}
+        </a>
+      </h2>
     </div>
-  </section>
 
-  <!-- Studentship Program -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.studentship.title')}</h2>
-    <p class="text-gray-700 mb-4">{$t('register.studentship.description')}</p>
-  </section>
+    <!-- Studentship Program -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <h2 class="text-xl font-semibold mb-2">
+        <a href="/{lang}/register/studentship" class="text-blue-600 hover:text-blue-800 hover:underline">
+          {$t('nav.register_sub.studentship')}
+        </a>
+      </h2>
+    </div>
 
-  <!-- Travel Grant Program -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.travel_grant.title')}</h2>
-    <p class="text-gray-700 mb-4">{$t('register.travel_grant.description')}</p>
-  </section>
+    <!-- Travel Grant Program -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <h2 class="text-xl font-semibold mb-2">
+        <a href="/{lang}/register/travel-grant" class="text-blue-600 hover:text-blue-800 hover:underline">
+          {$t('nav.register_sub.travel_grant')}
+        </a>
+      </h2>
+    </div>
 
-  <!-- Volunteering -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.title')}</h2>
-    <p class="text-gray-700 mb-4">{$t('register.volunteering.description')}</p>
-  </section>
+    <!-- Adopt-a-ticket -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <h2 class="text-xl font-semibold mb-2">
+        <a href="/{lang}/register/adopt-a-ticket" class="text-blue-600 hover:text-blue-800 hover:underline">
+          {$t('nav.register_sub.adopt_a_ticket')}
+        </a>
+      </h2>
+    </div>
 
-  <!-- Cancellation Policy -->
-  <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.cancellation.title')}</h2>
-    <p class="text-gray-700 mb-4">{$t('register.cancellation.description')}</p>
-  </section>
+    <!-- Volunteering -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <h2 class="text-xl font-semibold mb-2">
+        <a href="/{lang}/register/volunteering" class="text-blue-600 hover:text-blue-800 hover:underline">
+          {$t('nav.register_sub.volunteering')}
+        </a>
+      </h2>
+    </div>
+
+    <!-- Cancellation Policy -->
+    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+      <h2 class="text-xl font-semibold mb-2">
+        <a href="/{lang}/register/cancellation" class="text-blue-600 hover:text-blue-800 hover:underline">
+          {$t('nav.register_sub.cancellation')}
+        </a>
+      </h2>
+    </div>
+  </div>
 </div>

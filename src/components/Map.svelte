@@ -24,12 +24,14 @@
     <Marker lnglat={item.coordinates}>
       {#snippet content()}
         <div class="text-center loading-none">
-          <div class="text-3xl">
-            {#if item.icon}
-              <img src={item.icon} alt={item.title} class="w-6 h-6 mb-2" />
-            {/if}
-          </div>
-          <div class="font-bold">{item.title}</div>
+          {#if item.icon}
+            <img src={item.icon} alt={item.title} class="w-6 h-6" />
+          {:else}
+            <!-- Standard map pin marker -->
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class={item.color || "text-red-500"}>
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+            </svg>
+          {/if}
         </div>        
       {/snippet}
       <Popup class="text-block">

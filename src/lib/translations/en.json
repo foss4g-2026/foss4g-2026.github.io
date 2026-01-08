@@ -645,7 +645,7 @@
         ]
       },
       "contact": {
-        "title": "Contact Us",
+        "title": "Contact Information",
         "content": "For privacy-related questions:"
       }
     },
@@ -755,6 +755,7 @@
       },
       "contact": {
         "title": "Contact Information",
+        "content": "For sponsorship inquiries, please contact",
         "email": "foss4g2026[at]osgeo.jp"
       }
     }
