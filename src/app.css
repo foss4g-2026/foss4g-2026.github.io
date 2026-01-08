@@ -28,7 +28,18 @@
 
 /* ドロップダウンメニューのz-indexを調整 */
 .dropdown-content {
-  z-index: 50;
+  z-index: 1000;
+}
+
+/* ナビゲーションバー全体のz-indexを確保 */
+.navbar {
+  z-index: 999;
+}
+
+/* DaisyUIのドロップダウンメニューのz-indexを強制的に上げる */
+.dropdown .dropdown-content,
+.menu .dropdown-content {
+  z-index: 1000 !important;
 }
 
 /* スクロール可能な要素のスムーズスクロール */
