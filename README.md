@@ -33,10 +33,10 @@ npm run build
 npm run preview
 ```
 
-## preview deployment
+## preview / deployment information
 
 The main branch is 'staging', and the production branch is 'main'.
 
-Push to 'staging' to deploy to the staging environment, https://foss4g-2026.pages.dev/ . It is automatically deployed by Cloudflare Pages.
+Push to 'staging' to deploy to the staging environment, https://foss4g-2026-github-io.pages.dev/ . It is automatically deployed by Cloudflare Pages.
 
-Push to 'main' to deploy to the production environment, but it is not implemented yet.
+Push to 'main' to deploy to the production environment, you can see it at https://foss4g-2026.github.io . It is automatically deployed by GitHub Pages.
