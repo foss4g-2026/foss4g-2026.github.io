@@ -57,7 +57,7 @@
     <section class="mb-8">
       <div class="text-center">
         <img 
-          src="/src/images/Foss4g2025JPphoto.webp" 
+          src="/images/Foss4g2025JPphoto.webp" 
           alt="FOSS4G 2025 Japan participants group photo" 
           class="w-full max-w-4xl mx-auto rounded-lg shadow-lg"
         />
