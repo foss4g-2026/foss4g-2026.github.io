@@ -11,7 +11,11 @@ const config = {
       $lib: 'src/lib',
       $images: 'src/images',
     },
-    adapter: adapter(),
+    // GitHub Pages does not rewrite unknown paths to index.html.
+    // Use 404.html as SPA fallback, and generate directory-style pages.
+    adapter: adapter({
+      fallback: '404.html',
+    }),
     prerender: {
       entries: [
         '*',
