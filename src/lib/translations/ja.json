@@ -181,7 +181,7 @@
   },
   "program_outline": {
     "title": "プログラムアウトライン",
-    "coming_soon_message": "詳細なプログラムは2026年7月に公開予定です",
+    "coming_soon_message": "詳細なプログラムは2026年4月中に公開予定です",
     "schedule_glance": {
       "title": "スケジュール一覧",
       "table": {
@@ -703,7 +703,7 @@
         ["学生通常料金", "TBD"]
       ],
       "get_ticket_button": "チケットを取得する",
-      "ticket_link_note": "登録リンクは近日公開予定です",
+      "ticket_link_note": "登録開始は2026年3月を予定しています",
       "whats_included": {
         "title": "含まれるもの",
         "items": [
@@ -1010,12 +1010,7 @@
   },
   "contact": {
     "title": "お問い合わせ",
-    "form": {
-      "name": "お名前",
-      "email": "メールアドレス",
-      "subject": "件名",
-      "message": "メッセージ",
-      "submit": "送信"
-    }
+    "description": "会議に関してご質問がございましたらお知らせください。",
+    "help_message": "喜んでお手伝いいたします。"
   }
 }

@@ -181,7 +181,7 @@
   },
   "program_outline": {
     "title": "Program Outline",
-    "coming_soon_message": "Detailed program will be published in July 2026",
+    "coming_soon_message": "Detailed program will be published in April 2026",
     "schedule_glance": {
       "title": "Schedule at a Glance",
       "table": {
@@ -777,7 +777,7 @@
         ["Student Regular", "TBD"]
       ],
       "get_ticket_button": "Get your ticket here",
-      "ticket_link_note": "Registration link will be available soon",
+      "ticket_link_note": "Registration is scheduled to begin in March 2026",
       "whats_included": {
         "title": "What's Included",
         "items": [
@@ -1258,13 +1258,8 @@
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "subject": "Subject",
-      "message": "Message",
-      "submit": "Send Message"
-    }
+    "title": "Get in touch",
+    "description": "Let us know if you have any questions regarding the conference.",
+    "help_message": "We are happy to help you."
   }
 }

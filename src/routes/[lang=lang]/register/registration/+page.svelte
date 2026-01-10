@@ -10,11 +10,12 @@
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.register_sub.registration')}</h1>
   
-  <!-- Get your ticket here button -->
+  <!-- Registration notice -->
   <div class="text-center mb-8">
-    <a href="https://2026.foss4g.org/" class="btn btn-primary btn-lg">
-      {$t('register.registration.get_ticket_button')}
-    </a>
+    <div class="alert alert-warning">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <span class="text-lg font-medium">{$t('register.registration.ticket_link_note')}</span>
+    </div>
   </div>
   
   <div class="mb-8">
