@@ -2,6 +2,8 @@
   import { page } from '$app/state'
   import { t } from 'svelte-i18n'
   import Link from '$components/Link.svelte'
+  import NavLink from '$components/NavLink.svelte'
+  import { isNavEnabled } from '$lib/config/navigation'
   const { data } = $props<{ data: { locale: 'en' | 'ja' } }>()
 
   function getRestPath(pathname: string): string {
@@ -77,14 +79,14 @@
           <details bind:open={mobileAboutOpen}>
             <summary>{$t('nav.about')}</summary>
             <ul class="p-2">
-              <li><Link href={'/' + data.locale + '/about/foss4g'}>{$t('nav.about_sub.foss4g')}</Link></li>
-              <li><Link href={'/' + data.locale + '/about/map'}>{$t('nav.about_sub.map')}</Link></li>
-              <li><Link href={'/' + data.locale + '/about/organizers'}>{$t('nav.about_sub.organizers')}</Link></li>
-              <li><Link href={'/' + data.locale + '/about/concept'}>{$t('nav.about_sub.concept')}</Link></li>
-              <li><Link href={'/' + data.locale + '/about/code-of-conduct'}>{$t('nav.about_sub.code_of_conduct')}</Link></li>
-              <li><Link href={'/' + data.locale + '/about/privacy-policy'}>{$t('nav.about_sub.privacy_policy')}</Link></li>
-              <li><Link href={'/' + data.locale + '/about/terms-conditions'}>{$t('nav.about_sub.terms_conditions')}</Link></li>
-              <li><Link href={'/' + data.locale + '/about/sponsors'}>{$t('nav.about_sub.sponsors')}</Link></li>
+              <li><NavLink href={'/' + data.locale + '/about/foss4g'} enabled={isNavEnabled('about', 'foss4g')}>{$t('nav.about_sub.foss4g')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/about/map'} enabled={isNavEnabled('about', 'map')}>{$t('nav.about_sub.map')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/about/organizers'} enabled={isNavEnabled('about', 'organizers')}>{$t('nav.about_sub.organizers')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/about/code-of-conduct'} enabled={isNavEnabled('about', 'codeOfConduct')}>{$t('nav.about_sub.code_of_conduct')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/about/privacy-policy'} enabled={isNavEnabled('about', 'privacyPolicy')}>{$t('nav.about_sub.privacy_policy')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/about/terms-conditions'} enabled={isNavEnabled('about', 'termsConditions')}>{$t('nav.about_sub.terms_conditions')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/about/sponsors'} enabled={isNavEnabled('about', 'sponsors')}>{$t('nav.about_sub.sponsors')}</NavLink></li>
             </ul>
           </details>
         </li>
@@ -92,12 +94,12 @@
           <details bind:open={mobileRegisterOpen}>
             <summary>{$t('nav.register')}</summary>
             <ul class="p-2">
-              <li><Link href={'/' + data.locale + '/register/registration'}>{$t('nav.register_sub.registration')}</Link></li>
-              <li><Link href={'/' + data.locale + '/register/studentship'}>{$t('nav.register_sub.studentship')}</Link></li>
-              <li><Link href={'/' + data.locale + '/register/travel-grant'}>{$t('nav.register_sub.travel_grant')}</Link></li>
-              <li><Link href={'/' + data.locale + '/register/adopt-a-ticket'}>{$t('nav.register_sub.adopt_a_ticket')}</Link></li>
-              <li><Link href={'/' + data.locale + '/register/volunteering'}>{$t('nav.register_sub.volunteering')}</Link></li>
-              <li><Link href={'/' + data.locale + '/register/cancellation'}>{$t('nav.register_sub.cancellation')}</Link></li>
+              <li><NavLink href={'/' + data.locale + '/register/registration'} enabled={isNavEnabled('register', 'registration')}>{$t('nav.register_sub.registration')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/register/studentship'} enabled={isNavEnabled('register', 'studentship')}>{$t('nav.register_sub.studentship')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/register/travel-grant'} enabled={isNavEnabled('register', 'travelGrant')}>{$t('nav.register_sub.travel_grant')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/register/adopt-a-ticket'} enabled={isNavEnabled('register', 'adoptATicket')}>{$t('nav.register_sub.adopt_a_ticket')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/register/volunteering'} enabled={isNavEnabled('register', 'volunteering')}>{$t('nav.register_sub.volunteering')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/register/cancellation'} enabled={isNavEnabled('register', 'cancellation')}>{$t('nav.register_sub.cancellation')}</NavLink></li>
             </ul>
           </details>
         </li>
@@ -105,9 +107,9 @@
           <details bind:open={mobileCfpOpen}>
             <summary>{$t('nav.call_for_papers')}</summary>
             <ul class="p-2">
-              <li><Link href={'/' + data.locale + '/call-for-papers/general-sessions'}>{$t('nav.cfp_sub.general_sessions')}</Link></li>
-              <li><Link href={'/' + data.locale + '/call-for-papers/academic-track'}>{$t('nav.cfp_sub.academic_track')}</Link></li>
-              <li><Link href={'/' + data.locale + '/call-for-papers/workshops'}>{$t('nav.cfp_sub.workshops')}</Link></li>
+              <li><NavLink href={'/' + data.locale + '/call-for-papers/general-sessions'} enabled={isNavEnabled('cfp', 'generalSessions')}>{$t('nav.cfp_sub.general_sessions')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/call-for-papers/academic-track'} enabled={isNavEnabled('cfp', 'academicTrack')}>{$t('nav.cfp_sub.academic_track')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/call-for-papers/workshops'} enabled={isNavEnabled('cfp', 'workshops')}>{$t('nav.cfp_sub.workshops')}</NavLink></li>
             </ul>
           </details>
         </li>
@@ -115,11 +117,11 @@
           <details bind:open={mobileProgramOpen}>
             <summary>{$t('nav.program_schedule')}</summary>
             <ul class="p-2">
-              <li><Link href={'/' + data.locale + '/program-schedule/outline'}>{$t('nav.program_sub.outline')}</Link></li>
-              <li><Link href={'/' + data.locale + '/program-schedule/keynote'}>{$t('nav.program_sub.keynote')}</Link></li>
-              <li><Link href={'/' + data.locale + '/program-schedule/presentations'}>{$t('nav.program_sub.presentations')}</Link></li>
-              <li><Link href={'/' + data.locale + '/program-schedule/workshops'}>{$t('nav.program_sub.workshops')}</Link></li>
-              <li><Link href={'/' + data.locale + '/program-schedule/events'}>{$t('nav.program_sub.events')}</Link></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/outline'} enabled={isNavEnabled('program', 'outline')}>{$t('nav.program_sub.outline')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/keynote'} enabled={isNavEnabled('program', 'keynote')}>{$t('nav.program_sub.keynote')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/presentations'} enabled={isNavEnabled('program', 'presentations')}>{$t('nav.program_sub.presentations')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/workshops'} enabled={isNavEnabled('program', 'workshops')}>{$t('nav.program_sub.workshops')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/events'} enabled={isNavEnabled('program', 'events')}>{$t('nav.program_sub.events')}</NavLink></li>
             </ul>
           </details>
         </li>
@@ -127,10 +129,10 @@
           <details bind:open={mobileAttendingOpen}>
             <summary>{$t('nav.attending')}</summary>
             <ul class="p-2">
-              <li><Link href={'/' + data.locale + '/attending/venue'}>{$t('nav.attending_sub.venue')}</Link></li>
-              <li><Link href={'/' + data.locale + '/attending/transport'}>{$t('nav.attending_sub.transport')}</Link></li>
-              <li><Link href={'/' + data.locale + '/attending/travel-guide'}>{$t('nav.attending_sub.travel_guide')}</Link></li>
-              <li><Link href={'/' + data.locale + '/attending/accommodation'}>{$t('nav.attending_sub.accommodation')}</Link></li>
+              <li><NavLink href={'/' + data.locale + '/attending/venue'} enabled={isNavEnabled('attending', 'venue')}>{$t('nav.attending_sub.venue')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/attending/travel-guide'} enabled={isNavEnabled('attending', 'travelGuide')}>{$t('nav.attending_sub.travel_guide')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/attending/accommodation'} enabled={isNavEnabled('attending', 'accommodation')}>{$t('nav.attending_sub.accommodation')}</NavLink></li>
             </ul>
           </details>
         </li>
@@ -161,14 +163,14 @@
         <details bind:open={desktopAboutOpen}>
           <summary>{$t('nav.about')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
-            <li><Link href={'/' + data.locale + '/about/foss4g'}>{$t('nav.about_sub.foss4g')}</Link></li>
-            <li><Link href={'/' + data.locale + '/about/map'}>{$t('nav.about_sub.map')}</Link></li>
-            <li><Link href={'/' + data.locale + '/about/organizers'}>{$t('nav.about_sub.organizers')}</Link></li>
-            <li><Link href={'/' + data.locale + '/about/concept'}>{$t('nav.about_sub.concept')}</Link></li>
-            <li><Link href={'/' + data.locale + '/about/code-of-conduct'}>{$t('nav.about_sub.code_of_conduct')}</Link></li>
-            <li><Link href={'/' + data.locale + '/about/privacy-policy'}>{$t('nav.about_sub.privacy_policy')}</Link></li>
-            <li><Link href={'/' + data.locale + '/about/terms-conditions'}>{$t('nav.about_sub.terms_conditions')}</Link></li>
-            <li><Link href={'/' + data.locale + '/about/sponsors'}>{$t('nav.about_sub.sponsors')}</Link></li>
+            <li><NavLink href={'/' + data.locale + '/about/foss4g'} enabled={isNavEnabled('about', 'foss4g')}>{$t('nav.about_sub.foss4g')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/about/map'} enabled={isNavEnabled('about', 'map')}>{$t('nav.about_sub.map')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/about/organizers'} enabled={isNavEnabled('about', 'organizers')}>{$t('nav.about_sub.organizers')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/about/code-of-conduct'} enabled={isNavEnabled('about', 'codeOfConduct')}>{$t('nav.about_sub.code_of_conduct')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/about/privacy-policy'} enabled={isNavEnabled('about', 'privacyPolicy')}>{$t('nav.about_sub.privacy_policy')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/about/terms-conditions'} enabled={isNavEnabled('about', 'termsConditions')}>{$t('nav.about_sub.terms_conditions')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/about/sponsors'} enabled={isNavEnabled('about', 'sponsors')}>{$t('nav.about_sub.sponsors')}</NavLink></li>
           </ul>
         </details>
       </li>
@@ -178,12 +180,12 @@
         <details bind:open={desktopRegisterOpen}>
           <summary>{$t('nav.register')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
-            <li><Link href={'/' + data.locale + '/register/registration'}>{$t('nav.register_sub.registration')}</Link></li>
-            <li><Link href={'/' + data.locale + '/register/studentship'}>{$t('nav.register_sub.studentship')}</Link></li>
-            <li><Link href={'/' + data.locale + '/register/travel-grant'}>{$t('nav.register_sub.travel_grant')}</Link></li>
-            <li><Link href={'/' + data.locale + '/register/adopt-a-ticket'}>{$t('nav.register_sub.adopt_a_ticket')}</Link></li>
-            <li><Link href={'/' + data.locale + '/register/volunteering'}>{$t('nav.register_sub.volunteering')}</Link></li>
-            <li><Link href={'/' + data.locale + '/register/cancellation'}>{$t('nav.register_sub.cancellation')}</Link></li>
+            <li><NavLink href={'/' + data.locale + '/register/registration'} enabled={isNavEnabled('register', 'registration')}>{$t('nav.register_sub.registration')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/register/studentship'} enabled={isNavEnabled('register', 'studentship')}>{$t('nav.register_sub.studentship')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/register/travel-grant'} enabled={isNavEnabled('register', 'travelGrant')}>{$t('nav.register_sub.travel_grant')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/register/adopt-a-ticket'} enabled={isNavEnabled('register', 'adoptATicket')}>{$t('nav.register_sub.adopt_a_ticket')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/register/volunteering'} enabled={isNavEnabled('register', 'volunteering')}>{$t('nav.register_sub.volunteering')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/register/cancellation'} enabled={isNavEnabled('register', 'cancellation')}>{$t('nav.register_sub.cancellation')}</NavLink></li>
           </ul>
         </details>
       </li>
@@ -193,9 +195,9 @@
         <details bind:open={desktopCfpOpen}>
           <summary>{$t('nav.call_for_papers')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
-            <li><Link href={'/' + data.locale + '/call-for-papers/general-sessions'}>{$t('nav.cfp_sub.general_sessions')}</Link></li>
-            <li><Link href={'/' + data.locale + '/call-for-papers/academic-track'}>{$t('nav.cfp_sub.academic_track')}</Link></li>
-            <li><Link href={'/' + data.locale + '/call-for-papers/workshops'}>{$t('nav.cfp_sub.workshops')}</Link></li>
+            <li><NavLink href={'/' + data.locale + '/call-for-papers/general-sessions'} enabled={isNavEnabled('cfp', 'generalSessions')}>{$t('nav.cfp_sub.general_sessions')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/call-for-papers/academic-track'} enabled={isNavEnabled('cfp', 'academicTrack')}>{$t('nav.cfp_sub.academic_track')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/call-for-papers/workshops'} enabled={isNavEnabled('cfp', 'workshops')}>{$t('nav.cfp_sub.workshops')}</NavLink></li>
           </ul>
         </details>
       </li>
@@ -205,11 +207,11 @@
         <details bind:open={desktopProgramOpen}>
           <summary>{$t('nav.program_schedule')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
-            <li><Link href={'/' + data.locale + '/program-schedule/outline'}>{$t('nav.program_sub.outline')}</Link></li>
-            <li><Link href={'/' + data.locale + '/program-schedule/keynote'}>{$t('nav.program_sub.keynote')}</Link></li>
-            <li><Link href={'/' + data.locale + '/program-schedule/presentations'}>{$t('nav.program_sub.presentations')}</Link></li>
-            <li><Link href={'/' + data.locale + '/program-schedule/workshops'}>{$t('nav.program_sub.workshops')}</Link></li>
-            <li><Link href={'/' + data.locale + '/program-schedule/events'}>{$t('nav.program_sub.events')}</Link></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/outline'} enabled={isNavEnabled('program', 'outline')}>{$t('nav.program_sub.outline')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/keynote'} enabled={isNavEnabled('program', 'keynote')}>{$t('nav.program_sub.keynote')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/presentations'} enabled={isNavEnabled('program', 'presentations')}>{$t('nav.program_sub.presentations')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/workshops'} enabled={isNavEnabled('program', 'workshops')}>{$t('nav.program_sub.workshops')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/events'} enabled={isNavEnabled('program', 'events')}>{$t('nav.program_sub.events')}</NavLink></li>
           </ul>
         </details>
       </li>
@@ -219,10 +221,10 @@
         <details bind:open={desktopAttendingOpen}>
           <summary>{$t('nav.attending')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
-            <li><Link href={'/' + data.locale + '/attending/venue'}>{$t('nav.attending_sub.venue')}</Link></li>
-            <li><Link href={'/' + data.locale + '/attending/transport'}>{$t('nav.attending_sub.transport')}</Link></li>
-            <li><Link href={'/' + data.locale + '/attending/travel-guide'}>{$t('nav.attending_sub.travel_guide')}</Link></li>
-            <li><Link href={'/' + data.locale + '/attending/accommodation'}>{$t('nav.attending_sub.accommodation')}</Link></li>
+            <li><NavLink href={'/' + data.locale + '/attending/venue'} enabled={isNavEnabled('attending', 'venue')}>{$t('nav.attending_sub.venue')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/attending/travel-guide'} enabled={isNavEnabled('attending', 'travelGuide')}>{$t('nav.attending_sub.travel_guide')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/attending/accommodation'} enabled={isNavEnabled('attending', 'accommodation')}>{$t('nav.attending_sub.accommodation')}</NavLink></li>
           </ul>
         </details>
       </li>
