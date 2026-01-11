@@ -100,6 +100,7 @@
               <li><NavLink href={'/' + data.locale + '/register/adopt-a-ticket'} enabled={isNavEnabled('register', 'adoptATicket')}>{$t('nav.register_sub.adopt_a_ticket')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/register/volunteering'} enabled={isNavEnabled('register', 'volunteering')}>{$t('nav.register_sub.volunteering')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/register/cancellation'} enabled={isNavEnabled('register', 'cancellation')}>{$t('nav.register_sub.cancellation')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/register/visa-info'} enabled={isNavEnabled('register', 'visaInfo')}>{$t('nav.register_sub.visa_info')}</NavLink></li>
             </ul>
           </details>
         </li>
@@ -186,6 +187,7 @@
             <li><NavLink href={'/' + data.locale + '/register/adopt-a-ticket'} enabled={isNavEnabled('register', 'adoptATicket')}>{$t('nav.register_sub.adopt_a_ticket')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/register/volunteering'} enabled={isNavEnabled('register', 'volunteering')}>{$t('nav.register_sub.volunteering')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/register/cancellation'} enabled={isNavEnabled('register', 'cancellation')}>{$t('nav.register_sub.cancellation')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/register/visa-info'} enabled={isNavEnabled('register', 'visaInfo')}>{$t('nav.register_sub.visa_info')}</NavLink></li>
           </ul>
         </details>
       </li>

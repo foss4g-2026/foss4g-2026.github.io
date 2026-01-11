@@ -23,7 +23,8 @@ export const navigationConfig = {
       travelGrant: { enabled: false }, // Disabled per user request
       adoptATicket: { enabled: false }, // Disabled per user request
       volunteering: { enabled: false }, // Disabled per user request
-      cancellation: { enabled: false } // Disabled per user request
+      cancellation: { enabled: false }, // Disabled per user request
+      visaInfo: { enabled: true },
     }
   },
   cfp: {
