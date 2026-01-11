@@ -64,8 +64,8 @@
   <p>
     Japan requires visas for citizens of certain countries. You can find more information on which nationalities will need to obtain a VISA to come to Japan here:
   </p>
-  <a href="https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html" class="text-blue-600 underline mb-4 inline-block">
-    https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html
+  <a href="https://www.mofa.go.jp/j_info/visit/visa/index.html" class="text-blue-600 underline mb-4 inline-block">
+    https://www.mofa.go.jp/j_info/visit/visa/index.html
   </a>
 
   <h2 class="text-2xl font-semibold mt-8 mb-4">VISAs</h2>
@@ -150,7 +150,7 @@
     <li>Uruguay</li>
   </ul>
   <p>
-    This information is taken from <a href="https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html">the website of The Ministry of Foreign Affairs</a> as of 11 January 2026.
+    This information is taken from <a href="https://www.mofa.go.jp/j_info/visit/visa/short/novisa.html" class="text-blue-600 underline mb-4 inline-block">the website of The Ministry of Foreign Affairs</a> as of 11 January 2026.
   </p>
 
   <h3 class="text-xl font-semibold mt-6 mb-2">VISA process for those not included above</h3>
@@ -183,25 +183,30 @@
   </p>
 
   <p>
-    You can read about eVISA  and apply for it here: 
+    You can read about eVISA and apply for it here: 
   </p>
-  <p>
-    Add apply button here <a href="https://www.mofa.go.jp/j_info/visit/visa/visaonline.html">https://www.mofa.go.jp/j_info/visit/visa/visaonline.html</a>
-  </p>
+  <!-- Submit Button without Logo -->
+  <div class="text-center mb-8">
+    <button type="button" class="btn btn-lg flex items-center gap-3 mx-auto bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105">
+      <a href="https://www.mofa.go.jp/j_info/visit/visa/visaonline.html">
+        <span>Apply for eVISA</span>
+      </a>
+    </button>
+  </div>
 
   <h4 class="text-lg font-semibold mt-6 mb-2">Short-term business affairs VISA</h4>
   <p>
-    If your nationality is not eligible for eVISA, you need to apply for a **Single-Entry Short-Term Stay VISA** for the purpose of visiting for **Short-Term Business Affairs**, including attending a conference.<br />
+    If your nationality is not eligible for eVISA, you need to apply for a <span class="font-bold">Single-Entry Short-Term Stay VISA</span> for the purpose of visiting for <span class="font-bold">Short-Term Business Affairs</span>, including attending a conference.<br />
     each Nationality group has different required documentations:
   </p>
 
   <ul class="list-disc pl-6 mb-6">
-    <li><a href="https://www.mofa.go.jp/j_info/visit/visa/short/philippine.html">Philippines</a></li>
-    <li><a href="https://www.mofa.go.jp/ca/fna/page23e_000538.html">Viet Nam</a></li>
-    <li><a href="https://www.mofa.go.jp/ca/fna/page23e_000539.html">China</a></li>
-    <li><a href="https://www.mofa.go.jp/j_info/visit/visa/short/russia.html">Russia</a></li>
-    <li><a href="https://www.mofa.go.jp/ca/fna/page25e_000136.html">CIS countries, Ukraine, Georgia</a></li>
-    <li><a href="https://www.mofa.go.jp/j_info/visit/visa/short/other_visa.html">Other Nationalities</a></li>
+    <li><a class="text-blue-600 underline inline-block" href="https://www.mofa.go.jp/j_info/visit/visa/short/philippine.html">Philippines</a></li>
+    <li><a class="text-blue-600 underline inline-block" href="https://www.mofa.go.jp/ca/fna/page23e_000538.html">Viet Nam</a></li>
+    <li><a class="text-blue-600 underline inline-block" href="https://www.mofa.go.jp/ca/fna/page23e_000539.html">China</a></li>
+    <li><a class="text-blue-600 underline inline-block" href="https://www.mofa.go.jp/j_info/visit/visa/short/russia.html">Russia</a></li>
+    <li><a class="text-blue-600 underline inline-block" href="https://www.mofa.go.jp/ca/fna/page25e_000136.html">CIS countries, Ukraine, Georgia</a></li>
+    <li><a class="text-blue-600 underline inline-block" href="https://www.mofa.go.jp/j_info/visit/visa/short/other_visa.html">Other Nationalities</a></li>
   </ul>
 
   <p>
@@ -248,7 +253,7 @@
 
   <h4 class="text-lg font-semibold mt-6 mb-2">Addresses of Japanese embassies / consulates</h4>
   <p>
-    You can find the addresses and phone numbers of nearest Japanese embassies / consulates at <a href="https://www.mofa.go.jp/about/emb_cons/over/index.html">this website</a>.
+    You can find the addresses and phone numbers of nearest Japanese embassies / consulates at <a class="text-blue-600 underline mb-4 inline-block" href="https://www.mofa.go.jp/about/emb_cons/over/index.html">this website</a>.
   </p>
 
   <h4 class="text-lg font-semibold mt-6 mb-2">How can you get documents from LOC?</h4>
