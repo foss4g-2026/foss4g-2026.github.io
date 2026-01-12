@@ -69,7 +69,7 @@
       <h3 class="text-2xl font-semibold mb-4">{$t('about.concept.logo.title')}</h3>
       <div class="flex flex-col lg:flex-row items-center gap-8">
         <div class="w-48 h-48 rounded-lg flex items-center justify-center">
-          <img src="/images/logo.webp" alt="FOSS4G 2026 Hiroshima Conference Logo" class="w-full h-full object-contain rounded-lg" />
+          <img src="/images/logo-04.svg" alt="FOSS4G 2026 Hiroshima Conference Logo" class="w-full h-full object-contain rounded-lg" />
         </div>
         <div class="flex-1">
           <p class="mb-4">

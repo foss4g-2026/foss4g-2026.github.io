@@ -13,7 +13,7 @@
   "teaser": {
     "top_content": {
       "subtitle": "Bridging Geospatial Technology and Humanity",
-      "paragraph_1": "FOSS4G is the world’s largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation based in the United States. In 2026, this global FOSS4G event will be held in Hiroshima, Japan.",
+      "paragraph_1": "FOSS4G is the world’s largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation. In 2026, this global FOSS4G event will be held in Hiroshima, Japan.",
       "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience.",
       "paragraph_3": "At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
       "paragraph_4": "As a “City of Peace and Reconstruction,” Hiroshima is an ideal place to explore how technology can foster empathy, inclusion, and international collaboration.",
@@ -96,7 +96,7 @@
     "home": "Home",
     "about": "About",
     "register": "Register",
-    "call_for_papers": "Call for Papers",
+    "call_for_papers": "Call for Proposals",
     "program_schedule": "Program Schedule",
     "attending": "Attending",
     "contact": "Contact",
@@ -188,13 +188,13 @@
       "table": {
         "headers": ["Date", "Event", "Venue", "Duration"],
         "rows": [
-          ["August 30 (Sat)", "Workshops Day 1", "RCC Bunka Center", "9:00 - 17:00"],
-          ["August 31 (Sun)", "Workshops Day 2", "RCC Bunka Center", "9:00 - 17:00"],
-          ["September 1 (Mon)", "Main Conference Day 1", "Int'l Conference Center", "9:00 - 18:00"],
-          ["September 2 (Tue)", "Main Conference Day 2", "Int'l Conference Center", "9:00 - 18:00"],
-          ["September 3 (Wed)", "Main Conference Day 3", "Int'l Conference Center", "9:00 - 17:00"],
-          ["September 4 (Thu)", "Code Sprint Day 1", "Hiroshima University", "9:00 - 18:00"],
-          ["September 5 (Fri)", "Code Sprint Day 2", "Hiroshima University", "9:00 - 17:00"]
+          ["August 30 (Sun)", "Workshops Day 1", "RCC Bunka Center", "9:00 - 17:00"],
+          ["August 31 (Mon)", "Workshops Day 2", "RCC Bunka Center", "9:00 - 17:00"],
+          ["September 1 (Tue)", "Main Conference Day 1", "Int'l Conference Center", "9:00 - 18:00"],
+          ["September 2 (Wed)", "Main Conference Day 2", "Int'l Conference Center", "9:00 - 18:00"],
+          ["September 3 (Thu)", "Main Conference Day 3", "Int'l Conference Center", "9:00 - 17:00"],
+          ["September 4 (Fri)", "Code Sprint Day 1", "Hiroshima University", "9:00 - 18:00"],
+          ["September 5 (Sat)", "Code Sprint Day 2", "Hiroshima University", "9:00 - 17:00"]
         ]
       }
     }
@@ -1030,6 +1030,50 @@
             "Transportation and logistics",
             "Agriculture and food security"
           ]
+        }
+      },
+      "session_types": {
+        "title": "Session Types",
+        "regular_talk": {
+          "title": "Regular Talk",
+          "description": "A regular talk is allocated to a 30 minute slot: 20 minutes for the talk, 5 minutes for questions and answers, and 5 minutes for the participants to change rooms and next speaker setup."
+        },
+        "lightning_talk": {
+          "title": "Lightning Talk",
+          "description": "A lightning talk is a 5 minute speaker slot, with 4 minutes for the talk, and 1 minute for the next speaker setup."
+        },
+        "poster_presentations": {
+          "title": "Poster Presentations",
+          "description": "Posters will be displayed continuously throughout the conference with dedicated core time (60 minutes) scheduled for authors to be present for discussion and Q&A. An excellent way to spark active discussions and engage in technical conversations."
+        },
+        "interactive_demonstration": {
+          "title": "Interactive Demonstration",
+          "description": "Live, hands-on presentation of geospatial technologies held in the same room as poster sessions. Demonstrations rotate on an hourly basis, showcasing technology in action and providing attendees with immersive learning experiences."
+        }
+      },
+      "timeline": {
+        "title": "Timeline",
+        "headers": {
+          "phase": "Phase",
+          "date": "Date"
+        },
+        "rows": {
+          "call_for_talks": {
+            "phase": "Call for Talks Submissions",
+            "date": "January 12 - March 16, 2026"
+          },
+          "community_vote": {
+            "phase": "Community Vote",
+            "date": "March 17 - March 24, 2026"
+          },
+          "announce_accepted": {
+            "phase": "Announce accepted talks",
+            "date": "April 15, 2026"
+          },
+          "full_program": {
+            "phase": "Full program",
+            "date": "April 22, 2026 (TBC)"
+          }
         }
       },
       "presentation_formats": {

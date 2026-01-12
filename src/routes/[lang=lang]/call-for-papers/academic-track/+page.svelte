@@ -1,6 +1,7 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
   import Table from '$components/Table.svelte'
+  import SubmitButton from '$components/SubmitButton.svelte'
 </script>
 
 <svelte:head>
@@ -11,12 +12,7 @@
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.academic_track')}</h1>
   
   <!-- Submit Button with Logo -->
-  <div class="text-center mb-8">
-    <button type="button" class="btn btn-lg flex items-center gap-3 mx-auto bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105">
-      <img src="/images/logo.webp" alt="FOSS4G 2026 Logo" class="w-8 h-8 object-contain">
-      <span>Submit a proposal</span>
-    </button>
-  </div>
+  <SubmitButton />
   
   <div class="prose max-w-none">
     <!-- Overview -->

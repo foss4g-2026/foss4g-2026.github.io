@@ -2,6 +2,7 @@
   import { t } from 'svelte-i18n'
   import ComingSoon from '$components/ComingSoon.svelte'
   import Table from '$components/Table.svelte'
+  import SubmitButton from '$components/SubmitButton.svelte'
 </script>
 
 <svelte:head>
@@ -12,12 +13,7 @@
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.general_sessions')}</h1>
   
   <!-- Submit Button with Logo -->
-  <div class="text-center mb-8">
-    <button type="button" class="btn btn-lg flex items-center gap-3 mx-auto bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105">
-      <img src="/images/logo.webp" alt="FOSS4G 2026 Logo" class="w-8 h-8 object-contain">
-      <span>Submit a proposal</span>
-    </button>
-  </div>
+  <SubmitButton />
   
   <div class="prose max-w-none">
     <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.topics.title')}</h2>
@@ -44,16 +40,54 @@
       </div>
     </div>
 
-    <h2 class="text-2xl font-semibold mb-4">Timeline</h2>
+    <!-- Timeline -->
+    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.timeline.title')}</h2>
     <Table 
-      headers={['Phase', 'Date']}
+      headers={[$t('call_for_papers.general_sessions.timeline.headers.phase'), $t('call_for_papers.general_sessions.timeline.headers.date')]}
       rows={[
-        ['Call for Talks Submissions', 'January 12 - March 16, 2026'],
-        ['Community Vote', 'March 17 - March 24, 2026'],
-        ['Announce accepted talks', 'April 15, 2026'],
-        ['Full program', 'April 22, 2026 (TBC)']
+        [$t('call_for_papers.general_sessions.timeline.rows.call_for_talks.phase'), $t('call_for_papers.general_sessions.timeline.rows.call_for_talks.date')],
+        [$t('call_for_papers.general_sessions.timeline.rows.community_vote.phase'), $t('call_for_papers.general_sessions.timeline.rows.community_vote.date')],
+        [$t('call_for_papers.general_sessions.timeline.rows.announce_accepted.phase'), $t('call_for_papers.general_sessions.timeline.rows.announce_accepted.date')],
+        [$t('call_for_papers.general_sessions.timeline.rows.full_program.phase'), $t('call_for_papers.general_sessions.timeline.rows.full_program.date')]
       ]}
       class="mb-8"
     />
+
+    <!-- Session Types -->
+    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.session_types.title')}</h2>
+    
+    <div class="space-y-6 mb-8">
+      <!-- Regular Talk -->
+      <div class="bg-gray-50 p-6 rounded-lg">
+        <h3 class="text-lg font-semibold mb-3 text-primary">{$t('call_for_papers.general_sessions.session_types.regular_talk.title')}</h3>
+        <p class="text-sm text-gray-700">
+          {$t('call_for_papers.general_sessions.session_types.regular_talk.description')}
+        </p>
+      </div>
+
+      <!-- Lightning Talk -->
+      <div class="bg-gray-50 p-6 rounded-lg">
+        <h3 class="text-lg font-semibold mb-3 text-primary">{$t('call_for_papers.general_sessions.session_types.lightning_talk.title')}</h3>
+        <p class="text-sm text-gray-700">
+          {$t('call_for_papers.general_sessions.session_types.lightning_talk.description')}
+        </p>
+      </div>
+
+      <!-- Poster Presentations -->
+      <div class="bg-gray-50 p-6 rounded-lg">
+        <h3 class="text-lg font-semibold mb-3 text-primary">{$t('call_for_papers.general_sessions.session_types.poster_presentations.title')}</h3>
+        <p class="text-sm text-gray-700">
+          {$t('call_for_papers.general_sessions.session_types.poster_presentations.description')}
+        </p>
+      </div>
+
+      <!-- Interactive Demonstration -->
+      <div class="bg-gray-50 p-6 rounded-lg">
+        <h3 class="text-lg font-semibold mb-3 text-primary">{$t('call_for_papers.general_sessions.session_types.interactive_demonstration.title')}</h3>
+        <p class="text-sm text-gray-700">
+          {$t('call_for_papers.general_sessions.session_types.interactive_demonstration.description')}
+        </p>
+      </div>
+    </div>
   </div>
 </div>
