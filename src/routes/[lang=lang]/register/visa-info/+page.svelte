@@ -8,13 +8,7 @@
     Check1 -->|Yes| NoVisa[No VISA required<br/>Short-term stay allowed]
     Check1 -->|No| NeedVisa[VISA required]
     
-    NeedVisa --> CheckTGP{Are you getting TGP Grant?}
-    
-    CheckTGP -->|Yes| BusinessVisa[Apply for Single-Entry Short-Term Stay VISA]
-    CheckTGP -->|No| CheckeVisa{Is your country available<br/>for eVISA system?}
-    
-    CheckeVisa -->|No| BusinessVisa
-    CheckeVisa -->|Yes| eVisa[Apply via eVISA system]
+    NeedVisa --> BusinessVisa[Apply for Single-Entry Short-Term Stay VISA]
     
     %% Business VISA Process
     BusinessVisa --> BizPrep[Prepare applicant's<br/>documents]
@@ -24,10 +18,6 @@
     HostDocList --> BizEmbassy[Apply at Japanese<br/>Embassy/Consulate]
     BizEmbassy --> BizReview[Review process]
     BizReview --> VisaResult[Obtain VISA]
-    
-    %% eVISA Process
-    eVisa --> eVisaSubmit[Submit online application]
-    eVisaSubmit --> VisaResult[Obtain VISA]
     
     %% Entry to Japan
     NoVisa --> Enter[Enter Japan]
