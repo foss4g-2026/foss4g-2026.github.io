@@ -18,6 +18,7 @@ const base_routes = [
   '/register/travel-grant',
   '/register/volunteering',
   '/register/cancellation',
+  '/register/visa-info',
   // Call for Papers sub-pages
   '/call-for-papers',
   '/call-for-papers/general-sessions',

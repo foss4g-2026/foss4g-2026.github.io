@@ -161,39 +161,6 @@
 
   <p>If you are not a citizen of the countries listed above or a part of Special Categories, then you are required to apply for a visa.</p>
 
-  <h4 class="text-lg font-semibold mt-6 mb-2">eVISA</h4>
-  <p>
-    The following countries are available to apply eVISA for 15 days or 30 days:
-  </p>
-  <ul class="list-disc pl-6 mb-6">
-    <li>Australia</li>
-    <li>Brunei Darussalam</li>
-    <li>Brazil</li>
-    <li>Cambodia</li>
-    <li>Canada</li>
-    <li>Saudi Arabia</li>
-    <li>South Africa</li>
-    <li>Taiwan</li>
-    <li>United Kingdom</li>
-    <li>United States</li>
-  </ul>
-
-  <p>
-    Except Cambodia, Saudi Arabia and South Africa, other countries are also listed as VISA exempted countries.
-  </p>
-
-  <p>
-    You can read about eVISA and apply for it here: 
-  </p>
-  <!-- Submit Button without Logo -->
-  <div class="text-center mb-8">
-    <button type="button" class="btn btn-lg flex items-center gap-3 mx-auto bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105">
-      <a href="https://www.mofa.go.jp/j_info/visit/visa/visaonline.html">
-        <span>Apply for eVISA</span>
-      </a>
-    </button>
-  </div>
-
   <h4 class="text-lg font-semibold mt-6 mb-2">Short-term business affairs VISA</h4>
   <p>
     If your nationality is not eligible for eVISA, you need to apply for a <span class="font-bold">Single-Entry Short-Term Stay VISA</span> for the purpose of visiting for <span class="font-bold">Short-Term Business Affairs</span>, including attending a conference.<br />
