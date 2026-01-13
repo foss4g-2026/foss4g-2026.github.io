@@ -16,8 +16,8 @@
       "paragraph_1": "FOSS4G is the world’s largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation. In 2026, this global FOSS4G event will be held in Hiroshima, Japan.",
       "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience.",
       "paragraph_3": "At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
-      "paragraph_4": "As a “City of Peace and Reconstruction,” Hiroshima is an ideal place to explore how technology can foster empathy, inclusion, and international collaboration.",
-      "paragraph_5": "And of course, we invite you to enjoy Hiroshima’s unique culture and delicious cuisine to the fullest."
+      "paragraph_4": "As a \"City of Peace and Reconstruction\", Hiroshima is an ideal place to explore how technology can foster empathy, inclusion, and international collaboration.",
+      "paragraph_5": "And of course, we invite you to enjoy Hiroshima’s unique culture and delicious cuisine to the fullest!"
     },
     "period": {
       "label": "Conference Period",
@@ -498,8 +498,8 @@
       },
       "participation_section": {
         "title": "Open to Everyone",
-        "intro": "FOSS4G is an event for everyone interested in maps. We welcome not only developers who write code, but also GIS users, decision-makers, researchers, students, and even beginners who are \"just a little curious.\"",
-        "community": "Nearly 1,000 people participate in FOSS4G each year, and this community continues to grow. Whether you are a geospatial information professional or attending for the first time, as long as you have an \"open mind,\" FOSS4G is your place."
+        "intro": "FOSS4G is an event for everyone interested in maps. We welcome not only developers who write code, but also GIS users, decision-makers, researchers, students, and even beginners who are \"just a little curious\".",
+        "community": "Nearly 1,000 people participate in FOSS4G each year, and this community continues to grow. Whether you are a geospatial information professional or attending for the first time, as long as you have an \"open mind\", FOSS4G is your place."
       },
       "closing_section": {
         "title": "See You at FOSS4G 2026 Hiroshima!",
@@ -552,7 +552,7 @@
       },
       "vision": {
         "title": "Our Vision",
-        "paragraph_1": "At FOSS4G Hiroshima 2026, we explore how open-source geospatial technologies can serve humanity's greatest challenges. As a \"City of Peace and Reconstruction,\" Hiroshima provides the perfect backdrop to examine technology's role in fostering empathy, inclusion, and international collaboration.",
+        "paragraph_1": "At FOSS4G Hiroshima 2026, we explore how open-source geospatial technologies can serve humanity's greatest challenges. As a \"City of Peace and Reconstruction\", Hiroshima provides the perfect backdrop to examine technology's role in fostering empathy, inclusion, and international collaboration.",
         "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience. At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory."
       },
       "hiroshima": {
@@ -564,8 +564,8 @@
         "title": "Conference Logo",
         "description": "The FOSS4G Hiroshima 2026 logo embodies our wish for the coexistence of technology and humanity.",
         "placeholder": "Logo Placeholder",
-        "paragraph_1": "The intricate and delicate lines depicted in the logo are inspired by the fold marks of the \"origami crane,\" beloved in Japan as a symbol of peace. These lines form shapes that symbolize the \"connections\" and \"expansions\" inherent in geospatial technology, while reflecting the message of peace that Hiroshima continues to send to the world. The color scheme adopts red, which symbolizes Japan and Hiroshima.",
-        "paragraph_2": "The origami crane is also known from the story that \"folding a thousand cranes will grant your wish,\" and is cherished by many as a symbol of prayer, hope, and solidarity.",
+        "paragraph_1": "The intricate and delicate lines depicted in the logo are inspired by the fold marks of the \"origami crane\", beloved in Japan as a symbol of peace. These lines form shapes that symbolize the \"connections\" and \"expansions\" inherent in geospatial technology, while reflecting the message of peace that Hiroshima continues to send to the world. The color scheme adopts red, which symbolizes Japan and Hiroshima.",
+        "paragraph_2": "The origami crane is also known from the story that \"folding a thousand cranes will grant your wish\", and is cherished by many as a symbol of prayer, hope, and solidarity.",
         "conclusion": "The gathering of people from around the world at FOSS4G Hiroshima 2026 will, like a thousand paper cranes that bundle together many people's wishes, create the power to connect technology and humanity and shape a new future together."
       }
     },
@@ -772,10 +772,15 @@
       "fees_title": "Registration Fees (Preliminary)",
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in early 2026.",
       "registration_types": [
-        ["Early Bird (until March 31, 2026)", "TBD"],
-        ["Regular (April 1 - July 31, 2026)", "TBD"],
-        ["Student Early Bird", "TBD"],
-        ["Student Regular", "TBD"]
+        ["Super Early Bird (February 23 - February 28, 2026)", "JPY 40,000"],
+        ["Early Bird (March 1 - March 30, 2026)", "JPY 50,000"],
+        ["Regular (April 1 - July 31, 2026)", "JPY 80,000"],
+        ["Local", "JPY 40,000"],
+        ["Studentship", "JPY 30,000"],
+        ["Gala Dinner (Additional)", "+JPY 15,000"],
+        ["Workshop (Additional)", "+JPY 7,500"],
+        ["B2B (Additional)", "+JPY 3,000"],
+        ["Ice Breaker (Additional)", "+JPY 3,000"]
       ],
       "get_ticket_button": "Get your ticket here",
       "ticket_link_note": "Registration is scheduled to begin in March 2026",
