@@ -26,6 +26,11 @@
       rows={$t('register.registration.registration_types') as unknown as string[][]}
       class="mb-6"
     />
+    
+    <!-- Additional fees note -->
+    <div class="mb-6">
+      <span class="text-sm text-gray-500">※{$t('register.registration.fees_note_additional')}</span>
+    </div>
   </div>
   
   <div class="prose max-w-none">

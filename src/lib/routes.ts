@@ -38,9 +38,7 @@ const base_routes = [
   '/attending/travel-guide',
   '/attending/accommodation',
   // Contact (single page)
-  '/contact',
-  // Legacy route
-  '/attend/register'
+  '/contact'
 ] as const
 
 export const routes = {

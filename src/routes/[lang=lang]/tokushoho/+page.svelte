@@ -25,7 +25,7 @@
             </tr>
             <tr>
               <td class="font-semibold">電話番号</td>
-              <td>080-1122-9091</td>
+              <td>０８５７−３１−５６２７</td>
             </tr>
             <tr>
               <td class="font-semibold">メールアドレス</td>
@@ -36,28 +36,36 @@
               <td>岩崎亘典</td>
             </tr>
             <tr>
+              <td class="font-semibold">利用可能な決済手段</td>
+              <td>クレジットカード決済、銀行振込</td>
+            </tr>
+            <tr>
               <td class="font-semibold">追加手数料</td>
-              <td>取引手数料1%</td>
+              <td>クレジットカード決済時の為替等の手数料、国内銀行振込時の振込手数料</td>
             </tr>
             <tr>
               <td class="font-semibold">交換および返品に関するポリシー</td>
-              <td>開催2ヶ月前まではキャンセル料として25%を徴収して返金可能。それ以降は返金不可。</td>
+              <td>開催2ヶ月前まではキャンセル料として25%を徴収して返金可能、それ以降は返金不可</td>
             </tr>
             <tr>
               <td class="font-semibold">配達時間</td>
               <td>オンライン決済にて注文後すぐに適用</td>
             </tr>
             <tr>
-              <td class="font-semibold">利用可能な決済手段</td>
-              <td>クレジットカード決済</td>
+              <td class="font-semibold">申込期間</td>
+              <td>2026年2月23日から2026年8月29日まで申込可能</td>
             </tr>
             <tr>
               <td class="font-semibold">決済期間</td>
-              <td>クレジットカード決済はただちに処理されます。</td>
+              <td>クレジットカード決済はただちに、銀行振込の場合は入金確認後5営業日以内に処理されます</td>
             </tr>
             <tr>
               <td class="font-semibold">価格</td>
               <td>参加登録ページに記載の通り</td>
+            </tr>
+            <tr>
+              <td class="font-semibold">注文可能な数量</td>
+              <td>イベント会場の定員（約1,500人）まで</td>
             </tr>
           </tbody>
         </table>
