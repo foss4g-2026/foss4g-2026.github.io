@@ -23,7 +23,17 @@
     
     <Table 
       headers={[$t('register.registration.type'), $t('register.registration.price')]}
-      rows={$t('register.registration.registration_types') as unknown as string[][]}
+      rows={$t('register.registration.main_registration_types') as unknown as string[][]}
+      class="mb-6"
+    />
+  </div>
+  
+  <div class="mb-8">
+    <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.additional_items_title')}</h2>
+    
+    <Table 
+      headers={[$t('register.registration.type'), $t('register.registration.price')]}
+      rows={$t('register.registration.additional_items') as unknown as string[][]}
       class="mb-6"
     />
     

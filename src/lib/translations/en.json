@@ -769,22 +769,25 @@
       "price": "Price",
       "early_bird": "Early Bird",
       "regular": "Regular",
-      "fees_title": "Registration Fees",
+      "fees_title": "Registration Fees (Preliminary)",
+      "additional_items_title": "Optional Extras",
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in early 2026.",
-      "registration_types": [
+      "main_registration_types": [
         ["Super Early Bird (February 23 - February 28, 2026)", "JPY 40,000"],
         ["Early Bird (March 1 - March 30, 2026)", "JPY 50,000"],
         ["Regular (April 1 - July 31, 2026)", "JPY 80,000"],
         ["Local", "JPY 40,000"],
-        ["Studentship", "JPY 30,000"],
-        ["Gala Dinner (Additional)", "+JPY 15,000"],
-        ["Workshop (Additional)", "+JPY 7,500"],
-        ["B2B (Additional)", "+JPY 3,000"],
-        ["Ice Breaker (Additional)", "+JPY 3,000"]
+        ["Studentship", "JPY 30,000"]
+      ],
+      "additional_items": [
+        ["Gala Dinner", "+JPY 15,000"],
+        ["Workshop", "+JPY 7,500"],
+        ["B2B", "+JPY 3,000"],
+        ["Ice Breaker (※)", "+JPY 3,000"]
       ],
       "get_ticket_button": "Get your ticket here",
       "ticket_link_note": "Registration is scheduled to begin in February 2026",
-      "fees_note_additional": "Registration fees include one ticket each for Gala Dinner and Ice Breaker. For additional attendees, please purchase Additional tickets.",
+      "fees_note_additional": "Registration fees include one ticket each for Ice Breaker. For additional attendees, please purchase Additional tickets.",
       "whats_included": {
         "title": "What's Included",
         "items": [
