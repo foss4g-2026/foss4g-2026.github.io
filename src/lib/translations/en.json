@@ -977,24 +977,21 @@
     },
     "cancellation": {
       "title": "Cancellation Policy",
-      "description": "Cancellation policy will be announced in February 2026.",
-      "intro": "We understand that plans can change. Please review our cancellation and refund policy below.",
+      "intro": "Please review our refund policy for cases where cancellation is required after registration.",
       "refund_schedule": {
         "title": "Refund Schedule",
-        "headers": ["Cancellation Date", "Refund Amount", "Processing Fee"],
+        "policy_summary": "For cancellations up to 2 months before the conference (until July 1, 2026), a 25% cancellation fee will be charged and 75% of the registration fee will be refunded. No refunds will be provided for cancellations after July 1, 2026.",
+        "headers": ["Cancellation Date", "Refund Amount", "Cancellation Fee"],
         "rows": [
-          ["Before May 31, 2026", "90% refund", "¥5,000"],
-          ["June 1 - June 30, 2026", "75% refund", "¥5,000"],
-          ["July 1 - July 31, 2026", "50% refund", "¥5,000"],
-          ["August 1 - August 15, 2026", "25% refund", "¥5,000"],
-          ["After August 15, 2026", "No refund", "N/A"]
+          ["Until June 30, 2026", "75% refund", "25%"],
+          ["After July 1, 2026", "No refund", "100%"]
         ]
       },
       "cancellation_process": {
         "title": "Cancellation Process",
         "steps": [
           "Send cancellation request to foss4g2026[at]osgeo.jp",
-          "Include your registration confirmation number and reason for cancellation",
+          "Include your registration information (name, email, registration number) and reason for cancellation",
           "Receive cancellation confirmation within 3 business days",
           "Refund processed within 14 business days of confirmation"
         ]
@@ -1008,6 +1005,10 @@
         "title": "Contact Information",
         "description": "For cancellation inquiries, please contact:",
         "email": "foss4g2026[at]osgeo.jp"
+      },
+      "force_majeure_note": {
+        "title": "Force Majeure",
+        "content": "Refund policies will be communicated separately in the event of circumstances beyond our control (natural disasters, government restrictions, etc.)."
       }
     }
   },
