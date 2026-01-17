@@ -13,7 +13,11 @@
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.general_sessions')}</h1>
   
   <!-- Submit Button with Logo -->
-  <SubmitButton />
+  <SubmitButton 
+    href="https://talks.osgeo.org/foss4g-2026/cfp"
+    target="_blank"
+    rel="noopener noreferrer"
+  />
   
   <div class="prose max-w-none">
     <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.topics.title')}</h2>

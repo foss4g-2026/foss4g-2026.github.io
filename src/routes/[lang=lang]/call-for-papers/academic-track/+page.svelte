@@ -12,7 +12,11 @@
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.academic_track')}</h1>
   
   <!-- Submit Button with Logo -->
-  <SubmitButton />
+  <SubmitButton 
+    href="https://talks.osgeo.org/fossg4-2026-academic-track/cfp"
+    target="_blank"
+    rel="noopener noreferrer"
+  />
   
   <div class="prose max-w-none">
     <!-- Overview -->

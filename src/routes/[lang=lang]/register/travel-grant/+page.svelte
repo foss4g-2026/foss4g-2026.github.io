@@ -1,6 +1,7 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
   import Table from '$components/Table.svelte'
+  import SubmitButton from '$components/SubmitButton.svelte'
 </script>
 
 <svelte:head>
@@ -16,9 +17,12 @@
   
   <!-- Apply Button -->
   <div class="text-center mb-8">
-    <a href="javascript:void(0)" class="btn btn-primary btn-lg">
-      APPLY
-    </a>
+    <!-- Submit Button with Logo -->
+    <SubmitButton 
+      href="https://talks.osgeo.org/foss4g-2026/cfp"
+      text="Apply for TGP"
+      disabled={true}
+    />
     <p class="text-sm text-gray-600 mt-2">Application form will be available soon</p>
   </div>
 
@@ -161,13 +165,5 @@
     <p class="mb-4">The FOSS4G Travel Grant Program initiative was established in 2017 by the OSGeo Board to facilitate accessibility and diversity at the global and regional FOSS4G events.</p>
     
     <p class="mb-8">The travel grant program is managed by the Conference Committee, in collaboration with representatives from each FOSS4G event.</p>
-    
-    <!-- Apply Button -->
-    <div class="text-center">
-      <a href="javascript:void(0)" class="btn btn-primary btn-lg">
-        APPLY
-      </a>
-      <p class="text-sm text-gray-600 mt-2">Application form will be available soon</p>
-    </div>
   </div>
 </div>

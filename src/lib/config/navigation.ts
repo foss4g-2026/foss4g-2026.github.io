@@ -20,10 +20,10 @@ export const navigationConfig = {
     subItems: {
       registration: { enabled: true },
       studentship: { enabled: false }, // Disabled per user request
-      travelGrant: { enabled: false }, // Disabled per user request
-      adoptATicket: { enabled: false }, // Disabled per user request
-      volunteering: { enabled: false }, // Disabled per user request
-      cancellation: { enabled: true }, // Disabled per user request
+      travelGrant: { enabled: true },
+      adoptATicket: { enabled: true },
+      volunteering: { enabled: true },
+      cancellation: { enabled: true },
       visaInfo: { enabled: true },
     }
   },

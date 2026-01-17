@@ -372,7 +372,7 @@
       "main_auditorium": "Main auditorium (1,500 seats)",
       "breakout_rooms": "Multiple breakout rooms",
       "exhibition_hall": "Exhibition hall",
-      "wifi": "(TBC)High-speed WiFi throughout",
+      "wifi": "(TBC)WiFi throughout",
       "accessible": "(TBC)Accessible facilities"
     },
     "address": {
@@ -478,7 +478,7 @@
     "title": "About",
     "foss4g": {
       "title": "About FOSS4G",
-      "intro": "FOSS4G is an acronym for Free and Open Source Software for Geospatial, and it represents the world's largest international conference organized by OSGeo, a non-profit organization dedicated to promoting open-source GIS. This conference, held in various locations around the world, attracts over 1,000 participants annually and has evolved into the flagship event representing the geospatial community.",
+      "intro": "FOSS4G is an acronym for Free and Open Source Software for Geospatial, and it represents the world's largest international conference organized by OSGeo, a non-profit organization dedicated to promoting open-source GIS. This conference, held in various locations around the world, attracts hundreds of participants annually and has evolved into the flagship event representing the geospatial community.",
       "hiroshima_section": {
         "title": "FOSS4G 2026 Comes to Hiroshima",
         "content": "In 2026, FOSS4G will be held in Hiroshima, Japan. In this city that symbolizes peace, advocates of \"free and open\" geospatial information from around the world will gather. Let us expand the possibilities of open-source GIS together here in Hiroshima."
@@ -499,7 +499,7 @@
       "participation_section": {
         "title": "Open to Everyone",
         "intro": "FOSS4G is an event for everyone interested in maps. We welcome not only developers who write code, but also GIS users, decision-makers, researchers, students, and even beginners who are \"just a little curious\".",
-        "community": "Nearly 1,000 people participate in FOSS4G each year, and this community continues to grow. Whether you are a geospatial information professional or attending for the first time, as long as you have an \"open mind\", FOSS4G is your place."
+        "community": "Hundreds of people participate in FOSS4G each year, and this community continues to grow. Whether you are a geospatial information professional or attending for the first time, as long as you have an \"open mind\", FOSS4G is your place."
       },
       "closing_section": {
         "title": "See You at FOSS4G 2026 Hiroshima!",
@@ -616,7 +616,7 @@
       "information_collect": {
         "title": "Information We Collect",
         "items": [
-          "Registration information (name, email, affiliation, dietary requirements)",
+          "Registration information (name, email, affiliation, dietary requirements, etc.)",
           "Payment information (processed securely through third-party providers)",
           "Communication preferences",
           "Website usage data (cookies, analytics)"
@@ -702,7 +702,6 @@
         "diamond": {
           "title": "Diamond",
           "cost": "5,000,000",
-          "slots": "1",
           "tickets": "10",
           "cxo_tickets": "1",
           "session": "25min×2 slots",
@@ -711,7 +710,6 @@
         "platinum": {
           "title": "Platinum",
           "cost": "3,500,000",
-          "slots": "3",
           "tickets": "6",
           "cxo_tickets": "1",
           "session": "25min×1 slot",
@@ -720,7 +718,6 @@
         "gold": {
           "title": "Gold",
           "cost": "2,000,000",
-          "slots": "6",
           "tickets": "3",
           "cxo_tickets": "1",
           "session": "13min×1 slot",
@@ -729,7 +726,6 @@
         "silver": {
           "title": "Silver",
           "cost": "1,000,000",
-          "slots": "9",
           "tickets": "2",
           "cxo_tickets": "1",
           "session": "8min×1 slot",
@@ -738,7 +734,6 @@
         "bronze": {
           "title": "Bronze",
           "cost": "500,000",
-          "slots": "20",
           "tickets": "1",
           "cxo_tickets": "1",
           "session": "5min×1 slot",
@@ -747,7 +742,6 @@
         "labels": {
           "title": "Category",
           "cost": "Cost (JPY)",
-          "slots": "Available Slots",
           "tickets": "Conference Tickets (incl. social events)",
           "cxo_tickets": "CxO Tickets",
           "session": "Sponsor Session",
@@ -789,11 +783,11 @@
       "ticket_link_note": "Registration is scheduled to begin in February 2026",
       "fees_note_additional": "Registration fees include one ticket each for Ice Breaker. For additional attendees, please purchase Additional tickets.",
       "whats_included": {
-        "title": "What's Included",
+        "title": "What's Included in Registration Fees",
         "items": [
           "Access to all main conference sessions",
           "Conference materials and welcome package",
-          "Coffee breaks and networking sessions",
+          "Coffee breaks",
           "Access to exhibition area",
           "Digital access to presentation materials"
         ]
@@ -967,7 +961,7 @@
       },
       "application_status": {
         "title": "Application Status",
-        "description": "Information about future volunteer recruitment will be announced later."
+        "description": "Volunteer recruitment information will be announced later."
       },
       "contact": {
         "title": "Contact Information",
@@ -980,7 +974,7 @@
       "intro": "Please review our refund policy for cases where cancellation is required after registration.",
       "refund_schedule": {
         "title": "Refund Schedule",
-        "policy_summary": "For cancellations up to 2 months before the conference (until July 1, 2026), a 25% cancellation fee will be charged and 75% of the registration fee will be refunded. No refunds will be provided for cancellations after July 1, 2026.",
+        "policy_summary": "For cancellations up to 2 months before the conference (until June 30, 2026), a 25% cancellation fee will be charged and 75% of the registration fee will be refunded. No refunds will be provided for cancellations after July 1, 2026.",
         "headers": ["Cancellation Date", "Refund Amount", "Cancellation Fee"],
         "rows": [
           ["Until June 30, 2026", "75% refund", "25%"],
@@ -991,9 +985,7 @@
         "title": "Cancellation Process",
         "steps": [
           "Send cancellation request to foss4g2026[at]osgeo.jp",
-          "Include your registration information (name, email, registration number) and reason for cancellation",
-          "Receive cancellation confirmation within 3 business days",
-          "Refund processed within 14 business days of confirmation"
+          "Include your registration information (name, email, registration number) and reason for cancellation"
         ]
       },
       "workshop_cancellations": {
@@ -1034,7 +1026,8 @@
         "application_areas": {
           "title": "Application Areas",
           "items": [
-            "Disaster response and management",
+            "Peace, Memory, and Heritage",
+            "Disaster Risk Reduction and Resilience",
             "Urban planning and smart cities",
             "Environmental monitoring",
             "Transportation and logistics",
@@ -1070,7 +1063,7 @@
         "rows": {
           "call_for_talks": {
             "phase": "Call for Talks Submissions",
-            "date": "January 12 - March 16, 2026"
+            "date": "January 19 - March 16, 2026"
           },
           "community_vote": {
             "phase": "Community Vote",
@@ -1195,7 +1188,7 @@
       "submit_button": "Submit a proposal for Workshops",
       "overview": {
         "title": "Workshop Overview",
-        "description": "Workshops are the showcase of FOSS4G projects. During 2 or 4 highly stimulating hours, experienced community members will guide participants through the features of various software projects. Everything happens in a hands-on manner and everyone is invited to use their own computer and bring back home all of their achievements."
+        "description": "Workshops are the showcase of FOSS4G projects. During 3 highly stimulating hours, experienced community members will guide participants through the features of various software projects. Everything happens in a hands-on manner and everyone is invited to use their own computer and bring back home all of their achievements."
       },
       "timeline": {
         "title": "Timeline",
@@ -1207,7 +1200,7 @@
         "rows": {
           "submission": {
             "phase": "Call for Workshop Submissions",
-            "deadline": "January 12 - March 16, 2026",
+            "deadline": "January 19 - March 16, 2026",
             "description": "Submit workshop proposals with detailed content and requirements"
           },
           "vote": {
@@ -1234,7 +1227,7 @@
           "items": [
             "Dates: August 30-31, 2026",
             "Location: RCC Bunka Center, Hiroshima",
-            "Duration: 2 or 4 hours per workshop",
+            "Duration: 3 hours per workshop",
             "Format: Hands-on, interactive sessions"
           ]
         },

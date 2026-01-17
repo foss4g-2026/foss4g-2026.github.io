@@ -27,6 +27,16 @@
       class="mb-6"
     />
   </div>
+
+  <div class="prose max-w-none">
+    <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.whats_included.title')}</h2>
+    
+    <ul class="list-disc pl-6 mb-6">
+      {#each $t('register.registration.whats_included.items') as item}
+        <li>{item}</li>
+      {/each}
+    </ul>
+  </div>
   
   <div class="mb-8">
     <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.additional_items_title')}</h2>
@@ -41,15 +51,5 @@
     <div class="mb-6">
       <span class="text-sm text-gray-500">※{$t('register.registration.fees_note_additional')}</span>
     </div>
-  </div>
-  
-  <div class="prose max-w-none">
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.whats_included.title')}</h2>
-    
-    <ul class="list-disc pl-6 mb-6">
-      {#each $t('register.registration.whats_included.items') as item}
-        <li>{item}</li>
-      {/each}
-    </ul>
   </div>
 </div>

@@ -22,14 +22,6 @@
       $t('about.sponsors.packages.bronze.cost')
     ],
     [
-      $t('about.sponsors.packages.labels.slots'),
-      $t('about.sponsors.packages.diamond.slots'),
-      $t('about.sponsors.packages.platinum.slots'),
-      $t('about.sponsors.packages.gold.slots'),
-      $t('about.sponsors.packages.silver.slots'),
-      $t('about.sponsors.packages.bronze.slots')
-    ],
-    [
       $t('about.sponsors.packages.labels.tickets'),
       $t('about.sponsors.packages.diamond.tickets'),
       $t('about.sponsors.packages.platinum.tickets'),

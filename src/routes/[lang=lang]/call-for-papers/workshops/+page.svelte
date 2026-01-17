@@ -12,7 +12,11 @@
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.workshops')}</h1>
   
   <!-- Submit Button with Logo -->
-  <SubmitButton />
+  <SubmitButton 
+    href="https://talks.osgeo.org/foss4g-2026-workshop/cfp"
+    target="_blank"
+    rel="noopener noreferrer"
+  />
   
   <div class="prose max-w-none">
     <!-- Overview -->
@@ -54,26 +58,6 @@
           {/each}
         </ul>
       </div>
-    </div>
-
-    <!-- Submission Guidelines -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.workshops.guidelines.title')}</h2>
-    <div class="bg-yellow-50 p-6 rounded-lg mb-6">
-      <h3 class="text-lg font-semibold mb-3">{$t('call_for_papers.workshops.guidelines.proposal.title')}</h3>
-      <ul class="list-disc pl-6 text-sm space-y-1">
-        {#each $t('call_for_papers.workshops.guidelines.proposal.items') as item}
-          <li>{item}</li>
-        {/each}
-      </ul>
-    </div>
-
-    <div class="bg-red-50 p-6 rounded-lg">
-      <h3 class="text-lg font-semibold mb-2">{$t('call_for_papers.workshops.guidelines.important_notes.title')}</h3>
-      <ul class="list-disc pl-6 text-sm">
-        {#each $t('call_for_papers.workshops.guidelines.important_notes.items') as item}
-          <li>{item}</li>
-        {/each}
-      </ul>
     </div>
   </div>
 </div>
