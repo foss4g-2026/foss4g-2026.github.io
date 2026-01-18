@@ -765,11 +765,11 @@
       "regular": "Regular",
       "fees_title": "Registration Fees (Preliminary)",
       "additional_items_title": "Optional Extras",
-      "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in early 2026.",
+      "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in February 2026.",
       "main_registration_types": [
-        ["Super Early Bird (February 23 - February 28, 2026)", "JPY 40,000"],
-        ["Early Bird (March 1 - March 30, 2026)", "JPY 50,000"],
-        ["Regular (April 1 - July 31, 2026)", "JPY 80,000"],
+        ["Super Early Bird (February 23 - March 15, 2026)", "JPY 40,000"],
+        ["Early Bird (March 16 - April 30, 2026)", "JPY 50,000"],
+        ["Regular (May 1 - August 29, 2026)", "JPY 80,000"],
         ["Local", "JPY 40,000"],
         ["Studentship", "JPY 30,000"]
       ],
@@ -1128,30 +1128,27 @@
           },
           "review_period": {
             "phase": "Abstract Review Period",
-            "deadline": "March 3 - April 24, 2026",
+            "deadline": "March 3 - April 14, 2026",
             "description": "Scientific Committee review process"
           },
           "notification": {
             "phase": "Abstract Acceptance Notification",
-            "deadline": "April 25, 2026",
+            "deadline": "April 15, 2026",
             "description": "Authors receive feedback and acceptance status"
           },
           "full_paper": {
             "phase": "Step 2: Full Paper Submission",
-            "deadline": "April 15, 2026",
+            "deadline": "June 15, 2026",
             "description": "Submit extended papers (max 8 pages) if abstract accepted"
           }
         }
       },
       "submission_process": {
-        "title": "Submission Process",
+        "title": "Submission Process Overview",
         "step1": {
           "title": "Step 1: Abstract Submission",
           "items": [
-            "Submit abstracts in English (800-1,000 words)",
-            "Include approach, results, concepts, and relevance to FOSS4G community",
-            "Abstracts reviewed for originality, relevance, clarity, and scientific value",
-            "Reproducibility considered as evaluation criteria"
+            "Submit abstracts in English (800-1,000 words)"
           ]
         },
         "step2": {

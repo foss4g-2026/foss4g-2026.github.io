@@ -54,14 +54,5 @@
         <li>{item}</li>
       {/each}
     </ul>
-
-    <div class="bg-blue-50 p-6 rounded-lg">
-      <h3 class="text-lg font-semibold mb-2">{$t('call_for_papers.academic_track.important_notes.title')}</h3>
-      <ul class="list-disc pl-6 text-sm">
-        {#each $t('call_for_papers.academic_track.important_notes.items') as item}
-          <li>{@html item}</li>
-        {/each}
-      </ul>
-    </div>
   </div>
 </div>
