@@ -15,7 +15,7 @@
       "subtitle": "Bridging Geospatial Technology and Humanity",
       "paragraph_1": "FOSS4G is the world’s largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation. In 2026, this global FOSS4G event will be held in Hiroshima, Japan.",
       "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience.",
-      "paragraph_3": "At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
+      "paragraph_3": "At FOSS4G 2026 Hiroshima, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
       "paragraph_4": "As a \"City of Peace and Reconstruction\", Hiroshima is an ideal place to explore how technology can foster empathy, inclusion, and international collaboration.",
       "paragraph_5": "And of course, we invite you to enjoy Hiroshima’s unique culture and delicious cuisine to the fullest!"
     },
@@ -478,7 +478,7 @@
     "title": "About",
     "foss4g": {
       "title": "About FOSS4G",
-      "intro": "FOSS4G is an acronym for Free and Open Source Software for Geospatial, and it represents the world's largest international conference organized by OSGeo, a non-profit organization dedicated to promoting open-source GIS. This conference, held in various locations around the world, attracts hundreds of participants annually and has evolved into the flagship event representing the geospatial community.",
+      "intro": "FOSS4G is an acronym for Free and Open Source Software for Geospatial, and it represents the world's largest international conference organized by OSGeo, a non-profit organization dedicated to promoting open-source GIS. This conference, held in various locations around the world, attracts around 1,000 participants annually and has evolved into the flagship event representing the geospatial community.",
       "hiroshima_section": {
         "title": "FOSS4G 2026 Comes to Hiroshima",
         "content": "In 2026, FOSS4G will be held in Hiroshima, Japan. In this city that symbolizes peace, advocates of \"free and open\" geospatial information from around the world will gather. Let us expand the possibilities of open-source GIS together here in Hiroshima."
@@ -499,7 +499,7 @@
       "participation_section": {
         "title": "Open to Everyone",
         "intro": "FOSS4G is an event for everyone interested in maps. We welcome not only developers who write code, but also GIS users, decision-makers, researchers, students, and even beginners who are \"just a little curious\".",
-        "community": "Hundreds of people participate in FOSS4G each year, and this community continues to grow. Whether you are a geospatial information professional or attending for the first time, as long as you have an \"open mind\", FOSS4G is your place."
+        "community": "Around 1,000 people participate in FOSS4G each year, and this community continues to grow. Whether you are a geospatial information professional or attending for the first time, as long as you have an \"open mind\", FOSS4G is your place."
       },
       "closing_section": {
         "title": "See You at FOSS4G 2026 Hiroshima!",
@@ -552,8 +552,8 @@
       },
       "vision": {
         "title": "Our Vision",
-        "paragraph_1": "At FOSS4G Hiroshima 2026, we explore how open-source geospatial technologies can serve humanity's greatest challenges. As a \"City of Peace and Reconstruction\", Hiroshima provides the perfect backdrop to examine technology's role in fostering empathy, inclusion, and international collaboration.",
-        "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience. At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory."
+        "paragraph_1": "At FOSS4G 2026 Hiroshima, we explore how open-source geospatial technologies can serve humanity's greatest challenges. As a \"City of Peace and Reconstruction\", Hiroshima provides the perfect backdrop to examine technology's role in fostering empathy, inclusion, and international collaboration.",
+        "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience. At FOSS4G 2026 Hiroshima, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory."
       },
       "hiroshima": {
         "title": "Why Hiroshima?",
@@ -562,11 +562,11 @@
       },
       "logo": {
         "title": "Conference Logo",
-        "description": "The FOSS4G Hiroshima 2026 logo embodies our wish for the coexistence of technology and humanity.",
+        "description": "The FOSS4G 2026 Hiroshima logo embodies our wish for the coexistence of technology and humanity.",
         "placeholder": "Logo Placeholder",
         "paragraph_1": "The intricate and delicate lines depicted in the logo are inspired by the fold marks of the \"origami crane\", beloved in Japan as a symbol of peace. These lines form shapes that symbolize the \"connections\" and \"expansions\" inherent in geospatial technology, while reflecting the message of peace that Hiroshima continues to send to the world. The color scheme adopts red, which symbolizes Japan and Hiroshima.",
         "paragraph_2": "The origami crane is also known from the story that \"folding a thousand cranes will grant your wish\", and is cherished by many as a symbol of prayer, hope, and solidarity.",
-        "conclusion": "The gathering of people from around the world at FOSS4G Hiroshima 2026 will, like a thousand paper cranes that bundle together many people's wishes, create the power to connect technology and humanity and shape a new future together."
+        "conclusion": "The gathering of people from around the world at FOSS4G 2026 Hiroshima will, like a thousand paper cranes that bundle together many people's wishes, create the power to connect technology and humanity and shape a new future together."
       }
     },
     "code_of_conduct": {

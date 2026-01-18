@@ -87,19 +87,52 @@
     <div class="mt-6">
       <Map
         mapClass="w-full h-[300px] sm:h-[350px] rounded-lg shadow-sm"
-        center={[132.451043, 34.392077]}
+        center={[132.4596, 34.3853]}
         zoom={6}
         style={$t('map.settings.style')}
         items={[
           {
-            coordinates: [132.451043, 34.392077],
-            title: $t('map.title.main_venue'),
-            description: $t('map.description.main_venue'),
-            link: 'https://commons.wikimedia.org/wiki/Category:International%20Conference%20Center%20Hiroshima?uselang=en',
-            icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/International_Conference_Center_Hiroshima_2008_01.JPG/250px-International_Conference_Center_Hiroshima_2008_01.JPG'
+            coordinates: [132.45118, 34.39205],
+            title: $t('about.map.main_venue.name'),
+            description: $t('about.map.main_venue.title') + ' - ' + $t('about.map.main_venue.dates'),
+            color: "text-red-600"
           },
+          {
+            coordinates: [132.46930498963332, 34.395054166977275],
+            title: $t('about.map.workshop_venue.name'),
+            description: $t('about.map.workshop_venue.title') + ' - ' + $t('about.map.workshop_venue.dates'),
+            color: "text-blue-600"
+          }
         ]}
       />
+    </div>
+  </div>
+
+  <!-- Partner Sponsors Section -->
+  <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
+    <div class="text-center mb-6">
+      <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">Partner Sponsors</h2>
+    </div>
+    
+    <!-- Sponsors Logo Grid -->
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12">
+      <!-- OSGeo Japan Logo -->
+      <div class="flex items-center justify-center">
+        <img 
+          src="/images/OSGeoJP_logo_color.svg" 
+          alt="OSGeo Japan" 
+          class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+        />
+      </div>
+      
+      <!-- OSGeo Logo -->
+      <div class="flex items-center justify-center">
+        <img 
+          src="/images/osgeo-logo-cmyk.svg" 
+          alt="OSGeo Foundation" 
+          class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+        />
+      </div>
     </div>
   </div>
 </div>

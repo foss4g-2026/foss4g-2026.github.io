@@ -12,7 +12,7 @@
     
     <!-- Legal Links -->
     <div class="flex flex-wrap gap-4 mt-4 text-sm">
-      <a href="/{locale}/tokushoho" class="link link-hover">商取引に関する開示</a>
+      <a href="/{locale}/tokushoho" class="link link-hover">特定商取引法に基づく表記</a>
     </div>
   </aside>
 </footer>
