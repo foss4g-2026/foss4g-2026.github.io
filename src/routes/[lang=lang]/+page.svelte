@@ -111,7 +111,7 @@
   <!-- Partner Sponsors Section -->
   <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
     <div class="text-center mb-6">
-      <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">Partner Sponsors</h2>
+      <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">Organizers</h2>
     </div>
     
     <!-- Sponsors Logo Grid -->
