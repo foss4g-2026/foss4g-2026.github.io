@@ -65,7 +65,10 @@
       "label": "Schedule",
       "call_for_proposals": {
         "label": "Call for Proposals (Preliminary)",
-        "period": "December, 2025 - March, 2026"
+        "period": "December, 2025 - March, 2026",
+        "banner_prefix": "[News]",
+        "banner_text": "Call for Proposals now open!",
+        "banner_link": "View details"
       },
       "adoption": {
         "label": "Adoption Period (Preliminary)",

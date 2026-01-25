@@ -150,7 +150,10 @@
       "label": "スケジュール",
       "call_for_proposals": {
         "label": "発表募集期間(予定)",
-        "period": "2025年12月 - 2026年3月"
+        "period": "2025年12月 - 2026年3月",
+        "banner_prefix": "[お知らせ]",
+        "banner_text": "発表提案を募集中です！",
+        "banner_link": "詳細はこちら"
       },
       "adoption": {
         "label": "採択決定(予定)",

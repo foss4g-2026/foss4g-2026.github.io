@@ -11,19 +11,34 @@
   
   <!-- General Sessions -->
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.title')}</h2>
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/call-for-papers/general-sessions" 
+         class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('call_for_papers.general_sessions.title')}
+      </a>
+    </h2>
     <p class="text-gray-700 mb-4">{$t('call_for_papers.general_sessions.description')}</p>
   </section>
 
   <!-- Academic Track -->
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.academic_track.title')}</h2>
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/call-for-papers/academic-track" 
+         class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('call_for_papers.academic_track.title')}
+      </a>
+    </h2>
     <p class="text-gray-700 mb-4">{$t('call_for_papers.academic_track.description')}</p>
   </section>
 
   <!-- Workshop Proposals -->
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.workshop_proposals.title')}</h2>
-    <p class="text-gray-700 mb-4">{$t('call_for_papers.workshop_proposals.description')}</p>
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/call-for-papers/workshops" 
+         class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('call_for_papers.workshops.title')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('call_for_papers.workshops.description')}</p>
   </section>
 </div>
