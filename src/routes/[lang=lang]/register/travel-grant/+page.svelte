@@ -19,11 +19,10 @@
   <div class="text-center mb-8">
     <!-- Submit Button with Logo -->
     <SubmitButton 
-      href="https://talks.osgeo.org/foss4g-2026/cfp"
+      href="https://docs.google.com/forms/d/1y-FwIef6XShILx75QOv0JmTlptw41Y8w0KgTlzuUYKI/"
       text="Apply for TGP"
-      disabled={true}
+      disabled={false}
     />
-    <p class="text-sm text-gray-600 mt-2">Application form will be available soon</p>
   </div>
 
   <div class="prose max-w-none">
