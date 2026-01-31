@@ -43,7 +43,7 @@
 
     <div class="bg-gray-50 p-6 rounded-lg">
       <h3 class="text-lg font-semibold mb-2">{$t('about.privacy_policy.contact.title')}</h3>
-      <p>{$t('about.privacy_policy.contact.content')} <strong>foss4g2026[at]osgeo.jp</strong></p>
+      <p>{$t('about.privacy_policy.contact.content')} <strong>comms[at]foss4g.org</strong></p>
     </div>
   </div>
 </div>

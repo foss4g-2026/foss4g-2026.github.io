@@ -53,7 +53,7 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('register.cancellation.contact_information.title')}</h2>
     <div class="bg-gray-50 p-6 rounded-lg mb-8">
       <p class="mb-2">{$t('register.cancellation.contact_information.description')}</p>
-      <p class="font-semibold">{$t('register.cancellation.contact_information.email')}</p>
+      <p class="font-semibold">registration[at]foss4g.org</p>
     </div>
 
     <h2 class="text-2xl font-semibold mb-4">{$t('register.cancellation.force_majeure_note.title')}</h2>

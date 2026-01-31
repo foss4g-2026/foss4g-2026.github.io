@@ -41,4 +41,8 @@
     </h2>
     <p class="text-gray-700 mb-4">{$t('call_for_papers.workshops.description')}</p>
   </section>
+  <section class="mb-12">
+    <h3 class="text-lg font-semibold mb-2">Contact</h3>
+    <p>For any questions about the Call for Proposals, please contact <strong>callforpapers[at]foss4g.org</strong></p>
+  </section>
 </div>

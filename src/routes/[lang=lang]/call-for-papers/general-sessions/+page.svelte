@@ -94,4 +94,8 @@
       </div>
     </div>
   </div>
+  <div class="bg-gray-50 p-6 rounded-lg">
+    <h3 class="text-lg font-semibold mb-2">Contact</h3>
+    <p>For any questions about the Call for Proposals, please contact <strong>callforpapers[at]foss4g.org</strong></p>
+  </div>
 </div>

@@ -25,7 +25,7 @@
             </tr>
             <tr>
               <td class="font-semibold">電話番号</td>
-              <td>０８５７−３１−５６２７</td>
+              <td>０７６−４６１−７０２８</td>
             </tr>
             <tr>
               <td class="font-semibold">メールアドレス</td>
