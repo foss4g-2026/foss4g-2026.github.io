@@ -159,7 +159,7 @@
     
     <p class="mb-4">You can help to make FOSS4G more accessible and increase the diversity of our attendees by making a donation to the FOSS4G TGP through the <a href="https://www.osgeo.jp/sponsor" class="text-primary hover:underline">OSGeo Japan chapter</a> that is managing the conference, or <a href="https://www.osgeo.org/about/how-to-become-a-sponsor/" class="text-primary hover:underline">donating money directly to OSGeo</a>.</p>
     
-    <p class="mb-8">An easy way to support is to <strong>Adopt-a-ticket</strong> during your own <strong>registration</strong> to the event. The proceeds from <strong>adopt-a-ticket</strong> will be used to cover costs for workshop presenters and TGP applicants' gratis entrance. With at least one <em>ticket adoption,</em> you will be included as an honourable mention in our conference channels.</p>
+    <p class="mb-8">An easy way to support is to <strong><a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/register/adopt-a-ticket/" class="text-primary hover:underline">Adopt-a-ticket</a></strong> during your own <strong>registration</strong> to the event. The proceeds from <strong>adopt-a-ticket</strong> will be used to cover costs for workshop presenters and TGP applicants' gratis entrance. With at least one <em>ticket adoption,</em> you will be included as an honourable mention in our conference channels.</p>
 
     <h2 class="text-2xl font-semibold mb-4">About the TGP</h2>
     
