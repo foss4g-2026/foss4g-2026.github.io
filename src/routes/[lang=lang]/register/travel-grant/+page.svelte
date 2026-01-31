@@ -19,9 +19,11 @@
   <div class="text-center mb-8">
     <!-- Submit Button with Logo -->
     <SubmitButton 
-      href="https://docs.google.com/forms/d/1y-FwIef6XShILx75QOv0JmTlptw41Y8w0KgTlzuUYKI/"
+      href="https://forms.gle/hH8j2xjXyWDrf8PS9"
       text="Apply for TGP"
       disabled={false}
+      target="_blank"
+      rel="noopener noreferrer"
     />
   </div>
 
@@ -32,7 +34,7 @@
       headers={['', '']}
       rows={[
         ['TGP application period', '1 February 2026 - 28 February 2026'],
-        ['Evaluation', '1 April - 14 April 2026'],
+        ['Evaluation', '1 March - 14 April 2026'],
         ['Contact grant receivers', '15 April 2026'],
         ['Conference', '30 August - 5 September 2026']
       ]}

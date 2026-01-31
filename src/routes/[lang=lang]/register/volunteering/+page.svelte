@@ -18,7 +18,7 @@
     <div class="bg-blue-50 p-6 rounded-lg">
       <h3 class="text-lg font-semibold mb-2">{$t('register.volunteering.contact.title')}</h3>
       <p class="text-sm mb-2">{$t('register.volunteering.contact.description')}</p>
-      <p class="text-sm font-semibold">{$t('register.volunteering.contact.email')}</p>
+      <p class="text-sm font-semibold">registration[at]foss4g.org</p>
     </div>
   </div>
 </div>

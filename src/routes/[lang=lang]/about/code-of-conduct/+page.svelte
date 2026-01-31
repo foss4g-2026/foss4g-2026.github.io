@@ -44,7 +44,7 @@
     
     <div class="bg-gray-50 p-6 rounded-lg">
       <h3 class="text-lg font-semibold mb-2">{$t('about.code_of_conduct.reporting.contact_title')}</h3>
-      <p class="mb-4"><strong>{$t('about.code_of_conduct.reporting.email')}:</strong> foss4g2026[at]osgeo.jp</p>
+      <p class="mb-4"><strong>{$t('about.code_of_conduct.reporting.email')}:</strong> comms[at]foss4g.org</p>
       <p class="text-sm text-gray-600">
         {$t('about.code_of_conduct.reporting.confidentiality')}
       </p>
