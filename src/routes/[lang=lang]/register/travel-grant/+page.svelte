@@ -28,17 +28,17 @@
   </div>
 
   <div class="prose max-w-none">
-    <h2 class="text-2xl font-semibold mb-4">Important dates</h2>
+    <h2 class="text-2xl font-semibold mb-4">Timeline</h2>
     
     <Table 
-      headers={['', '']}
+      headers={["Phase", "Date"]}
       rows={[
-        ['TGP application period', '1 February 2026 - 28 February 2026'],
-        ['Evaluation', '1 March - 14 April 2026'],
-        ['Contact grant receivers', '15 April 2026'],
-        ['Conference', '30 August - 5 September 2026']
+        ["TGP application period", "1 February 2026 - 28 February 2026"],
+        ["Evaluation", "1 March - 14 April 2026"],
+        ["Contact grant receivers", "15 April 2026"],
+        ["Conference", "30 August - 5 September 2026"]
       ]}
-      class="mb-8"
+      class="w-full overflow-x-auto mb-8"
     />
 
     <h2 class="text-2xl font-semibold mb-4">Travel Grants</h2>
@@ -166,5 +166,9 @@
     <p class="mb-4">The FOSS4G Travel Grant Program initiative was established in 2017 by the OSGeo Board to facilitate accessibility and diversity at the global and regional FOSS4G events.</p>
     
     <p class="mb-8">The travel grant program is managed by the Conference Committee, in collaboration with representatives from each FOSS4G event.</p>
+  </div>
+  <div class="bg-gray-50 p-6 rounded-lg">
+    <h3 class="text-lg font-semibold mb-2">Contact Information</h3>
+    <p>For any questions about the TGP, please contact <strong>tgp[at]foss4g.org</strong></p>
   </div>
 </div>
