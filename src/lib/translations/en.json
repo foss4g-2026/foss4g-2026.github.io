@@ -196,8 +196,8 @@
           ["September 1 (Tue)", "Main Conference Day 1", "Int'l Conference Center", "9:00 - 18:00"],
           ["September 2 (Wed)", "Main Conference Day 2", "Int'l Conference Center", "9:00 - 18:00"],
           ["September 3 (Thu)", "Main Conference Day 3", "Int'l Conference Center", "9:00 - 17:00"],
-          ["September 4 (Fri)", "Code Sprint Day 1", "Hiroshima University", "9:00 - 18:00"],
-          ["September 5 (Sat)", "Code Sprint Day 2", "Hiroshima University", "9:00 - 17:00"]
+          ["September 4 (Fri)", "Code Sprint/Social Events Day 1", "TBD", "9:00 - 18:00"],
+          ["September 5 (Sat)", "Code Sprint/Social Events Day 2", "TBD", "9:00 - 17:00"]
         ]
       }
     }
