@@ -766,13 +766,13 @@
       "price": "Price",
       "early_bird": "Early Bird",
       "regular": "Regular",
-      "fees_title": "Registration Fees (Preliminary)",
+      "fees_title": "Registration Fees",
       "additional_items_title": "Optional Extras",
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in February 2026.",
       "main_registration_types": [
         ["Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)", "JPY 40,000"],
         ["Early Bird (After Super Early Bird ends - April 30, 2026)", "JPY 50,000"],
-        ["Regular (May 1 - August 29, 2026)", "JPY 80,000"],
+        ["Regular (May 1 - September 3, 2026)", "JPY 80,000"],
         ["Local", "JPY 40,000"],
         ["Studentship", "JPY 30,000"]
       ],
@@ -810,47 +810,19 @@
       "eligibility": {
         "title": "Eligibility Requirements",
         "requirements": [
-          "Currently enrolled as a full-time student at an accredited institution",
-          "Pursuing undergraduate, graduate, or doctoral studies",
-          "Valid student ID or enrollment verification required",
-          "Student status must be current at the time of conference (August-September 2026)"
+          "Upload a PDF of your student ID",
+          "Register using your institutional email address",
+          "False declarations: If a violation is discovered after verification, you will be expelled from the conference with no refund"
         ]
       },
       "student_fees": {
-        "title": "Student Registration Fees",
-        "early_bird": {
-          "title": "Student Early Bird",
-          "price": "TBD",
-          "period": "Until March 31, 2026"
-        },
-        "regular": {
-          "title": "Student Regular",
-          "price": "TBD",
-          "period": "April 1 - July 31, 2026"
-        }
-      },
-      "whats_included": {
-        "title": "What's Included",
-        "items": [
-          "Full access to all conference sessions",
-          "Welcome package and conference materials",
-          "Coffee breaks and networking opportunities"
-        ]
-      },
-      "required_documentation": {
-        "title": "Required Documentation",
-        "description": "To qualify for student rates, you must provide:",
-        "documents": [
-          "Copy of current student ID (both sides)",
-          "Official enrollment verification letter from your institution",
-          "Letter must be dated within 3 months of registration",
-          "Documents must be in English or Japanese, or include certified translation"
-        ]
+        "title": "Student Registration Fee",
+        "price": "JPY 30,000"
       },
       "contact": {
         "title": "Questions?",
-        "description": "Contact our student program coordinator:",
-        "email": "foss4g2026[at]osgeo.jp"
+        "description": "Contact us at:",
+        "email": "registration@foss4g.org"
       }
     },
     "adopt_a_ticket": {
@@ -987,7 +959,7 @@
       "cancellation_process": {
         "title": "Cancellation Process",
         "steps": [
-          "Send cancellation request to foss4g2026[at]osgeo.jp",
+          "Send cancellation request to registration[at]foss4g.org",
           "Include your registration information (name, email, registration number) and reason for cancellation"
         ]
       },
@@ -999,7 +971,7 @@
       "contact_information": {
         "title": "Contact Information",
         "description": "For cancellation inquiries, please contact:",
-        "email": "foss4g2026[at]osgeo.jp"
+        "email": "registration[at]foss4g.org"
       },
       "force_majeure_note": {
         "title": "Force Majeure",
