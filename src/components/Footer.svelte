@@ -11,7 +11,7 @@
 <footer class="footer footer-horizontal footer-center bg-base-200 p-10">
   <aside>
     <p class="font-bold text-xl">{$t('title')}</p>
-    <p>Copyright © 2026 FOSS4G 2026 Hiroshima LOC</p>
+    <p>Copyright © 2026 FOSS4G Hiroshima 2026 LOC</p>
     
     <!-- Social Media and Mailing List -->
     <div class="flex flex-col items-center gap-4 mt-6">

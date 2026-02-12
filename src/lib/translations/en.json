@@ -1,5 +1,5 @@
 {
-  "title": "FOSS4G 2026 Hiroshima",
+  "title": "FOSS4G Hiroshima 2026",
   "images": {
     "hiroshima": {
       "alt": "Hiroshima Image",
@@ -15,7 +15,7 @@
       "subtitle": "Bridging Geospatial Technology and Humanity",
       "paragraph_1": "FOSS4G is the world’s largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation. In 2026, this global FOSS4G event will be held in Hiroshima, Japan.",
       "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience.",
-      "paragraph_3": "At FOSS4G 2026 Hiroshima, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
+      "paragraph_3": "At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
       "paragraph_4": "As a \"City of Peace and Reconstruction\", Hiroshima is an ideal place to explore how technology can foster empathy, inclusion, and international collaboration.",
       "paragraph_5": "And of course, we invite you to enjoy Hiroshima’s unique culture and delicious cuisine to the fullest!"
     },
@@ -208,7 +208,7 @@
     "coming_soon_message": "Keynote speakers will be announced in Spring 2026",
     "program": {
       "title": "Keynote Program",
-      "description": "FOSS4G 2026 Hiroshima will feature three inspiring keynote presentations from world-renowned experts in geospatial technology, open-source development, and humanitarian applications."
+      "description": "FOSS4G Hiroshima 2026 will feature three inspiring keynote presentations from world-renowned experts in geospatial technology, open-source development, and humanitarian applications."
     },
     "schedule": {
       "day1": {
@@ -256,7 +256,7 @@
     },
     "overview": {
       "title": "Presentation Overview",
-      "description": "FOSS4G 2026 Hiroshima will feature a wide range of presentations covering the latest trends in geospatial technology to practical application cases."
+      "description": "FOSS4G Hiroshima 2026 will feature a wide range of presentations covering the latest trends in geospatial technology to practical application cases."
     },
     "session_types": {
       "title": "Session Types",
@@ -336,7 +336,7 @@
     },
     "overview": {
       "title": "Event Overview",
-      "description": "FOSS4G 2026 Hiroshima will feature various events to foster networking and interaction among participants, in addition to technical sessions."
+      "description": "FOSS4G Hiroshima 2026 will feature various events to foster networking and interaction among participants, in addition to technical sessions."
     },
     "social_events": {
       "title": "Social Events",
@@ -354,7 +354,7 @@
     },
     "overview": {
       "title": "Workshop Overview",
-      "description": "FOSS4G 2026 Hiroshima will host practical hands-on workshops over two days, August 30 and 31."
+      "description": "FOSS4G Hiroshima 2026 will host practical hands-on workshops over two days, August 30 and 31."
     },
     "schedule": {
       "title": "Schedule",
@@ -505,7 +505,7 @@
         "community": "Around 1,000 people participate in FOSS4G each year, and this community continues to grow. Whether you are a geospatial information professional or attending for the first time, as long as you have an \"open mind\", FOSS4G is your place."
       },
       "closing_section": {
-        "title": "See You at FOSS4G 2026 Hiroshima!",
+        "title": "See You at FOSS4G Hiroshima 2026!",
         "content": "Let us create the future of free and open geospatial together. We look forward to welcoming you in Hiroshima."
       }
     },
@@ -543,7 +543,7 @@
       },
       "organizing_committee": {
         "title": "Organizing Committee",
-        "description_1": "The FOSS4G 2026 Hiroshima organizing committee consists of dedicated volunteers from the Japanese and international geospatial community. Our team brings together expertise in open source geospatial technologies, event management, and local knowledge of Hiroshima.",
+        "description_1": "The FOSS4G Hiroshima 2026 organizing committee consists of dedicated volunteers from the Japanese and international geospatial community. Our team brings together expertise in open source geospatial technologies, event management, and local knowledge of Hiroshima.",
         "description_2": "Detailed information about all organizing committee members will be updated as the conference approaches."
       }
     },
@@ -551,12 +551,12 @@
       "title": "Concept",
       "theme": {
         "title": "Bridging Geospatial Technology and Humanity",
-        "subtitle": "FOSS4G 2026 Hiroshima Conference Theme"
+        "subtitle": "FOSS4G Hiroshima 2026 Conference Theme"
       },
       "vision": {
         "title": "Our Vision",
-        "paragraph_1": "At FOSS4G 2026 Hiroshima, we explore how open-source geospatial technologies can serve humanity's greatest challenges. As a \"City of Peace and Reconstruction\", Hiroshima provides the perfect backdrop to examine technology's role in fostering empathy, inclusion, and international collaboration.",
-        "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience. At FOSS4G 2026 Hiroshima, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory."
+        "paragraph_1": "At FOSS4G Hiroshima 2026, we explore how open-source geospatial technologies can serve humanity's greatest challenges. As a \"City of Peace and Reconstruction\", Hiroshima provides the perfect backdrop to examine technology's role in fostering empathy, inclusion, and international collaboration.",
+        "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience. At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory."
       },
       "hiroshima": {
         "title": "Why Hiroshima?",
@@ -565,18 +565,18 @@
       },
       "logo": {
         "title": "Conference Logo",
-        "description": "The FOSS4G 2026 Hiroshima logo embodies our wish for the coexistence of technology and humanity.",
+        "description": "The FOSS4G Hiroshima 2026 logo embodies our wish for the coexistence of technology and humanity.",
         "placeholder": "Logo Placeholder",
         "paragraph_1": "The intricate and delicate lines depicted in the logo are inspired by the fold marks of the \"origami crane\", beloved in Japan as a symbol of peace. These lines form shapes that symbolize the \"connections\" and \"expansions\" inherent in geospatial technology, while reflecting the message of peace that Hiroshima continues to send to the world. The color scheme adopts red, which symbolizes Japan and Hiroshima.",
         "paragraph_2": "The origami crane is also known from the story that \"folding a thousand cranes will grant your wish\", and is cherished by many as a symbol of prayer, hope, and solidarity.",
-        "conclusion": "The gathering of people from around the world at FOSS4G 2026 Hiroshima will, like a thousand paper cranes that bundle together many people's wishes, create the power to connect technology and humanity and shape a new future together."
+        "conclusion": "The gathering of people from around the world at FOSS4G Hiroshima 2026 will, like a thousand paper cranes that bundle together many people's wishes, create the power to connect technology and humanity and shape a new future together."
       }
     },
     "code_of_conduct": {
       "title": "Code of Conduct",
       "commitment": {
         "title": "Our Commitment",
-        "content": "FOSS4G 2026 Hiroshima is committed to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, or technology choices."
+        "content": "FOSS4G Hiroshima 2026 is committed to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, or technology choices."
       },
       "expected_behavior": {
         "title": "Expected Behavior",
@@ -615,7 +615,7 @@
     },
     "privacy_policy": {
       "title": "Privacy Policy",
-      "intro": "This Privacy Policy describes how FOSS4G 2026 Hiroshima collects, uses, and protects your personal information.",
+      "intro": "This Privacy Policy describes how FOSS4G Hiroshima 2026 collects, uses, and protects your personal information.",
       "information_collect": {
         "title": "Information We Collect",
         "items": [
@@ -657,7 +657,7 @@
       "title": "Terms and Conditions for Registration",
       "registration_terms": {
         "title": "Registration Terms",
-        "intro": "By registering for FOSS4G 2026 Hiroshima, you agree to the following terms and conditions:"
+        "intro": "By registering for FOSS4G Hiroshima 2026, you agree to the following terms and conditions:"
       },
       "payment_refunds": {
         "title": "Payment and Refunds",
@@ -685,7 +685,7 @@
       },
       "liability": {
         "title": "Liability",
-        "content": "FOSS4G 2026 Hiroshima organizers are not liable for any personal injury, loss, or damage to property that may occur during the conference. Attendees participate at their own risk."
+        "content": "FOSS4G Hiroshima 2026 organizers are not liable for any personal injury, loss, or damage to property that may occur during the conference. Attendees participate at their own risk."
       },
       "force_majeure": {
         "title": "Force Majeure",
@@ -805,7 +805,7 @@
       "description": "Details about student discounts and eligibility.",
       "special_rates": {
         "title": "Special Student Rates Available!",
-        "description": "FOSS4G 2026 Hiroshima offers significantly reduced registration fees for students to encourage participation from the next generation of geospatial professionals."
+        "description": "FOSS4G Hiroshima 2026 offers significantly reduced registration fees for students to encourage participation from the next generation of geospatial professionals."
       },
       "eligibility": {
         "title": "Eligibility Requirements",
@@ -847,10 +847,10 @@
     },
     "travel_grant": {
       "title": "Travel Grant Program",
-      "description": "Details about the FOSS4G 2026 Hiroshima Travel Grant Program (TGP).",
+      "description": "Details about the FOSS4G Hiroshima 2026 Travel Grant Program (TGP).",
       "supporting_participation": {
         "title": "Increasing Accessibility and Diversity",
-        "description": "The FOSS4G 2026 Hiroshima organizing committee is pleased to provide a Travel Grant Program to increase the chances of attendance and accessibility of this conference to community members, especially focusing on facilitating participation for minority groups and categories usually underrepresented."
+        "description": "The FOSS4G Hiroshima 2026 organizing committee is pleased to provide a Travel Grant Program to increase the chances of attendance and accessibility of this conference to community members, especially focusing on facilitating participation for minority groups and categories usually underrepresented."
       },
       "who_should_apply": {
         "title": "Who should apply",
@@ -879,7 +879,7 @@
         "title": "About the TGP",
         "description": "The FOSS4G Travel Grant Program initiative was established to facilitate accessibility and diversity at FOSS4G conferences. It is funded by OSGeo Foundation, proceeds from our generous sponsors, and contributions from organisations and individuals.",
         "funding_note": "Please note that the number of grants available is dependent on this funding and the number of applications we receive.",
-        "management": "The TGP is managed by the FOSS4G 2026 Hiroshima LOC Committee."
+        "management": "The TGP is managed by the FOSS4G Hiroshima 2026 LOC Committee."
       },
       "important_dates": {
         "title": "Important Dates",
@@ -905,7 +905,7 @@
     },
     "volunteering": {
       "title": "Volunteering",
-      "description": "Details about the FOSS4G 2026 Hiroshima volunteer program.",
+      "description": "Details about the FOSS4G Hiroshima 2026 volunteer program.",
       "join_team": {
         "title": "Join Our Volunteer Team!",
         "description": "We need help with some of the day-to-day running of the conference and we think you'll be perfect for the job. As a volunteer, we'd like you to support us during the conference period."
@@ -1151,7 +1151,7 @@
       "coming_soon_message": "Workshop proposals will open in January 2026",
       "overview": {
         "title": "Workshop Overview",
-        "description": "FOSS4G 2026 Hiroshima workshops provide hands-on learning experiences with open-source geospatial tools and technologies. We invite proposals for half-day and full-day workshops that offer practical, interactive sessions for conference attendees."
+        "description": "FOSS4G Hiroshima 2026 workshops provide hands-on learning experiences with open-source geospatial tools and technologies. We invite proposals for half-day and full-day workshops that offer practical, interactive sessions for conference attendees."
       }
     },
     "workshops": {
