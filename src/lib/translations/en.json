@@ -904,44 +904,66 @@
       }
     },
     "volunteering": {
-      "title": "Volunteering",
-      "description": "Details about the FOSS4G Hiroshima 2026 volunteer program.",
-      "join_team": {
-        "title": "Join Our Volunteer Team!",
-        "description": "We need help with some of the day-to-day running of the conference and we think you'll be perfect for the job. As a volunteer, we'd like you to support us during the conference period."
+      "join_title": "Join Us as a Volunteer!",
+      "join_description": "FOSS4G Hiroshima 2026 is looking for passionate volunteers to help make this event a success! Whether you want to be involved in the planning process or support us on the event days, we welcome your participation.",
+      "types_title": "Types of Volunteers",
+      "main_volunteer": {
+        "title": "Main Volunteers",
+        "description": "Main volunteers are core team members who participate continuously from the preparation stage through the event itself. You'll be deeply involved in planning, organizing, and executing various aspects of the conference. This is an excellent opportunity to shape the event and work closely with the organizing committee."
       },
-      "who_can_volunteer": {
-        "title": "Who can volunteer?",
-        "description": "Anyone who would like to attend can volunteer!"
+      "day_of_volunteer": {
+        "title": "Day-of Volunteers",
+        "description": "Day-of volunteers support the event during the conference days. Your responsibilities may include reception, venue guidance, session support, and assisting attendees. This is a great way to contribute while fully experiencing the conference atmosphere."
       },
-      "volunteer_tasks": {
-        "title": "What will you be doing as a volunteer?",
-        "description": "As a volunteer, we'd like you to support us during the conference period. You'll be assigned to a role half the time or less, the rest of the time you have full access to the conference.",
-        "tasks": [
-          "Helping out on the registration desk",
-          "Setting up and tidying up conference/workshop rooms",
-          "Helping people find conference/workshop rooms",
-          "Supporting the presenters in each room",
-          "Guiding people from the conference to social events (and then joining us at the social events!)"
+      "requirements": {
+        "title": "Participation Requirements",
+        "description": "Volunteers must plan to attend FOSS4G Hiroshima 2026 as participants. We're looking for individuals who are enthusiastic about open-source geospatial technologies and want to contribute to the community while enjoying the conference."
+      },
+      "numbers": {
+        "title": "Number of Volunteers",
+        "items": [
+          "Main Volunteers: Limited positions available",
+          "Day-of Volunteers: Approximately 10"
+        ]
+      },
+      "activities": {
+        "title": "What Will You Do?",
+        "intro": "Depending on your interests and skills, you can contribute in various areas:",
+        "items": [
+          { "value": "Event Content Planning", "description": "Help design sessions, workshops, and conference programs" },
+          { "value": "Academic Paper Review", "description": "Participate in the review process for academic submissions" },
+          { "value": "Facility and Operations Management", "description": "Support venue logistics and day-to-day operations" },
+          { "value": "Public Relations and Communications", "description": "Assist with social media, announcements, and community outreach" },
+          { "value": "Sponsor Relations", "description": "Help coordinate with sponsors and manage partnerships" },
+          { "value": "Participant Registration and Travel Grant Program", "description": "Support attendee registration and travel grant processes" },
+          { "value": "Ice Breaker and Gala Dinner", "description": "Plan and support social events" },
+          { "value": "MC/Moderator", "description": "Facilitate sessions and presentations during the event" },
+          { "value": "Venue Guidance", "description": "Help attendees navigate the conference venue" },
+          { "value": "Reception", "description": "Welcome participants and provide information at registration desks" }
+        ]
+      },
+      "gains": {
+        "title": "What Will You Gain?",
+        "intro": "Volunteering at FOSS4G Hiroshima 2026 offers valuable experiences and opportunities:",
+        "items": [
+          { "value": "Networking", "description": "Connect with global experts, developers, and researchers in the geospatial community" },
+          { "value": "Skill Development", "description": "Gain experience in event management, community building, and project coordination" },
+          { "value": "Inside Access", "description": "Get behind-the-scenes insights into running an international conference" },
+          { "value": "Community Contribution", "description": "Play a meaningful role in supporting the open-source geospatial movement" },
+          { "value": "Cultural Exchange", "description": "Work with an international team and experience cross-cultural collaboration" },
+          { "value": "Professional Growth", "description": "Enhance your resume with international volunteer experience" }
         ]
       },
       "benefits": {
-        "title": "What's in it for me?",
-        "description": "We have a range of perks to offer you for your help during our conference including:",
-        "perks": [
-          "Free registration to the conference (including catering for lunch)",
-          "Expand your knowledge and expertise in the field, and interact with other industry experts.",
-          "When not on duty, enjoy free access to the full conference experience, including over 100 insightful talks and hands-on workshops."
-        ]
+        "title": "Volunteer Benefits",
+        "discount_title": "Conference Registration Fee Discount or Waiver",
+        "discount_description": "Details will be announced as they are finalized. Volunteers are expected to receive a discounted or complimentary conference registration fee. Please note that peer review for academic sessions is not eligible for this benefit."
       },
-      "application_status": {
-        "title": "Application Status",
-        "description": "Volunteer recruitment information will be announced later."
-      },
-      "contact": {
-        "title": "Contact Information",
-        "description": "For questions about volunteering or information about future recruitment, please contact us at:",
-        "email": "foss4g2026[at]osgeo.jp"
+      "apply": {
+        "title": "How to Apply",
+        "description": "Please fill out our volunteer application form. The information you provide will be reviewed by the Local Organizing Committee (LOC). Due to capacity constraints, we may not be able to accommodate all applicants, but we appreciate your interest in supporting FOSS4G Hiroshima 2026!",
+        "closing": "We look forward to working with you!",
+        "button": "Volunteer Application Form"
       }
     },
     "cancellation": {
