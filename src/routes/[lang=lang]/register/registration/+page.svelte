@@ -22,9 +22,8 @@
   
   <!-- VAT notice banner -->
   <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 my-6">
-    <p class="font-semibold">Note:</p>
-    <p>Prices shown are <strong>exclusive</strong> of local tax&nbsp;–
-       <strong>EX. Japanese VAT @10%</strong> will be added at checkout.</p>
+    <p class="font-semibold">{$t('register.registration.vat_notice.title')}</p>
+    <p>{@html $t('register.registration.vat_notice.content')}</p>
   </div>
   
   <div class="mb-8">

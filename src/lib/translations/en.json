@@ -792,12 +792,17 @@
           "Conference materials and welcome package",
           "Coffee breaks",
           "Access to exhibition area",
-          "Digital access to presentation materials"
+          "Digital access to presentation materials",
+          "One FOSS4G 2026 T-shirt"
         ]
       },
       "registration_process": {
         "title": "Registration Process",
         "description": "Registration will open in January 2026."
+      },
+      "vat_notice": {
+        "title": "Note:",
+        "content": "Prices shown are <strong>exclusive</strong> of local tax – <strong>EX. Japanese VAT @10%</strong> will be added at checkout."
       }
     },
     "studentship": {
