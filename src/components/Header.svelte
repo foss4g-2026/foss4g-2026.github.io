@@ -154,7 +154,7 @@
       </ul>
     </div>
     <Link class="btn btn-ghost" href={'/' + data.locale}>
-      <img src="/images/logo-03.svg" alt="FOSS4G 2026 Hiroshima" class="h-8" />
+      <img src="/images/logo-03.svg" alt="FOSS4G Hiroshima 2026" class="h-8" />
     </Link>
   </div>
   <div class="navbar-center hidden lg:flex">

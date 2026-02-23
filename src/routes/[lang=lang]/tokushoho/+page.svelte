@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>商取引に関する開示(特定商取引法に基づく表記) - FOSS4G 2026 Hiroshima</title>
+  <title>商取引に関する開示(特定商取引法に基づく表記) - FOSS4G Hiroshima 2026</title>
   <meta name="description" content="特定商取引法に基づく表記" />
 </svelte:head>
 

@@ -40,7 +40,7 @@
 <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 shadow-lg border border-blue-200/50 my-8">
   <!-- Conference Dates -->
   <div class="text-center mb-6">
-    <h3 class="text-2xl font-bold text-slate-800 mb-2">{$t('teaser.period.label', { default: 'FOSS4G 2026 Hiroshima' })}</h3>
+    <h3 class="text-2xl font-bold text-slate-800 mb-2">{$t('teaser.period.label', { default: 'FOSS4G Hiroshima 2026' })}</h3>
     <p class="text-lg text-slate-600 mb-3">{$t('teaser.period.date', { default: 'August 30 - September 5, 2026' })}</p>
     
     <!-- Detailed Schedule -->
