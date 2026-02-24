@@ -24,6 +24,7 @@
         <li>{$t('venue.facilities.exhibition_hall')}</li>
         <li>{$t('venue.facilities.wifi')}</li>
         <li>{$t('venue.facilities.accessible')}</li>
+        <li>{$t('venue.facilities.childcare')}</li>
       </ul>
 
       <h3 class="text-lg font-semibold mb-2">{$t('venue.address.title')}</h3>

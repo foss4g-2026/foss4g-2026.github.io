@@ -15,6 +15,12 @@
       {$t('register.cancellation.intro')}
     </p>
 
+    <!-- Special refund notice banner -->
+    <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 my-6">
+      <p class="font-semibold">{$t('register.cancellation.special_refund_notice.title')}</p>
+      <p>{@html $t('register.cancellation.special_refund_notice.content')}</p>
+    </div>
+
     <h2 class="text-2xl font-semibold mb-4">{$t('register.cancellation.refund_schedule.title')}</h2>
     <div class="mb-8">
       <p class="mb-4">{$t('register.cancellation.refund_schedule.policy_summary')}</p>
