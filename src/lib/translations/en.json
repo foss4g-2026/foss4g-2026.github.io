@@ -376,7 +376,8 @@
       "breakout_rooms": "Multiple breakout rooms",
       "exhibition_hall": "Exhibition hall",
       "wifi": "(TBC)WiFi throughout",
-      "accessible": "(TBC)Accessible facilities"
+      "accessible": "(TBC)Accessible facilities",
+      "childcare": "(TBC)Childcare services"
     },
     "address": {
       "title": "Address",
@@ -793,6 +794,7 @@
           "Coffee breaks",
           "Access to exhibition area",
           "Digital access to presentation materials",
+          "One Ice Breaker ticket",
           "One FOSS4G 2026 T-shirt"
         ]
       },
@@ -974,6 +976,10 @@
     "cancellation": {
       "title": "Cancellation Policy",
       "intro": "Please review our refund policy for cases where cancellation is required after registration.",
+      "special_refund_notice": {
+        "title": "Important Notice:",
+        "content": "Please note that the standard cancellation policy applies even if you purchase the wrong ticket by mistake."
+      },
       "refund_schedule": {
         "title": "Refund Schedule",
         "policy_summary": "For cancellations up to 2 months before the conference (until June 30, 2026), a 25% cancellation fee will be charged and 75% of the registration fee will be refunded. No refunds will be provided for cancellations after July 1, 2026.",
