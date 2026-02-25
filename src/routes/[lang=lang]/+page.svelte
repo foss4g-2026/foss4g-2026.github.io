@@ -54,7 +54,7 @@
     <p class="text-yellow-800 text-center text-lg sm:text-xl">
       <span class="text-yellow-700 font-bold mr-2">{$t('teaser.schedule.call_for_proposals.banner_prefix')}</span>
       <strong>{$t('teaser.schedule.call_for_proposals.banner_text')}</strong> 
-      <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/call-for-papers" 
+      <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/call-for-papers/academic-track" 
          class="text-yellow-900 underline hover:text-yellow-700 ml-2 font-semibold">
         {$t('teaser.schedule.call_for_proposals.banner_link')}
       </a>

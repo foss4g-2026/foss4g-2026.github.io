@@ -152,7 +152,7 @@
         "label": "発表募集期間(予定)",
         "period": "2025年12月 - 2026年3月",
         "banner_prefix": "[お知らせ]",
-        "banner_text": "発表提案を募集中です！",
+        "banner_text": "アカデミックトラックのアブストラクト提出期限を3月16日まで延長しました！",
         "banner_link": "詳細はこちら"
       },
       "adoption": {
@@ -976,12 +976,12 @@
         "rows": {
           "abstract_submission": {
             "phase": "ステップ1：アブストラクト投稿",
-            "deadline": "2026年3月2日",
+            "deadline": "<span class='line-through'>2026年3月2日</span> <span class='text-red-600 font-semibold'>2026年3月16日</span>",
             "description": "評価のため800-1,000語のアブストラクトを投稿"
           },
           "review_period": {
             "phase": "アブストラクト審査期間",
-            "deadline": "2026年3月3日〜4月14日",
+            "deadline": "2026年3月17日〜4月14日",
             "description": "科学委員会による審査プロセス"
           },
           "notification": {
