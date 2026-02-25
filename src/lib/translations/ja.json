@@ -976,7 +976,7 @@
         "rows": {
           "abstract_submission": {
             "phase": "ステップ1：アブストラクト投稿",
-            "deadline": "2026年3月2日",
+            "deadline": "<span class='line-through'>2026年3月2日</span> <span class='text-red-600 font-semibold'>2026年3月16日</span>",
             "description": "評価のため800-1,000語のアブストラクトを投稿"
           },
           "review_period": {

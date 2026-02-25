@@ -18,7 +18,7 @@
           {#each headers as header, colIndex}
             <div class="flex justify-between items-start mb-2 last:mb-0">
               <span class="font-semibold text-sm text-gray-600 min-w-0 mr-3">{header}:</span>
-              <span class="text-sm text-right flex-1 min-w-0 break-words">{row[colIndex]}</span>
+              <span class="text-sm text-right flex-1 min-w-0 break-words">{@html row[colIndex]}</span>
             </div>
           {/each}
         </div>
@@ -40,7 +40,7 @@
         {#each rows as row}
           <tr>
             {#each row as cell}
-              <td class="whitespace-nowrap">{cell}</td>
+              <td class="whitespace-nowrap">{@html cell}</td>
             {/each}
           </tr>
         {/each}
@@ -62,7 +62,7 @@
         {#each rows as row}
           <tr>
             {#each row as cell}
-              <td>{cell}</td>
+              <td>{@html cell}</td>
             {/each}
           </tr>
         {/each}
