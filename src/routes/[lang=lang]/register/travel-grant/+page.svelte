@@ -21,10 +21,11 @@
     <SubmitButton 
       href="https://forms.gle/hH8j2xjXyWDrf8PS9"
       text="Apply for TGP"
-      disabled={false}
-      target="_blank"
-      rel="noopener noreferrer"
+      disabled={true}
     />
+    <p class="mt-4 text-red-600 font-semibold">
+      TGP application was closed on February 28, 2026.
+    </p>
   </div>
 
   <div class="prose max-w-none">
