@@ -67,7 +67,7 @@
         "label": "Call for Proposals (Preliminary)",
         "period": "December, 2025 - March, 2026",
         "banner_prefix": "[News]",
-        "banner_text": "Academic Track abstract submission deadline extended to March 16!",
+        "banner_text": "Call for Proposals closes March 16, 2026",
         "banner_link": "View details"
       },
       "adoption": {
@@ -771,7 +771,7 @@
       "additional_items_title": "Optional Extras",
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in February 2026.",
       "main_registration_types": [
-        ["Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)", "JPY 40,000"],
+        ["<s>Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)</s>", "—"],
         ["Early Bird (After Super Early Bird ends - April 30, 2026)", "JPY 50,000"],
         ["Regular (May 1 - September 3, 2026)", "JPY 80,000"],
         ["Local", "JPY 40,000"],
