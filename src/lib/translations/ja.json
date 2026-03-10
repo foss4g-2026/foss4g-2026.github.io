@@ -861,6 +861,12 @@
   },
   "call_for_papers": {
     "title": "発表募集",
+    "registration_notice": {
+      "title": "カンファレンス参加登録について",
+      "body_prefix": "登壇者・発表者を含む全てのカンファレンス参加者は、参加登録が必要です。",
+      "body_link": "登録ページ",
+      "body_suffix": "より参加登録をお済ませください。"
+    },
     "general_sessions": {
       "title": "一般セッション",
       "description": "一般発表の投稿に関する情報。",

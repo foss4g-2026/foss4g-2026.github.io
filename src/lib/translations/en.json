@@ -1014,6 +1014,12 @@
   },
   "call_for_papers": {
     "title": "Call for Papers",
+    "registration_notice": {
+      "title": "Conference Registration Required",
+      "body_prefix": "All conference participants, including speakers and presenters, are required to register for the conference. Please complete your registration through the ",
+      "body_link": "registration page",
+      "body_suffix": "."
+    },
     "general_sessions": {
       "title": "General Sessions",
       "description": "Information about general presentation submissions.",

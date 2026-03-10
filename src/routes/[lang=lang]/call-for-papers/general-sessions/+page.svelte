@@ -1,8 +1,11 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
+  import { page } from '$app/stores'
   import ComingSoon from '$components/ComingSoon.svelte'
   import Table from '$components/Table.svelte'
   import SubmitButton from '$components/SubmitButton.svelte'
+
+  $: lang = $page.params.lang
 </script>
 
 <svelte:head>
@@ -20,11 +23,13 @@
   />
   
   <div class="prose max-w-none">
+    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.registration_notice.title')}</h2>
+    <p class="mb-6">{$t('call_for_papers.registration_notice.body_prefix')}<a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">{$t('call_for_papers.registration_notice.body_link')}</a>{$t('call_for_papers.registration_notice.body_suffix')}</p>
     <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.topics.title')}</h2>
     <p class="mb-6">
       {$t('call_for_papers.general_sessions.topics.intro')}
     </p>
-    
+
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
       <div>
         <h3 class="text-lg font-semibold mb-2">{$t('call_for_papers.general_sessions.topics.technical_topics.title')}</h3>
