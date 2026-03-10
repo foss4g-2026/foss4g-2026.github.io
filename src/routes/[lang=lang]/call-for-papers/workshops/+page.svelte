@@ -1,7 +1,10 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
+  import { page } from '$app/stores'
   import Table from '$components/Table.svelte'
   import SubmitButton from '$components/SubmitButton.svelte'
+
+  $: lang = $page.params.lang
 </script>
 
 <svelte:head>
@@ -19,6 +22,8 @@
   />
   
   <div class="prose max-w-none">
+    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.registration_notice.title')}</h2>
+    <p class="mb-6">{$t('call_for_papers.registration_notice.body_prefix')}<a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">{$t('call_for_papers.registration_notice.body_link')}</a>{$t('call_for_papers.registration_notice.body_suffix')}</p>
     <!-- Overview -->
     <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.workshops.overview.title')}</h2>
     <p class="mb-6">
