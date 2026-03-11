@@ -395,39 +395,124 @@
     }
   },
   "transport": {
-    "title": "Transportation",
-    "getting_to_hiroshima": {
-      "title": "Getting to Hiroshima",
-      "by_air": {
-        "title": "By Air",
-        "hiroshima_airport": "Hiroshima Airport (HIJ)",
-        "description": "Main international gateway to Hiroshima",
-        "limousine_bus": "Airport limousine bus (45 minutes, ¥1,370)"
+    "section_headers": {
+      "itinerary": "Itinerary",
+      "fare": "Fare"
+    },
+    "itinerary_headers": {
+      "section": "Section",
+      "transport": "Transportation",
+      "duration": "Duration"
+    },
+    "city_guide": {
+      "title": "Hiroshima City Guide",
+      "intro": "Hiroshima is a beautiful \"City of Water\" graced by the Ota River. It is a unique city that harmoniously blends its identity as a City of Peace—home to World Heritage sites—with its status as one of Western Japan's most vibrant metropolitan hubs.",
+      "kamiyacho": {
+        "title": "Kamiyacho & Hatchobori: The Largest Downtown District in the Chugoku Region",
+        "description": "The Kamiyacho and Hatchobori areas form the heart of Hiroshima and thrive as the largest entertainment and shopping district in the Chugoku region. At its center lies the <strong>Hiroshima Hondori Shopping Arcade</strong>, a 577-meter-long covered passage. With roughly 100,000 people visiting daily, it is packed with a diverse range of shops and restaurants. The area also hosts major commercial complexes, including the Sogo Hiroshima Department Store, Motomachi Cred, and the \"Shareo\" underground shopping mall, all centered around the Hiroshima Bus Center."
       },
-      "by_train": {
-        "title": "By Train (Shinkansen)",
-        "description": "The fastest and most convenient way to reach Hiroshima from major Japanese cities",
-        "from_tokyo": "From Tokyo: 4 hours, ¥19,440",
-        "from_osaka": "From Osaka: 1.5 hours, ¥10,330"
+      "peace_park": {
+        "title": "Peace Memorial Park: Honoring History and Praying for Peace",
+        "description": "While this area suffered immense damage during World War II, it has been reborn as a place to convey the importance of peace to the world. The <strong>Atomic Bomb Dome</strong>, a UNESCO World Heritage site, stands solemnly along the Motoyasu River. Directly across the river lies the <strong>Peace Memorial Park</strong>, the distinguished venue for this conference."
+      },
+      "streetcars": {
+        "title": "Streetcars (Hiroden): A Symbol of Resilience",
+        "description_1": "For travel between Hiroshima Station and the city center (Kamiyacho/Hatchobori), the streetcars—affectionately known by locals as <strong>\"Hiroden\"</strong>—are the most convenient option. Due to its unique delta geography, Hiroshima developed one of Japan's most extensive streetcar networks rather than a subway system.",
+        "description_2": "Of particular note are the <strong>\"A-bombed trams\"</strong> that are still in active service today. These vehicles returned to the tracks shortly after the city was devastated, providing hope and courage to the citizens. They remain a powerful symbol of Hiroshima's remarkable recovery."
+      },
+      "hiroshima_station": {
+        "title": "The Reimagined Gateway: Hiroshima Station",
+        "description": "Following a grand reopening in <strong>March 2025</strong>, Hiroshima Station has evolved into an even more advanced transportation hub for the Chugoku region. The streetcar platform has been relocated to the second floor of the station building, allowing for a seamless, barrier-free transfer directly from the Shinkansen gates.",
+        "access_title": "Access from Hiroshima Station to Kamiyacho/Hatchobori",
+        "travel_time_label": "Travel Time",
+        "travel_time": "Approximately 10 minutes",
+        "fare_label": "Fare",
+        "fare": "240 yen (Flat rate per ride)"
       }
     },
-    "local_transport": {
-      "title": "Local Transportation in Hiroshima",
-      "streetcar": {
-        "title": "Hiroshima Streetcar",
-        "fare": "Flat fare: ¥220",
-        "day_pass": "Day pass: ¥700"
-      },
-      "bus": {
-        "title": "Buses",
-        "fare": "Fares vary by distance: ¥220-¥500"
-      }
+    "kix": {
+      "title": "Access from Kansai International Airport (KIX)",
+      "description": "Kansai International Airport (KIX) is the largest international gateway in Western Japan. With numerous international flights, it serves as an excellent starting point for visiting Osaka, Hiroshima, and other major cities in the region. The most common route from KIX to Hiroshima is via <strong>Shin-Osaka Station</strong>, using the <strong>Sanyo Shinkansen</strong>. The total travel time, including transfers, is approximately <strong>2.5 hours</strong>.",
+      "itinerary": [
+        {
+          "section": "Kansai Airport Station → Shin-Osaka Station",
+          "transport": "JR Limited Express \"Haruka\"",
+          "duration": "Approx. 50 min"
+        },
+        {
+          "section": "Shin-Osaka Station → Hiroshima Station",
+          "transport": "JR Sanyo Shinkansen \"Nozomi,\" \"Mizuho,\" or \"Sakura\"",
+          "duration": "Approx. 90 min"
+        }
+      ],
+      "fare": "Approx. 13,710 yen",
+      "fare_note": "Includes limited express fees. Fares may vary depending on the seat class (Reserved, Non-reserved, or Green Car) and the season."
     },
-    "venue_access": {
-      "title": "Conference Venue Access",
-      "to_venue": "To International Conference Center Hiroshima",
-      "from_station": "From Hiroshima Station: Streetcar Line 2 to Genbaku-Dome-mae (15 min)",
-      "walking": "5 minutes walk from Peace Memorial Park"
+    "hij": {
+      "title": "Access from Hiroshima Airport (HIJ)",
+      "description": "Hiroshima Airport offers international flights from neighboring Asian countries such as South Korea, Taiwan, and China, as well as frequent domestic flights connecting major Japanese cities. The <strong>Airport Limousine Bus</strong> is the most direct and convenient way to reach central Hiroshima.",
+      "itinerary": [
+        {
+          "section": "Hiroshima Airport → Hiroshima Station (Shinkansen Entrance)",
+          "transport": "Airport Limousine Bus",
+          "duration": "Approx. 50 min"
+        }
+      ],
+      "fare": "1,500 yen"
+    },
+    "nrt": {
+      "title": "Access from Narita International Airport (NRT)",
+      "description": "Narita International Airport (NRT) is one of Japan's largest international gateways. Located near Tokyo, the capital of Japan, it serves as a major hub with numerous international flights connecting to destinations worldwide. The most common route from NRT to Hiroshima is via the <strong>Narita Express</strong> and the <strong>Shinkansen</strong>. The total travel time, including transfers, is approximately <strong>5.5 hours</strong>.",
+      "itinerary": [
+        {
+          "section": "Narita Airport Station → Tokyo Station",
+          "transport": "JR Limited Express \"Narita Express (N'EX)\"",
+          "duration": "Approx. 90 min"
+        },
+        {
+          "section": "Tokyo Station → Hiroshima Station",
+          "transport": "JR Sanyo Shinkansen \"Nozomi\"",
+          "duration": "Approx. 4 hours"
+        }
+      ],
+      "fare": "Approx. 21,750 yen",
+      "fare_note": "Includes limited express fees. Fares may vary depending on the seat class (Reserved, Non-reserved, or Green Car) and the season."
+    },
+    "notices": {
+      "title": "Important Notices",
+      "items": [
+        {
+          "title": "Punctuality",
+          "description": "Please plan your transfers with plenty of time. Japanese trains are famous for being strictly on time. If you arrive even a minute late, the doors may already be closed, and the train will depart without exception."
+        },
+        {
+          "title": "Late-Night Services",
+          "description": "Please be aware that public transportation, including trains and buses, does not operate 24 hours a day in Japan. Most services end around midnight, so be sure to check the time of the last train for your destination."
+        }
+      ]
+    },
+    "jr_pass": {
+      "title": "JAPAN RAIL PASS",
+      "description": "The <strong>JAPAN RAIL PASS</strong> is a special multi-use ticket for foreign tourists visiting Japan. Available in 7, 14, and 21-day durations, it offers unlimited travel on JR Shinkansen (with some exceptions), limited express trains, and local trains. It is highly recommended for those planning to travel extensively across Japan.",
+      "url_label": "For more details, please visit the official website:",
+      "url": "https://japanrailpass.net/en/",
+      "table_headers": {
+        "duration": "Duration",
+        "ordinary_adult": "Ordinary (Adult)",
+        "ordinary_child": "Ordinary (Child)",
+        "green_adult": "Green Car (Adult)",
+        "green_child": "Green Car (Child)"
+      },
+      "table_rows": [
+        { "duration": "7 Days", "ordinary_adult": "50,000 yen", "ordinary_child": "25,000 yen", "green_adult": "70,000 yen", "green_child": "35,000 yen" },
+        { "duration": "14 Days", "ordinary_adult": "80,000 yen", "ordinary_child": "40,000 yen", "green_adult": "110,000 yen", "green_child": "55,000 yen" },
+        { "duration": "21 Days", "ordinary_adult": "100,000 yen", "ordinary_child": "50,000 yen", "green_adult": "140,000 yen", "green_child": "70,000 yen" }
+      ],
+      "nozomi": {
+        "title": "Using the \"Nozomi\" and \"Mizuho\" Trains",
+        "description": "Standard JAPAN RAIL PASS holders cannot board \"Nozomi\" or \"Mizuho\" trains with the pass alone. However, you can now use these fastest trains by purchasing an additional <strong>[Nozomi / Mizuho Special Supplement Ticket]</strong>.",
+        "supplement": "Shin-Osaka to Hiroshima: Additional 4,170 yen. This ticket allows you to experience the fastest Shinkansen service available."
+      }
     }
   },
   "travel_guide": {
