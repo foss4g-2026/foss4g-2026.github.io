@@ -49,7 +49,7 @@ export const navigationConfig = {
     enabled: true,
     subItems: {
       venue: { enabled: true },
-      transport: { enabled: false }, // Disabled per user request
+      transport: { enabled: true },
       travelGuide: { enabled: false }, // Disabled per user request
       accommodation: { enabled: false } // Disabled per user request
     }
