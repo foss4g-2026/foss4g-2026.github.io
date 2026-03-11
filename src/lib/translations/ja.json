@@ -43,7 +43,8 @@
       "venue": "会議会場",
       "transport": "交通情報",
       "travel_guide": "旅行ガイド",
-      "accommodation": "宿泊"
+      "accommodation": "宿泊",
+      "childcare": "託児サービス"
     },
     "attend": {
       "register": "参加申し込み",
@@ -401,7 +402,15 @@
     "accommodation": {
       "title": "宿泊",
       "description": "推奨ホテルと宿泊オプション。"
+    },
+    "childcare": {
+      "title": "託児サービス",
+      "description": "託児サービスの提供に関する情報。"
     }
+  },
+  "childcare": {
+      "title": "託児サービス",
+      "description": "FOSS4G Hiroshima 2026では、小さなご家族がいる人も参加しやすいように、託児サービスを提供します。"
   },
   "about": {
     "title": "概要",

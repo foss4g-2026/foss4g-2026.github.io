@@ -138,7 +138,8 @@
       "venue": "Conference Venue",
       "transport": "Transport Information",
       "travel_guide": "Travel Guide",
-      "accommodation": "Accommodation"
+      "accommodation": "Accommodation",
+      "childcare": "Childcare"
     },
     "attend": {
       "register": "Register",
@@ -562,6 +563,10 @@
       "title": "Booking Information",
       "description": "Hotel booking details and special conference rates will be sent to registered attendees in Spring 2026."
     }
+  },
+  "childcare": {
+    "title": "Childcare",
+    "description": "FOSS4G Hiroshima 2026 provides childcare services to make it easier for attendees with young families to participate."
   },
   "about": {
     "title": "About",
@@ -1399,6 +1404,10 @@
     "accommodation": {
       "title": "Accommodation",
       "description": "Recommended hotels and accommodation options."
+    },
+    "childcare": {
+      "title": "Childcare service",
+      "description": "We provides childcare services to make it easier for attendees with young families to participate."
     }
   },
   "contact": {

@@ -134,6 +134,7 @@
               <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/attending/travel-guide'} enabled={isNavEnabled('attending', 'travelGuide')}>{$t('nav.attending_sub.travel_guide')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/attending/accommodation'} enabled={isNavEnabled('attending', 'accommodation')}>{$t('nav.attending_sub.accommodation')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/attending/childcare'} enabled={isNavEnabled('attending', 'childcare')}>{$t('nav.attending_sub.childcare')}</NavLink></li>
             </ul>
           </details>
         </li>
@@ -227,6 +228,7 @@
             <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/attending/travel-guide'} enabled={isNavEnabled('attending', 'travelGuide')}>{$t('nav.attending_sub.travel_guide')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/attending/accommodation'} enabled={isNavEnabled('attending', 'accommodation')}>{$t('nav.attending_sub.accommodation')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/attending/childcare'} enabled={isNavEnabled('attending', 'childcare')}>{$t('nav.attending_sub.childcare')}</NavLink></li>
           </ul>
         </details>
       </li>

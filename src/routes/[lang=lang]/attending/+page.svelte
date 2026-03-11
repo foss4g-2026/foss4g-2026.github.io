@@ -33,4 +33,10 @@
     <p class="text-gray-700 mb-4">{$t('attending.accommodation.description')}</p>
   </section>
 
+  <!-- Childcare -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">{$t('attending.childcare.title')}</h2>
+    <p class="text-gray-700 mb-4">{$t('attending.childcare.description')}</p>
+  </section>
+
 </div>
