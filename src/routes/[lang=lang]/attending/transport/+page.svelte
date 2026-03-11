@@ -33,7 +33,7 @@
             </tr>
           </thead>
           <tbody>
-            {#each $t("transport.domestic_access.rows") as row}
+            {#each ($t("transport.domestic_access.rows") as unknown as Array<{origin: string; transport: string; duration: string}>) as row}
               <tr>
                 <td class="border border-gray-300 px-4 py-2">{row.origin}</td>
                 <td class="border border-gray-300 px-4 py-2">{row.transport}</td>
@@ -70,7 +70,7 @@
             </tr>
           </thead>
           <tbody>
-            {#each $t("transport.kix.itinerary") as row}
+            {#each ($t("transport.kix.itinerary") as unknown as Array<{section: string; transport: string; duration: string}>) as row}
               <tr>
                 <td class="border border-gray-300 px-4 py-2">{row.section}</td>
                 <td class="border border-gray-300 px-4 py-2">{row.transport}</td>
@@ -112,7 +112,7 @@
             </tr>
           </thead>
           <tbody>
-            {#each $t("transport.hij.itinerary") as row}
+            {#each ($t("transport.hij.itinerary") as unknown as Array<{section: string; transport: string; duration: string}>) as row}
               <tr>
                 <td class="border border-gray-300 px-4 py-2">{row.section}</td>
                 <td class="border border-gray-300 px-4 py-2">{row.transport}</td>
@@ -153,7 +153,7 @@
             </tr>
           </thead>
           <tbody>
-            {#each $t("transport.nrt.itinerary") as row}
+            {#each ($t("transport.nrt.itinerary") as unknown as Array<{section: string; transport: string; duration: string}>) as row}
               <tr>
                 <td class="border border-gray-300 px-4 py-2">{row.section}</td>
                 <td class="border border-gray-300 px-4 py-2">{row.transport}</td>
@@ -175,7 +175,7 @@
       <!-- Important Notices -->
       <h2 class="text-2xl font-semibold mb-4">{$t("transport.notices.title")}</h2>
       <ul class="list-disc pl-6 mb-8">
-        {#each $t("transport.notices.items") as item}
+        {#each ($t("transport.notices.items") as unknown as Array<{title: string; description: string}>) as item}
           <li><strong>{item.title}:</strong> {item.description}</li>
         {/each}
       </ul>
@@ -217,7 +217,7 @@
             </tr>
           </thead>
           <tbody>
-            {#each $t("transport.jr_pass.table_rows") as row}
+            {#each ($t("transport.jr_pass.table_rows") as unknown as Array<{duration: string; ordinary_adult: string; ordinary_child: string; green_adult: string; green_child: string}>) as row}
               <tr>
                 <td class="border border-gray-300 px-4 py-2 font-bold"
                   >{row.duration}</td
