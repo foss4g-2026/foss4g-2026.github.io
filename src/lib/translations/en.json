@@ -31,7 +31,7 @@
         "date": "September 1 - 3, 2026"
       },
       "sprints": {
-        "label": "Community Event and Code Sprint Days",
+        "label": "Community Sprint Days",
         "date": "September 4 - 5, 2026"
       }
     },
@@ -156,7 +156,7 @@
       "outline": "Outline",
       "events": "Events",
       "b2b_event": "B2B Event",
-      "sprints": "Community Event and Code Sprint"
+      "sprints": "Community Sprint"
     },
     "languages": {
       "current_language": "English",
@@ -196,8 +196,8 @@
           ["September 1 (Tue)", "Main Conference Day 1", "Int'l Conference Center", "9:00 - 18:00"],
           ["September 2 (Wed)", "Main Conference Day 2", "Int'l Conference Center", "9:00 - 18:00"],
           ["September 3 (Thu)", "Main Conference Day 3", "Int'l Conference Center", "9:00 - 17:00"],
-          ["September 4 (Fri)", "Code Sprint/Social Events Day 1", "TBD", "9:00 - 18:00"],
-          ["September 5 (Sat)", "Code Sprint/Social Events Day 2", "TBD", "9:00 - 17:00"]
+          ["September 4 (Fri)", "Community Sprint/Social Events Day 1", "TBD", "9:00 - 18:00"],
+          ["September 5 (Sat)", "Community Sprint/Social Events Day 2", "TBD", "9:00 - 17:00"]
         ]
       }
     }
