@@ -17,8 +17,8 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('program_outline.schedule_glance.title')}</h2>
     <div class="mb-8">
       <Table 
-        headers={$t('program_outline.schedule_glance.table.headers')}
-        rows={$t('program_outline.schedule_glance.table.rows')}
+        headers={$t('program_outline.schedule_glance.table.headers') as unknown as string[]}
+        rows={$t('program_outline.schedule_glance.table.rows') as unknown as string[][]}
         class="mb-6"
       />
     </div>
