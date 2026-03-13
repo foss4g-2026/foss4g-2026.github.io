@@ -793,6 +793,7 @@
       },
       "packages": {
         "title": "Sponsorship Levels and Benefits",
+        "tax_note": "All packages are subject to 10% Japanese Consumption Tax (JCT).",
         "diamond": {
           "title": "Diamond",
           "cost": "5,000,000",
@@ -837,15 +838,14 @@
           "title": "Category",
           "cost": "Cost (JPY)",
           "tickets": "Conference Tickets (incl. social events)",
-          "cxo_tickets": "CxO Tickets",
+          "cxo_tickets": "CxO Tickets (incl. social events)",
           "session": "Sponsor Session",
           "booth": "Sponsor Booth"
         }
       },
       "contact": {
         "title": "Contact Information",
-        "content": "For sponsorship inquiries, please contact",
-        "email": "foss4g2026[at]osgeo.jp"
+        "content": "For sponsorship inquiries, please contact"
       }
     }
   },

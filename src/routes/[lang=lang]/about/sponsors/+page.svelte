@@ -79,6 +79,9 @@
       {rows}
       class="w-full"
     />
+    <div class="mt-4">
+      <p class="text-sm text-gray-600">※ {$t('about.sponsors.packages.tax_note')}</p>
+    </div>
   </div>
 
   <div class="bg-gray-50 p-6 rounded-lg">
