@@ -23,8 +23,25 @@
   />
   
   <div class="prose max-w-none">
-    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.registration_notice.title')}</h2>
-    <p class="mb-6">{$t('call_for_papers.registration_notice.body_prefix')}<a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">{$t('call_for_papers.registration_notice.body_link')}</a>{$t('call_for_papers.registration_notice.body_suffix')}</p>
+    <!-- Conference Registration Notice -->
+    <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-6">
+      <p class="font-semibold">{$t('call_for_papers.registration_notice.title')}</p>
+      <p>{$t('call_for_papers.registration_notice.body_prefix')}<a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">{$t('call_for_papers.registration_notice.body_link')}</a>{$t('call_for_papers.registration_notice.body_suffix')}</p>
+    </div>
+    
+    <!-- Timeline -->
+    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.timeline.title')}</h2>
+    <Table 
+      headers={[$t('call_for_papers.general_sessions.timeline.headers.phase'), $t('call_for_papers.general_sessions.timeline.headers.date')]}
+      rows={[
+        [$t('call_for_papers.general_sessions.timeline.rows.call_for_talks.phase'), $t('call_for_papers.general_sessions.timeline.rows.call_for_talks.date')],
+        [$t('call_for_papers.general_sessions.timeline.rows.community_vote.phase'), $t('call_for_papers.general_sessions.timeline.rows.community_vote.date')],
+        [$t('call_for_papers.general_sessions.timeline.rows.announce_accepted.phase'), $t('call_for_papers.general_sessions.timeline.rows.announce_accepted.date')],
+        [$t('call_for_papers.general_sessions.timeline.rows.full_program.phase'), $t('call_for_papers.general_sessions.timeline.rows.full_program.date')]
+      ]}
+      class="mb-8"
+    />
+
     <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.topics.title')}</h2>
     <p class="mb-6">
       {$t('call_for_papers.general_sessions.topics.intro')}
@@ -48,19 +65,6 @@
         </ul>
       </div>
     </div>
-
-    <!-- Timeline -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.timeline.title')}</h2>
-    <Table 
-      headers={[$t('call_for_papers.general_sessions.timeline.headers.phase'), $t('call_for_papers.general_sessions.timeline.headers.date')]}
-      rows={[
-        [$t('call_for_papers.general_sessions.timeline.rows.call_for_talks.phase'), $t('call_for_papers.general_sessions.timeline.rows.call_for_talks.date')],
-        [$t('call_for_papers.general_sessions.timeline.rows.community_vote.phase'), $t('call_for_papers.general_sessions.timeline.rows.community_vote.date')],
-        [$t('call_for_papers.general_sessions.timeline.rows.announce_accepted.phase'), $t('call_for_papers.general_sessions.timeline.rows.announce_accepted.date')],
-        [$t('call_for_papers.general_sessions.timeline.rows.full_program.phase'), $t('call_for_papers.general_sessions.timeline.rows.full_program.date')]
-      ]}
-      class="mb-8"
-    />
 
     <!-- Session Types -->
     <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.general_sessions.session_types.title')}</h2>

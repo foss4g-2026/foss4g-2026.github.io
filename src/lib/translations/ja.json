@@ -153,7 +153,7 @@
         "label": "発表募集期間(予定)",
         "period": "2025年12月 - 2026年3月",
         "banner_prefix": "[お知らせ]",
-        "banner_text": "Call for Proposals 募集期間: 2026年3月16日まで",
+        "banner_text": "CfP (General & Workshops) を3月23日まで延長",
         "banner_link": "詳細はこちら"
       },
       "adoption": {
@@ -637,6 +637,7 @@
       },
       "packages": {
         "title": "スポンサーレベルと特典",
+        "tax_note": "全てのパッケージに10%の消費税がかかります。",
         "diamond": {
           "title": "ダイヤモンド",
           "cost": "500万",
@@ -681,15 +682,14 @@
           "title": "カテゴリ",
           "cost": "費用（円）",
           "tickets": "会議チケット（ソーシャルイベント含む）",
-          "cxo_tickets": "CxOチケット",
+          "cxo_tickets": "CxOチケット（ソーシャルイベント含む）",
           "session": "スポンサーセッション",
           "booth": "スポンサーブース"
         }
       },
       "contact": {
         "title": "連絡先",
-        "content": "スポンサーシップに関する質問は下記までお問い合わせください。",
-        "email": "foss4g2026[at]osgeo.jp"
+        "content": "スポンサーシップに関する質問は下記までお問い合わせください。"
       }
     }
   },
@@ -872,7 +872,7 @@
     "title": "発表募集",
     "registration_notice": {
       "title": "カンファレンス参加登録について",
-      "body_prefix": "登壇者・発表者を含む全てのカンファレンス参加者は、参加登録が必要です。",
+      "body_prefix": "登壇者・発表者を含む全てのカンファレンス参加者は、参加登録が必要です。カンファレンス開催前までに",
       "body_link": "登録ページ",
       "body_suffix": "より参加登録をお済ませください。"
     },
@@ -932,11 +932,11 @@
         "rows": {
           "call_for_talks": {
             "phase": "発表募集",
-            "date": "2026年1月19日 - 3月16日"
+            "date": "2026年1月19日 - <span class='line-through'>3月16日</span> <span class='text-red-600 font-semibold'>3月23日</span>"
           },
           "community_vote": {
             "phase": "コミュニティ投票",
-            "date": "2026年3月17日 - 3月24日"
+            "date": "<span class='line-through'>2026年3月17日 - 3月24日</span> <span class='text-red-600 font-semibold'>2026年3月24日 - 4月3日</span>"
           },
           "announce_accepted": {
             "phase": "採択発表の発表",
@@ -1056,12 +1056,12 @@
         "rows": {
           "submission": {
             "phase": "ワークショップ投稿募集",
-            "deadline": "2026年1月19日〜3月16日",
+            "deadline": "2026年1月19日〜<span class='line-through'>3月16日</span> <span class='text-red-600 font-semibold'>3月23日</span>",
             "description": "詳細な内容と要件を含むワークショップ提案を投稿"
           },
           "vote": {
             "phase": "コミュニティ投票",
-            "deadline": "2026年3月17日〜3月24日",
+            "deadline": "<span class='line-through'>2026年3月17日〜3月24日</span> <span class='text-red-600 font-semibold'>2026年3月24日〜4月3日</span>",
             "description": "投稿されたワークショップのコミュニティ投票期間"
           },
           "announcement": {

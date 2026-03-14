@@ -67,7 +67,7 @@
         "label": "Call for Proposals (Preliminary)",
         "period": "December, 2025 - March, 2026",
         "banner_prefix": "[News]",
-        "banner_text": "Call for Proposals closes March 16, 2026",
+        "banner_text": "CfP (General & Workshops) extended to March 23, 2026",
         "banner_link": "View details"
       },
       "adoption": {
@@ -793,6 +793,7 @@
       },
       "packages": {
         "title": "Sponsorship Levels and Benefits",
+        "tax_note": "All packages are subject to 10% Japanese Consumption Tax (JCT).",
         "diamond": {
           "title": "Diamond",
           "cost": "5,000,000",
@@ -837,15 +838,14 @@
           "title": "Category",
           "cost": "Cost (JPY)",
           "tickets": "Conference Tickets (incl. social events)",
-          "cxo_tickets": "CxO Tickets",
+          "cxo_tickets": "CxO Tickets (incl. social events)",
           "session": "Sponsor Session",
           "booth": "Sponsor Booth"
         }
       },
       "contact": {
         "title": "Contact Information",
-        "content": "For sponsorship inquiries, please contact",
-        "email": "foss4g2026[at]osgeo.jp"
+        "content": "For sponsorship inquiries, please contact"
       }
     }
   },
@@ -1108,7 +1108,7 @@
       "title": "Conference Registration Required",
       "body_prefix": "All conference participants, including speakers and presenters, are required to register for the conference. Please complete your registration through the ",
       "body_link": "registration page",
-      "body_suffix": "."
+      "body_suffix": " before the conference."
     },
     "general_sessions": {
       "title": "General Sessions",
@@ -1167,11 +1167,11 @@
         "rows": {
           "call_for_talks": {
             "phase": "Call for Talks Submissions",
-            "date": "January 19 - March 16, 2026"
+            "date": "January 19 - <span class='line-through'>March 16</span> <span class='text-red-600 font-semibold'>March 23</span>, 2026"
           },
           "community_vote": {
             "phase": "Community Vote",
-            "date": "March 17 - March 24, 2026"
+            "date": "<span class='line-through'>March 17 - March 24</span> <span class='text-red-600 font-semibold'>March 24 - April 3</span>, 2026"
           },
           "announce_accepted": {
             "phase": "Announce accepted talks",
@@ -1301,12 +1301,12 @@
         "rows": {
           "submission": {
             "phase": "Call for Workshop Submissions",
-            "deadline": "January 19 - March 16, 2026",
+            "deadline": "January 19 - <span class='line-through'>March 16</span> <span class='text-red-600 font-semibold'>March 23</span>, 2026",
             "description": "Submit workshop proposals with detailed content and requirements"
           },
           "vote": {
             "phase": "Community Vote",
-            "deadline": "March 17 - March 24, 2026",
+            "deadline": "<span class='line-through'>March 17 - March 24</span> <span class='text-red-600 font-semibold'>March 24 - April 3</span>, 2026",
             "description": "Community voting period for submitted workshops"
           },
           "announcement": {
