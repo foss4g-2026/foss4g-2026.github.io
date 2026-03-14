@@ -367,32 +367,28 @@
   },
   "venue": {
     "title": "Venue",
+    "overview": "Conference Venue",
     "main_venue": {
       "title": "International Conference Center Hiroshima",
-      "description": "The main conference venue is the International Conference Center Hiroshima, a state-of-the-art facility located in the heart of Hiroshima's Peace Memorial Park."
-    },
-    "facilities": {
-      "title": "Facilities",
-      "main_auditorium": "Main auditorium (1,500 seats)",
-      "breakout_rooms": "Multiple breakout rooms",
-      "exhibition_hall": "Exhibition hall",
-      "wifi": "(TBC)WiFi throughout",
-      "accessible": "(TBC)Accessible facilities",
-      "childcare": "(TBC)Childcare services"
-    },
-    "address": {
-      "title": "Address",
-      "full_address": "1-5 Nakajima-cho, Naka-ku, Hiroshima 730-0811, Japan",
-      "note": "5-minute walk from Peace Memorial Park"
-    },
-    "placeholders": {
-      "venue_photo": "Venue Photo Placeholder",
-      "venue_map": "Venue Map Placeholder"
+      "description": "The main conference venue for FOSS4G Hiroshima 2026 is the International Conference Center Hiroshima.",
+      "details": "The International Conference Center Hiroshima is an international conference and cultural exchange facility located within Peace Memorial Park. Established to promote international exchange and enhance civic culture, it accommodates a wide range of events — from concerts and lectures to domestic and international conferences, exhibitions, and corporate meetings. The center has an outstanding track record as a stage for international events, including serving as the venue for the G7 Hiroshima Summit.",
+      "address_title": "Venue Details",
+      "address": "1-5 Nakajima-cho, Naka-ku, Hiroshima (within Peace Memorial Park)",
+      "access": [
+        "10-minute walk from Hiroden (Hiroshima Electric Railway) Genbaku-dome-mae stop.",
+        "Directly accessible from Hiroshima Bus Route 24 at the Peace Memorial Park bus stop."
+      ]
     },
     "workshop_venue": {
-      "title": "Workshop Venue",
-      "name": "RCC Bunka Center",
-      "description": "Hands-on workshops will be held at RCC Bunka Center, equipped with computer labs and technical facilities."
+      "title": "RCC Bunka Center",
+      "description": "Workshops for FOSS4G Hiroshima 2026 will be held at the RCC Bunka Center.",
+      "details": "The RCC Bunka Center is located in Hashimoto-cho, Naka-ku, Hiroshima, and offers excellent access — approximately 10 minutes on foot from JR Hiroshima Station and about 5 minutes from the Hiroden \"Kanayamacho\" tram stop. The facility features a variety of meeting rooms of different sizes, suitable for a wide range of purposes including conferences, seminars, workshops, training sessions, and exhibitions.",
+      "address_title": "Venue Details",
+      "address": "5-11 Hashimoto-cho, Naka-ku, Hiroshima",
+      "access": [
+        "10-minute walk from Hiroshima Station South Exit.",
+        "5-minute walk from Hiroden Kanayamacho tram stop."
+      ]
     }
   },
   "transport": {
