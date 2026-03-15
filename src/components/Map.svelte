@@ -26,6 +26,11 @@
         <div class="text-center loading-none">
           {#if item.icon}
             <img src={item.icon} alt={item.title} class="w-6 h-6" />
+          {:else if item.label !== undefined}
+            <!-- Numbered circle marker -->
+            <div class="flex items-center justify-center w-8 h-8 rounded-full bg-red-500 text-white text-xs font-bold shadow-md border-2 border-white leading-none">
+              {item.label}
+            </div>
           {:else}
             <!-- Standard map pin marker -->
             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class={item.color || "text-red-500"}>

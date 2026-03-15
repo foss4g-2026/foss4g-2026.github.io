@@ -408,6 +408,66 @@
       "description": "託児サービスの提供に関する情報。"
     }
   },
+  "accommodation": {
+    "title": "宿泊",
+    "intro": "広島市内のホテルやペンションをご紹介します。",
+    "disclaimer": "運営メンバーからホテルの予約を代行することはありません。各施設へ直接ご予約ください。",
+    "table": {
+      "number": "No.",
+      "name": "名称",
+      "category": "カテゴリ",
+      "website": "Webサイト"
+    },
+    "categories": {
+      "hotel": "ホテル",
+      "pension": "ペンション・コテージ",
+      "ryokan": "旅館"
+    },
+    "legend": {
+      "hotels": "ホテル等",
+      "hiroshima_station": "広島駅"
+    },
+    "hotels": [
+      { "name": "ANA Crowne Plaza Hiroshima", "category": "hotel", "url": "https://www.ihg.com/crowneplaza/hotels/us/en/hiroshima/hijja/hoteldetail", "lng": 132.4569381, "lat": 34.390445 },
+      { "name": "Mitsui Garden Hotel Hiroshima", "category": "hotel", "url": "https://www.gardenhotels.co.jp/hiroshima/eng/", "lng": 132.4592915, "lat": 34.389546 },
+      { "name": "RIHGA Royal Hotel Hiroshima", "category": "hotel", "url": "https://www.rihga.com/hiroshima", "lng": 132.4573815, "lat": 34.397438 },
+      { "name": "Hilton Hiroshima", "category": "hotel", "url": "https://www.hilton.com/en/hotels/hijshhi-hilton-hiroshima/", "lng": 132.4621165, "lat": 34.386168 },
+      { "name": "Hiroshima City Bunka Koryu Kaikan", "category": "hotel", "url": "https://h-bkk.jp/stay/", "lng": 132.4489769, "lat": 34.3887901 },
+      { "name": "Urbain Hiroshima Central", "category": "hotel", "url": "https://www.urbain-hotels.com/hce", "lng": 132.4646004, "lat": 34.39646383 },
+      { "name": "Alley Hotel Hiroshima Namiki-dori", "category": "hotel", "url": "https://www.2482255.com/", "lng": 132.4609212, "lat": 34.39073819 },
+      { "name": "WeBase HIROSHIMA", "category": "pension", "url": "https://we-base.jp/hiroshima/", "lng": 132.4592418, "lat": 34.39014592 },
+      { "name": "EN HOTEL Hiroshima", "category": "hotel", "url": "https://en-hotel.com/hiroshima/ja/", "lng": 132.4684719, "lat": 34.3915992 },
+      { "name": "Oriental Hotel Hiroshima", "category": "hotel", "url": "https://www.oriental-hiroshima.com/index.html", "lng": 132.4638647, "lat": 34.38823629 },
+      { "name": "Grand Prince Hotel Hiroshima", "category": "hotel", "url": "http://www.princehotels.co.jp/hiroshima/", "lng": 132.4640634, "lat": 34.3430145 },
+      { "name": "Koko Hotel Hiroshima Ekimae", "category": "hotel", "url": "https://koko-hotels.com/hiroshima_ekimae/", "lng": 132.472577, "lat": 34.39407666 },
+      { "name": "Sotetsu Fresa Inn Hiroshima", "category": "hotel", "url": "https://sotetsu-hotels.com/fresa-inn/hiroshima-ekimae/", "lng": 132.4766571, "lat": 34.3948531 },
+      { "name": "Toyoko Inn Hiroshima-eki Minami-guchi Migi", "category": "hotel", "url": "https://www.toyoko-inn.com/search/detail/00145/", "lng": 132.4682221, "lat": 34.39673776 },
+      { "name": "Hiroshima Intelligent Hotel Annex", "category": "hotel", "url": "http://www.intelligent-hotel.co.jp/annex/", "lng": 132.4703289, "lat": 34.39241577 },
+      { "name": "Hiroshima Intelligent Hotel Stadium", "category": "hotel", "url": "https://intelligent-hotel.co.jp/main/", "lng": 132.4797677, "lat": 34.39462614 },
+      { "name": "Hiroshima Guesthouse EN", "category": "pension", "url": "https://hostel-en.com/", "lng": 132.4507593, "lat": 34.4079974 },
+      { "name": "Hiroshima Guesthouse HARU", "category": "pension", "url": "", "lng": 132.4817685, "lat": 34.3904329 },
+      { "name": "Hiroshima Tokyu Rei Hotel", "category": "hotel", "url": "https://www.tokyuhotels.co.jp/hiroshima-r/index.html", "lng": 132.4616894, "lat": 34.38883199 },
+      { "name": "Hiroshima no Yado Aioi", "category": "ryokan", "url": "https://aioi-hiroshima.com/", "lng": 132.4544134, "lat": 34.3954727 },
+      { "name": "Hiroshima Pacific Hotel", "category": "hotel", "url": "http://h-pacific.com/", "lng": 132.4643062, "lat": 34.3982047 },
+      { "name": "Hiroshima Peace Hotel", "category": "hotel", "url": "http://www.peace-h.com/", "lng": 132.4495825, "lat": 34.4088008 },
+      { "name": "Vessel Inn Hiroshima Ekimae", "category": "hotel", "url": "https://www.vessel-hotel.jp/inn/hiroshima/", "lng": 132.4782534, "lat": 34.39334891 },
+      { "name": "Hostel Mallika", "category": "pension", "url": "", "lng": 132.4500149, "lat": 34.3898512 },
+      { "name": "Hotel Granvia Hiroshima", "category": "hotel", "url": "http://hgh.co.jp/", "lng": 132.4755149, "lat": 34.39912045 },
+      { "name": "Hotel Kuretakeso Hiroshima Otemachi", "category": "hotel", "url": "http://www.kuretake-inn.com/hiroshima/", "lng": 132.454945, "lat": 34.38812005 },
+      { "name": "Hotel New Yorishiro", "category": "hotel", "url": "https://yorishiro.info/", "lng": 132.4801717, "lat": 34.39690965 },
+      { "name": "Hiroshima Garden Palace", "category": "hotel", "url": "https://www.hotelgp-hiroshima.com/", "lng": 132.4801576, "lat": 34.3969038 },
+      { "name": "Hotel Promote Hiroshima", "category": "hotel", "url": "https://www.promote-hiroshima.com/", "lng": 132.4445982, "lat": 34.3936264 },
+      { "name": "Hotel Hokke Club Hiroshima", "category": "hotel", "url": "https://www.hokke.co.jp/hiroshima/", "lng": 132.4575986, "lat": 34.39042452 },
+      { "name": "Hotel Mystays Hiroshima Peace Park", "category": "hotel", "url": "https://www.mystays.com/hotel-mystays-hiroshima-peace-park-hiroshima/", "lng": 132.4540476, "lat": 34.38964371 },
+      { "name": "LAZULI HIROSHIMA HOTEL&LOUNGE", "category": "ryokan", "url": "https://lazulihiroshima.com/", "lng": 132.4794683, "lat": 34.39080284 },
+      { "name": "Urbain Hiroshima Executive", "category": "hotel", "url": "https://www.urbain-hotels.com/hex/", "lng": 132.4800296, "lat": 34.3970976 },
+      { "name": "Hotel Park Side Hiroshima Peace Park", "category": "hotel", "url": "https://www.park-side.co.jp/", "lng": 132.4555812, "lat": 34.3922827 },
+      { "name": "HOTEL GRANVIA HIROSHIMA SOUTH GATE", "category": "hotel", "url": "https://southgate.hgh.co.jp/", "lng": 132.4752182, "lat": 34.39740833 },
+      { "name": "HOTEL SUITE HIROSHIMA YOKOGAWA", "category": "hotel", "url": "https://www.hotelsuite.co.jp/yokogawa/", "lng": 132.4520592, "lat": 34.41279636 },
+      { "name": "HOTEL SUITE HIROSHIMA HAKUSHIMA", "category": "hotel", "url": "https://www.hotelsuite.co.jp/hakushima/", "lng": 132.4659868, "lat": 34.40562895 },
+      { "name": "J-Hoppers Hiroshima Guesthouse", "category": "pension", "url": "https://hiroshima.j-hoppers.com/ja/", "lng": 132.4472315, "lat": 34.3930168 }
+    ]
+  },
   "childcare": {
       "title": "託児サービス",
       "description": "FOSS4G Hiroshima 2026では、小さなご家族がいる人も参加しやすいように、託児サービスを提供します。"

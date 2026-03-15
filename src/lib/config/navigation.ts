@@ -51,7 +51,7 @@ export const navigationConfig = {
       venue: { enabled: true },
       transport: { enabled: true },
       travelGuide: { enabled: false }, // Disabled per user request
-      accommodation: { enabled: false }, // Disabled per user request
+      accommodation: { enabled: true },
       childcare: { enabled: false }
     }
   },
