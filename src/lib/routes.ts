@@ -37,6 +37,7 @@ const base_routes = [
   '/attending/transport',
   '/attending/travel-guide',
   '/attending/accommodation',
+  '/attending/childcare',
   // Contact (single page)
   '/contact'
 ] as const
