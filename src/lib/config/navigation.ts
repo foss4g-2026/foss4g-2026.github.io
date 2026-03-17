@@ -52,7 +52,7 @@ export const navigationConfig = {
       transport: { enabled: true },
       travelGuide: { enabled: false }, // Disabled per user request
       accommodation: { enabled: true },
-      childcare: { enabled: false }
+      childcare: { enabled: true }
     }
   },
   contact: {
