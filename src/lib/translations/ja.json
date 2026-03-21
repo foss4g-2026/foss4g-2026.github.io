@@ -37,7 +37,8 @@
       "keynote": "基調講演",
       "presentations": "発表",
       "workshops": "ワークショップ",
-      "events": "イベント"
+      "events": "イベント",
+      "geochicas": "Geochicas"
     },
     "attending_sub": {
       "venue": "会議会場",
@@ -383,6 +384,52 @@
     },
     "events": {
       "title": "イベント"
+    },
+    "geochicas": {
+      "title": "Geochicas take Hiroshima!",
+      "event_info": {
+        "title": "イベント情報",
+        "headers": {
+          "item": "項目",
+          "details": "詳細"
+        },
+        "date_time": "日時",
+        "venue": "会場",
+        "tbc": "未定"
+      },
+      "about": {
+        "title": "Geochicasについて",
+        "description": "Geochicasは、OpenStreetMap、OSGeo、そしてより広範な地理空間情報やオープンソースのコミュニティにおける、トランスジェンダーを含む女性たちのグループです。彼女たちは活動の柱として、以下の3点を掲げています。",
+        "pillars": [
+          "コミュニティの意思決定の場における、女性やジェンダーマイノリティの役割",
+          "コミュニティのデータおよび活動指針の両面における、女性やジェンダーマイノリティのニーズの反映",
+          "コミュニティ活動への女性やジェンダーマイノリティの参画"
+        ],
+        "anniversary": "今年、GeochicasはこのFOSS4Gと、11月にメキシコシティで開催されるState of the Map Latam 2026で10周年を祝います。"
+      },
+      "gathering": {
+        "title": "Geochicas Take!",
+        "description": "「Geochicas Take!」の集まりは、これまでに10カ国以上、15都市を超えて開催されてきました。このイベントは、以下のような活動に最適な場となっています。",
+        "opportunities": [
+          "地理空間情報コミュニティにおける女性や支援者とのつながりを作る",
+          "経験や知見を共有する",
+          "オープンソースの地理空間分野におけるジェンダー平等の課題や機会について議論する",
+          "国境を越えて連帯し、支援ネットワークを構築する",
+          "この分野における女性の貢献を称え合う"
+        ]
+      },
+      "notice": {
+        "exclusive": "イベントの最初の1時間は、女性（自身を女性と自認するすべての方）限定のセッションです。",
+        "exclusive_detail": "互いの活動を振り返り、学び合える場を提供します。その後は、すべてのジェンダーの方が参加可能です！",
+        "support": "1時間が経過した後は、地理空間情報コミュニティにおけるジェンダー平等を支援する仲間として、皆さんとお会いできるのを楽しみにしています。"
+      },
+      "learn_more": {
+        "title": "詳細情報",
+        "description": "Geochicasの活動についてもっと知りたい方は、ウェブサイト",
+        "website": "geochicas.community",
+        "instagram": "@geochicasosm",
+        "and": "をご覧いただき、Instagram"
+      }
     }
   },
   "attending": {

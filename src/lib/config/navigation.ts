@@ -42,7 +42,8 @@ export const navigationConfig = {
       keynote: { enabled: false }, // Disabled per user request
       presentations: { enabled: false }, // Disabled per user request
       workshops: { enabled: false }, // Disabled per user request
-      events: { enabled: false } // Disabled per user request
+      events: { enabled: false }, // Disabled per user request
+      geochicas: { enabled: true }
     }
   },
   attending: {
