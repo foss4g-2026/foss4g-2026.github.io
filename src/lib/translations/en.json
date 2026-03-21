@@ -132,7 +132,8 @@
       "keynote": "Keynote Speakers",
       "presentations": "Presentations",
       "workshops": "Workshops",
-      "events": "Events"
+      "events": "Events",
+      "geochicas": "Geochicas"
     },
     "attending_sub": {
       "venue": "Conference Venue",
@@ -1410,6 +1411,52 @@
     },
     "events": {
       "title": "Events"
+    },
+    "geochicas": {
+      "title": "Geochicas take Hiroshima!",
+      "event_info": {
+        "title": "Event Information",
+        "headers": {
+          "item": "Item",
+          "details": "Details"
+        },
+        "date_time": "Date & Time",
+        "venue": "Venue",
+        "tbc": "TBC"
+      },
+      "about": {
+        "title": "About Geochicas",
+        "description": "Geochicas is a transinclusive women's group within the OpenStreetMap, OSGeo and broader geospatial and open source communities. They center their work in three pillars:",
+        "pillars": [
+          "Role of women and gender minorities in community decision-making forums",
+          "Representation of the needs of women and gender minorities in both community data and the community agenda",
+          "Participation of women and gender minorities in community activities"
+        ],
+        "anniversary": "This year, Geochicas is celebrating their 10th anniversary during this FOSS4G and also in November during the State of the Map Latam 2026, in Mexico city."
+      },
+      "gathering": {
+        "title": "The Geochicas Take! Gathering",
+        "description": "The Geochicas Take! gathering has been held in more than 15 cities, across more than 10 countries. This event is a great opportunity to:",
+        "opportunities": [
+          "Connect with women and allies in the geospatial community",
+          "Share experiences and insights",
+          "Discuss challenges and opportunities for gender equity in open source geospatial",
+          "Build solidarity and support networks across borders",
+          "Celebrate the contributions of women in our field"
+        ]
+      },
+      "notice": {
+        "exclusive": "The first hour of the event is exclusive for women",
+        "exclusive_detail": "(everyone that self-identifies as a woman) to have a space to reflect and learn amongst each other. After that all genders welcome!",
+        "support": "After the hour we hope to see you there, supporting gender equity in the geospatial community."
+      },
+      "learn_more": {
+        "title": "Learn More",
+        "description": "If you want to learn more about the work of Geochicas you can go to their website",
+        "website": "geochicas.community",
+        "instagram": "@geochicasosm",
+        "and": "and follow them on Instagram"
+      }
     }
   },
   "attending": {
