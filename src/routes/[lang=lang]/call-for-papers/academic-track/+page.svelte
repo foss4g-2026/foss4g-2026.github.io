@@ -15,11 +15,15 @@
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.academic_track')}</h1>
   
   <!-- Submit Button with Logo -->
-  <SubmitButton 
-    href="https://talks.osgeo.org/fossg4-2026-academic-track/cfp"
-    target="_blank"
-    rel="noopener noreferrer"
-  />
+  <div class="text-center mb-8">
+    <SubmitButton 
+      href="https://talks.osgeo.org/fossg4-2026-academic-track/cfp"
+      disabled={true}
+    />
+    <p class="mt-4 text-red-600 font-semibold">
+      Academic Track submission was closed on March 16, 2026.
+    </p>
+  </div>
   
   <div class="prose max-w-none">
     <!-- Conference Registration Notice -->
