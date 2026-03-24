@@ -14,12 +14,40 @@
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.workshops')}</h1>
   
-  <!-- Submit Button with Logo -->
+  <!-- Community Vote Button -->
   <SubmitButton 
-    href="https://talks.osgeo.org/foss4g-2026-workshop/cfp"
+    href="https://talks.osgeo.org/foss4g-2026-workshop/p/voting/signup/"
+    text={$t('call_for_papers.workshops.community_vote_button')}
     target="_blank"
     rel="noopener noreferrer"
   />
+  
+  <!-- Community Vote Description -->
+  <div class="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8 rounded-r-lg">
+    <h3 class="text-lg font-semibold text-blue-900 mb-3">{$t('call_for_papers.workshops.community_vote_button')}</h3>
+    <p class="text-blue-800 mb-3">
+      {$t('call_for_papers.workshops.community_vote_intro')}
+    </p>
+    <ol class="list-decimal list-inside text-blue-800 mb-4 space-y-2">
+      {#each $t('call_for_papers.workshops.community_vote_steps') as step}
+        <li>{step}</li>
+      {/each}
+    </ol>
+    <p class="text-blue-900 font-semibold">
+      {$t('call_for_papers.workshops.community_vote_period')}
+    </p>
+  </div>
+  
+  <!-- Submit Button with Logo -->
+  <div class="text-center mb-8">
+    <SubmitButton 
+      href="https://talks.osgeo.org/foss4g-2026-workshop/cfp"
+      disabled={true}
+    />
+    <p class="mt-4 text-red-600 font-semibold">
+      Workshop submission was closed on March 23, 2026.
+    </p>
+  </div>
   
   <div class="prose max-w-none">
     <!-- Conference Registration Notice -->

@@ -67,7 +67,7 @@
         "label": "Call for Proposals (Preliminary)",
         "period": "December, 2025 - March, 2026",
         "banner_prefix": "[News]",
-        "banner_text": "CfP (General & Workshops) extended to March 23, 2026",
+        "banner_text": "Community Vote for General & Workshops open until April 3, 2026",
         "banner_link": "View details"
       },
       "adoption": {
@@ -111,7 +111,7 @@
       "code_of_conduct": "Code of Conduct",
       "privacy_policy": "Privacy Policy",
       "terms_conditions": "Terms and Conditions",
-      "sponsors": "Information for Sponsors"
+      "sponsors": "Sponsors"
     },
     "register_sub": {
       "registration": "Registration",
@@ -1140,6 +1140,15 @@
       "title": "General Sessions",
       "description": "Information about general presentation submissions.",
       "coming_soon_message": "Call for Papers will open in December 2025",
+      "community_vote_button": "Community Vote",
+      "community_vote_intro": "You can vote on proposals for the general session and workshop. It's time to vote for what you'd like to see!",
+      "community_vote_steps": [
+        "Register your email address",
+        "You will receive an email with a link to vote",
+        "Click the link to see all the proposals for the Conference",
+        "Vote for the proposals you'd like to see!"
+      ],
+      "community_vote_period": "Voting take place from March 24, 2026 to April 3, 2026",
       "topics": {
         "title": "General Session Topics",
         "intro": "We welcome presentations on all aspects of open-source geospatial technologies, including but not limited to:",
@@ -1313,6 +1322,15 @@
       "title": "Workshops",
       "description": "Information about workshop submissions and requirements.",
       "submit_button": "Submit a proposal for Workshops",
+      "community_vote_button": "Community Vote",
+      "community_vote_intro": "You can vote on proposals for the general session and workshop. It's time to vote for what you'd like to see!",
+      "community_vote_steps": [
+        "Register your email address",
+        "You will receive an email with a link to vote",
+        "Click the link to see all the proposals for the Conference",
+        "Vote for the proposals you'd like to see!"
+      ],
+      "community_vote_period": "Voting take place from March 24, 2026 to April 3, 2026",
       "overview": {
         "title": "Workshop Overview",
         "description": "Workshops are the showcase of FOSS4G projects. During 3 highly stimulating hours, experienced community members will guide participants through the features of various software projects. Everything happens in a hands-on manner and everyone is invited to use their own computer and bring back home all of their achievements."
