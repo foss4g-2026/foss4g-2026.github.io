@@ -1148,7 +1148,7 @@
         "Click the link to see all the proposals for the Conference",
         "Vote for the proposals you'd like to see!"
       ],
-      "community_vote_period": "Voting take place from March 24, 2026 to April 3, 2026",
+      "community_vote_period": "Voting take place from March 24, 2026 to April 3, 2026 (UTC)",
       "topics": {
         "title": "General Session Topics",
         "intro": "We welcome presentations on all aspects of open-source geospatial technologies, including but not limited to:",
@@ -1267,12 +1267,12 @@
           },
           "review_period": {
             "phase": "Abstract Review Period",
-            "deadline": "March 17 - April 14, 2026",
+            "deadline": "<span class='line-through'>March 17 - April 14, 2026</span> <span class='text-red-600 font-semibold'>March 17 - April 20, 2026</span>",
             "description": "Scientific Committee review process"
           },
           "notification": {
             "phase": "Abstract Acceptance Notification",
-            "deadline": "April 15, 2026",
+            "deadline": "<span class='line-through'>April 15, 2026</span> <span class='text-red-600 font-semibold'>April 30, 2026</span>",
             "description": "Authors receive feedback and acceptance status"
           },
           "full_paper": {
@@ -1330,7 +1330,7 @@
         "Click the link to see all the proposals for the Conference",
         "Vote for the proposals you'd like to see!"
       ],
-      "community_vote_period": "Voting take place from March 24, 2026 to April 3, 2026",
+      "community_vote_period": "Voting take place from March 24, 2026 to April 3, 2026 (UTC)",
       "overview": {
         "title": "Workshop Overview",
         "description": "Workshops are the showcase of FOSS4G projects. During 3 highly stimulating hours, experienced community members will guide participants through the features of various software projects. Everything happens in a hands-on manner and everyone is invited to use their own computer and bring back home all of their achievements."
