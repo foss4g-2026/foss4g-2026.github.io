@@ -81,7 +81,6 @@
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/about/foss4g'} enabled={isNavEnabled('about', 'foss4g')}>{$t('nav.about_sub.foss4g')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
-              <li><NavLink href={'/' + data.locale + '/about/sponsors'} enabled={isNavEnabled('about', 'sponsors')}>{$t('nav.about_sub.sponsors')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/organizers'} enabled={isNavEnabled('about', 'organizers')}>{$t('nav.about_sub.organizers')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/map'} enabled={isNavEnabled('about', 'map')}>{$t('nav.about_sub.map')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/code-of-conduct'} enabled={isNavEnabled('about', 'codeOfConduct')}>{$t('nav.about_sub.code_of_conduct')}</NavLink></li>
@@ -139,6 +138,7 @@
             </ul>
           </details>
         </li>
+        <li><NavLink href={'/' + data.locale + '/sponsors'} enabled={isNavEnabled('sponsors')}>{$t('nav.sponsors')}</NavLink></li>
         <li><Link href={'/' + data.locale + '/contact'}>{$t('nav.contact')}</Link></li>
         <!-- Language Switcher for Mobile -->
         <li>
@@ -168,7 +168,6 @@
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
             <li><NavLink href={'/' + data.locale + '/about/foss4g'} enabled={isNavEnabled('about', 'foss4g')}>{$t('nav.about_sub.foss4g')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
-            <li><NavLink href={'/' + data.locale + '/about/sponsors'} enabled={isNavEnabled('about', 'sponsors')}>{$t('nav.about_sub.sponsors')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/organizers'} enabled={isNavEnabled('about', 'organizers')}>{$t('nav.about_sub.organizers')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/map'} enabled={isNavEnabled('about', 'map')}>{$t('nav.about_sub.map')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/code-of-conduct'} enabled={isNavEnabled('about', 'codeOfConduct')}>{$t('nav.about_sub.code_of_conduct')}</NavLink></li>
@@ -234,6 +233,9 @@
           </ul>
         </details>
       </li>
+      
+      <!-- Sponsors (single page) -->
+      <li><NavLink href={'/' + data.locale + '/sponsors'} enabled={isNavEnabled('sponsors')}>{$t('nav.sponsors')}</NavLink></li>
       
       <!-- Contact (single page) -->
       <li><Link href={'/' + data.locale + '/contact'}>{$t('nav.contact')}</Link></li>

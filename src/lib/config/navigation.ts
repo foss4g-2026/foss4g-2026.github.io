@@ -11,8 +11,7 @@ export const navigationConfig = {
       concept: { enabled: true },
       codeOfConduct: { enabled: true },
       privacyPolicy: { enabled: true },
-      termsConditions: { enabled: true },
-      sponsors: { enabled: true }
+      termsConditions: { enabled: true }
     }
   },
   register: {
@@ -55,6 +54,9 @@ export const navigationConfig = {
       accommodation: { enabled: true },
       childcare: { enabled: true }
     }
+  },
+  sponsors: {
+    enabled: true
   },
   contact: {
     enabled: true
