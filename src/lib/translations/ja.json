@@ -7,6 +7,7 @@
     "call_for_papers": "発表募集",
     "program_schedule": "プログラム・スケジュール",
     "attending": "参加案内",
+    "sponsors": "スポンサー",
     "contact": "お問い合わせ",
     "about_sub": {
       "foss4g": "FOSS4Gについて",
@@ -15,8 +16,7 @@
       "concept": "コンセプト",
       "code_of_conduct": "行動規範",
       "privacy_policy": "プライバシーポリシー",
-      "terms_conditions": "登録条件及び規約",
-      "sponsors": "スポンサー情報"
+      "terms_conditions": "登録条件及び規約"
     },
     "register_sub": {
       "registration": "参加登録",
@@ -736,6 +736,12 @@
     },
     "sponsors": {
       "title": "スポンサー情報",
+      "call_for_sponsors": {
+        "title": "スポンサー募集のお知らせ",
+        "intro": "20周年の節目を迎えるFOSS4G 2026は、平和の象徴である広島から「地理空間技術と人道支援の架け橋」を世界へ発信します。オープンソースの未来を共に創るパートナーとして、ご支援を心よりお願いいたします。",
+        "prospectus_link": "募集要項（PDF）",
+        "application_form": "申込フォーム"
+      },
       "benefits": {
         "title": "スポンサーシップのメリット",
         "global_audience": "FOSS4Gには、開発者、研究者、政府関係者、地理空間情報技術に携わる企業など、世界中から多様な参加者が集まります。これは、皆様の企業の先進技術や取り組みを紹介し、地理空間情報技術の最新グローバルトレンドについて知見を得る絶好の機会です。",

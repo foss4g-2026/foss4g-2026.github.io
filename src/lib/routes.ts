@@ -9,7 +9,8 @@ const base_routes = [
   '/about/code-of-conduct',
   '/about/privacy-policy',
   '/about/terms-conditions',
-  '/about/sponsors',
+  // Sponsors (top-level page)
+  '/sponsors',
   // Register sub-pages
   '/register',
   '/register/registration',

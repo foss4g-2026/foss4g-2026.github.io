@@ -100,8 +100,9 @@
     "about": "About",
     "register": "Register",
     "call_for_papers": "Call for Proposals",
-    "program_schedule": "Program Schedule",
+    "program_schedule": "Program & Schedule",
     "attending": "Attending",
+    "sponsors": "Sponsors",
     "contact": "Contact",
     "about_sub": {
       "foss4g": "About FOSS4G",
@@ -110,8 +111,7 @@
       "concept": "Concept",
       "code_of_conduct": "Code of Conduct",
       "privacy_policy": "Privacy Policy",
-      "terms_conditions": "Terms and Conditions",
-      "sponsors": "Sponsors"
+      "terms_conditions": "Terms and Conditions"
     },
     "register_sub": {
       "registration": "Registration",
@@ -811,6 +811,12 @@
     },
     "sponsors": {
       "title": "Information for Sponsors",
+      "call_for_sponsors": {
+        "title": "Call for Sponsors",
+        "intro": "FOSS4G 2026 marks its 20th anniversary, broadcasting 'Bridging Geospatial Technology and Humanitarian Support' to the world from Hiroshima, a symbol of peace. We sincerely invite your support as a partner in creating the future of open source.",
+        "prospectus_link": "Prospectus(PDF)",
+        "application_form": "Application Form"
+      },
       "benefits": {
         "title": "Benefits of Sponsorship",
         "global_audience": "FOSS4G attracts diverse participants from around the world including developers, researchers, government officials, and companies involved in geospatial information technology. This is an excellent opportunity to showcase your company's advanced technologies and initiatives while gaining insights into the latest global trends in geospatial information technology.",

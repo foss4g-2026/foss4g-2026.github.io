@@ -75,14 +75,5 @@
         </a>
       </h2>
     </div>
-
-    <!-- Information for Sponsors -->
-    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <h2 class="text-xl font-semibold mb-2">
-        <a href="/{lang}/about/sponsors" class="text-blue-600 hover:text-blue-800 hover:underline">
-          {$t('nav.about_sub.sponsors')}
-        </a>
-      </h2>
-    </div>
   </div>
 </div>
