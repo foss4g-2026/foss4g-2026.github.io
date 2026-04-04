@@ -18,8 +18,7 @@
   <SubmitButton 
     href="https://talks.osgeo.org/foss4g-2026-workshop/p/voting/signup/"
     text={$t('call_for_papers.workshops.community_vote_button')}
-    target="_blank"
-    rel="noopener noreferrer"
+    disabled={true}
   />
   
   <!-- Community Vote Description -->
