@@ -815,7 +815,19 @@
         "title": "Call for Sponsors",
         "intro": "FOSS4G 2026 marks its 20th anniversary, broadcasting 'Bridging Geospatial Technology and Humanitarian Support' to the world from Hiroshima, a symbol of peace. We sincerely invite your support as a partner in creating the future of open source.",
         "prospectus_link": "Prospectus(PDF)",
-        "application_form": "Application Form"
+        "application_form": "Application Form",
+        "alternative_contact": {
+          "title": "For companies unable to access the Google Form",
+          "intro": "If you are unable to access the form or upload files (e.g., due to Google account restrictions or company security policies), we gladly accept sponsorship applications via email. Please send an email to our organizing committee sponsor[at]foss4g.org with the following required information:",
+          "required_info_title": "<Required Information>",
+          "required_info": [
+            "Company or Organization Name",
+            "Contact Person Name",
+            "Email Address",
+            "Preferred Sponsorship Level (Diamond, Platinum, Gold, Silver, Bronze, or Other)"
+          ],
+          "note": "Upon receiving your email, our team will contact you to confirm further details, such as your exhibition booth preferences and logo submission."
+        }
       },
       "benefits": {
         "title": "Benefits of Sponsorship",
