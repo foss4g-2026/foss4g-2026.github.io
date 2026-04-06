@@ -102,6 +102,23 @@
         <span>{$t('about.sponsors.call_for_sponsors.application_form')}</span>
       </a>
     </div>
+    
+    <!-- Alternative Contact Method -->
+    <div class="mt-8 bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg">
+      <h3 class="text-lg font-semibold text-yellow-900 mb-3">{$t('about.sponsors.call_for_sponsors.alternative_contact.title')}</h3>
+      <p class="text-yellow-800 mb-4">
+        {$t('about.sponsors.call_for_sponsors.alternative_contact.intro')}
+      </p>
+      <p class="font-semibold text-yellow-900 mb-2">{$t('about.sponsors.call_for_sponsors.alternative_contact.required_info_title')}</p>
+      <ul class="list-disc list-inside text-yellow-800 mb-4 space-y-1">
+        {#each $t('about.sponsors.call_for_sponsors.alternative_contact.required_info') as item}
+          <li>{item}</li>
+        {/each}
+      </ul>
+      <p class="text-sm text-yellow-800 italic">
+        {$t('about.sponsors.call_for_sponsors.alternative_contact.note')}
+      </p>
+    </div>
   </div>
   
   <div class="prose max-w-none mb-12">
