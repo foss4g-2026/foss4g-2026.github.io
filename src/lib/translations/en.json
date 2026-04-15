@@ -1231,8 +1231,8 @@
             "date": "April 15, 2026"
           },
           "full_program": {
-            "phase": "Full program",
-            "date": "April 22, 2026 (TBC)"
+            "phase": "Program Announcement",
+            "date": "<span class='line-through'>April 22</span> <span class='text-red-600 font-semibold'>Middle of May</span>, 2026 (TBC)"
           }
         }
       },
