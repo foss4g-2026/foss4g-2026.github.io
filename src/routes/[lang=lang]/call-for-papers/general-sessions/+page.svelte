@@ -16,25 +16,14 @@
   <h1 class="text-4xl font-bold mb-8">{$t('nav.cfp_sub.general_sessions')}</h1>
   
   <!-- Community Vote Button -->
-  <SubmitButton 
-    href="https://talks.osgeo.org/foss4g-2026/p/voting/signup/"
-    text={$t('call_for_papers.general_sessions.community_vote_button')}
-    disabled={true}
-  />
-  
-  <!-- Community Vote Description -->
-  <div class="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8 rounded-r-lg">
-    <h3 class="text-lg font-semibold text-blue-900 mb-3">{$t('call_for_papers.general_sessions.community_vote_button')}</h3>
-    <p class="text-blue-800 mb-3">
-      {$t('call_for_papers.general_sessions.community_vote_intro')}
-    </p>
-    <ol class="list-decimal list-inside text-blue-800 mb-4 space-y-2">
-      {#each $t('call_for_papers.general_sessions.community_vote_steps') as step}
-        <li>{step}</li>
-      {/each}
-    </ol>
-    <p class="text-blue-900 font-semibold">
-      {$t('call_for_papers.general_sessions.community_vote_period')}
+  <div class="text-center mb-8">
+    <SubmitButton 
+      href="https://talks.osgeo.org/foss4g-2026/p/voting/signup/"
+      text={$t('call_for_papers.general_sessions.community_vote_button')}
+      disabled={true}
+    />
+    <p class="mt-4 text-gray-600 font-semibold">
+      Community Vote was closed on April 3, 2026.
     </p>
   </div>
   
@@ -44,7 +33,7 @@
       href="https://talks.osgeo.org/foss4g-2026/cfp"
       disabled={true}
     />
-    <p class="mt-4 text-red-600 font-semibold">
+    <p class="mt-4 text-gray-600 font-semibold">
       General Track submission was closed on March 23, 2026.
     </p>
   </div>

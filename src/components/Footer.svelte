@@ -3,7 +3,7 @@
   import { page } from '$app/stores'
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome'
   import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-  import { faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-icons'
+  import { faLinkedin, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
   
   $: locale = $page.params.lang || 'ja'
 </script>
@@ -41,6 +41,13 @@
              class="btn btn-circle btn-outline btn-sm hover:btn-primary"
              title="Telegram">
             <FontAwesomeIcon icon={faTelegram} class="text-lg" />
+          </a>
+          <a href="https://chat.whatsapp.com/Lffta4SIYKOH03aUw318Q1?mode=gi_t" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="btn btn-circle btn-outline btn-sm hover:btn-primary"
+             title="WhatsApp Public Chat">
+            <FontAwesomeIcon icon={faWhatsapp} class="text-lg" />
           </a>
         </div>
       </div>

@@ -1077,8 +1077,8 @@
             "date": "2026年4月15日"
           },
           "full_program": {
-            "phase": "完全プログラム",
-            "date": "2026年4月22日（予定）"
+            "phase": "プログラム発表",
+            "date": "<span class='line-through'>2026年4月22日</span> <span class='text-red-600 font-semibold'>2026年5月中旬頃</span>（予定）"
           }
         }
       },
