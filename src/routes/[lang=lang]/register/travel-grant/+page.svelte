@@ -23,8 +23,11 @@
       text="Apply for TGP"
       disabled={true}
     />
-    <p class="mt-4 text-red-600 font-semibold">
-      TGP application was closed on February 28, 2026.
+    <p class="mt-4 text-gray-600 font-semibold">
+      TGP application was closed on Feb 28.
+    </p>
+    <p class="mt-2 text-red-600 font-semibold">
+      Note: The schedule for contacting grant receivers has been postponed to May 2026.
     </p>
   </div>
 
@@ -36,7 +39,7 @@
       rows={[
         ["TGP application period", "1 February 2026 - 28 February 2026"],
         ["Evaluation", "1 March - 14 April 2026"],
-        ["Contact grant receivers", "15 April 2026"],
+        ["Contact grant receivers", "<span class='line-through'>15 April 2026</span> <span class='text-red-600 font-semibold'>May 2026</span>"],
         ["Conference", "30 August - 5 September 2026"]
       ]}
       class="w-full overflow-x-auto mb-8"
