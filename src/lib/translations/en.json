@@ -96,8 +96,8 @@
     },
     "sponsors": {
       "title": "Sponsors",
-      "media_sponsor": "Media Sponsor",
-      "supporting_sponsors": "Supporting Sponsors"
+      "media_partners": "Media Partners",
+      "supporter_sponsor": "Supporter Sponsors"
     }
   },
   "nav": {
