@@ -33,21 +33,28 @@
 
   // Function to close all dropdowns
   function closeAllDropdowns() {
-    // Mobile dropdowns
-    mobileAboutOpen = false
-    mobileRegisterOpen = false
-    mobileCfpOpen = false
-    mobileProgramOpen = false
-    mobileAttendingOpen = false
-    mobileLanguageOpen = false
-    
-    // Desktop dropdowns
-    desktopAboutOpen = false
-    desktopRegisterOpen = false
-    desktopCfpOpen = false
-    desktopProgramOpen = false
-    desktopAttendingOpen = false
-    desktopLanguageOpen = false
+    closeMobileDropdowns()
+    closeDesktopDropdowns()
+  }
+
+  // Close mobile dropdowns except the one being opened
+  function closeMobileDropdowns(except?: string) {
+    if (except !== 'about') mobileAboutOpen = false
+    if (except !== 'register') mobileRegisterOpen = false
+    if (except !== 'cfp') mobileCfpOpen = false
+    if (except !== 'program') mobileProgramOpen = false
+    if (except !== 'attending') mobileAttendingOpen = false
+    if (except !== 'language') mobileLanguageOpen = false
+  }
+
+  // Close desktop dropdowns except the one being opened
+  function closeDesktopDropdowns(except?: string) {
+    if (except !== 'about') desktopAboutOpen = false
+    if (except !== 'register') desktopRegisterOpen = false
+    if (except !== 'cfp') desktopCfpOpen = false
+    if (except !== 'program') desktopProgramOpen = false
+    if (except !== 'attending') desktopAttendingOpen = false
+    if (except !== 'language') desktopLanguageOpen = false
   }
 
   $effect(() => {
@@ -77,7 +84,7 @@
         <!-- Mobile Menu Items -->
         <li>
           <details bind:open={mobileAboutOpen}>
-            <summary>{$t('nav.about')}</summary>
+            <summary onclick={() => closeMobileDropdowns('about')}>{$t('nav.about')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/about/foss4g'} enabled={isNavEnabled('about', 'foss4g')}>{$t('nav.about_sub.foss4g')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
@@ -91,7 +98,7 @@
         </li>
         <li>
           <details bind:open={mobileRegisterOpen}>
-            <summary>{$t('nav.register')}</summary>
+            <summary onclick={() => closeMobileDropdowns('register')}>{$t('nav.register')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/register/registration'} enabled={isNavEnabled('register', 'registration')}>{$t('nav.register_sub.registration')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/register/studentship'} enabled={isNavEnabled('register', 'studentship')}>{$t('nav.register_sub.studentship')}</NavLink></li>
@@ -105,7 +112,7 @@
         </li>
         <li>
           <details bind:open={mobileCfpOpen}>
-            <summary>{$t('nav.call_for_papers')}</summary>
+            <summary onclick={() => closeMobileDropdowns('cfp')}>{$t('nav.call_for_papers')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/call-for-papers/general-sessions'} enabled={isNavEnabled('cfp', 'generalSessions')}>{$t('nav.cfp_sub.general_sessions')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/call-for-papers/academic-track'} enabled={isNavEnabled('cfp', 'academicTrack')}>{$t('nav.cfp_sub.academic_track')}</NavLink></li>
@@ -115,7 +122,7 @@
         </li>
         <li>
           <details bind:open={mobileProgramOpen}>
-            <summary>{$t('nav.program_schedule')}</summary>
+            <summary onclick={() => closeMobileDropdowns('program')}>{$t('nav.program_schedule')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/program-schedule/outline'} enabled={isNavEnabled('program', 'outline')}>{$t('nav.program_sub.outline')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/keynote'} enabled={isNavEnabled('program', 'keynote')}>{$t('nav.program_sub.keynote')}</NavLink></li>
@@ -128,7 +135,7 @@
         </li>
         <li>
           <details bind:open={mobileAttendingOpen}>
-            <summary>{$t('nav.attending')}</summary>
+            <summary onclick={() => closeMobileDropdowns('attending')}>{$t('nav.attending')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/attending/venue'} enabled={isNavEnabled('attending', 'venue')}>{$t('nav.attending_sub.venue')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
@@ -143,7 +150,7 @@
         <!-- Language Switcher for Mobile -->
         <li>
           <details bind:open={mobileLanguageOpen}>
-            <summary>
+            <summary onclick={() => closeMobileDropdowns('language')}>
               <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" class="iconLanguage_DSK9"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>
               {currentLanguage}
             </summary>
@@ -164,7 +171,7 @@
       <!-- About Dropdown -->
       <li>
         <details bind:open={desktopAboutOpen}>
-          <summary>{$t('nav.about')}</summary>
+          <summary onclick={() => closeDesktopDropdowns('about')}>{$t('nav.about')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
             <li><NavLink href={'/' + data.locale + '/about/foss4g'} enabled={isNavEnabled('about', 'foss4g')}>{$t('nav.about_sub.foss4g')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
@@ -180,7 +187,7 @@
       <!-- Register Dropdown -->
       <li>
         <details bind:open={desktopRegisterOpen}>
-          <summary>{$t('nav.register')}</summary>
+          <summary onclick={() => closeDesktopDropdowns('register')}>{$t('nav.register')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
             <li><NavLink href={'/' + data.locale + '/register/registration'} enabled={isNavEnabled('register', 'registration')}>{$t('nav.register_sub.registration')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/register/studentship'} enabled={isNavEnabled('register', 'studentship')}>{$t('nav.register_sub.studentship')}</NavLink></li>
@@ -196,7 +203,7 @@
       <!-- Call for Papers Dropdown -->
       <li>
         <details bind:open={desktopCfpOpen}>
-          <summary>{$t('nav.call_for_papers')}</summary>
+          <summary onclick={() => closeDesktopDropdowns('cfp')}>{$t('nav.call_for_papers')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
             <li><NavLink href={'/' + data.locale + '/call-for-papers/general-sessions'} enabled={isNavEnabled('cfp', 'generalSessions')}>{$t('nav.cfp_sub.general_sessions')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/call-for-papers/academic-track'} enabled={isNavEnabled('cfp', 'academicTrack')}>{$t('nav.cfp_sub.academic_track')}</NavLink></li>
@@ -208,7 +215,7 @@
       <!-- Program Schedule Dropdown -->
       <li>
         <details bind:open={desktopProgramOpen}>
-          <summary>{$t('nav.program_schedule')}</summary>
+          <summary onclick={() => closeDesktopDropdowns('program')}>{$t('nav.program_schedule')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
             <li><NavLink href={'/' + data.locale + '/program-schedule/outline'} enabled={isNavEnabled('program', 'outline')}>{$t('nav.program_sub.outline')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/keynote'} enabled={isNavEnabled('program', 'keynote')}>{$t('nav.program_sub.keynote')}</NavLink></li>
@@ -223,7 +230,7 @@
       <!-- Attending Dropdown -->
       <li>
         <details bind:open={desktopAttendingOpen}>
-          <summary>{$t('nav.attending')}</summary>
+          <summary onclick={() => closeDesktopDropdowns('attending')}>{$t('nav.attending')}</summary>
           <ul class="bg-base-100 rounded-t-none p-2 w-52">
             <li><NavLink href={'/' + data.locale + '/attending/venue'} enabled={isNavEnabled('attending', 'venue')}>{$t('nav.attending_sub.venue')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
