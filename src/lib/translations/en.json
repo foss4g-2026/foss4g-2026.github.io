@@ -93,6 +93,11 @@
         "label": "Excursions",
         "venue": "Miyajima, Iwakuni Shrine / Hiroshima Peace Memorial Park"
       }
+    },
+    "sponsors": {
+      "title": "Sponsors",
+      "media_sponsor": "Media Sponsor",
+      "supporting_sponsors": "Supporting Sponsors"
     }
   },
   "nav": {
@@ -890,6 +895,9 @@
       "contact": {
         "title": "Contact Information",
         "content": "For sponsorship inquiries, please contact"
+      },
+      "current_sponsors": {
+        "title": "Sponsors"
       }
     }
   },

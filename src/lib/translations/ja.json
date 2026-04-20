@@ -180,6 +180,11 @@
         "label": "Excursions",
         "venue": "宮島、厳島神社 / 平和記念公園"
       }
+    },
+    "sponsors": {
+      "title": "スポンサー",
+      "media_sponsor": "メディアスポンサー",
+      "supporting_sponsors": "サポーティングスポンサー"
     }
   },
   "common": {
@@ -815,6 +820,9 @@
       "contact": {
         "title": "連絡先",
         "content": "スポンサーシップに関する質問は下記までお問い合わせください。"
+      },
+      "current_sponsors": {
+        "title": "スポンサー"
       }
     }
   },

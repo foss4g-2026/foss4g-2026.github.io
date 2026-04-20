@@ -120,6 +120,41 @@
     </div>
   </div>
 
+  <!-- Sponsors Section -->
+  <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
+    <div class="text-center mb-8">
+      <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">{$t('teaser.sponsors.title')}</h2>
+    </div>
+    
+    <!-- Media Sponsor -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.media_sponsor')}</h3>
+      <div class="flex items-center justify-center">
+        <a href="https://www.gisnext.jp/" target="_blank" rel="noopener noreferrer" class="block">
+          <img 
+            src="/images/sponsors/GISnext/logo3.png" 
+            alt="GIS next" 
+            class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+          />
+        </a>
+      </div>
+    </div>
+    
+    <!-- Supporting Sponsors -->
+    <div>
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.supporting_sponsors')}</h3>
+      <div class="flex items-center justify-center">
+        <a href="https://ti.to/" target="_blank" rel="noopener noreferrer" class="block">
+          <img 
+            src="/images/sponsors/Tito/tito-wordmark-blue.svg" 
+            alt="Tito" 
+            class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- Partner Sponsors Section -->
   <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
     <div class="text-center mb-6">

@@ -146,4 +146,37 @@
     <h3 class="text-lg font-semibold mb-2">{$t('about.sponsors.contact.title')}</h3>
     <p>{$t('about.sponsors.contact.content')} <strong>sponsor[at]foss4g.org</strong></p>
   </div>
+
+  <!-- Current Sponsors Section -->
+  <div class="mt-12">
+    <h2 class="text-2xl font-semibold mb-8 text-center">{$t('about.sponsors.current_sponsors.title')}</h2>
+    
+    <!-- Media Sponsor -->
+    <div class="mb-10">
+      <h3 class="text-xl font-semibold text-slate-700 mb-6 text-center">{$t('teaser.sponsors.media_sponsor')}</h3>
+      <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md">
+        <a href="https://www.gisnext.jp/" target="_blank" rel="noopener noreferrer" class="block">
+          <img 
+            src="/images/sponsors/GISnext/logo3.png" 
+            alt="GIS next" 
+            class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
+          />
+        </a>
+      </div>
+    </div>
+    
+    <!-- Supporting Sponsors -->
+    <div>
+      <h3 class="text-xl font-semibold text-slate-700 mb-6 text-center">{$t('teaser.sponsors.supporting_sponsors')}</h3>
+      <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md">
+        <a href="https://ti.to/" target="_blank" rel="noopener noreferrer" class="block">
+          <img 
+            src="/images/sponsors/Tito/tito-wordmark-blue.svg" 
+            alt="Tito" 
+            class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
