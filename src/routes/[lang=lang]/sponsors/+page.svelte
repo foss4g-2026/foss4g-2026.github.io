@@ -157,7 +157,7 @@
       <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md">
         <a href="https://www.gisnext.jp/" target="_blank" rel="noopener noreferrer" class="block">
           <img 
-            src="/images/sponsors/GISnext/logo3.png" 
+            src="/images/sponsors/GISnext/logo2.png"
             alt="GIS next" 
             class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
           />
