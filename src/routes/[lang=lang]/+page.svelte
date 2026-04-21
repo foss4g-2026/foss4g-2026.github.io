@@ -120,6 +120,136 @@
     </div>
   </div>
 
+  <!-- Sponsors Section -->
+  <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
+    <div class="text-center mb-8">
+      <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">{$t('teaser.sponsors.title')}</h2>
+    </div>
+    
+    <!-- Diamond Sponsors -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.diamond_sponsors')}</h3>
+      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://eukarya.io/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Eukarya/eukarya.svg"
+              alt="Eukarya"
+              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Platinum Sponsors -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.platinum_sponsors')}</h3>
+      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.mierune.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/MIERUNE/MIERUNE.png"
+              alt="MIERUNE Inc."
+              class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Silver Sponsors -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.silver_sponsors')}</h3>
+      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.gaia3d.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Gaia3D/gaia3d.avif"
+              alt="Gaia3D Inc"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://prometiprostor.hr/en/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Promet_i_prostor/Promet_i_prostor.png"
+              alt="Promet i prostor d.o.o."
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://qfield.cloud/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/QFieldCloud/QFieldCloud.png"
+              alt="QFieldCloud GmbH"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bronze Sponsors -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.bronze_sponsors')}</h3>
+      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://opendata.aws" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/AWS/AWS.svg"
+              alt="Amazon Web Services (AWS)"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.nayuta-inc.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Nayuta/Nayuta.png"
+              alt="Nayuta, Inc."
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Media Partners -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.media_partners')}</h3>
+      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.gisnext.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/GISnext/logo2.png"
+              alt="GIS next"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Supporter Sponsors -->
+    <div>
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.supporter_sponsor')}</h3>
+      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://ti.to/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Tito/tito-wordmark-blue.svg"
+              alt="Tito"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Partner Sponsors Section -->
   <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
     <div class="text-center mb-6">

@@ -93,6 +93,16 @@
         "label": "Excursions",
         "venue": "Miyajima, Iwakuni Shrine / Hiroshima Peace Memorial Park"
       }
+    },
+    "sponsors": {
+      "title": "Sponsors",
+      "diamond_sponsors": "Diamond Sponsors",
+      "platinum_sponsors": "Platinum Sponsors",
+      "gold_sponsors": "Gold Sponsors",
+      "silver_sponsors": "Silver Sponsors",
+      "bronze_sponsors": "Bronze Sponsors",
+      "media_partners": "Media Partners",
+      "supporter_sponsor": "Supporter Sponsors"
     }
   },
   "nav": {
@@ -890,6 +900,9 @@
       "contact": {
         "title": "Contact Information",
         "content": "For sponsorship inquiries, please contact"
+      },
+      "current_sponsors": {
+        "title": "Sponsors"
       }
     }
   },
@@ -906,8 +919,8 @@
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in February 2026.",
       "main_registration_types": [
         ["<s>Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)</s>", "—"],
-        ["Early Bird (After Super Early Bird ends - April 30, 2026)", "JPY 50,000"],
-        ["Regular (May 1 - September 3, 2026)", "JPY 80,000"],
+        ["Early Bird (After Super Early Bird ends - May 8, 2026)", "JPY 50,000"],
+        ["Regular (May 9 - September 3, 2026)", "JPY 80,000"],
         ["Local", "JPY 40,000"],
         ["Studentship", "JPY 30,000"]
       ],
