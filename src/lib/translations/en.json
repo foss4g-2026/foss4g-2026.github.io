@@ -96,6 +96,11 @@
     },
     "sponsors": {
       "title": "Sponsors",
+      "diamond_sponsors": "Diamond Sponsors",
+      "platinum_sponsors": "Platinum Sponsors",
+      "gold_sponsors": "Gold Sponsors",
+      "silver_sponsors": "Silver Sponsors",
+      "bronze_sponsors": "Bronze Sponsors",
       "media_partners": "Media Partners",
       "supporter_sponsor": "Supporter Sponsors"
     }
