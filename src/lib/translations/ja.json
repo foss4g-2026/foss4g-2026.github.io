@@ -183,8 +183,8 @@
     },
     "sponsors": {
       "title": "スポンサー",
-      "media_sponsor": "メディアスポンサー",
-      "supporting_sponsors": "サポーティングスポンサー"
+      "media_partners": "メディアパートナー",
+      "supporter_sponsor": "サポータースポンサー"
     }
   },
   "common": {

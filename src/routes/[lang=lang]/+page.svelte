@@ -126,9 +126,9 @@
       <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">{$t('teaser.sponsors.title')}</h2>
     </div>
     
-    <!-- Media Sponsor -->
+    <!-- Media Partners -->
     <div class="mb-8">
-      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.media_sponsor')}</h3>
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.media_partners')}</h3>
       <div class="flex items-center justify-center">
         <a href="https://www.gisnext.jp/" target="_blank" rel="noopener noreferrer" class="block">
           <img 
@@ -140,9 +140,9 @@
       </div>
     </div>
     
-    <!-- Supporting Sponsors -->
+    <!-- Supporter Sponsors -->
     <div>
-      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.supporting_sponsors')}</h3>
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.supporter_sponsor')}</h3>
       <div class="flex items-center justify-center">
         <a href="https://ti.to/" target="_blank" rel="noopener noreferrer" class="block">
           <img 
