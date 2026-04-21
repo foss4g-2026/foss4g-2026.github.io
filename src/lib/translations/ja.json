@@ -183,6 +183,11 @@
     },
     "sponsors": {
       "title": "スポンサー",
+      "diamond_sponsors": "ダイヤモンドスポンサー",
+      "platinum_sponsors": "プラチナスポンサー",
+      "gold_sponsors": "ゴールドスポンサー",
+      "silver_sponsors": "シルバースポンサー",
+      "bronze_sponsors": "ブロンズスポンサー",
       "media_partners": "メディアパートナー",
       "supporter_sponsor": "サポータースポンサー"
     }
