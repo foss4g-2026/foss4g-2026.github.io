@@ -39,7 +39,7 @@ export const navigationConfig = {
     subItems: {
       outline: { enabled: true },
       keynote: { enabled: false }, // Disabled per user request
-      presentations: { enabled: false }, // Disabled per user request
+      presentations: { enabled: true },
       workshops: { enabled: true },
       events: { enabled: false }, // Disabled per user request
       geochicas: { enabled: true }

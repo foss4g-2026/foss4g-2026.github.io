@@ -262,6 +262,13 @@
   "presentations": {
     "announcement": "Program details will be announced in April 2026",
     "title": "Presentations",
+    "confirmed_note": "Only presentations that have been confirmed in the proposal submission system are displayed below. This data is as of April 22, 2026.",
+    "search_placeholder": "Search by title or speaker name...",
+    "table_id": "ID",
+    "table_title": "Title",
+    "table_speakers": "Speakers",
+    "no_results": "No presentations found matching your search.",
+    "total_count": "presentations",
     "coming_soon_message": "Program details will be available in July 2026",
     "intro": {
       "description": "Detailed information about presentations will be published once the call for papers closes and the program committee completes the review process."
