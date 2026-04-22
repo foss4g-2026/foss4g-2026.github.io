@@ -40,7 +40,7 @@ export const navigationConfig = {
       outline: { enabled: true },
       keynote: { enabled: false }, // Disabled per user request
       presentations: { enabled: false }, // Disabled per user request
-      workshops: { enabled: false }, // Disabled per user request
+      workshops: { enabled: true },
       events: { enabled: false }, // Disabled per user request
       geochicas: { enabled: true }
     }
