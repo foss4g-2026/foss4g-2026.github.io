@@ -262,6 +262,13 @@
   "presentations": {
     "announcement": "プログラムの詳細は2026年4月に公開予定です",
     "title": "発表",
+    "confirmed_note": "以下は、提案投稿システムで確認済みの発表のみ表示しています。このデータは2026年4月22日時点のものです。",
+    "search_placeholder": "タイトルまたは発表者名で検索...",
+    "table_id": "ID",
+    "table_title": "タイトル",
+    "table_speakers": "発表者",
+    "no_results": "検索条件に一致する発表が見つかりません。",
+    "total_count": "件",
     "coming_soon_message": "プログラムの詳細は2026年7月に公開予定です",
     "intro": {
       "description": "発表の詳細情報は、発表募集の締切後、プログラム委員会による審査プロセスが完了次第公開いたします。"
