@@ -183,7 +183,7 @@
   },
   "map": {
     "settings": {
-      "style": "https://tile.openstreetmap.jp/styles/maptiler-basic-en/style.json"
+      "style": "https://api.protomaps.com/styles/v5/light/en.json?key=8c20b570634902e7"
     },
     "title": {
       "main_venue": "Main Venue"
