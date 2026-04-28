@@ -35,7 +35,7 @@
 </svelte:head>
 
 <Header {data} />
-<div class="mx-auto flex min-h-screen max-w-5xl flex-col gap-6 sm:gap-0 p-4">
+<div class="flex min-h-screen w-full flex-col gap-6 sm:gap-0 py-4 px-8">
   {#if !isHomepage}
     <Breadcrumb {data} />
   {/if}
