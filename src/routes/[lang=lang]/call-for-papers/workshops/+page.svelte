@@ -57,7 +57,7 @@
         [$t('call_for_papers.workshops.timeline.rows.submission.phase'), $t('call_for_papers.workshops.timeline.rows.submission.deadline'), $t('call_for_papers.workshops.timeline.rows.submission.description')],
         [$t('call_for_papers.workshops.timeline.rows.vote.phase'), $t('call_for_papers.workshops.timeline.rows.vote.deadline'), $t('call_for_papers.workshops.timeline.rows.vote.description')],
         [$t('call_for_papers.workshops.timeline.rows.announcement.phase'), $t('call_for_papers.workshops.timeline.rows.announcement.deadline'), $t('call_for_papers.workshops.timeline.rows.announcement.description')],
-        [$t('call_for_papers.workshops.timeline.rows.program.phase'), $t('call_for_papers.workshops.timeline.rows.program.deadline'), $t('call_for_papers.workshops.timeline.rows.program.description')]
+        [$t('call_for_papers.workshops.timeline.rows.program.phase'), `${$t('call_for_papers.workshops.timeline.rows.program.deadline')} (<a href="/${lang}/program-schedule/workshops" class="text-blue-600 hover:text-blue-800 hover:underline font-semibold">${$t('call_for_papers.workshops.timeline.rows.program.deadline_link')}</a>)`, $t('call_for_papers.workshops.timeline.rows.program.description')]
       ]}
       class="mb-8"
     />
