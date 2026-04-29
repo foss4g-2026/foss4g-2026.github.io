@@ -214,6 +214,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://auspatious.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Auspatious/10_logo_Auspatious.png"
+              alt="Auspatious"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 

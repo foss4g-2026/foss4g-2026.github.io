@@ -230,12 +230,21 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.5rem)]">
           <a href="https://www.nayuta-inc.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Nayuta/Nayuta.png"
               alt="Nayuta, Inc."
               class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://auspatious.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Auspatious/10_logo_Auspatious.png"
+              alt="Auspatious"
+              class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
