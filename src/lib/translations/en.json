@@ -67,8 +67,8 @@
         "label": "Call for Proposals (Preliminary)",
         "period": "December, 2025 - March, 2026",
         "banner_prefix": "[News]",
-        "banner_text": "We are now accepting sponsorship applications!",
-        "banner_link": "Learn more"
+        "banner_text": "Workshop tickets are now available!",
+        "banner_link": "Purchase Tickets"
       },
       "adoption": {
         "label": "Adoption Period (Preliminary)",
@@ -367,6 +367,8 @@
   "workshops": {
     "announcement": "Program details will be announced in April 2026",
     "title": "Workshops",
+    "purchase_ticket_button": "Register Now",
+    "ticket_info": "Workshop tickets are now available! Each workshop slot is a separate ticket. Spots are limited — register early to secure your preferred session!",
     "schedule_description": "Workshops are held in classroom-style half-day sessions, either in the morning or afternoon. They will take place on Sunday, August 30 and Monday, August 31, 2026, with a maximum duration of 3 hours.",
     "schedule_note_timetable": "Please note that the timetable is provisional and subject to change, including possible adjustments to room assignments.",
     "schedule_note_sponsored": "Information on sponsored workshops will be announced at a later date.",
@@ -1401,8 +1403,9 @@
             "description": "Notification of accepted workshop proposals"
           },
           "program": {
-            "phase": "Full Program Release",
-            "deadline": "April 22, 2026 (TBC)",
+            "phase": "Workshop Program",
+            "deadline": "April 22, 2026",
+            "deadline_link": "View Schedule",
             "description": "Complete workshop schedule and details published"
           }
         }

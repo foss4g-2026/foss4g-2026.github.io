@@ -2,6 +2,7 @@
   import { t } from 'svelte-i18n'
   import { page } from '$app/state'
   import { onMount } from 'svelte'
+  import SubmitButton from '$components/SubmitButton.svelte'
 
   let widgetContainer: HTMLDivElement
 
@@ -31,6 +32,20 @@
 
 <div class="py-4">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.program_sub.workshops')}</h1>
+
+  <!-- Ticket Purchase Button -->
+  <SubmitButton 
+    href="https://ti.to/osgeo-jp/foss4g-2026"
+    text={$t('workshops.purchase_ticket_button')}
+    disabled={false}
+    target="_blank"
+    rel="noopener noreferrer"
+  />
+
+  <!-- Ticket Info Banner -->
+  <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
+    <p class="text-base text-gray-800">{$t('workshops.ticket_info')}</p>
+  </div>
 
   <div class="prose max-w-none mb-8">
     <p class="text-lg">{$t('workshops.schedule_description')}</p>
