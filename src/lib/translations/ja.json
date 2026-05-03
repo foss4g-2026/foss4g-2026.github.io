@@ -47,6 +47,10 @@
       "accommodation": "宿泊",
       "childcare": "託児サービス"
     },
+    "sponsors_sub": {
+      "information_for_sponsors": "スポンサー募集",
+      "honorable_mentions": "Honorable Mentions"
+    },
     "attend": {
       "register": "参加申し込み",
       "volunteering": "ボランティア",
@@ -758,7 +762,30 @@
       }
     },
     "sponsors": {
-      "title": "スポンサー情報",
+      "title": "スポンサー",
+      "landing": {
+        "information_description": "スポンサーシップパッケージ、特典、FOSS4G Hiroshima 2026のスポンサーになる方法について詳しくご覧ください。",
+        "honorable_description": "Adopt-a-ticketプログラムを通じて、コミュニティを寛大にサポートしてくださった方々への感謝の意を表します。"
+      },
+      "honorable_mentions": {
+        "title": "Honorable Mentions",
+        "intro": "親切な行為を目の当たりにすることは素晴らしいことです — コミュニティのために寛大に寄付してくださる人々がいます。",
+        "description_before": "今年の",
+        "description_link": "Adopt-a-ticket",
+        "description_after": "プログラムに参加してくださったすべての方々に深く感謝いたします。ワークショップ講師、旅費助成受給者、その他の参加者のチケット費用を負担していただくことで、FOSS4G Hiroshima 2026をより包括的で、多様性に富み、アクセスしやすいものにしていただきました。これらの行為は、オープンソースが本当に何であるかを思い出させてくれます — 人々が人々を支援することです。",
+        "supporters_title": "Adopt-a-ticket 寄付者の皆様",
+        "supporters": [
+          "Thomas Palan",
+          "Bonifacio Di Pietrantonio",
+          "Julian Simoni",
+          "Jarrett Keifer",
+          "Robert Cheetham",
+          "Francis Josef Gasgonia",
+          "Jared K Marcotte",
+          "Edoardo Neerhut"
+        ],
+        "thank_you": "その精神の一部となっていただき、ありがとうございます。"
+      },
       "call_for_sponsors": {
         "title": "スポンサー募集のお知らせ",
         "intro": "20周年の節目を迎えるFOSS4G 2026は、平和の象徴である広島から「地理空間技術と人道支援の架け橋」を世界へ発信します。オープンソースの未来を共に創るパートナーとして、ご支援を心よりお願いいたします。",

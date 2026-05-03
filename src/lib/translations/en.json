@@ -152,6 +152,10 @@
       "accommodation": "Accommodation",
       "childcare": "Childcare"
     },
+    "sponsors_sub": {
+      "information_for_sponsors": "Call for Sponsors",
+      "honorable_mentions": "Honorable Mentions"
+    },
     "attend": {
       "register": "Register",
       "volunteering": "Volunteering",
@@ -833,7 +837,30 @@
       }
     },
     "sponsors": {
-      "title": "Information for Sponsors",
+      "title": "Sponsors",
+      "landing": {
+        "information_description": "Learn about sponsorship packages, benefits, and how to become a sponsor for FOSS4G Hiroshima 2026.",
+        "honorable_description": "Recognizing individuals who generously supported our community through the Adopt-a-ticket program."
+      },
+      "honorable_mentions": {
+        "title": "Honorable Mentions",
+        "intro": "It's incredible to witness random acts of kindness — people giving generously for the good of the community.",
+        "description_before": "We are deeply grateful to everyone who chose to participate in this year's",
+        "description_link": "Adopt-a-ticket",
+        "description_after": "program. By covering the cost of tickets for workshop instructors, travel grant recipients, and other participants, you've helped make FOSS4G Hiroshima 2026 more inclusive, diverse, and accessible. These gestures remind us what open source is really about — people supporting people.",
+        "supporters_title": "Adopt-a-ticket Contributors",
+        "supporters": [
+          "Thomas Palan",
+          "Bonifacio Di Pietrantonio",
+          "Julian Simoni",
+          "Jarrett Keifer",
+          "Robert Cheetham",
+          "Francis Josef Gasgonia",
+          "Jared K Marcotte",
+          "Edoardo Neerhut"
+        ],
+        "thank_you": "Thank you for being part of that spirit."
+      },
       "call_for_sponsors": {
         "title": "Call for Sponsors",
         "intro": "FOSS4G 2026 marks its 20th anniversary, broadcasting 'Bridging Geospatial Technology and Humanitarian Support' to the world from Hiroshima, a symbol of peace. We sincerely invite your support as a partner in creating the future of open source.",
@@ -1009,7 +1036,9 @@
       },
       "benefits": {
         "title": "What's in it for you?",
-        "description": "With 'Adopt-a-ticket' you can purchase any number of extra tickets. In return we would like to show our gratitude by having you included in the 'Honorable mentions' section of the conference homepage. If you buy more than one extra ticket with 'adopt-a-ticket' then you would instead be eligible for any of the predefined sponsor packages in an equal amount."
+        "description_before": "With 'Adopt-a-ticket' you can purchase any number of extra tickets. In return we would like to show our gratitude by having you included in the",
+        "description_link": "Honorable mentions",
+        "description_after": "section of the conference homepage. If you buy more than one extra ticket with 'adopt-a-ticket' then you would instead be eligible for any of the predefined sponsor packages in an equal amount."
       }
     },
     "travel_grant": {

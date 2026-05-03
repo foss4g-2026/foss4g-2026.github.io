@@ -1,5 +1,8 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
+  import { page } from '$app/stores'
+  
+  $: lang = $page.params.lang || 'en'
 </script>
 
 <svelte:head>
@@ -41,7 +44,13 @@
   <div class="mb-8">
     <h2 class="text-2xl font-semibold mb-4">{$t('register.adopt_a_ticket.benefits.title')}</h2>
     <div class="prose max-w-none">
-      <p>{$t('register.adopt_a_ticket.benefits.description')}</p>
+      <p>
+        {$t('register.adopt_a_ticket.benefits.description_before')}
+        <a href="/{lang}/sponsors/honorable-mentions" class="text-primary hover:underline font-semibold">
+          {$t('register.adopt_a_ticket.benefits.description_link')}
+        </a>
+        {$t('register.adopt_a_ticket.benefits.description_after')}
+      </p>
     </div>
   </div>
 </div>
