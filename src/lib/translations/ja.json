@@ -404,16 +404,19 @@
       "title": "基調講演"
     },
     "presentations": {
-      "title": "発表"
+      "title": "発表",
+      "description": "会議で確定した発表とセッションを閲覧する。"
     },
     "workshop": {
-      "title": "ワークショップ"
+      "title": "ワークショップ",
+      "description": "様々な地理空間技術とツールを扱うハンズオンワークショップを探索する。"
     },
     "events": {
       "title": "イベント"
     },
     "geochicas": {
-      "title": "Geochicas take Hiroshima!",
+      "title": "Geochicas",
+      "description": "地理空間コミュニティにおける女性とジェンダーマイノリティを祝うGeochicasの集いに参加する。",
       "event_info": {
         "title": "イベント情報",
         "headers": {
@@ -455,7 +458,7 @@
         "description": "Geochicasの活動についてもっと知りたい方は、ウェブサイト",
         "website": "geochicas.community",
         "instagram": "@geochicasosm",
-        "and": "をご覧いただき、Instagram"
+        "and": "をご覧いただき、Instagramもフォローください。"
       }
     }
   },
@@ -548,6 +551,15 @@
   },
   "about": {
     "title": "概要",
+    "landing": {
+      "foss4g_description": "FOSS4Gとグローバルなオープンソース地理空間コミュニティについて学ぶ。",
+      "map_description": "会議会場の地図と広島の探索。",
+      "organizers_description": "FOSS4G Hiroshima 2026を支える組織委員会のご紹介。",
+      "concept_description": "技術と人間性をつなぐ会議テーマとビジョンを発見する。",
+      "code_of_conduct_description": "すべての人にハラスメントのない会議体験を提供するための行動規範。",
+      "privacy_policy_description": "個人情報の収集、使用、保護に関する方針。",
+      "terms_conditions_description": "会議への参加登録に関する利用規約。"
+    },
     "foss4g": {
       "title": "FOSS4Gについて",
       "intro": "FOSS4Gは「Free and Open Source Software for Geospatial」の略称で、オープンソースGISの普及を目的とする非営利団体OSGeoが主催する世界最大の国際会議です。世界各地で開催されるこの会議には、毎年世界中から1,000人近くが参加し、地理空間コミュニティを代表するフラッグシップイベントに発展しています。",
@@ -873,6 +885,14 @@
   },
   "register": {
     "title": "参加登録",
+    "landing": {
+      "registration_description": "FOSS4G Hiroshima 2026への参加登録を行い、会議への参加を確保する。",
+      "studentship_description": "対象となる学生向けの特別料金を提供。",
+      "travel_grant_description": "会議への参加を支援する旅費助成プログラムに申請する。",
+      "adopt_a_ticket_description": "ワークショップ講師や旅費助成受給者を支援するために追加チケットを購入する。",
+      "volunteering_description": "ボランティアとして参加し、FOSS4G Hiroshima 2026を成功に導く。",
+      "cancellation_description": "参加登録のキャンセルに関する払い戻しポリシーを確認する。"
+    },
     "registration": {
       "title": "参加登録",
       "type": "登録タイプ",

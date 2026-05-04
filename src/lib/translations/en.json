@@ -623,6 +623,15 @@
   },
   "about": {
     "title": "About",
+    "landing": {
+      "foss4g_description": "Learn about FOSS4G and the global open-source geospatial community.",
+      "map_description": "View the conference venues and explore Hiroshima.",
+      "organizers_description": "Meet the organizing committee behind FOSS4G Hiroshima 2026.",
+      "concept_description": "Discover our conference theme and vision for bridging technology and humanity.",
+      "code_of_conduct_description": "Our commitment to a harassment-free conference experience for everyone.",
+      "privacy_policy_description": "How we collect, use, and protect your personal information.",
+      "terms_conditions_description": "Terms and conditions for conference registration and participation."
+    },
     "foss4g": {
       "title": "About FOSS4G",
       "intro": "FOSS4G is an acronym for Free and Open Source Software for Geospatial, and it represents the world's largest international conference organized by OSGeo, a non-profit organization dedicated to promoting open-source GIS. This conference, held in various locations around the world, attracts around 1,000 participants annually and has evolved into the flagship event representing the geospatial community.",
@@ -948,6 +957,14 @@
   },
   "register": {
     "title": "Register",
+    "landing": {
+      "registration_description": "Register for FOSS4G Hiroshima 2026 and secure your spot at the conference.",
+      "studentship_description": "Special student rates available for eligible students.",
+      "travel_grant_description": "Apply for travel grants to support your attendance at the conference.",
+      "adopt_a_ticket_description": "Support workshop instructors and travel grant recipients by adopting extra tickets.",
+      "volunteering_description": "Join us as a volunteer and help make FOSS4G Hiroshima 2026 a success.",
+      "cancellation_description": "Review our refund policy for registration cancellations."
+    },
     "registration": {
       "title": "Registration",
       "type": "Registration Type",
@@ -1496,16 +1513,19 @@
       "title": "Keynote Speakers"
     },
     "presentations": {
-      "title": "Presentations"
+      "title": "Presentations",
+      "description": "Browse confirmed presentations and sessions for the conference."
     },
     "workshop": {
-      "title": "Workshops"
+      "title": "Workshops",
+      "description": "Explore hands-on workshops covering various geospatial technologies and tools."
     },
     "events": {
       "title": "Events"
     },
     "geochicas": {
-      "title": "Geochicas take Hiroshima!",
+      "title": "Geochicas",
+      "description": "Join the Geochicas gathering celebrating women and gender minorities in the geospatial community.",
       "event_info": {
         "title": "Event Information",
         "headers": {
