@@ -12,59 +12,63 @@
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('register.title')}</h1>
   
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <!-- Registration -->
-    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <h2 class="text-xl font-semibold mb-2">
-        <a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">
-          {$t('nav.register_sub.registration')}
-        </a>
-      </h2>
-    </div>
+  <!-- Registration -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.register_sub.registration')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('register.landing.registration_description')}</p>
+  </section>
 
-    <!-- Studentship Program -->
-    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <h2 class="text-xl font-semibold mb-2">
-        <a href="/{lang}/register/studentship" class="text-blue-600 hover:text-blue-800 hover:underline">
-          {$t('nav.register_sub.studentship')}
-        </a>
-      </h2>
-    </div>
+  <!-- Studentship Program -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/register/studentship" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.register_sub.studentship')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('register.landing.studentship_description')}</p>
+  </section>
 
-    <!-- Travel Grant Program -->
-    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <h2 class="text-xl font-semibold mb-2">
-        <a href="/{lang}/register/travel-grant" class="text-blue-600 hover:text-blue-800 hover:underline">
-          {$t('nav.register_sub.travel_grant')}
-        </a>
-      </h2>
-    </div>
+  <!-- Travel Grant Program -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/register/travel-grant" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.register_sub.travel_grant')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('register.landing.travel_grant_description')}</p>
+  </section>
 
-    <!-- Adopt-a-ticket -->
-    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <h2 class="text-xl font-semibold mb-2">
-        <a href="/{lang}/register/adopt-a-ticket" class="text-blue-600 hover:text-blue-800 hover:underline">
-          {$t('nav.register_sub.adopt_a_ticket')}
-        </a>
-      </h2>
-    </div>
+  <!-- Adopt-a-ticket -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/register/adopt-a-ticket" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.register_sub.adopt_a_ticket')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('register.landing.adopt_a_ticket_description')}</p>
+  </section>
 
-    <!-- Volunteering -->
-    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <h2 class="text-xl font-semibold mb-2">
-        <a href="/{lang}/register/volunteering" class="text-blue-600 hover:text-blue-800 hover:underline">
-          {$t('nav.register_sub.volunteering')}
-        </a>
-      </h2>
-    </div>
+  <!-- Volunteering -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/register/volunteering" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.register_sub.volunteering')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('register.landing.volunteering_description')}</p>
+  </section>
 
-    <!-- Cancellation Policy -->
-    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <h2 class="text-xl font-semibold mb-2">
-        <a href="/{lang}/register/cancellation" class="text-blue-600 hover:text-blue-800 hover:underline">
-          {$t('nav.register_sub.cancellation')}
-        </a>
-      </h2>
-    </div>
-  </div>
+  <!-- Cancellation Policy -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/register/cancellation" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.register_sub.cancellation')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('register.landing.cancellation_description')}</p>
+  </section>
 </div>

@@ -56,7 +56,11 @@ export const navigationConfig = {
     }
   },
   sponsors: {
-    enabled: true
+    enabled: true,
+    subItems: {
+      informationForSponsors: { enabled: true },
+      honorableMentions: { enabled: true }
+    }
   },
   contact: {
     enabled: true
