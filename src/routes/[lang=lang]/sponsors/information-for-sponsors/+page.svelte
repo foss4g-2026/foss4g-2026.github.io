@@ -242,7 +242,7 @@
         <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://auspatious.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
-              src="/images/sponsors/Auspatious/10_logo_Auspatious.png"
+              src="/images/sponsors/Auspatious/10_logo_Auspatious_2.png"
               alt="Auspatious"
               class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />

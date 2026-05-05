@@ -48,10 +48,44 @@
     <p class="text-gray-700 mb-4">{$t('program_schedule.workshop.description')}</p>
   </section>
 
-  <!-- Events -->
+  <!-- Community Sprint -->
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('program_schedule.events.title')}</h2>
-    <p class="text-gray-700 mb-4">{$t('common.coming_soon')}</p>
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/program-schedule/community-sprint" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.program_sub.community_sprint')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('community_sprint.intro')}</p>
+  </section>
+
+  <!-- Ice Breaker -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/program-schedule/ice-breaker" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.program_sub.ice_breaker')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('ice_breaker.intro')}</p>
+  </section>
+
+  <!-- Gala Dinner -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/program-schedule/gala-dinner" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.program_sub.gala_dinner')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('gala_dinner.date')}</p>
+  </section>
+
+  <!-- Excursion -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/program-schedule/excursion" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.program_sub.excursion')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('excursion.intro')}</p>
   </section>
 
   <!-- Geochicas -->

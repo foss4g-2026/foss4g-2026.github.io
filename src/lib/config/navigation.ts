@@ -41,7 +41,10 @@ export const navigationConfig = {
       keynote: { enabled: false }, // Disabled per user request
       presentations: { enabled: true },
       workshops: { enabled: true },
-      events: { enabled: false }, // Disabled per user request
+      community_sprint: { enabled: true },
+      ice_breaker: { enabled: true },
+      gala_dinner: { enabled: true },
+      excursion: { enabled: true },
       geochicas: { enabled: true }
     }
   },

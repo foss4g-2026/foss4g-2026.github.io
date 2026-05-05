@@ -132,7 +132,10 @@
               <li><NavLink href={'/' + data.locale + '/program-schedule/keynote'} enabled={isNavEnabled('program', 'keynote')}>{$t('nav.program_sub.keynote')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/presentations'} enabled={isNavEnabled('program', 'presentations')}>{$t('nav.program_sub.presentations')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/workshops'} enabled={isNavEnabled('program', 'workshops')}>{$t('nav.program_sub.workshops')}</NavLink></li>
-              <li><NavLink href={'/' + data.locale + '/program-schedule/events'} enabled={isNavEnabled('program', 'events')}>{$t('nav.program_sub.events')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/community-sprint'} enabled={isNavEnabled('program', 'community_sprint')}>{$t('nav.program_sub.community_sprint')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/ice-breaker'} enabled={isNavEnabled('program', 'ice_breaker')}>{$t('nav.program_sub.ice_breaker')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/gala-dinner'} enabled={isNavEnabled('program', 'gala_dinner')}>{$t('nav.program_sub.gala_dinner')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/excursion'} enabled={isNavEnabled('program', 'excursion')}>{$t('nav.program_sub.excursion')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/geochicas'} enabled={isNavEnabled('program', 'geochicas')}>{$t('nav.program_sub.geochicas')}</NavLink></li>
             </ul>
           </details>
@@ -233,7 +236,10 @@
             <li><NavLink href={'/' + data.locale + '/program-schedule/keynote'} enabled={isNavEnabled('program', 'keynote')}>{$t('nav.program_sub.keynote')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/presentations'} enabled={isNavEnabled('program', 'presentations')}>{$t('nav.program_sub.presentations')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/workshops'} enabled={isNavEnabled('program', 'workshops')}>{$t('nav.program_sub.workshops')}</NavLink></li>
-            <li><NavLink href={'/' + data.locale + '/program-schedule/events'} enabled={isNavEnabled('program', 'events')}>{$t('nav.program_sub.events')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/community-sprint'} enabled={isNavEnabled('program', 'community_sprint')}>{$t('nav.program_sub.community_sprint')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/ice-breaker'} enabled={isNavEnabled('program', 'ice_breaker')}>{$t('nav.program_sub.ice_breaker')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/gala-dinner'} enabled={isNavEnabled('program', 'gala_dinner')}>{$t('nav.program_sub.gala_dinner')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/excursion'} enabled={isNavEnabled('program', 'excursion')}>{$t('nav.program_sub.excursion')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/geochicas'} enabled={isNavEnabled('program', 'geochicas')}>{$t('nav.program_sub.geochicas')}</NavLink></li>
           </ul>
         </details>

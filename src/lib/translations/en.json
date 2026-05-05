@@ -142,7 +142,10 @@
       "keynote": "Keynote Speakers",
       "presentations": "Presentations",
       "workshops": "Workshops",
-      "events": "Events",
+      "community_sprint": "Community Sprint",
+      "ice_breaker": "Ice Breaker",
+      "gala_dinner": "Gala Dinner",
+      "excursion": "Excursion",
       "geochicas": "Geochicas"
     },
     "attending_sub": {
@@ -350,23 +353,118 @@
       "final_submission": "Final Paper Submission: July 15, 2026"
     }
   },
-  "events": {
-    "announcement": "Program details will be announced in April 2026",
-    "title": "Events",
-    "coming_soon_message": "Program details will be available in July 2026",
-    "intro": {
-      "description": "Detailed information about events will be published once the call for papers closes and the program committee completes the review process."
-    },
-    "overview": {
-      "title": "Event Overview",
-      "description": "FOSS4G Hiroshima 2026 will feature various events to foster networking and interaction among participants, in addition to technical sessions."
-    },
-    "social_events": {
-      "title": "Social Events",
-      "welcome_reception": "Welcome Reception - September 1 evening",
-      "gala_dinner": "Gala Dinner - September 2 evening",
-      "networking": "Networking Sessions - Coffee breaks each day"
-    }
+  "community_sprint": {
+    "title": "Community Sprint",
+    "intro": "Everyone involved in or interested in OSGeo community projects is welcome. Participation is free of charge.",
+    "description": "You can choose to contribute to one or more projects. It's not all about programming — translation, documentation, feedback, discussions, and testing are all equally important contributions to OSGeo community projects. Conference registration is not a prerequisite for participation in the community sprint.",
+    "date_title": "Date",
+    "dates": [
+      "Friday, September 4, 2026  9:30 AM - 5:00 PM",
+      "Saturday, September 5, 2026  9:30 AM - 5:00 PM"
+    ],
+    "venue_title": "Venue",
+    "venue": "Aster Plaza 7F Seminar Rooms, Hiroshima",
+    "venue_link": "https://hiyh.pr.arena.ne.jp/en/",
+    "host_title": "Host a Community Sprint Session",
+    "host_description": "If you would like to host a community sprint session, please register your event using the form below.",
+    "host_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSc0pxNf-DU8a3k6mpPheEEddGzTTc90h2Ino-Pga3TrOMgKbw/viewform?usp=publish-editor",
+    "host_button_text": "Application Form",
+    "registration_title": "How to register",
+    "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the OSGeo Wiki (coming soon).",
+    "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!"
+  },
+  "ice_breaker": {
+    "title": "Ice Breaker",
+    "date": "Tuesday, September 1st — from 6:00 PM",
+    "intro": "Kick off FOSS4G Hiroshima with an Ice Breaker you won't forget.",
+    "description": "Join fellow open source geospatial enthusiasts from around the world for an evening of warm conversation and new connections. Whether you're meeting someone for the first time or catching up with an old friend, this is where the collaborative spirit of FOSS4G truly begins.",
+    "venue_title": "Venue",
+    "venue_name": "Hiroshima Gate Park",
+    "venue_link": "https://gate-park.jp/en/",
+    "venue_description": "Hiroshima Gate Park is a vibrant public space reborn from the site of the former Hiroshima Municipal Baseball Stadium. Located approximately 1km from the International Conference Center, the walk there takes you past the Atomic Bomb Dome and other landmarks that tell the story of Hiroshima's resilience — making the journey itself part of the experience.",
+    "what_to_expect_title": "What to Expect",
+    "what_to_expect": [
+      "All FOSS4G attendees will receive food and drink voucher to spend at the event. A selection of food trucks will be on-site serving local Hiroshima flavors.",
+      "Mingle in a relaxed, open-air setting and start building the connections that will enrich your conference experience.",
+      "Join in a Bon Odori (traditional Japanese folk dance) in a place that stands as a living symbol of Hiroshima's peace and recovery. It promises to be a truly memorable evening where culture, community, and geospatial passion come together."
+    ],
+    "closing": "Grab a drink, join the circle, and let your FOSS4G Hiroshima journey begin."
+  },
+  "gala_dinner": {
+    "title": "Gala Dinner",
+    "date": "Evening of September 2, 2026",
+    "venue_title": "Venue",
+    "venue_name": "Grand Prince Hotel Hiroshima",
+    "venue_link": "https://www.princehotels.com/hiroshima/",
+    "transportation": "Transportation will be provided by chartered bus from the main conference venue, Hiroshima International Conference Center.",
+    "what_to_expect_title": "What to Expect",
+    "what_to_expect": [
+      {
+        "icon": "🎭",
+        "title": "Traditional Kagura Performance",
+        "description": "A dynamic Shinto ritual dance, featuring elaborate costumes and mythological storytelling"
+      },
+      {
+        "icon": "🍣",
+        "title": "Buffet Dinner",
+        "description": "Japanese cuisine including sushi and regional dishes, with vegan and halal-friendly options available"
+      },
+      {
+        "icon": "🍺",
+        "title": "Free-Flow Drinks",
+        "description": "Beer, shōchū, wine, whisky, cocktails, and soft drinks"
+      },
+      {
+        "icon": "🌊",
+        "title": "Ocean View",
+        "description": "A stunning view of the Seto Inland Sea on a Hiroshima summer night"
+      }
+    ],
+    "ticket_price_title": "Ticket Price",
+    "ticket_price": "¥15,000 per person",
+    "ticket_note": "Please note: The Gala Dinner is not included in the conference registration fee and must be purchased separately.",
+    "register_button": "Register here",
+    "register_url": "https://ti.to/osgeo-jp/foss4g-2026"
+  },
+  "excursion": {
+    "title": "Excursion",
+    "date": "September 5, 2026 (Saturday)",
+    "time": "9:00 AM – 5:00 PM (tentative, free to leave anytime)",
+    "fee": "To be confirmed (maximum approx. ¥10,000)",
+    "intro": "A guided excursion to historic and cultural sites in Hiroshima.",
+    "notes": [
+      "Lunch is included. We do not accommodate vegan, halal, or allergy requirements, so please bring your own if applicable.",
+      "Please note that capacity is limited and registration will be accepted on a first-come, first-served basis."
+    ],
+    "itinerary_title": "Itinerary",
+    "itinerary": [
+      {
+        "icon": "🕊️",
+        "title": "Peace Memorial Park — Guided Tour",
+        "description": "A guided tour of the Hiroshima Peace Memorial Park, located at the site of the 1945 atomic bombing. The park is adjacent to the Conference venue."
+      },
+      {
+        "icon": "⛴️",
+        "title": "Chartered Ferry (1 hour)",
+        "description": "A one-hour chartered ferry ride to the island."
+      },
+      {
+        "icon": "⛩️",
+        "title": "Itsukushima Shrine — Guided Tour",
+        "description": "A guided tour of Itsukushima Shrine, a Shinto shrine built over the sea on wooden stilts, known for its large vermilion torii gate standing in the water. Founded in the 6th century. A UNESCO World Heritage site."
+      },
+      {
+        "icon": "🗺️",
+        "title": "Free Time on the Island",
+        "description": "After the guided tour, participants are free to spend the rest of the day on the island."
+      }
+    ],
+    "free_time_options": [
+      "🥾 Hiking or taking the ropeway up Mt. Misen (the island's mountain, approx. 535m)",
+      "🏯 Visiting Daishō-in, a Buddhist temple on the mountainside",
+      "🦌 Walking through the town, which has traditional shops and local foods"
+    ],
+    "return_note": "※ Return transportation is not included. Participants make their own way back to Hiroshima using the public ferry, train, or bus. Travel time to central Hiroshima is approximately 45–60 minutes."
   },
   "workshops": {
     "announcement": "Program details will be announced in April 2026",
