@@ -142,7 +142,7 @@
       "keynote": "Keynote Speakers",
       "presentations": "Presentations",
       "workshops": "Workshops",
-      "events": "Events",
+      "community_sprint": "Community Sprint",
       "geochicas": "Geochicas"
     },
     "attending_sub": {
@@ -350,23 +350,25 @@
       "final_submission": "Final Paper Submission: July 15, 2026"
     }
   },
-  "events": {
-    "announcement": "Program details will be announced in April 2026",
-    "title": "Events",
-    "coming_soon_message": "Program details will be available in July 2026",
-    "intro": {
-      "description": "Detailed information about events will be published once the call for papers closes and the program committee completes the review process."
-    },
-    "overview": {
-      "title": "Event Overview",
-      "description": "FOSS4G Hiroshima 2026 will feature various events to foster networking and interaction among participants, in addition to technical sessions."
-    },
-    "social_events": {
-      "title": "Social Events",
-      "welcome_reception": "Welcome Reception - September 1 evening",
-      "gala_dinner": "Gala Dinner - September 2 evening",
-      "networking": "Networking Sessions - Coffee breaks each day"
-    }
+  "community_sprint": {
+    "title": "Community Sprint",
+    "intro": "Everyone involved in or interested in OSGeo community projects is welcome. Participation is free of charge.",
+    "description": "You can choose to contribute to one or more projects. It's not all about programming — translation, documentation, feedback, discussions, and testing are all equally important contributions to OSGeo community projects. Conference registration is not a prerequisite for participation in the community sprint.",
+    "date_title": "Date",
+    "dates": [
+      "Friday, September 4, 2026  9:30 AM - 5:00 PM",
+      "Saturday, September 5, 2026  9:30 AM - 5:00 PM"
+    ],
+    "venue_title": "Venue",
+    "venue": "Aster Plaza 7F Seminar Rooms, Hiroshima",
+    "venue_link": "https://hiyh.pr.arena.ne.jp/en/",
+    "host_title": "Host a Community Sprint Session",
+    "host_description": "If you would like to host a community sprint session, please register your event using the form below.",
+    "host_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSc0pxNf-DU8a3k6mpPheEEddGzTTc90h2Ino-Pga3TrOMgKbw/viewform?usp=publish-editor",
+    "host_button_text": "Application Form",
+    "registration_title": "How to register",
+    "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the OSGeo Wiki (coming soon).",
+    "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!"
   },
   "workshops": {
     "announcement": "Program details will be announced in April 2026",
