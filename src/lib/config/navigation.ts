@@ -44,6 +44,7 @@ export const navigationConfig = {
       community_sprint: { enabled: true },
       ice_breaker: { enabled: true },
       gala_dinner: { enabled: true },
+      excursion: { enabled: true },
       geochicas: { enabled: true }
     }
   },

@@ -145,6 +145,7 @@
       "community_sprint": "Community Sprint",
       "ice_breaker": "Ice Breaker",
       "gala_dinner": "Gala Dinner",
+      "excursion": "Excursion",
       "geochicas": "Geochicas"
     },
     "attending_sub": {
@@ -424,6 +425,46 @@
     "ticket_note": "Please note: The Gala Dinner is not included in the conference registration fee and must be purchased separately.",
     "register_button": "Register here",
     "register_url": "https://ti.to/osgeo-jp/foss4g-2026"
+  },
+  "excursion": {
+    "title": "Excursion",
+    "date": "September 5, 2026 (Saturday)",
+    "time": "9:00 AM – 5:00 PM (tentative, free to leave anytime)",
+    "fee": "To be confirmed (maximum approx. ¥10,000)",
+    "intro": "A guided excursion to historic and cultural sites in Hiroshima.",
+    "notes": [
+      "Lunch is included. We do not accommodate vegan, halal, or allergy requirements, so please bring your own if applicable.",
+      "Please note that capacity is limited and registration will be accepted on a first-come, first-served basis."
+    ],
+    "itinerary_title": "Itinerary",
+    "itinerary": [
+      {
+        "icon": "🕊️",
+        "title": "Peace Memorial Park — Guided Tour",
+        "description": "A guided tour of the Hiroshima Peace Memorial Park, located at the site of the 1945 atomic bombing. The park is adjacent to the Conference venue."
+      },
+      {
+        "icon": "⛴️",
+        "title": "Chartered Ferry (1 hour)",
+        "description": "A one-hour chartered ferry ride to the island."
+      },
+      {
+        "icon": "⛩️",
+        "title": "Itsukushima Shrine — Guided Tour",
+        "description": "A guided tour of Itsukushima Shrine, a Shinto shrine built over the sea on wooden stilts, known for its large vermilion torii gate standing in the water. Founded in the 6th century. A UNESCO World Heritage site."
+      },
+      {
+        "icon": "🗺️",
+        "title": "Free Time on the Island",
+        "description": "After the guided tour, participants are free to spend the rest of the day on the island."
+      }
+    ],
+    "free_time_options": [
+      "🥾 Hiking or taking the ropeway up Mt. Misen (the island's mountain, approx. 535m)",
+      "🏯 Visiting Daishō-in, a Buddhist temple on the mountainside",
+      "🦌 Walking through the town, which has traditional shops and local foods"
+    ],
+    "return_note": "※ Return transportation is not included. Participants make their own way back to Hiroshima using the public ferry, train, or bus. Travel time to central Hiroshima is approximately 45–60 minutes."
   },
   "workshops": {
     "announcement": "Program details will be announced in April 2026",
