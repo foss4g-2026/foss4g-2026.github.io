@@ -42,6 +42,7 @@ export const navigationConfig = {
       presentations: { enabled: true },
       workshops: { enabled: true },
       community_sprint: { enabled: true },
+      ice_breaker: { enabled: true },
       gala_dinner: { enabled: true },
       geochicas: { enabled: true }
     }

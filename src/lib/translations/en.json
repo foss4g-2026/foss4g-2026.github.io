@@ -143,6 +143,7 @@
       "presentations": "Presentations",
       "workshops": "Workshops",
       "community_sprint": "Community Sprint",
+      "ice_breaker": "Ice Breaker",
       "gala_dinner": "Gala Dinner",
       "geochicas": "Geochicas"
     },
@@ -370,6 +371,23 @@
     "registration_title": "How to register",
     "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the OSGeo Wiki (coming soon).",
     "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!"
+  },
+  "ice_breaker": {
+    "title": "Ice Breaker",
+    "date": "Tuesday, September 1st — from 6:00 PM",
+    "intro": "Kick off FOSS4G Hiroshima with an Ice Breaker you won't forget.",
+    "description": "Join fellow open source geospatial enthusiasts from around the world for an evening of warm conversation and new connections. Whether you're meeting someone for the first time or catching up with an old friend, this is where the collaborative spirit of FOSS4G truly begins.",
+    "venue_title": "Venue",
+    "venue_name": "Hiroshima Gate Park",
+    "venue_link": "https://gate-park.jp/en/",
+    "venue_description": "Hiroshima Gate Park is a vibrant public space reborn from the site of the former Hiroshima Municipal Baseball Stadium. Located approximately 1km from the International Conference Center, the walk there takes you past the Atomic Bomb Dome and other landmarks that tell the story of Hiroshima's resilience — making the journey itself part of the experience.",
+    "what_to_expect_title": "What to Expect",
+    "what_to_expect": [
+      "All FOSS4G attendees will receive food and drink voucher to spend at the event. A selection of food trucks will be on-site serving local Hiroshima flavors.",
+      "Mingle in a relaxed, open-air setting and start building the connections that will enrich your conference experience.",
+      "Join in a Bon Odori (traditional Japanese folk dance) in a place that stands as a living symbol of Hiroshima's peace and recovery. It promises to be a truly memorable evening where culture, community, and geospatial passion come together."
+    ],
+    "closing": "Grab a drink, join the circle, and let your FOSS4G Hiroshima journey begin."
   },
   "gala_dinner": {
     "title": "Gala Dinner",
