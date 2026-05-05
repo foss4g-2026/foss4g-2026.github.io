@@ -38,6 +38,7 @@
       "presentations": "発表",
       "workshops": "ワークショップ",
       "community_sprint": "コミュニティスプリント",
+      "gala_dinner": "ガラディナー",
       "geochicas": "Geochicas"
     },
     "attending_sub": {
@@ -369,6 +370,42 @@
     "registration_title": "参加登録",
     "registration_description": "コミュニティスプリントは無料ですが、参加を希望される方はできればOSGeo Wiki（準備中）に参加希望の旨をご記載ください。",
     "registration_note": "Wikiの記入は推奨であり、必須ではありません。飛び込みの参加も大歓迎です！"
+  },
+  "gala_dinner": {
+    "title": "ガラディナー",
+    "date": "2026年9月2日（火）夜",
+    "venue_title": "会場",
+    "venue_name": "グランドプリンスホテル広島",
+    "venue_link": "https://www.princehotels.com/hiroshima/",
+    "transportation": "メイン会場の広島国際会議場からチャーターバスでの送迎を予定しています。",
+    "what_to_expect_title": "内容",
+    "what_to_expect": [
+      {
+        "icon": "🎭",
+        "title": "伝統芸能 神楽の上演",
+        "description": "華やかな衣装と神話の物語を特徴とする、躍動感あふれる神道の儀式舞踊"
+      },
+      {
+        "icon": "🍣",
+        "title": "ビュッフェディナー",
+        "description": "寿司や郷土料理を含む日本料理、ビーガンやハラール対応のメニューもご用意"
+      },
+      {
+        "icon": "🍺",
+        "title": "フリーフロードリンク",
+        "description": "ビール、焼酎、ワイン、ウイスキー、カクテル、ソフトドリンク"
+      },
+      {
+        "icon": "🌊",
+        "title": "オーシャンビュー",
+        "description": "広島の夏の夜、瀬戸内海の美しい景色"
+      }
+    ],
+    "ticket_price_title": "チケット料金",
+    "ticket_price": "お一人様 ¥15,000",
+    "ticket_note": "注意：ガラディナーはカンファレンス参加費に含まれておりません。別途ご購入が必要です。",
+    "register_button": "こちらから登録",
+    "register_url": "https://ti.to/osgeo-jp/foss4g-2026"
   },
   "workshops": {
     "announcement": "プログラムの詳細は2026年4月に公開予定です",

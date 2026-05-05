@@ -34,6 +34,7 @@ const base_routes = [
   '/program-schedule/presentations',
   '/program-schedule/workshops',
   '/program-schedule/community-sprint',
+  '/program-schedule/gala-dinner',
   '/program-schedule/geochicas',
   // Attending sub-pages
   '/attending',

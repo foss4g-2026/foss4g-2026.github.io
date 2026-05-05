@@ -143,6 +143,7 @@
       "presentations": "Presentations",
       "workshops": "Workshops",
       "community_sprint": "Community Sprint",
+      "gala_dinner": "Gala Dinner",
       "geochicas": "Geochicas"
     },
     "attending_sub": {
@@ -369,6 +370,42 @@
     "registration_title": "How to register",
     "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the OSGeo Wiki (coming soon).",
     "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!"
+  },
+  "gala_dinner": {
+    "title": "Gala Dinner",
+    "date": "Evening of September 2, 2026",
+    "venue_title": "Venue",
+    "venue_name": "Grand Prince Hotel Hiroshima",
+    "venue_link": "https://www.princehotels.com/hiroshima/",
+    "transportation": "Transportation will be provided by chartered bus from the main conference venue, Hiroshima International Conference Center.",
+    "what_to_expect_title": "What to Expect",
+    "what_to_expect": [
+      {
+        "icon": "🎭",
+        "title": "Traditional Kagura Performance",
+        "description": "A dynamic Shinto ritual dance, featuring elaborate costumes and mythological storytelling"
+      },
+      {
+        "icon": "🍣",
+        "title": "Buffet Dinner",
+        "description": "Japanese cuisine including sushi and regional dishes, with vegan and halal-friendly options available"
+      },
+      {
+        "icon": "🍺",
+        "title": "Free-Flow Drinks",
+        "description": "Beer, shōchū, wine, whisky, cocktails, and soft drinks"
+      },
+      {
+        "icon": "🌊",
+        "title": "Ocean View",
+        "description": "A stunning view of the Seto Inland Sea on a Hiroshima summer night"
+      }
+    ],
+    "ticket_price_title": "Ticket Price",
+    "ticket_price": "¥15,000 per person",
+    "ticket_note": "Please note: The Gala Dinner is not included in the conference registration fee and must be purchased separately.",
+    "register_button": "Register here",
+    "register_url": "https://ti.to/osgeo-jp/foss4g-2026"
   },
   "workshops": {
     "announcement": "Program details will be announced in April 2026",
