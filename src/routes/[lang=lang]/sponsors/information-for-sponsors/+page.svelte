@@ -109,6 +109,9 @@
       <p class="text-yellow-800 mb-4">
         {$t('about.sponsors.call_for_sponsors.alternative_contact.intro')}
       </p>
+      <p class="text-red-700 font-semibold mb-4">
+        {$t('about.sponsors.call_for_sponsors.alternative_contact.diamond_closed_note')}
+      </p>
       <p class="font-semibold text-yellow-900 mb-2">{$t('about.sponsors.call_for_sponsors.alternative_contact.required_info_title')}</p>
       <ul class="list-disc list-inside text-yellow-800 mb-4 space-y-1">
         {#each $t('about.sponsors.call_for_sponsors.alternative_contact.required_info') as item}
