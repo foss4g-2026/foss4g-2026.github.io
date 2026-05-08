@@ -359,8 +359,7 @@
     "description": "You can choose to contribute to one or more projects. It's not all about programming — translation, documentation, feedback, discussions, and testing are all equally important contributions to OSGeo community projects. Conference registration is not a prerequisite for participation in the community sprint.",
     "date_title": "Date",
     "dates": [
-      "Friday, September 4, 2026  9:30 AM - 5:00 PM",
-      "Saturday, September 5, 2026  9:30 AM - 5:00 PM"
+      "Friday, September 4, 2026  9:30 AM - 5:00 PM"
     ],
     "venue_title": "Venue",
     "venue": "Aster Plaza 7F Seminar Rooms, Hiroshima",
@@ -976,12 +975,13 @@
         "alternative_contact": {
           "title": "For companies unable to access the Google Form",
           "intro": "If you are unable to access the form or upload files (e.g., due to Google account restrictions or company security policies), we gladly accept sponsorship applications via email. Please send an email to our organizing committee sponsor[at]foss4g.org with the following required information:",
+          "diamond_closed_note": "Please Note: Applications for Diamond Sponsorship have reached capacity and are now closed. Thank you for your understanding.",
           "required_info_title": "<Required Information>",
           "required_info": [
             "Company or Organization Name",
             "Contact Person Name",
             "Email Address",
-            "Preferred Sponsorship Level (Diamond, Platinum, Gold, Silver, Bronze, or Other)"
+            "Preferred Sponsorship Level (Platinum, Gold, Silver, Bronze, or Other) - Diamond sponsorship is closed."
           ],
           "note": "Upon receiving your email, our team will contact you to confirm further details, such as your exhibition booth preferences and logo submission."
         }
@@ -996,7 +996,7 @@
         "title": "Sponsorship Levels and Benefits",
         "tax_note": "All packages are subject to 10% Japanese Consumption Tax (JCT).",
         "diamond": {
-          "title": "Diamond",
+          "title": "Diamond (Closed)",
           "cost": "5,000,000",
           "tickets": "10",
           "cxo_tickets": "1",
