@@ -1168,6 +1168,9 @@
     "title": "発表募集",
     "registration_notice": {
       "title": "カンファレンス参加登録について",
+      "general_body": "登壇者・発表者を含む全てのカンファレンス参加者は、参加登録が必要です。カンファレンス開催前までに",
+      "general_link": "登録ページ",
+      "general_suffix": "より参加登録をお済ませください。",
       "instructor_note": "ワークショップのインストラクターには、ワークショップ1つにつき1枚の無料チケットが提供されます。<strong>Pretalxからの採択通知メールをご確認の上、無料チケットを必ずリクエストしてください。</strong>複数人でワークショップを実施する場合、2人目以降のインストラクターは",
       "registration_link": "通常の参加登録",
       "instructor_note_suffix": "が必要です。"

@@ -1320,6 +1320,9 @@
     "title": "Call for Papers",
     "registration_notice": {
       "title": "Conference Registration Required",
+      "general_body": "All conference participants, including speakers and presenters, are required to register for the conference. Please complete your registration through the ",
+      "general_link": "registration page",
+      "general_suffix": " before the conference.",
       "instructor_note": "Workshop instructors are offered one complimentary ticket per workshop. <strong>Please check the acceptance email from Pretalx and make sure to request your free ticket.</strong> If multiple instructors are conducting the workshop, additional instructors must register through the ",
       "registration_link": "standard registration process",
       "instructor_note_suffix": "."
