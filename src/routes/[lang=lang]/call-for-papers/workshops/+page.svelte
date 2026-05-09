@@ -41,7 +41,7 @@
     <!-- Conference Registration Notice -->
     <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-6">
       <p class="font-semibold">{$t('call_for_papers.registration_notice.title')}</p>
-      <p>{$t('call_for_papers.registration_notice.body_prefix')}<a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">{$t('call_for_papers.registration_notice.body_link')}</a>{$t('call_for_papers.registration_notice.body_suffix')}</p>
+      <p>{@html $t('call_for_papers.registration_notice.instructor_note')}<a href="/{lang}/register/registration" class="text-blue-600 hover:text-blue-800 hover:underline">{$t('call_for_papers.registration_notice.registration_link')}</a>{$t('call_for_papers.registration_notice.instructor_note_suffix')}</p>
     </div>
     <!-- Overview -->
     <h2 class="text-2xl font-semibold mb-4">{$t('call_for_papers.workshops.overview.title')}</h2>
