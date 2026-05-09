@@ -1074,7 +1074,7 @@
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in February 2026.",
       "main_registration_types": [
         ["<s>Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)</s>", "—"],
-        ["Early Bird (After Super Early Bird ends - May 8, 2026)", "JPY 50,000"],
+        ["<s>Early Bird (After Super Early Bird ends - May 8, 2026)</s>", "—"],
         ["Regular (May 9 - September 3, 2026)", "JPY 80,000"],
         ["Local", "JPY 40,000"],
         ["Studentship", "JPY 30,000"]
@@ -1320,9 +1320,12 @@
     "title": "Call for Papers",
     "registration_notice": {
       "title": "Conference Registration Required",
-      "body_prefix": "All conference participants, including speakers and presenters, are required to register for the conference. Please complete your registration through the ",
-      "body_link": "registration page",
-      "body_suffix": " before the conference."
+      "general_body": "All conference participants, including speakers and presenters, are required to register for the conference. Please complete your registration through the ",
+      "general_link": "registration page",
+      "general_suffix": " before the conference.",
+      "instructor_note": "Workshop instructors are offered one complimentary ticket per workshop. <strong>Please check the acceptance email from Pretalx and make sure to request your free ticket.</strong> If multiple instructors are conducting the workshop, additional instructors must register through the ",
+      "registration_link": "standard registration process",
+      "instructor_note_suffix": "."
     },
     "general_sessions": {
       "title": "General Sessions",
