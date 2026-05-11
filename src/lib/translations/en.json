@@ -13,11 +13,26 @@
   "teaser": {
     "top_content": {
       "subtitle": "Bridging Geospatial Technology and Humanity",
-      "paragraph_1": "FOSS4G is the world’s largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation. In 2026, this global FOSS4G event will be held in Hiroshima, Japan.",
+      "paragraph_1": "FOSS4G is the world's largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation.",
       "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience.",
       "paragraph_3": "At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
       "paragraph_4": "As a \"City of Peace and Reconstruction\", Hiroshima is an ideal place to explore how technology can foster empathy, inclusion, and international collaboration.",
       "paragraph_5": "And of course, we invite you to enjoy Hiroshima’s unique culture and delicious cuisine to the fullest!"
+    },
+    "news": {
+      "title": "News",
+      "items": {
+        "website_renewal": {
+          "date": "May 11, 2026",
+          "title": "Website Design Renewed",
+          "description": "We have renewed the design of our top page to provide a better user experience."
+        },
+        "workshop_tickets": {
+          "date": "May 8, 2026",
+          "title": "Workshop tickets are now available!",
+          "link": "/program-schedule/workshops"
+        }
+      }
     },
     "period": {
       "label": "Conference Period",

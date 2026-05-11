@@ -34,8 +34,10 @@
   <title>{$t('title')}</title>
 </svelte:head>
 
-<Header {data} />
-<div class="flex min-h-screen w-full flex-col gap-6 sm:gap-0 py-4 px-8">
+<div class={isHomepage ? "" : ""}>
+  <Header {data} isHomepage={isHomepage} />
+</div>
+<div class={isHomepage ? "flex min-h-screen w-full flex-col" : "flex min-h-screen w-full flex-col gap-6 sm:gap-0 py-4 px-8"}>
   {#if !isHomepage}
     <Breadcrumb {data} />
   {/if}

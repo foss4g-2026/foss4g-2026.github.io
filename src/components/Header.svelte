@@ -4,7 +4,7 @@
   import Link from '$components/Link.svelte'
   import NavLink from '$components/NavLink.svelte'
   import { isNavEnabled } from '$lib/config/navigation'
-  const { data } = $props<{ data: { locale: 'en' | 'ja' } }>()
+  const { data, isHomepage = false } = $props<{ data: { locale: 'en' | 'ja' }, isHomepage?: boolean }>()
 
   function getRestPath(pathname: string): string {
     const m = pathname.match(/^\/(en|ja)(\/.*)?$/)
@@ -76,7 +76,7 @@
   })
 </script>
 
-<div class="navbar bg-base-100 shadow-sm">
+<div class="navbar bg-white shadow-md rounded-lg" style="font-family: 'Inter', sans-serif;">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">

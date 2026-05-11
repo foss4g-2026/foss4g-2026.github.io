@@ -3,6 +3,29 @@
   themes: light --default;
 }
 
+/* Custom Fonts */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Hero Title Animation */
+@keyframes titleFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-title-animation {
+  animation: titleFadeIn 1.2s ease-out;
+}
+
 /* レスポンシブ対応とタッチ操作の最適化 */
 
 /* タッチターゲットのサイズを最適化 */
