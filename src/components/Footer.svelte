@@ -8,10 +8,10 @@
   $: locale = $page.params.lang || 'ja'
 </script>
 
-<footer class="footer footer-horizontal footer-center bg-base-200 p-10">
+<footer class="footer footer-horizontal footer-center bg-white p-10 border-t border-gray-200" style="font-family: 'Inter', sans-serif;">
   <aside>
-    <p class="font-bold text-xl">{$t('title')}</p>
-    <p>Copyright © 2026 FOSS4G Hiroshima 2026 LOC</p>
+    <p class="font-bold text-xl" style="font-family: 'Archivo', sans-serif;">{$t('title')}</p>
+    <p class="text-gray-600">Copyright © 2026 FOSS4G Hiroshima 2026 LOC</p>
     
     <!-- Social Media and Mailing List -->
     <div class="flex flex-col items-center gap-4 mt-6">
@@ -19,7 +19,8 @@
       <a href="https://mailchi.mp/foss4g/mailing-list" 
          target="_blank" 
          rel="noopener noreferrer"
-         class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-400 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-medium rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200">
+         class="inline-flex items-center px-6 py-3 text-white font-medium rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200"
+         style="background: linear-gradient(149.59deg, #C10609 4.86%, #F10606 104.98%);">
         <FontAwesomeIcon icon={faEnvelope} class="mr-2" />
         Join our Mailing List
       </a>
