@@ -76,7 +76,7 @@
   })
 </script>
 
-<div class="navbar bg-white shadow-md rounded-lg" style="font-family: 'Inter', sans-serif;">
+<div class="navbar bg-white shadow-md sticky top-0 z-50" style="font-family: 'Inter', sans-serif;">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">

@@ -22,8 +22,13 @@
     "news": {
       "title": "News",
       "items": {
+        "website_update": {
+          "date": "May 13, 2026",
+          "title": "New Sponsor Logos Added",
+          "description": "We are pleased to announce new sponsor logos have been added to our website."
+        },
         "website_renewal": {
-          "date": "May 11, 2026",
+          "date": "May 13, 2026",
           "title": "Website Design Renewed",
           "description": "We have renewed the design of our top page to provide a better user experience."
         },

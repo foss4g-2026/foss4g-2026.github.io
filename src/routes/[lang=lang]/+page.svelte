@@ -82,6 +82,16 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.website_update.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.website_update.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              {$t('teaser.news.items.website_update.description')}
+            </p>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.website_renewal.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.website_renewal.title')}
@@ -90,7 +100,7 @@
               {$t('teaser.news.items.website_renewal.description')}
             </p>
           </div>
-          <!-- News Item 2 -->
+          <!-- News Item 3 -->
           <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.workshop_tickets.date')}</p>
             <h3 class="text-lg font-normal text-gray-900 hover:underline cursor-pointer">
@@ -99,7 +109,6 @@
               </a>
             </h3>
           </div>
-          <!-- Add more news items as needed -->
         </div>
       </div>
     </div>
