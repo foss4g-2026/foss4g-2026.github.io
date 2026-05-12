@@ -115,7 +115,7 @@
       <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-4">
         <!-- Workshop Days Card (White) -->
         <div class="bg-white rounded-2xl p-8 shadow-lg">
-          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Hands-on Workshop Days</h3>
+          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Workshops</h3>
           <div class="space-y-2">
             <p class="text-5xl font-bold text-center" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">8/30-8/31</p>
             <p class="text-xs text-gray-600 uppercase text-center" style="font-family: 'Inter', sans-serif;">AUGUST 2026</p>
@@ -127,7 +127,7 @@
         
         <!-- Main Conference Card (White) -->
         <div class="bg-white rounded-2xl p-8 shadow-lg">
-          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Main Conference Days</h3>
+          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Main Conference</h3>
           <div class="space-y-2">
             <p class="text-5xl font-bold text-center" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">9/1-9/3</p>
             <p class="text-xs text-gray-600 uppercase text-center" style="font-family: 'Inter', sans-serif;">SEPTEMBER 2026</p>
@@ -139,7 +139,7 @@
         
         <!-- Community Sprint & Event Days Card (White) -->
         <div class="bg-white rounded-2xl p-8 shadow-lg">
-          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Community Sprint & Event Days</h3>
+          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Community Sprint & Events</h3>
           <div class="space-y-2">
             <p class="text-5xl font-bold text-center" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">9/4-9/5</p>
             <p class="text-xs text-gray-600 uppercase text-center" style="font-family: 'Inter', sans-serif;">SEPTEMBER 2026</p>
@@ -192,7 +192,7 @@
       <!-- Venue Information Grid -->
       <div class="flex flex-col md:flex-row gap-8 justify-center items-start max-w-5xl mx-auto">
         <div class="flex-1 text-left space-y-4">
-          <p class="text-xs text-gray-500 uppercase tracking-wider" style="font-family: 'Space Mono', monospace;">MAIN VENUE</p>
+          <p class="text-xs text-gray-500 uppercase tracking-wider" style="font-family: 'Space Mono', monospace;">MAIN CONFERENCE VENUE</p>
           <h3 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight" style="font-family: 'Archivo', sans-serif;">{$t('teaser.venue.main.name')}</h3>
         </div>
         <div class="hidden md:block w-px h-32 bg-gray-400"></div>
@@ -207,7 +207,7 @@
         <Map
           mapClass="w-full h-[400px] sm:h-[500px] rounded-2xl shadow-lg"
           center={[132.4596, 34.3853]}
-          zoom={6}
+          zoom={13}
           style={$t('map.settings.style')}
           items={[
             {
@@ -297,15 +297,15 @@
     </div>
     
     <!-- Diamond Sponsors -->
-    <div class="mb-8">
-      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.diamond_sponsors')}</h3>
+    <div class="mb-12 py-6">
+      <h3 class="text-xl font-semibold text-slate-700 mb-6 text-center">{$t('teaser.sponsors.diamond_sponsors')}</h3>
       <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
         <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
           <a href="https://eukarya.io/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Eukarya/eukarya.svg"
               alt="Eukarya"
-              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+              class="h-36 sm:h-44 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
@@ -321,7 +321,23 @@
             <img
               src="/images/sponsors/MIERUNE/MIERUNE.png"
               alt="MIERUNE Inc."
-              class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
+              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gold Sponsors -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.gold_sponsors')}</h3>
+      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="http://www.geocat.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/GeoCat/14_GeoCat colour - Jeroen Ticheler.svg"
+              alt="GeoCat"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
@@ -390,6 +406,33 @@
               src="/images/sponsors/Auspatious/10_logo_Auspatious_2.png"
               alt="Auspatious"
               class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.apptec.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/AppliedTechnology/05_応用技術_FOSS4G_MachiSpaceLogo_2026.png"
+              alt="Applied Technology"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://arkedgespace.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/ArkEdgeSpace/13_ArkEdgeSpace_BRANDLOGO2lineB-RGB-Ver001 - Kota Yuhara.png"
+              alt="ArkEdgeSpace"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.geosolutionsgroup.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Geosolutions/12_geosolutions_logo.png"
+              alt="GeoSolutions"
+              class="h-8 sm:h-12 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
