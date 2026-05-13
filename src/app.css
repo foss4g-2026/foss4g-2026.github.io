@@ -3,6 +3,29 @@
   themes: light --default;
 }
 
+/* Custom Fonts */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Hero Title Animation */
+@keyframes titleFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-title-animation {
+  animation: titleFadeIn 1.2s ease-out;
+}
+
 /* レスポンシブ対応とタッチ操作の最適化 */
 
 /* タッチターゲットのサイズを最適化 */
@@ -106,4 +129,120 @@
   .overflow-x-auto {
     scroll-behavior: auto;
   }
+}
+
+/* ========================================
+   共通ページレイアウト
+   ======================================== */
+
+/* コンテナの統一 */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ページコンテンツの余白統一 */
+.container.mx-auto.px-4.py-8 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .container.mx-auto.px-4.py-8 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* ページタイトル（h1）のスタイル統一 */
+.container h1.text-4xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  color: #111827;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .container h1.text-4xl {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container h1.text-4xl {
+    font-size: 3.5rem;
+  }
+}
+
+/* セクション見出し（h2）のスタイル統一 */
+.container h2.text-2xl,
+.prose h2.text-2xl {
+  font-size: 1.75rem;
+  line-height: 1.3;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  color: #1f2937;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 768px) {
+  .container h2.text-2xl,
+  .prose h2.text-2xl {
+    font-size: 2rem;
+  }
+}
+
+/* セクション間隔の統一 */
+.container section,
+.container .mb-8 {
+  margin-bottom: 3rem;
+}
+
+/* proseコンテンツの調整 */
+.prose {
+  color: #374151;
+  line-height: 1.75;
+}
+
+.prose p {
+  margin-bottom: 1.25rem;
+}
+
+.prose ul,
+.prose ol {
+  margin-bottom: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+/* リンクのスタイル統一 */
+.prose a,
+.container a:not(.btn) {
+  color: #2563eb;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.prose a:hover,
+.container a:not(.btn):hover {
+  color: #1d4ed8;
+}
+
+/* カードやボックスの統一 */
+.bg-yellow-100,
+.bg-blue-100,
+.bg-green-100,
+.bg-red-100 {
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+/* テーブルの余白調整 */
+.container table {
+  margin-bottom: 2rem;
 }

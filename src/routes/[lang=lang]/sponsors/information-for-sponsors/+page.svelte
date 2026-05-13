@@ -186,6 +186,22 @@
       </div>
     </div>
 
+    <!-- Gold Sponsors -->
+    <div class="mb-10">
+      <h3 class="text-xl font-semibold text-slate-700 mb-6 text-center">{$t('teaser.sponsors.gold_sponsors')}</h3>
+      <div class="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="http://www.geocat.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/GeoCat/14_GeoCat colour - Jeroen Ticheler.svg"
+              alt="GeoCat"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
     <!-- Silver Sponsors -->
     <div class="mb-10">
       <h3 class="text-xl font-semibold text-slate-700 mb-6 text-center">{$t('teaser.sponsors.silver_sponsors')}</h3>
@@ -233,7 +249,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.nayuta-inc.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Nayuta/Nayuta.png"
@@ -248,6 +264,33 @@
               src="/images/sponsors/Auspatious/10_logo_Auspatious_2.png"
               alt="Auspatious"
               class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://www.apptec.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/AppliedTechnology/05_応用技術_FOSS4G_MachiSpaceLogo_2026.png"
+              alt="Applied Technology"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://arkedgespace.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/ArkEdgeSpace/13_ArkEdgeSpace_BRANDLOGO2lineB-RGB-Ver001 - Kota Yuhara.png"
+              alt="ArkEdgeSpace"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://www.geosolutionsgroup.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Geosolutions/12_geosolutions_logo.png"
+              alt="GeoSolutions"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>

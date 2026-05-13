@@ -4,7 +4,7 @@
   import Link from '$components/Link.svelte'
   import NavLink from '$components/NavLink.svelte'
   import { isNavEnabled } from '$lib/config/navigation'
-  const { data } = $props<{ data: { locale: 'en' | 'ja' } }>()
+  const { data, isHomepage = false } = $props<{ data: { locale: 'en' | 'ja' }, isHomepage?: boolean }>()
 
   function getRestPath(pathname: string): string {
     const m = pathname.match(/^\/(en|ja)(\/.*)?$/)
@@ -76,7 +76,7 @@
   })
 </script>
 
-<div class="navbar bg-base-100 shadow-sm">
+<div class="navbar bg-white shadow-md sticky top-0 z-50" style="font-family: 'Inter', sans-serif;">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -84,11 +84,11 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
         </svg>
       </div>
-      <ul class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1000] mt-3 w-52 p-2 shadow">
+      <ul class="menu menu-sm dropdown-content bg-white rounded-lg z-[1000] mt-3 w-52 p-2 shadow-xl border border-gray-100">
         <!-- Mobile Menu Items -->
         <li>
           <details bind:open={mobileAboutOpen}>
-            <summary onclick={() => closeMobileDropdowns('about')}>{$t('nav.about')}</summary>
+            <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('about'); }}>{$t('nav.about')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/about/foss4g'} enabled={isNavEnabled('about', 'foss4g')}>{$t('nav.about_sub.foss4g')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
@@ -102,7 +102,7 @@
         </li>
         <li>
           <details bind:open={mobileRegisterOpen}>
-            <summary onclick={() => closeMobileDropdowns('register')}>{$t('nav.register')}</summary>
+            <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('register'); }}>{$t('nav.register')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/register/registration'} enabled={isNavEnabled('register', 'registration')}>{$t('nav.register_sub.registration')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/register/studentship'} enabled={isNavEnabled('register', 'studentship')}>{$t('nav.register_sub.studentship')}</NavLink></li>
@@ -116,7 +116,7 @@
         </li>
         <li>
           <details bind:open={mobileCfpOpen}>
-            <summary onclick={() => closeMobileDropdowns('cfp')}>{$t('nav.call_for_papers')}</summary>
+            <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('cfp'); }}>{$t('nav.call_for_papers')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/call-for-papers/general-sessions'} enabled={isNavEnabled('cfp', 'generalSessions')}>{$t('nav.cfp_sub.general_sessions')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/call-for-papers/academic-track'} enabled={isNavEnabled('cfp', 'academicTrack')}>{$t('nav.cfp_sub.academic_track')}</NavLink></li>
@@ -126,13 +126,14 @@
         </li>
         <li>
           <details bind:open={mobileProgramOpen}>
-            <summary onclick={() => closeMobileDropdowns('program')}>{$t('nav.program_schedule')}</summary>
+            <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('program'); }}>{$t('nav.program_schedule')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/program-schedule/outline'} enabled={isNavEnabled('program', 'outline')}>{$t('nav.program_sub.outline')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/keynote'} enabled={isNavEnabled('program', 'keynote')}>{$t('nav.program_sub.keynote')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/presentations'} enabled={isNavEnabled('program', 'presentations')}>{$t('nav.program_sub.presentations')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/workshops'} enabled={isNavEnabled('program', 'workshops')}>{$t('nav.program_sub.workshops')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/community-sprint'} enabled={isNavEnabled('program', 'community_sprint')}>{$t('nav.program_sub.community_sprint')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/community-events'} enabled={isNavEnabled('program', 'community_events')}>{$t('nav.program_sub.community_events')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/ice-breaker'} enabled={isNavEnabled('program', 'ice_breaker')}>{$t('nav.program_sub.ice_breaker')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/gala-dinner'} enabled={isNavEnabled('program', 'gala_dinner')}>{$t('nav.program_sub.gala_dinner')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/excursion'} enabled={isNavEnabled('program', 'excursion')}>{$t('nav.program_sub.excursion')}</NavLink></li>
@@ -142,7 +143,7 @@
         </li>
         <li>
           <details bind:open={mobileAttendingOpen}>
-            <summary onclick={() => closeMobileDropdowns('attending')}>{$t('nav.attending')}</summary>
+            <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('attending'); }}>{$t('nav.attending')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/attending/venue'} enabled={isNavEnabled('attending', 'venue')}>{$t('nav.attending_sub.venue')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
@@ -154,7 +155,7 @@
         </li>
         <li>
           <details bind:open={mobileSponsorsOpen}>
-            <summary onclick={() => closeMobileDropdowns('sponsors')}>{$t('nav.sponsors')}</summary>
+            <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('sponsors'); }}>{$t('nav.sponsors')}</summary>
             <ul class="p-2">
               <li><NavLink href={'/' + data.locale + '/sponsors/information-for-sponsors'} enabled={isNavEnabled('sponsors', 'informationForSponsors')}>{$t('nav.sponsors_sub.information_for_sponsors')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/sponsors/honorable-mentions'} enabled={isNavEnabled('sponsors', 'honorableMentions')}>{$t('nav.sponsors_sub.honorable_mentions')}</NavLink></li>
@@ -165,7 +166,7 @@
         <!-- Language Switcher for Mobile -->
         <li>
           <details bind:open={mobileLanguageOpen}>
-            <summary onclick={() => closeMobileDropdowns('language')}>
+            <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('language'); }}>
               <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" class="iconLanguage_DSK9"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>
               {currentLanguage}
             </summary>
@@ -178,7 +179,7 @@
       </ul>
     </div>
     <Link class="btn btn-ghost" href={'/' + data.locale}>
-      <img src="/images/logo-03.svg" alt="FOSS4G Hiroshima 2026" class="h-8" />
+      <img src="/images/logo-03.svg" alt="FOSS4G Hiroshima 2026" class="h-10" />
     </Link>
   </div>
   <div class="navbar-center hidden lg:flex">
@@ -187,7 +188,7 @@
       <li>
         <details bind:open={desktopAboutOpen}>
           <summary onclick={() => closeDesktopDropdowns('about')}>{$t('nav.about')}</summary>
-          <ul class="bg-base-100 rounded-t-none p-2 w-52">
+          <ul class="bg-white rounded-lg shadow-xl border border-gray-100 p-2 w-52 mt-2">
             <li><NavLink href={'/' + data.locale + '/about/foss4g'} enabled={isNavEnabled('about', 'foss4g')}>{$t('nav.about_sub.foss4g')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/organizers'} enabled={isNavEnabled('about', 'organizers')}>{$t('nav.about_sub.organizers')}</NavLink></li>
@@ -203,7 +204,7 @@
       <li>
         <details bind:open={desktopRegisterOpen}>
           <summary onclick={() => closeDesktopDropdowns('register')}>{$t('nav.register')}</summary>
-          <ul class="bg-base-100 rounded-t-none p-2 w-52">
+          <ul class="bg-white rounded-lg shadow-xl border border-gray-100 p-2 w-52 mt-2">
             <li><NavLink href={'/' + data.locale + '/register/registration'} enabled={isNavEnabled('register', 'registration')}>{$t('nav.register_sub.registration')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/register/studentship'} enabled={isNavEnabled('register', 'studentship')}>{$t('nav.register_sub.studentship')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/register/travel-grant'} enabled={isNavEnabled('register', 'travelGrant')}>{$t('nav.register_sub.travel_grant')}</NavLink></li>
@@ -219,7 +220,7 @@
       <li>
         <details bind:open={desktopCfpOpen}>
           <summary onclick={() => closeDesktopDropdowns('cfp')}>{$t('nav.call_for_papers')}</summary>
-          <ul class="bg-base-100 rounded-t-none p-2 w-52">
+          <ul class="bg-white rounded-lg shadow-xl border border-gray-100 p-2 w-52 mt-2">
             <li><NavLink href={'/' + data.locale + '/call-for-papers/general-sessions'} enabled={isNavEnabled('cfp', 'generalSessions')}>{$t('nav.cfp_sub.general_sessions')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/call-for-papers/academic-track'} enabled={isNavEnabled('cfp', 'academicTrack')}>{$t('nav.cfp_sub.academic_track')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/call-for-papers/workshops'} enabled={isNavEnabled('cfp', 'workshops')}>{$t('nav.cfp_sub.workshops')}</NavLink></li>
@@ -231,12 +232,13 @@
       <li>
         <details bind:open={desktopProgramOpen}>
           <summary onclick={() => closeDesktopDropdowns('program')}>{$t('nav.program_schedule')}</summary>
-          <ul class="bg-base-100 rounded-t-none p-2 w-52">
+          <ul class="bg-white rounded-lg shadow-xl border border-gray-100 p-2 w-52 mt-2">
             <li><NavLink href={'/' + data.locale + '/program-schedule/outline'} enabled={isNavEnabled('program', 'outline')}>{$t('nav.program_sub.outline')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/keynote'} enabled={isNavEnabled('program', 'keynote')}>{$t('nav.program_sub.keynote')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/presentations'} enabled={isNavEnabled('program', 'presentations')}>{$t('nav.program_sub.presentations')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/workshops'} enabled={isNavEnabled('program', 'workshops')}>{$t('nav.program_sub.workshops')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/community-sprint'} enabled={isNavEnabled('program', 'community_sprint')}>{$t('nav.program_sub.community_sprint')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/community-events'} enabled={isNavEnabled('program', 'community_events')}>{$t('nav.program_sub.community_events')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/ice-breaker'} enabled={isNavEnabled('program', 'ice_breaker')}>{$t('nav.program_sub.ice_breaker')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/gala-dinner'} enabled={isNavEnabled('program', 'gala_dinner')}>{$t('nav.program_sub.gala_dinner')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/excursion'} enabled={isNavEnabled('program', 'excursion')}>{$t('nav.program_sub.excursion')}</NavLink></li>
@@ -249,7 +251,7 @@
       <li>
         <details bind:open={desktopAttendingOpen}>
           <summary onclick={() => closeDesktopDropdowns('attending')}>{$t('nav.attending')}</summary>
-          <ul class="bg-base-100 rounded-t-none p-2 w-52">
+          <ul class="bg-white rounded-lg shadow-xl border border-gray-100 p-2 w-52 mt-2">
             <li><NavLink href={'/' + data.locale + '/attending/venue'} enabled={isNavEnabled('attending', 'venue')}>{$t('nav.attending_sub.venue')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/attending/travel-guide'} enabled={isNavEnabled('attending', 'travelGuide')}>{$t('nav.attending_sub.travel_guide')}</NavLink></li>
@@ -263,7 +265,7 @@
       <li>
         <details bind:open={desktopSponsorsOpen}>
           <summary onclick={() => closeDesktopDropdowns('sponsors')}>{$t('nav.sponsors')}</summary>
-          <ul class="bg-base-100 rounded-t-none p-2 w-52">
+          <ul class="bg-white rounded-lg shadow-xl border border-gray-100 p-2 w-52 mt-2">
             <li><NavLink href={'/' + data.locale + '/sponsors/information-for-sponsors'} enabled={isNavEnabled('sponsors', 'informationForSponsors')}>{$t('nav.sponsors_sub.information_for_sponsors')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/sponsors/honorable-mentions'} enabled={isNavEnabled('sponsors', 'honorableMentions')}>{$t('nav.sponsors_sub.honorable_mentions')}</NavLink></li>
           </ul>
@@ -281,7 +283,7 @@
         <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_DSK9"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>
         {currentLanguage}
       </div>
-      <ul class="menu dropdown-content bg-base-100 rounded-box z-[1000] mt-3 w-32 p-2 shadow">
+      <ul class="menu dropdown-content bg-white rounded-lg z-[1000] mt-3 w-32 p-2 shadow-xl border border-gray-100">
         <li><Link href={'/en' + restPath}>{$t('nav.languages.english')}</Link></li>
         <li><Link href={'/ja' + restPath}>{$t('nav.languages.japanese')}</Link></li>
       </ul>

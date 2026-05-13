@@ -1,141 +1,320 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
   import Map from '$components/Map.svelte'
-  import ImageAndCopyright from '$components/ImageAndCopyright.svelte'
   import Countdown from '$components/Countdown.svelte'
   const HiroshimaImage = '/images/HiroshimaConventionCenter.webp'
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome'
-  import {
-    faCalendarDay,
-    faMapLocationDot,
-    faDollarSign,
-    faAlarmClock,
-    faPersonWalkingLuggage,
-  } from '@fortawesome/free-solid-svg-icons'
+  import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+  import { faLinkedin, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
   import { config } from '@fortawesome/fontawesome-svg-core'
   import '@fortawesome/fontawesome-svg-core/styles.css'
   config.autoAddCss = false
 </script>
 
-<!-- Hero Section with Modern Design -->
-<div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-  <!-- Hero Image with Title and Subtitle -->
-  <div class="relative h-[50vh] sm:h-[60vh] md:h-[70vh] overflow-hidden rounded-3xl mb-8">
-    <!-- Background Image with rounded corners -->
-    <div class="absolute inset-0 rounded-3xl overflow-hidden">
-      <div class="w-full h-full">
-        <ImageAndCopyright
-          imageSrc={HiroshimaImage}
-          altText={$t('images.hiroshima.alt')}
-          copyrightText={$t('images.hiroshima.copyright')}
-        />
-      </div>
-      <!-- Soft gradient overlay for gentle aesthetic -->
-      <div class="absolute inset-0 bg-gradient-to-br from-slate-800/60 via-blue-900/50 to-indigo-800/40"></div>
+<!-- Hero Section with New Design -->
+<div class="w-full">
+  <!-- Hero with Background Image -->
+  <div class="relative w-full overflow-hidden" style="background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);">
+    <!-- Background Pattern/Image -->
+    <div class="absolute inset-0 opacity-30">
+      <img src="/images/hero-background.png" alt="" class="w-full h-full object-cover" />
     </div>
     
-    <!-- Hero Content - Title and Subtitle only -->
-    <div class="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
-      <div class="max-w-4xl mx-auto">
-        <!-- Main Title -->
-        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight drop-shadow-2xl">
-          {$t('title')}
-        </h1>
-        <!-- Subtitle -->
-        <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light text-blue-100 drop-shadow-lg">
-          {$t('teaser.top_content.subtitle')}
-        </h2>
+    <!-- Hero Content Container -->
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-32">
+      <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
+        <!-- Right Side: Circular Image (First on mobile) -->
+        <div class="flex-shrink-0 lg:order-2">
+          <div class="space-y-2">
+            <div class="relative w-80 h-80 sm:w-96 sm:h-96 lg:w-96 lg:h-96 xl:w-[450px] xl:h-[450px]">
+              <div class="absolute inset-0 rounded-full overflow-hidden shadow-2xl">
+                <img 
+                  src="/images/tourounagashi_001.webp" 
+                  alt="Hiroshima Toro Nagashi" 
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <p class="text-xs text-gray-500 text-center" style="font-family: 'Inter', sans-serif;">©︎HCVB</p>
+          </div>
+        </div>
+        
+        <!-- Left Side: Text Content (Second on mobile) -->
+        <div class="flex-1 w-full lg:w-auto lg:order-1">
+          <div class="space-y-6 lg:space-y-8">
+            <!-- Main Title -->
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight hero-title-animation" style="font-family: 'Archivo', sans-serif; letter-spacing: -0.02em;">
+              FOSS4G Hiroshima 2026, Japan
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-xl sm:text-2xl lg:text-3xl font-normal text-gray-700" style="font-family: 'Inter', sans-serif;">
+              {$t('teaser.top_content.subtitle')}
+            </p>
+            
+            <!-- Event Period -->
+            <p class="text-lg sm:text-xl lg:text-2xl font-medium text-gray-700" style="font-family: 'Inter', sans-serif;">
+              August 30 - September 5, 2026
+            </p>
+            
+            <!-- Register Button -->
+            <div class="pt-2">
+              <a 
+                href="https://ti.to/osgeo-jp/foss4g-2026" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105" 
+                style="background: linear-gradient(149.59deg, #C10609 4.86%, #F10606 104.98%); font-family: 'Inter', sans-serif;">
+                Register Now
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   
-  <!-- Sponsorship Banner -->
-  <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-8 rounded-r-lg">
-    <p class="text-yellow-800 text-center text-lg sm:text-xl">
-      <span class="text-yellow-700 font-bold mr-2">{$t('teaser.schedule.call_for_proposals.banner_prefix')}</span>
-      <strong>{$t('teaser.schedule.call_for_proposals.banner_text')}</strong> 
-      <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/program-schedule/workshops" 
-         class="text-blue-900 underline hover:text-blue-700 ml-2 font-semibold">
-        {$t('teaser.schedule.call_for_proposals.banner_link')}
-      </a>
-    </p>
-  </div>
-  
-  <!-- Countdown Section -->
-  <div class="mb-8">
-    <Countdown />
-  </div>
-  
-  <!-- Content Card outside the image -->
-  <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200">
-    <div class="text-gray-800 space-y-4 text-base sm:text-lg leading-relaxed">
-      <p class="font-medium text-slate-800 text-lg sm:text-xl">{$t('teaser.top_content.paragraph_1')}</p>
-      <p class="text-gray-700">{$t('teaser.top_content.paragraph_2')}</p>
-      <p class="text-gray-700">{$t('teaser.top_content.paragraph_3')}</p>
-      <p class="text-gray-700">{$t('teaser.top_content.paragraph_4')}</p>
-      <p class="text-gray-700">{$t('teaser.top_content.paragraph_5')}</p>
+  <!-- News Section -->
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-8">
+    <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4" style="font-family: 'Archivo', sans-serif;">{$t('teaser.news.title')}</h2>
+      <div class="border-t border-gray-300 pt-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- News Item 1 -->
+          <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.website_update.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.website_update.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              {$t('teaser.news.items.website_update.description')}
+            </p>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.website_renewal.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.website_renewal.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              {$t('teaser.news.items.website_renewal.description')}
+            </p>
+          </div>
+          <!-- News Item 3 -->
+          <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.workshop_tickets.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900 hover:underline cursor-pointer">
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.workshop_tickets.link')}">
+                {$t('teaser.news.items.workshop_tickets.title')}
+              </a>
+            </h3>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  
+  <!-- Schedule Section (Dark Background) -->
+  <div class="w-full" style="background: radial-gradient(120% 120% at 50% 120%, #5C5C5C 0%, #202020 100%);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+      <!-- Countdown - 上部に配置 -->
+      <Countdown />
+      
+      <!-- 日程カード（3枚） - カウントダウンの下に配置 -->
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- Workshop Days Card (White) -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Workshops</h3>
+          <div class="space-y-2">
+            <p class="text-5xl font-bold text-center" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">8/30-8/31</p>
+            <p class="text-xs text-gray-600 uppercase text-center" style="font-family: 'Inter', sans-serif;">AUGUST 2026</p>
+          </div>
+          <div class="mt-6">
+            <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/program-schedule/workshops" class="text-sm font-medium text-gray-700 hover:text-gray-900 underline" style="font-family: 'Inter', sans-serif;">View Details →</a>
+          </div>
+        </div>
+        
+        <!-- Main Conference Card (White) -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Main Conference</h3>
+          <div class="space-y-2">
+            <p class="text-5xl font-bold text-center" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">9/1-9/3</p>
+            <p class="text-xs text-gray-600 uppercase text-center" style="font-family: 'Inter', sans-serif;">SEPTEMBER 2026</p>
+          </div>
+          <div class="mt-6">
+            <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/program-schedule/presentations" class="text-sm font-medium text-gray-700 hover:text-gray-900 underline" style="font-family: 'Inter', sans-serif;">View Details →</a>
+          </div>
+        </div>
+        
+        <!-- Community Sprint & Event Days Card (White) -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <h3 class="text-2xl font-bold mb-6" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Community Sprint & Events</h3>
+          <div class="space-y-2">
+            <p class="text-5xl font-bold text-center" style="font-family: 'Archivo', sans-serif; background: linear-gradient(149.59deg, #222222 4.86%, #535353 104.98%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">9/4-9/5</p>
+            <p class="text-xs text-gray-600 uppercase text-center" style="font-family: 'Inter', sans-serif;">SEPTEMBER 2026</p>
+          </div>
+          <div class="mt-6">
+            <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/program-schedule/community-sprint" class="text-sm font-medium text-gray-700 hover:text-gray-900 underline" style="font-family: 'Inter', sans-serif;">View Details →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- About Section -->
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <div class="space-y-10">
+      <div class="space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight" style="font-family: 'Archivo', sans-serif;">
+          {$t('teaser.top_content.paragraph_1')}
+        </h2>
+        <div class="max-w-3xl space-y-4 text-base sm:text-lg text-gray-700 leading-relaxed" style="font-family: 'Inter', sans-serif;">
+          <p>{$t('teaser.top_content.paragraph_2')}</p>
+          <p>{$t('teaser.top_content.paragraph_3')}</p>
+          <p>{$t('teaser.top_content.paragraph_4')}</p>
+          <p>{$t('teaser.top_content.paragraph_5')}</p>
+        </div>
+        <div class="pt-4">
+          <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/about/foss4g" 
+             class="inline-flex items-center justify-center px-6 py-4 text-lg font-medium text-white rounded" 
+             style="background: linear-gradient(149.59deg, #C10609 4.86%, #F10606 104.98%); font-family: 'Inter', sans-serif;">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Hiroshima Image Section -->
+  <div class="w-full h-96 sm:h-[500px] lg:h-[600px] relative">
+    <img src="{HiroshimaImage}" alt="Hiroshima" class="w-full h-full object-cover rounded" />
+    <p class="absolute bottom-2 right-2 text-xs text-white opacity-70" style="font-family: 'Inter', sans-serif; text-shadow: 0 1px 3px rgba(0,0,0,0.5);">©︎HCVB</p>
   </div>
 
   <!-- Venue Section -->
-  <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
-    <div class="flex items-center mb-6">
-      <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">{$t('teaser.venue.label')}</h2>
-    </div>
-    
-    <!-- Venue Information Grid -->
-    <div class="grid md:grid-cols-2 gap-4 mb-6">
-      <div class="bg-white/80 rounded-lg p-4 shadow-sm">
-        <h4 class="font-semibold text-slate-800 mb-1">{$t('teaser.venue.main.label')}</h4>
-        <p class="text-slate-600">{$t('teaser.venue.main.name')}</p>
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+    <div class="text-center space-y-10">
+      <div class="space-y-4">
+        <h2 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900" style="font-family: 'Archivo', sans-serif; letter-spacing: -0.03em;">Venue</h2>
       </div>
-      <div class="bg-white/80 rounded-lg p-4 shadow-sm">
-        <h4 class="font-semibold text-slate-800 mb-1">{$t('teaser.venue.hands_on.label')}</h4>
-        <p class="text-slate-600">{$t('teaser.venue.hands_on.name')}</p>
+      
+      <!-- Venue Information Grid -->
+      <div class="flex flex-col md:flex-row gap-8 justify-center items-start max-w-5xl mx-auto">
+        <div class="flex-1 text-left space-y-4">
+          <p class="text-xs text-gray-500 uppercase tracking-wider" style="font-family: 'Space Mono', monospace;">MAIN CONFERENCE VENUE</p>
+          <h3 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight" style="font-family: 'Archivo', sans-serif;">{$t('teaser.venue.main.name')}</h3>
+        </div>
+        <div class="hidden md:block w-px h-32 bg-gray-400"></div>
+        <div class="flex-1 text-left space-y-4">
+          <p class="text-xs text-gray-500 uppercase tracking-wider" style="font-family: 'Space Mono', monospace;">WORKSHOP VENUE</p>
+          <h3 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight" style="font-family: 'Archivo', sans-serif;">{$t('teaser.venue.hands_on.name')}</h3>
+        </div>
+      </div>
+      
+      <!-- Map Section -->
+      <div class="mt-8">
+        <Map
+          mapClass="w-full h-[400px] sm:h-[500px] rounded-2xl shadow-lg"
+          center={[132.4596, 34.3853]}
+          zoom={13}
+          style={$t('map.settings.style')}
+          items={[
+            {
+              coordinates: [132.45118, 34.39205],
+              title: $t('about.map.main_venue.name'),
+              description: $t('about.map.main_venue.title') + ' - ' + $t('about.map.main_venue.dates'),
+              color: "text-red-600"
+            },
+            {
+              coordinates: [132.46930498963332, 34.395054166977275],
+              title: $t('about.map.workshop_venue.name'),
+              description: $t('about.map.workshop_venue.title') + ' - ' + $t('about.map.workshop_venue.dates'),
+              color: "text-blue-600"
+            }
+          ]}
+        />
       </div>
     </div>
-    
-    <!-- Map Section -->
-    <div class="mt-6">
-      <Map
-        mapClass="w-full h-[300px] sm:h-[350px] rounded-lg shadow-sm"
-        center={[132.4596, 34.3853]}
-        zoom={6}
-        style={$t('map.settings.style')}
-        items={[
-          {
-            coordinates: [132.45118, 34.39205],
-            title: $t('about.map.main_venue.name'),
-            description: $t('about.map.main_venue.title') + ' - ' + $t('about.map.main_venue.dates'),
-            color: "text-red-600"
-          },
-          {
-            coordinates: [132.46930498963332, 34.395054166977275],
-            title: $t('about.map.workshop_venue.name'),
-            description: $t('about.map.workshop_venue.title') + ' - ' + $t('about.map.workshop_venue.dates'),
-            color: "text-blue-600"
-          }
-        ]}
-      />
+  </div>
+  
+  <!-- CTA Section: Join Us in Hiroshima -->
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-16">
+    <div class="rounded-2xl p-12 sm:p-16 text-center shadow-xl border border-gray-300" style="background: linear-gradient(149.59deg, #0A0A0A 4.86%, #5D5D5D 104.98%);">
+      <div class="space-y-8 max-w-3xl mx-auto">
+        <h2 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-white" style="font-family: 'Archivo', sans-serif; letter-spacing: -0.03em;">Join Us in<br />Hiroshima</h2>
+        <p class="text-lg sm:text-xl text-white opacity-60 leading-relaxed" style="font-family: 'Inter', sans-serif;">
+          Stay connected and get the latest updates.
+        </p>
+        
+        <!-- Registration Button -->
+        <div class="pt-2">
+          <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/register/registration" 
+             class="inline-flex items-center justify-center px-8 py-4 text-lg sm:text-xl font-medium text-white rounded-lg hover:opacity-90 transition-opacity" 
+             style="background: linear-gradient(149.59deg, #C10609 4.86%, #F10606 104.98%); font-family: 'Inter', sans-serif;">
+            Register Now
+          </a>
+        </div>
+        
+        <!-- Mailing List Button -->
+        <div>
+          <a href="https://mailchi.mp/foss4g/mailing-list" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white rounded-lg border-2 border-white/30 hover:border-white/50 hover:bg-white/10 transition-all" 
+             style="font-family: 'Inter', sans-serif;">
+            <FontAwesomeIcon icon={faEnvelope} class="mr-2" />
+            Join our Mailing List
+          </a>
+        </div>
+        
+        <!-- Social Media Links -->
+        <div class="flex flex-col items-center gap-4 pt-4">
+          <p class="text-sm text-white/60 font-medium" style="font-family: 'Inter', sans-serif;">Follow us for event updates</p>
+          <div class="flex gap-4">
+            <a href="https://www.linkedin.com/company/foss4g2026/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/30 text-white hover:border-white/50 hover:bg-white/10 transition-all"
+               title="LinkedIn">
+              <FontAwesomeIcon icon={faLinkedin} class="text-xl" />
+            </a>
+            <a href="https://t.me/foss4g" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/30 text-white hover:border-white/50 hover:bg-white/10 transition-all"
+               title="Telegram">
+              <FontAwesomeIcon icon={faTelegram} class="text-xl" />
+            </a>
+            <a href="https://chat.whatsapp.com/Lffta4SIYKOH03aUw318Q1?mode=gi_t" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/30 text-white hover:border-white/50 hover:bg-white/10 transition-all"
+               title="WhatsApp Public Chat">
+              <FontAwesomeIcon icon={faWhatsapp} class="text-xl" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
   <!-- Sponsors Section -->
-  <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+   <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200">
     <div class="text-center mb-8">
       <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">{$t('teaser.sponsors.title')}</h2>
     </div>
     
     <!-- Diamond Sponsors -->
-    <div class="mb-8">
-      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.diamond_sponsors')}</h3>
+    <div class="mb-12 py-6">
+      <h3 class="text-xl font-semibold text-slate-700 mb-6 text-center">{$t('teaser.sponsors.diamond_sponsors')}</h3>
       <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
         <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
           <a href="https://eukarya.io/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Eukarya/eukarya.svg"
               alt="Eukarya"
-              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+              class="h-36 sm:h-44 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
@@ -151,7 +330,23 @@
             <img
               src="/images/sponsors/MIERUNE/MIERUNE.png"
               alt="MIERUNE Inc."
-              class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
+              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gold Sponsors -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.gold_sponsors')}</h3>
+      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="http://www.geocat.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/GeoCat/14_GeoCat colour - Jeroen Ticheler.svg"
+              alt="GeoCat"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
@@ -223,6 +418,33 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.apptec.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/AppliedTechnology/05_応用技術_FOSS4G_MachiSpaceLogo_2026.png"
+              alt="Applied Technology"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://arkedgespace.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/ArkEdgeSpace/13_ArkEdgeSpace_BRANDLOGO2lineB-RGB-Ver001 - Kota Yuhara.png"
+              alt="ArkEdgeSpace"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.geosolutionsgroup.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Geosolutions/12_geosolutions_logo.png"
+              alt="GeoSolutions"
+              class="h-8 sm:h-12 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
@@ -257,32 +479,33 @@
         </div>
       </div>
     </div>
+   </div>
   </div>
 
-  <!-- Partner Sponsors Section -->
-  <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-200 mt-8">
-    <div class="text-center mb-6">
-      <h2 class="text-2xl sm:text-3xl font-bold text-slate-800">Organizers</h2>
-    </div>
-    
-    <!-- Sponsors Logo Grid -->
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12">
-      <!-- OSGeo Japan Logo -->
-      <div class="flex items-center justify-center">
-        <img 
-          src="/images/OSGeoJP_logo_color.svg" 
-          alt="OSGeo Japan" 
-          class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
-        />
-      </div>
+  <!-- Organizers Section -->
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="text-center space-y-8">
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-900" style="font-family: 'Archivo', sans-serif;">Organizers</h2>
       
-      <!-- OSGeo Logo -->
-      <div class="flex items-center justify-center">
-        <img 
-          src="/images/osgeo-logo-cmyk.svg" 
-          alt="OSGeo Foundation" 
-          class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
-        />
+      <!-- Organizers Logo Grid -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-12 sm:gap-16">
+        <!-- OSGeo Japan Logo -->
+        <div class="flex items-center justify-center">
+          <img 
+            src="/images/OSGeoJP_logo_color.svg" 
+            alt="OSGeo Japan" 
+            class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+          />
+        </div>
+        
+        <!-- OSGeo Logo -->
+        <div class="flex items-center justify-center">
+          <img 
+            src="/images/osgeo-logo-cmyk.svg" 
+            alt="OSGeo Foundation" 
+            class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+          />
+        </div>
       </div>
     </div>
   </div>

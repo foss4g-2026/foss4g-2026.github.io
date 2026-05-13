@@ -13,11 +13,31 @@
   "teaser": {
     "top_content": {
       "subtitle": "Bridging Geospatial Technology and Humanity",
-      "paragraph_1": "FOSS4G is the world’s largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation. In 2026, this global FOSS4G event will be held in Hiroshima, Japan.",
+      "paragraph_1": "FOSS4G is the world's largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation.",
       "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience.",
       "paragraph_3": "At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
       "paragraph_4": "As a \"City of Peace and Reconstruction\", Hiroshima is an ideal place to explore how technology can foster empathy, inclusion, and international collaboration.",
       "paragraph_5": "And of course, we invite you to enjoy Hiroshima’s unique culture and delicious cuisine to the fullest!"
+    },
+    "news": {
+      "title": "News",
+      "items": {
+        "website_update": {
+          "date": "May 13, 2026",
+          "title": "New Sponsor Logos Added",
+          "description": "We are pleased to announce new sponsor logos have been added to our website."
+        },
+        "website_renewal": {
+          "date": "May 13, 2026",
+          "title": "Website Design Renewed",
+          "description": "We have renewed the design of our top page to provide a better user experience."
+        },
+        "workshop_tickets": {
+          "date": "May 8, 2026",
+          "title": "Workshop tickets are now available!",
+          "link": "/program-schedule/workshops"
+        }
+      }
     },
     "period": {
       "label": "Conference Period",
@@ -143,6 +163,7 @@
       "presentations": "Presentations",
       "workshops": "Workshops",
       "community_sprint": "Community Sprint",
+      "community_events": "Community Events",
       "ice_breaker": "Ice Breaker",
       "gala_dinner": "Gala Dinner",
       "excursion": "Excursion",
@@ -371,6 +392,32 @@
     "registration_title": "How to register",
     "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the OSGeo Wiki (coming soon).",
     "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!"
+  },
+  "community_events": {
+    "title": "Community Events",
+    "intro": "FOSS4G Hiroshima 2026 is inviting applications for community events to be held during and around the conference period.<br><br>Community events are organized and run by individual communities. They are intended to provide opportunities for participants to connect, share knowledge, and engage with one another. Possible formats include meetups, study sessions, social gatherings, and other community-led activities.<br><br>The organizing team will review submitted information and, where appropriate, help promote events through the official website and provide support with venue coordination.",
+    "when_title": "When to Hold a Community Event",
+    "when_description": "Community events may be held during the FOSS4G Hiroshima 2026 conference period, as well as on the days before or after it. In particular, the following time slots are likely to work well, as they are less likely to overlap with the main conference program:",
+    "suggested_times": [
+      "Mornings during the workshop period (Aug 30–31)",
+      "Evenings during the workshop period (Aug 30–31)",
+      "Mornings during the main conference period (Sep 1–3)",
+      "Open slots during the main conference period",
+      "During the community sprint period (Sep 4–5)"
+    ],
+    "other_times_note": "Events may also be held outside these suggested times. If you have a preferred date or time, please include it in the application form below.",
+    "venue_title": "Venue",
+    "venue_description": "In principle, each community is expected to arrange its own venue. However, if you would like to hold your event at the <strong>Hiroshima International Conference Center</strong>, the main venue of FOSS4G Hiroshima 2026, the organizing team may be able to assist with venue coordination.<br><br>If your venue is not yet decided, or if you would like to request a space at the Hiroshima International Conference Center, please indicate this in the application form.",
+    "apply_title": "How to Apply",
+    "apply_description": "If you would like your community event to be listed and announced as part of FOSS4G Hiroshima 2026, please complete the application form below.",
+    "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSc0pxNf-DU8a3k6mpPheEEddGzTTc90h2Ino-Pga3TrOMgKbw/viewform",
+    "apply_button_text": "Application Form",
+    "notes_title": "Notes",
+    "notes": [
+      "All submissions will be reviewed by the organizing team before publication.",
+      "Venue support cannot be guaranteed.",
+      "Each community is responsible for planning and running its own event, including participant management."
+    ]
   },
   "ice_breaker": {
     "title": "Ice Breaker",
@@ -763,14 +810,14 @@
       "title": "Map",
       "venues_title": "Conference Venues",
       "main_venue": {
-        "title": "Main Venue",
+        "title": "Main Conference Venue",
         "name": "International Conference Center Hiroshima",
-        "dates": "Main conference days: September 1-3, 2026"
+        "dates": "September 1-3, 2026"
       },
       "workshop_venue": {
         "title": "Workshop Venue",
         "name": "RCC Bunka Center",
-        "dates": "Hands-on workshop days: August 30-31, 2026"
+        "dates": "August 30-31, 2026"
       }
     },
     "organizer": {
@@ -1073,8 +1120,8 @@
       "additional_items_title": "Optional Extras",
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in February 2026.",
       "main_registration_types": [
-        ["<s>Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)</s>", "—"],
-        ["<s>Early Bird (After Super Early Bird ends - May 8, 2026)</s>", "—"],
+        ["<s>Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)</s>", "<s>JPY 40,000</s>"],
+        ["<s>Early Bird (After Super Early Bird ends - May 8, 2026)</s>", "<s>JPY 50,000</s>"],
         ["Regular (May 9 - September 3, 2026)", "JPY 80,000"],
         ["Local", "JPY 40,000"],
         ["Studentship", "JPY 30,000"]
