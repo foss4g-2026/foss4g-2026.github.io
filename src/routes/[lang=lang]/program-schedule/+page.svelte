@@ -48,6 +48,16 @@
     <p class="text-gray-700 mb-4">{$t('program_schedule.workshop.description')}</p>
   </section>
 
+  <!-- Community Events -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/program-schedule/community-events" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('community_events.title')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('community_events.summary_description')}</p>
+  </section>
+
   <!-- Community Sprint -->
   <section class="mb-12">
     <h2 class="text-2xl font-semibold mb-4">
