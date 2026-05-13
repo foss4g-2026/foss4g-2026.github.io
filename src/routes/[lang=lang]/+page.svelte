@@ -17,7 +17,7 @@
   <div class="relative w-full overflow-hidden" style="background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);">
     <!-- Background Pattern/Image -->
     <div class="absolute inset-0 opacity-30">
-      <img src="/images/hero-background.png" alt="" class="w-full h-full object-cover" />
+      <img src="/images/hero-background.webp" alt="" class="w-full h-full object-cover" />
     </div>
     
     <!-- Hero Content Container -->
@@ -103,11 +103,14 @@
           <!-- News Item 3 -->
           <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.workshop_tickets.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900 hover:underline cursor-pointer">
-              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.workshop_tickets.link')}">
-                {$t('teaser.news.items.workshop_tickets.title')}
-              </a>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.workshop_tickets.title')}
             </h3>
+            <p class="text-sm text-gray-600">
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.workshop_tickets.link')}" class="text-blue-600 hover:underline">
+                {$t('teaser.news.items.workshop_tickets.description')}
+              </a>
+            </p>
           </div>
         </div>
       </div>

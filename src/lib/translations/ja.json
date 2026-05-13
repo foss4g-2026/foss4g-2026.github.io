@@ -130,6 +130,7 @@
         "workshop_tickets": {
           "date": "2026年5月8日",
           "title": "ワークショップチケット販売開始！",
+          "description": "詳細を見る",
           "link": "/program-schedule/workshops"
         }
       }
