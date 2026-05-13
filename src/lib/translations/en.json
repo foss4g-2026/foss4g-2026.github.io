@@ -396,6 +396,7 @@
   },
   "community_events": {
     "title": "Community Events",
+    "summary_description": "Community events are organized and run by each community.",
     "intro": "FOSS4G Hiroshima 2026 is inviting applications for community events to be held during and around the conference period.<br><br>Community events are organized and run by individual communities. They are intended to provide opportunities for participants to connect, share knowledge, and engage with one another. Possible formats include meetups, study sessions, social gatherings, and other community-led activities.<br><br>The organizing team will review submitted information and, where appropriate, help promote events through the official website and provide support with venue coordination.",
     "when_title": "When to Hold a Community Event",
     "when_description": "Community events may be held during the FOSS4G Hiroshima 2026 conference period, as well as on the days before or after it. In particular, the following time slots are likely to work well, as they are less likely to overlap with the main conference program:",

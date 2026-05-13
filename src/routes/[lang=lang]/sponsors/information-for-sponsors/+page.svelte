@@ -326,6 +326,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://www.isprs.org/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/ISPRS/isprs_logo.jpg"
+              alt="ISPRS"
+              class="h-32 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </div>

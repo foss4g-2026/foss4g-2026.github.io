@@ -480,6 +480,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.isprs.org/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/ISPRS/isprs_logo.jpg"
+              alt="ISPRS"
+              class="h-28 sm:h-32 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
    </div>
