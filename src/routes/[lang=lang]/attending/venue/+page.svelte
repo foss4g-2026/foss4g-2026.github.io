@@ -18,7 +18,7 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-6">
       <div>
-        <img src="/images/icch.png" alt={$t('venue.main_venue.title')} class="w-full h-64 object-cover rounded-lg shadow">
+        <img src="/images/HiroshimaConventionCenter.webp" alt={$t('venue.main_venue.title')} class="w-full h-64 object-cover rounded-lg shadow">
       </div>
       <div>
         <Map
@@ -56,7 +56,7 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-6">
       <div>
-        <img src="/images/rccbc.jpg" alt={$t('venue.workshop_venue.title')} class="w-full h-64 object-cover rounded-lg shadow">
+        <img src="/images/rccbc.webp" alt={$t('venue.workshop_venue.title')} class="w-full h-64 object-cover rounded-lg shadow">
       </div>
       <div>
         <Map

@@ -35,6 +35,7 @@
         "workshop_tickets": {
           "date": "May 8, 2026",
           "title": "Workshop tickets are now available!",
+          "description": "View details",
           "link": "/program-schedule/workshops"
         }
       }
