@@ -321,6 +321,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://geot.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/GeoTechnologies/08_GT_vi_horizontal_transparent_large.png"
+              alt="Geo Technologies"
+              class="h-40 sm:h-48 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
@@ -456,7 +465,7 @@
       <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.media_partners')}</h3>
       <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
         <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
-          <a href="https://www.gisnext.jp/" target="_blank" rel="noopener noreferrer" class="block">
+          <a href="http://nextpb.com/gisnext/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/GISnext/logo2.png"
               alt="GIS next"
