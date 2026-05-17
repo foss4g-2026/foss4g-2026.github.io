@@ -303,6 +303,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://www.jafta.or.jp/contents/home/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Jafta/16_Jafta.png"
+              alt="Japan Forest Technology Association"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
