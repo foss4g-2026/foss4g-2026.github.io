@@ -218,8 +218,8 @@
       <div class="mt-8">
         <Map
           mapClass="w-full h-[400px] sm:h-[500px] rounded-2xl shadow-lg"
-          center={[132.4596, 34.3853]}
-          zoom={13}
+          center={[132.4596, 34.37034]}
+          zoom={12}
           style={$t('map.settings.style')}
           items={[
             {
@@ -233,6 +233,18 @@
               title: $t('about.map.workshop_venue.name'),
               description: $t('about.map.workshop_venue.title') + ' - ' + $t('about.map.workshop_venue.dates'),
               color: "text-blue-600"
+            },
+            {
+              coordinates: [132.46405767905273, 34.34296856461762],
+              title: $t('about.map.gala_venue.name'),
+              description: $t('about.map.gala_venue.title') + ' - ' + $t('about.map.gala_venue.dates'),
+              color: "text-yellow-600"
+            },
+            {
+              coordinates: [132.45505812798388, 34.39719885093278],
+              title: $t('about.map.icebreaker_venue.name'),
+              description: $t('about.map.icebreaker_venue.title') + ' - ' + $t('about.map.icebreaker_venue.dates'),
+              color: "text-green-600"
             }
           ]}
         />
