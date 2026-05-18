@@ -563,6 +563,26 @@
         "10-minute walk from Hiroshima Station South Exit.",
         "5-minute walk from Hiroden Kanayamacho tram stop."
       ]
+    },
+    "gala_venue": {
+      "title": "Grand Prince Hotel Hiroshima",
+      "description": "The gala dinner for FOSS4G Hiroshima 2026 will be held at the Grand Prince Hotel Hiroshima.",
+      "details": "The Grand Prince Hotel Hiroshima is a 23-story waterfront hotel facing Setonaikai National Park, offering panoramic views of the sea and mountains from all rooms. It is widely known for hosting the working dinner and accommodating world leaders during the 2023 G7 Hiroshima Summit.",
+      "address_title": "Venue Details",
+      "address": "23-1 Motoujinamachi, Minami Ward, Hiroshima, 734-8543, Japan",
+      "access": [
+        "Access by chartered bus from the main conference venue, Hiroshima International Conference Center."
+      ]
+    },
+    "icebreaker_venue": {
+      "title": "HIROSHIMA GATE PARK",
+      "description": "The icebreaker event for FOSS4G Hiroshima 2026 will be held at HIROSHIMA GATE PARK.",
+      "details": "HIROSHIMA GATE PARK is a large urban park located in Naka Ward, Hiroshima, developed on the site of the former Hiroshima Municipal Baseball Stadium. The park features a spacious green plaza, complemented by cafes and shops, making it a popular spot for both relaxation and various events.",
+      "address_title": "Venue Details",
+      "address": "5-25 Motomachi, Naka Ward, Hiroshima, 730-0011, Japan ",
+      "access": [
+        "1-minute walk from Atomic Bomb Dome tram stop."
+      ]
     }
   },
   "transport": {
@@ -820,6 +840,16 @@
         "title": "Workshop Venue",
         "name": "RCC Bunka Center",
         "dates": "August 30-31, 2026"
+      },
+      "gala_venue": {
+        "title": "Gala Dinner Venue",
+        "name": "Grand Prince Hotel Hiroshima",
+        "dates": "September 2, 2026"
+      },
+      "icebreaker_venue": {
+        "title": "Ice Breaker Venue",
+        "name": "HIROSHIMA GATE PARK",
+        "dates": "September 1, 2026"
       }
     },
     "organizer": {
