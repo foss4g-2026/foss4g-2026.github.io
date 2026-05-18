@@ -1,0 +1,294 @@
+[
+  {
+    "ID": "3BRTB8",
+    "Proposal title": "GIS-Based Walking Map Isochrones in Measuring Transit Catchment: A Spatial Approach to Urban Accessibility",
+    "Speaker names": [
+      "Maisarah"
+    ]
+  },
+  {
+    "ID": "8AQ7Q9",
+    "Proposal title": "Capturing park-use behavior patterns using volunteered street view imagery: Does the likelihood increase with the volume of contributions?",
+    "Speaker names": [
+      "Xinrui Zheng"
+    ]
+  },
+  {
+    "ID": "8FLCZL",
+    "Proposal title": "UrbanGraphSAGE: A Reproducible Open\u2011Source Graph Neural Network Pipeline for Building Footprint Extraction from Sentinel\u20112 in Algiers",
+    "Speaker names": [
+      "MAAMAR ARBOUZ"
+    ]
+  },
+  {
+    "ID": "8TQ9TG",
+    "Proposal title": "Spatiotemporal Analysis of OpenStreetMap Editing Activities in Japan Using the OSMCha",
+    "Speaker names": [
+      "Toshikazu Seto"
+    ]
+  },
+  {
+    "ID": "A8HJRP",
+    "Proposal title": "Machine Learning for Terrain Traversability Mapping: Accuracy, Uncertainty, and Data Limitations",
+    "Speaker names": [
+      "Marek Wyszy\u0144ski",
+      "Krzysztof Pokonieczny"
+    ]
+  },
+  {
+    "ID": "BJKCBD",
+    "Proposal title": "Analysis of the Gap Between Walkability for Older Adults and the Actual Physical Environment Using Gradient-Aware Network Analysis: A Case Study of the Area Surrounding Shin-Yurigaoka Station",
+    "Speaker names": [
+      "Hinako Terado"
+    ]
+  },
+  {
+    "ID": "C87UJX",
+    "Proposal title": "Open Disaster Response (OpenDR) 1.0: A Multidimensional Cloud-Native Framework for Real-Time GeoAI, Multi-Sensor Fusion, and Humanitarian Intelligence",
+    "Speaker names": [
+      "Bayilla Geda"
+    ]
+  },
+  {
+    "ID": "DNVPKT",
+    "Proposal title": "Between Sacred Tradition and Urban Form: An OpenStreetMap-Based Analysis of Church Orientation Patterns in Milan",
+    "Speaker names": [
+      "Taichi Furuhashi",
+      "Hinako Terado"
+    ]
+  },
+  {
+    "ID": "DXWTBW",
+    "Proposal title": "Comparative Analysis of Multi-Sensor Responses for Maize Yield Estimation",
+    "Speaker names": [
+      "Esnart Sandikonda"
+    ]
+  },
+  {
+    "ID": "EH3UUL",
+    "Proposal title": "A Systematic Comparison of RAG Architectures for Geographic POI Question Answering Using OpenStreetMap Data",
+    "Speaker names": [
+      "Noboru Otsuka"
+    ]
+  },
+  {
+    "ID": "EHMHQL",
+    "Proposal title": "Towards Automated Map JSON Style  from Spatial Vector Data Using MCP",
+    "Speaker names": [
+      "Arissara Sompita"
+    ]
+  },
+  {
+    "ID": "ESKRCL",
+    "Proposal title": "From Raw ADS-B Signals to Reproducible Flight Trajectories: An Open Geospatial Workflow for Narita Airport",
+    "Speaker names": [
+      "Junta Tagusari"
+    ]
+  },
+  {
+    "ID": "F9LRPL",
+    "Proposal title": "Tool Selection for Detailed Accessibility Analysis Using GTFS Data: The Case of the Yamagata Urban Area",
+    "Speaker names": [
+      "Shota Yamamoto"
+    ]
+  },
+  {
+    "ID": "FQU8JR",
+    "Proposal title": "Open-Source Spatiotemporal Traffic Congestion Analysis at City Scale: A Reproducible Python Pipeline Combining PySAL, OSMnx, and Multilevel Modeling",
+    "Speaker names": [
+      "Firman Hadi",
+      "Fauzan Abdullah"
+    ]
+  },
+  {
+    "ID": "FZSEMG",
+    "Proposal title": "Global contributors, local maps: the story of OpenStreetMap in a small town",
+    "Speaker names": [
+      "Sterling Quinn"
+    ]
+  },
+  {
+    "ID": "GHZ7HE",
+    "Proposal title": "A Comprehensive Disaster Risk Analysis Model with GeoAI",
+    "Speaker names": [
+      "Muhammed Oguzhan Mete"
+    ]
+  },
+  {
+    "ID": "GUYLJD",
+    "Proposal title": "Towards a Spatial Knowledge Mesh: A Metamodel for Federated and Interoperable Spatial Knowledge Graphs to Enable Geospatial Awareness, Integrity, Provenance, and Trust in Large Language Models",
+    "Speaker names": [
+      "Nathan McEachen"
+    ]
+  },
+  {
+    "ID": "HALY9B",
+    "Proposal title": "From Ancient Legends to Pixels: Reconstructing Ancient Esna Landscape with GIS and Remote Sensing",
+    "Speaker names": [
+      "TonyLiu"
+    ]
+  },
+  {
+    "ID": "JMCYAC",
+    "Proposal title": "Development of open-source environment Digital Twin framework",
+    "Speaker names": [
+      "Matthew Wilson",
+      "Luke Parkinson"
+    ]
+  },
+  {
+    "ID": "JWLHGA",
+    "Proposal title": "Geospatial Intelligence for Forest Fire Management: A FOSS4G Perspective",
+    "Speaker names": [
+      "Him Lal Shrestha",
+      "Rabina Shrestha"
+    ]
+  },
+  {
+    "ID": "KUNXTC",
+    "Proposal title": "Open-Source QGIS-Based Analysis of Coastal LULC Change and Drivers in the Niger Delta (1986\u20132026) with 2050 Scenario Projections",
+    "Speaker names": [
+      "Dr.Victor N.Sunday",
+      "Grace Martins-Ateli"
+    ]
+  },
+  {
+    "ID": "NJLL3K",
+    "Proposal title": "Comparative analysis of route and health care facilities for the emergency patients of Pune and Bengaluru",
+    "Speaker names": [
+      "Adwait Priyadarshan"
+    ]
+  },
+  {
+    "ID": "PYU8TZ",
+    "Proposal title": "Open-Source Geospatial Workflow for Hydro-Morphological Vulnerability Modelling in Deltaic Systems Using FOSS4G: Application to the Core Niger Delta, Nigeria",
+    "Speaker names": [
+      "Dr.Victor N.Sunday"
+    ]
+  },
+  {
+    "ID": "QBD7LX",
+    "Proposal title": "An open-source GeoAI workflow for mapping historic agricultural terraces",
+    "Speaker names": [
+      "Filippo Brandolini"
+    ]
+  },
+  {
+    "ID": "QCPKXQ",
+    "Proposal title": "Using WRF-UCM as Boundary Forcing for Microscale Models in Data-Scarce Urban Environments",
+    "Speaker names": [
+      "Tom\u00e1\u0161 Fedor",
+      "Jaroslav Hofierka"
+    ]
+  },
+  {
+    "ID": "QLKER8",
+    "Proposal title": "Comparing uncertainty quantification methods for Random Forest-based digital soil mapping",
+    "Speaker names": [
+      "Liina Hints"
+    ]
+  },
+  {
+    "ID": "QZLDZG",
+    "Proposal title": "Rectangular vs Hexagonal Grid Tessellation for Spatial Analysis of Invasive Species: A Case Study of Aromia bungii in Saitama, Japan.",
+    "Speaker names": [
+      "Narumasa Tsutsumida",
+      "Irhamillah"
+    ]
+  },
+  {
+    "ID": "SBUA8B",
+    "Proposal title": "Mapping Nearshore Cladophora in Lake Ontario: An Automated Open-Source Sentinel-2 Workflow and Experimental Index Derivation",
+    "Speaker names": [
+      "TonyLiu"
+    ]
+  },
+  {
+    "ID": "SNBLLQ",
+    "Proposal title": "Application of SUMO in Simulation of Optimized Traffic Light Timing derived using Artificial Neural Network and GIS",
+    "Speaker names": [
+      "Nabilah Naharudin"
+    ]
+  },
+  {
+    "ID": "TMX8HE",
+    "Proposal title": "Geographic Visualization of the Kaii-Yokai Folklore Database Using Open-Source GIS and NLP",
+    "Speaker names": [
+      "Kosuke Shimizu"
+    ]
+  },
+  {
+    "ID": "UUYLME",
+    "Proposal title": "Integrating Machine Learning with Open-Source GIS for Reproducible High-Resolution Terrain Classification and Hazard Mapping from UAV LiDAR Data",
+    "Speaker names": [
+      "Nikola Kranj\u010di\u0107"
+    ]
+  },
+  {
+    "ID": "UXU7LH",
+    "Proposal title": "A Pipeline for Low-Cost Wide-Area 3D Mapping Using LiDAR-Equipped Mobile Devices and Open Data",
+    "Speaker names": [
+      "Ryosei Ueda"
+    ]
+  },
+  {
+    "ID": "VYWSCK",
+    "Proposal title": "DINO-EdgeQuery: Edge-First Polygon Decoding for Building Footprint Extraction from Satellite imagery",
+    "Speaker names": [
+      "Yuji Kobayashi"
+    ]
+  },
+  {
+    "ID": "WUMCKV",
+    "Proposal title": "Shared Landscapes, Shared Futures: Visual Landscape Evolution Modelling for Community Stewardship",
+    "Speaker names": [
+      "Vinuri Piyathilake"
+    ]
+  },
+  {
+    "ID": "XBZYE7",
+    "Proposal title": "Learning with Spaceborne LiDAR for Enhancement of Bare-Earth Digital Elevation Models from Global Data",
+    "Speaker names": [
+      "Xiandong Cai"
+    ]
+  },
+  {
+    "ID": "XVK8JN",
+    "Proposal title": "MUSUBOU-AR: An Open-Source Geospatial AR Framework for Integrating Public GIS Data, Field Authoring, and Disaster Walking Tours",
+    "Speaker names": [
+      "Daisuke Yoshida"
+    ]
+  },
+  {
+    "ID": "YDWGPA",
+    "Proposal title": "Aitchison-Loss Training with Geospatial Embeddings Sharpens Compositional Land-Cover Maps",
+    "Speaker names": [
+      "Narumasa Tsutsumida",
+      "Ayato Kanno"
+    ]
+  },
+  {
+    "ID": "YEEKAW",
+    "Proposal title": "Examining the Relationship Between Tatara Iron Production and Grassland Distribution in Western Japan: An Open Geospatial Approach to Historical Landscape Analysis",
+    "Speaker names": [
+      "Nobusuke Iwasaki",
+      "Ayaka Onohara",
+      "Takatora Bito"
+    ]
+  },
+  {
+    "ID": "YMWRET",
+    "Proposal title": "Extending GeoNode as a Foundation for Research Data Management Infrastructures in Agricultural Research",
+    "Speaker names": [
+      "Marcel Wallschl\u00e4ger",
+      "Igo Silva de Almeida"
+    ]
+  },
+  {
+    "ID": "YPKLE7",
+    "Proposal title": "Linking provider catchment and SaTScan risk clusters for evidence-based public health nursing in Japan",
+    "Speaker names": [
+      "Ryo Horiike"
+    ]
+  }
+]

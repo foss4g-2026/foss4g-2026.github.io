@@ -291,8 +291,10 @@
   "presentations": {
     "announcement": "プログラムの詳細は2026年4月に公開予定です",
     "title": "発表",
-    "confirmed_note": "以下は、提案投稿システムで確認済みの発表のみ表示しています。このデータは2026年4月22日時点のものです。",
+    "confirmed_note": "以下は、提案投稿システムで確認済みの発表のみ表示しています。このデータは2026年5月19日時点のものです。",
     "search_placeholder": "タイトルまたは発表者名で検索...",
+    "general_tracks": "General Tracks",
+    "academic_tracks": "Academic Tracks",
     "table_id": "ID",
     "table_title": "タイトル",
     "table_speakers": "発表者",

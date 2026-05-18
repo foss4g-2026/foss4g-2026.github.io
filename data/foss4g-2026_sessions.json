@@ -1,5 +1,12 @@
 [
   {
+    "ID": "33TQQC",
+    "Proposal title": "Bringing Old Maps & Illustrated Maps to the Web: 10 Years of Maplat and Turning Misalignment into Innovation",
+    "Speaker names": [
+      "KOHEI OTSUKA"
+    ]
+  },
+  {
     "ID": "37T8AK",
     "Proposal title": "The #1 plugin for QGIS",
     "Speaker names": [
@@ -25,6 +32,13 @@
     "Proposal title": "Apache SIS for integrated metadata, referencing and grid coverage services",
     "Speaker names": [
       "Martin Desruisseaux"
+    ]
+  },
+  {
+    "ID": "3DHJXR",
+    "Proposal title": "Mapping Peace: A GIS-Based Storytelling Platform for Global Peace Education from Hiroshima",
+    "Speaker names": [
+      "Hiroshima Funairi High School"
     ]
   },
   {
@@ -89,7 +103,14 @@
     "ID": "778RKA",
     "Proposal title": "Current GIS Applications in Hokkaido Agriculture and Hokuren's FOSS4G Initiatives with QGIS",
     "Speaker names": [
-      "\u5c71\u672c\u96c4\u98db"
+      "Yuhi Yamamoto"
+    ]
+  },
+  {
+    "ID": "77WDWM",
+    "Proposal title": "Mapping invasive canopy-smothering vines in the tropical Pacific using SAR and open-source geospatial tools",
+    "Speaker names": [
+      "Iosefa Percival"
     ]
   },
   {
@@ -129,6 +150,13 @@
     ]
   },
   {
+    "ID": "7RGJVD",
+    "Proposal title": "FBIS Africa: Freshwater biodiversity data from Africa, for Africa.",
+    "Speaker names": [
+      "Dimas Tri Ciputra"
+    ]
+  },
+  {
     "ID": "7TW8PW",
     "Proposal title": "Open Disaster Response (OpenDR) 1.0: Real-Time Cloud-Native GeoAI and Multi-Sensor Fusion for Humanitarian Intelligence",
     "Speaker names": [
@@ -153,7 +181,7 @@
     "ID": "7WWFAY",
     "Proposal title": "Utilizing detailed geographic information open data",
     "Speaker names": [
-      "mori@mikuniya.co.jp"
+      "Yoshimasa Mori, Shota Sato,Akana Matsuda"
     ]
   },
   {
@@ -218,7 +246,7 @@
     "ID": "8JWRBE",
     "Proposal title": "Reproducibility in geospatial research: a case study.",
     "Speaker names": [
-      "Rosa Aguilar, Pitchaporn Likitpanjamanon, Frank Ostermann"
+      "Rosa Aguilar"
     ]
   },
   {
@@ -297,7 +325,8 @@
     "Proposal title": "pygeoapi project status",
     "Speaker names": [
       "Tom Kralidis",
-      "Angelos Tzotsos"
+      "Angelos Tzotsos",
+      "Joana Simoes"
     ]
   },
   {
@@ -363,6 +392,7 @@
     "ID": "9FN7PW",
     "Proposal title": "Standardizing Geospatial Time Series Access with OGC API EDR and RDF Linked Data Standards",
     "Speaker names": [
+      "Benjamin Webb",
       "Colton Loftus"
     ]
   },
@@ -530,6 +560,13 @@
     "Proposal title": "ESGF Next Generation",
     "Speaker names": [
       "Rhys Evans"
+    ]
+  },
+  {
+    "ID": "BJFRLD",
+    "Proposal title": "Applying OSS \u201cOuranos GEX\u201d: Lessons from PoC and the Path to Java-Based Development",
+    "Speaker names": [
+      "Nan Si"
     ]
   },
   {
@@ -846,6 +883,13 @@
     ]
   },
   {
+    "ID": "ERGRGW",
+    "Proposal title": "50 Lines of Python: Neighborhood DNA from Overture Maps Places",
+    "Speaker names": [
+      "Marija Ercegovac"
+    ]
+  },
+  {
     "ID": "ESK9ZX",
     "Proposal title": "GeoNode usage in Brazil: State of art, challenges, and business opportunities",
     "Speaker names": [
@@ -904,10 +948,17 @@
     ]
   },
   {
+    "ID": "FMPNE3",
+    "Proposal title": "asahina proposal test",
+    "Speaker names": [
+      "Hinako Iseki"
+    ]
+  },
+  {
     "ID": "FQ3BSJ",
     "Proposal title": "Lack of Open-Source Border Datasets on Sensitive Border Areas: The Case of the China\u2013Bhutan Border and Arunachal Pradesh",
     "Speaker names": [
-      "\u9152\u4e95\u8087"
+      "Jo Sakai"
     ]
   },
   {
@@ -915,6 +966,13 @@
     "Proposal title": "Methods for Introducing Geospatial Awareness to Large Language Models with Integrity, Provenance, and Trust through Open Standards and Open Source",
     "Speaker names": [
       "Nathan McEachen"
+    ]
+  },
+  {
+    "ID": "FRJANH",
+    "Proposal title": "GeoAgent: A QGIS Plugin for Natural Language-Driven Geospatial Analysis",
+    "Speaker names": [
+      "Tek Bahadur Kshetri"
     ]
   },
   {
@@ -1070,7 +1128,8 @@
     "ID": "GZPBN3",
     "Proposal title": "Making drainage engineers' life easy: A culvert designers plug-in for QGIS",
     "Speaker names": [
-      "Blake"
+      "Blake",
+      "Nimalika Fernando"
     ]
   },
   {
@@ -1193,7 +1252,8 @@
     "Speaker names": [
       "Carlos Eduardo Mota",
       "Mauricio Marino",
-      "Matheus Klein Flach"
+      "Matheus Klein Flach",
+      "Tiago Antonelli"
     ]
   },
   {
@@ -1445,7 +1505,7 @@
     "Proposal title": "Accuracy Verification of Three-Dimensional Models Around the Tottori Sand Dunes Created from Historical Aerial Photographs",
     "Speaker names": [
       "Nobusuke Iwasaki",
-      "Shota"
+      "Shota Toso"
     ]
   },
   {
@@ -1484,13 +1544,6 @@
     "Proposal title": "Making Maps Readable: A Dive into Font Rendering in Navara",
     "Speaker names": [
       "Adel Refaat"
-    ]
-  },
-  {
-    "ID": "N37VVC",
-    "Proposal title": "Building spatial databases with MakeGIS",
-    "Speaker names": [
-      "Christophe Thiange"
     ]
   },
   {
@@ -1533,13 +1586,6 @@
     "Proposal title": "Mapping Peace: A GIS-Based Storytelling Platform for Global Peace Education from Hiroshima",
     "Speaker names": [
       "Hiroshima Funairi High School"
-    ]
-  },
-  {
-    "ID": "NVAAA8",
-    "Proposal title": "Geoprivacy in the Field: Integrating Privacy-Preserving Spatial Transformations into the QField Mobile GIS Platform",
-    "Speaker names": [
-      "Dr Pankajeshwara Sharma"
     ]
   },
   {
@@ -1742,6 +1788,7 @@
     "ID": "R7GEQB",
     "Proposal title": "Running pygeoapi Cloud Native at Scale",
     "Speaker names": [
+      "Benjamin Webb",
       "Colton Loftus"
     ]
   },
@@ -1765,6 +1812,13 @@
     "Speaker names": [
       "Alex Leith",
       "William Jones"
+    ]
+  },
+  {
+    "ID": "RBBMRZ",
+    "Proposal title": "From Binary to Web Maps: Teaching GIS Programming in the Kartoza Internship",
+    "Speaker names": [
+      "Zulfikar Akbar Muzakki"
     ]
   },
   {
@@ -1869,6 +1923,13 @@
     ]
   },
   {
+    "ID": "SA7BNH",
+    "Proposal title": "Turning Statistics into Maps with UNICEF\u2019s Open Source Geospatial Solutions",
+    "Speaker names": [
+      "Jan Burdziej"
+    ]
+  },
+  {
     "ID": "SBUMDY",
     "Proposal title": "Using Lonboard for interactive STAC, COG, and Zarr visualization from Python",
     "Speaker names": [
@@ -1903,7 +1964,9 @@
     "ID": "SYBPRD",
     "Proposal title": "Voxelization. Cubing 3D Space for Machine.",
     "Speaker names": [
-      "Hak joon Kim"
+      "Hak joon Kim",
+      "Seungmin Kwon",
+      "joohyoung Kim"
     ]
   },
   {
@@ -1917,8 +1980,6 @@
     "ID": "SZ83SS",
     "Proposal title": "Mapping Fiber Without Operator Data: Evidence-Based Connectivity Indicators",
     "Speaker names": [
-      "Philipp Kleer",
-      "Carolina de Almeida Caetano",
       "CRISTIANE HONORA MILLAN"
     ]
   },
@@ -1927,6 +1988,13 @@
     "Proposal title": "Beyond Shapefile: A Taxonomy of Modern Geospatial Data Formats",
     "Speaker names": [
       "Markus Tremmel"
+    ]
+  },
+  {
+    "ID": "T3DTHT",
+    "Proposal title": "Eurostat vs OSM vs Census: Choosing Open Mobility Data for Urban Function Maps",
+    "Speaker names": [
+      "Marija Ercegovac"
     ]
   },
   {
@@ -1941,7 +2009,7 @@
     "Proposal title": "Detecting Rooftop Solar Panels with Deep Learning, using Open Remote Sensing Data and OpenStreetMap",
     "Speaker names": [
       "Danielle",
-      "Gefei"
+      "Gefei Kong"
     ]
   },
   {
@@ -2026,7 +2094,9 @@
     "ID": "TSHBPR",
     "Proposal title": "End-to-End Deep Learning Analysis Pipeline for Early-Season Crop Mapping using Sentinel Data and Continuous Wavelet Transforms",
     "Speaker names": [
-      "Thantham Khamyai"
+      "Sarawut Ninsawat",
+      "Thantham Khamyai",
+      "sittichai choosumrong"
     ]
   },
   {
@@ -2186,13 +2256,6 @@
     ]
   },
   {
-    "ID": "VW8FXJ",
-    "Proposal title": "Rise of the Machines, Rise of the Workers",
-    "Speaker names": [
-      "Jonah Sullivan"
-    ]
-  },
-  {
     "ID": "WD3DHU",
     "Proposal title": "End-to-End Satellite Data Pipeline: Airflow Orchestration, Zarr Storage, and LandTrendr Analysis",
     "Speaker names": [
@@ -2225,6 +2288,13 @@
     "Proposal title": "Bridging the Geospatial Data Gap in Africa with QGIS and OpenStreetMap",
     "Speaker names": [
       "Ruvimbo  Doreen Supiya"
+    ]
+  },
+  {
+    "ID": "WPCPST",
+    "Proposal title": "Establishing an Automated 3D Geospatial Data Pipeline for a National Digital Land Platform",
+    "Speaker names": [
+      "JIYOON KWON"
     ]
   },
   {
@@ -2379,6 +2449,7 @@
     "ID": "ZKUQYS",
     "Proposal title": "Geoconnex: Standardizing Water Data in the United States through a Unified Graph Database",
     "Speaker names": [
+      "Benjamin Webb",
       "Colton Loftus"
     ]
   },
