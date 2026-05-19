@@ -245,6 +245,12 @@
               title: $t('about.map.icebreaker_venue.name'),
               description: $t('about.map.icebreaker_venue.title') + ' - ' + $t('about.map.icebreaker_venue.dates'),
               color: "text-green-600"
+            },
+            {
+              coordinates: [132.447970, 34.387633],
+              title: $t('about.map.sprint_venue.name'),
+              description: $t('about.map.sprint_venue.title') + ' - ' + $t('about.map.sprint_venue.dates'),
+              color: "text-purple-600"
             }
           ]}
         />

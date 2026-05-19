@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import Table from '$components/Table.svelte'
 </script>
 
@@ -27,7 +27,7 @@
     </p>
     
     <ul class="list-disc pl-6 mb-6 space-y-2">
-      {#each $t('program_schedule.geochicas.about.pillars') as pillar}
+      {#each $json('program_schedule.geochicas.about.pillars') as pillar}
         <li>{pillar}</li>
       {/each}
     </ul>
@@ -43,7 +43,7 @@
     </p>
 
     <ul class="list-disc pl-6 mb-6 space-y-2">
-      {#each $t('program_schedule.geochicas.gathering.opportunities') as opportunity}
+      {#each $json('program_schedule.geochicas.gathering.opportunities') as opportunity}
         <li>{opportunity}</li>
       {/each}
     </ul>

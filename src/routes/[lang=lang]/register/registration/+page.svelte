@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import Table from '$components/Table.svelte'
   import SubmitButton from '$components/SubmitButton.svelte'
 </script>
@@ -31,7 +31,7 @@
     
     <Table 
       headers={[$t('register.registration.type'), $t('register.registration.price')]}
-      rows={$t('register.registration.main_registration_types') as unknown as string[][]}
+      rows={$json('register.registration.main_registration_types') as unknown as string[][]}
       class="mb-6"
     />
   </div>
@@ -40,7 +40,7 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.whats_included.title')}</h2>
     
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('register.registration.whats_included.items') as item}
+      {#each $json('register.registration.whats_included.items') as item}
         <li>{item}</li>
       {/each}
     </ul>
@@ -51,7 +51,7 @@
     
     <Table 
       headers={[$t('register.registration.type'), $t('register.registration.price')]}
-      rows={$t('register.registration.additional_items') as unknown as string[][]}
+      rows={$json('register.registration.additional_items') as unknown as string[][]}
       class="mb-6"
     />
     

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import SubmitButton from '$components/SubmitButton.svelte'
 </script>
 
@@ -23,7 +23,7 @@
     
     <h2 class="text-2xl font-semibold mb-4">{$t('gala_dinner.what_to_expect_title')}</h2>
     <ul class="space-y-4 mb-6">
-      {#each $t('gala_dinner.what_to_expect') as item}
+      {#each $json('gala_dinner.what_to_expect') as item}
         <li class="flex items-start">
           <span class="text-3xl mr-4">{item.icon}</span>
           <div>

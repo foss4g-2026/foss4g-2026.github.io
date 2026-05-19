@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import Map from '$components/Map.svelte'
 </script>
 
@@ -41,7 +41,7 @@
       <h3 class="text-lg font-semibold mb-3">{$t('venue.main_venue.address_title')}</h3>
       <p class="mb-3">{$t('venue.main_venue.address')}</p>
       <ul class="list-disc pl-6 space-y-1">
-        {#each ($t('venue.main_venue.access') as unknown as string[]) as item}
+        {#each ($json('venue.main_venue.access') as unknown as string[]) as item}
           <li>{item}</li>
         {/each}
       </ul>
@@ -79,7 +79,7 @@
       <h3 class="text-lg font-semibold mb-3">{$t('venue.workshop_venue.address_title')}</h3>
       <p class="mb-3">{$t('venue.workshop_venue.address')}</p>
       <ul class="list-disc pl-6 space-y-1">
-        {#each ($t('venue.workshop_venue.access') as unknown as string[]) as item}
+        {#each ($json('venue.workshop_venue.access') as unknown as string[]) as item}
           <li>{item}</li>
         {/each}
       </ul>
@@ -114,7 +114,7 @@
       <h3 class="text-lg font-semibold mb-3">{$t('venue.gala_venue.address_title')}</h3>
       <p class="mb-3">{$t('venue.gala_venue.address')}</p>
       <ul class="list-disc pl-6 space-y-1">
-        {#each ($t('venue.gala_venue.access') as unknown as string[]) as item}
+        {#each ($json('venue.gala_venue.access') as unknown as string[]) as item}
           <li>{item}</li>
         {/each}
       </ul>
@@ -149,7 +149,7 @@
       <h3 class="text-lg font-semibold mb-3">{$t('venue.icebreaker_venue.address_title')}</h3>
       <p class="mb-3">{$t('venue.icebreaker_venue.address')}</p>
       <ul class="list-disc pl-6 space-y-1">
-        {#each ($t('venue.icebreaker_venue.access') as unknown as string[]) as item}
+        {#each ($json('venue.icebreaker_venue.access') as unknown as string[]) as item}
           <li>{item}</li>
         {/each}
       </ul>

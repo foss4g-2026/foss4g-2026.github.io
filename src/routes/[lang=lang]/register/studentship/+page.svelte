@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import SubmitButton from '$components/SubmitButton.svelte'
 </script>
 
@@ -29,7 +29,7 @@
   <div class="mb-8">
     <h2 class="text-2xl font-semibold mb-4">{$t('register.studentship.eligibility.title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('register.studentship.eligibility.requirements') as requirement}
+      {#each $json('register.studentship.eligibility.requirements') as requirement}
         <li>{requirement}</li>
       {/each}
     </ul>

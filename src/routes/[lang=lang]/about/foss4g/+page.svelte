@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
 </script>
 
 <svelte:head>
@@ -27,7 +27,7 @@
         {$t('about.foss4g.knowledge_section.intro')}
       </p>
       <ul class="list-disc list-inside mb-4 space-y-2">
-        {#each $t('about.foss4g.knowledge_section.topics') as topic}
+        {#each $json('about.foss4g.knowledge_section.topics') as topic}
           <li>{topic}</li>
         {/each}
       </ul>

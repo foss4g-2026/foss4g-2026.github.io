@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import SubmitButton from '$components/SubmitButton.svelte'
 </script>
 
@@ -35,7 +35,7 @@
 
     <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.numbers.title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('register.volunteering.numbers.items') as item}
+      {#each $json('register.volunteering.numbers.items') as item}
         <li>{item}</li>
       {/each}
     </ul>
@@ -43,7 +43,7 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.activities.title')}</h2>
     <p class="mb-4">{$t('register.volunteering.activities.intro')}</p>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('register.volunteering.activities.items') as item}
+      {#each $json('register.volunteering.activities.items') as item}
         <li><strong>{item.value}</strong>: {item.description}</li>
       {/each}
     </ul>
@@ -51,7 +51,7 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.gains.title')}</h2>
     <p class="mb-4">{$t('register.volunteering.gains.intro')}</p>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('register.volunteering.gains.items') as item}
+      {#each $json('register.volunteering.gains.items') as item}
         <li><strong>{item.value}</strong>: {item.description}</li>
       {/each}
     </ul>
