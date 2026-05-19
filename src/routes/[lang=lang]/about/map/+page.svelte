@@ -40,6 +40,12 @@
           title: $t('about.map.icebreaker_venue.name'),
           description: $t('about.map.icebreaker_venue.title') + ' - ' + $t('about.map.icebreaker_venue.dates'),
           color: "text-green-600"
+        },
+        {
+          coordinates: [132.447970, 34.387633],
+          title: $t('about.map.sprint_venue.name'),
+          description: $t('about.map.sprint_venue.title') + ' - ' + $t('about.map.sprint_venue.dates'),
+          color: "text-purple-600"
         }
       ]}
     />
@@ -91,6 +97,21 @@
         </div>
         <p class="text-gray-700">{$t('about.map.icebreaker_venue.name')}</p>
         <p class="text-sm text-gray-600 mt-2">{$t('about.map.icebreaker_venue.dates')}</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="flex items-center mb-2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-purple-600 mr-2">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+          </svg>
+          <h3 class="text-lg font-semibold">{$t('about.map.sprint_venue.title')}</h3>
+        </div>
+        <p class="text-gray-700">
+          <a href="http://h-culture.jp/facilities/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
+            {$t('about.map.sprint_venue.name')}
+          </a>
+        </p>
+        <p class="text-sm text-gray-600 mt-2">{$t('about.map.sprint_venue.dates')}</p>
       </div>
     </div>
   </div>

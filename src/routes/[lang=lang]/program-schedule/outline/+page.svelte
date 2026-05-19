@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import Table from '$components/Table.svelte'
   import ComingSoon from '$components/ComingSoon.svelte'
 </script>
@@ -17,8 +17,8 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('program_outline.schedule_glance.title')}</h2>
     <div class="mb-8">
       <Table 
-        headers={$t('program_outline.schedule_glance.table.headers') as unknown as string[]}
-        rows={$t('program_outline.schedule_glance.table.rows') as unknown as string[][]}
+        headers={$json('program_outline.schedule_glance.table.headers') as string[]}
+        rows={$json('program_outline.schedule_glance.table.rows') as string[][]}
         class="mb-6"
       />
     </div>

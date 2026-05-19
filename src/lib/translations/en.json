@@ -237,8 +237,8 @@
           ["September 1 (Tue)", "Main Conference Day 1", "Int'l Conference Center", "9:00 - 18:00"],
           ["September 2 (Wed)", "Main Conference Day 2", "Int'l Conference Center", "9:00 - 18:00"],
           ["September 3 (Thu)", "Main Conference Day 3", "Int'l Conference Center", "9:00 - 17:00"],
-          ["September 4 (Fri)", "Community Sprint/Social Events Day 1", "TBD", "9:00 - 18:00"],
-          ["September 5 (Sat)", "Community Sprint/Social Events Day 2", "TBD", "9:00 - 17:00"]
+          ["September 4 (Fri)", "Community Sprint", "ASTER PLAZA", "9:00 - 18:00"],
+          ["September 5 (Sat)", "Excursion", "TBD", "9:00 - 17:00"]
         ]
       }
     }
@@ -852,6 +852,11 @@
         "title": "Ice Breaker Venue",
         "name": "HIROSHIMA GATE PARK",
         "dates": "September 1, 2026"
+      },
+      "sprint_venue": {
+        "title": "Community Sprint Venue",
+        "name": "ASTER PLAZA",
+        "dates": "September 4, 2026"
       }
     },
     "organizer": {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
 </script>
 
 <svelte:head>
@@ -16,14 +16,14 @@
 
     <h2 class="text-2xl font-semibold mb-4">{$t('about.privacy_policy.information_collect.title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('about.privacy_policy.information_collect.items') as item}
+      {#each $json('about.privacy_policy.information_collect.items') as item}
         <li>{item}</li>
       {/each}
     </ul>
 
     <h2 class="text-2xl font-semibold mb-4">{$t('about.privacy_policy.how_we_use.title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('about.privacy_policy.how_we_use.items') as item}
+      {#each $json('about.privacy_policy.how_we_use.items') as item}
         <li>{item}</li>
       {/each}
     </ul>
@@ -36,7 +36,7 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('about.privacy_policy.your_rights.title')}</h2>
     <p class="mb-4">{$t('about.privacy_policy.your_rights.intro')}</p>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('about.privacy_policy.your_rights.items') as item}
+      {#each $json('about.privacy_policy.your_rights.items') as item}
         <li>{item}</li>
       {/each}
     </ul>

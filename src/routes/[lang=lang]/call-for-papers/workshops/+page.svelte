@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import { page } from '$app/stores'
   import Table from '$components/Table.svelte'
   import SubmitButton from '$components/SubmitButton.svelte'
@@ -69,7 +69,7 @@
       <div class="bg-blue-50 p-6 rounded-lg">
         <h3 class="text-lg font-semibold mb-2">{$t('call_for_papers.workshops.details.when_where.title')}</h3>
         <ul class="list-disc pl-6 text-sm">
-          {#each $t('call_for_papers.workshops.details.when_where.items') as item}
+          {#each $json('call_for_papers.workshops.details.when_where.items') as item}
             <li>{item}</li>
           {/each}
         </ul>
@@ -77,7 +77,7 @@
       <div class="bg-green-50 p-6 rounded-lg">
         <h3 class="text-lg font-semibold mb-2">{$t('call_for_papers.workshops.details.requirements.title')}</h3>
         <ul class="list-disc pl-6 text-sm">
-          {#each $t('call_for_papers.workshops.details.requirements.items') as item}
+          {#each $json('call_for_papers.workshops.details.requirements.items') as item}
             <li>{item}</li>
           {/each}
         </ul>

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import { page } from '$app/stores'
   import ComingSoon from '$components/ComingSoon.svelte'
   import Table from '$components/Table.svelte'
@@ -67,7 +67,7 @@
       <div>
         <h3 class="text-lg font-semibold mb-2">{$t('call_for_papers.general_sessions.topics.technical_topics.title')}</h3>
         <ul class="list-disc pl-6 text-sm">
-          {#each $t('call_for_papers.general_sessions.topics.technical_topics.items') as item}
+          {#each $json('call_for_papers.general_sessions.topics.technical_topics.items') as item}
             <li>{item}</li>
           {/each}
         </ul>
@@ -75,7 +75,7 @@
       <div>
         <h3 class="text-lg font-semibold mb-2">{$t('call_for_papers.general_sessions.topics.application_areas.title')}</h3>
         <ul class="list-disc pl-6 text-sm">
-          {#each $t('call_for_papers.general_sessions.topics.application_areas.items') as item}
+          {#each $json('call_for_papers.general_sessions.topics.application_areas.items') as item}
             <li>{item}</li>
           {/each}
         </ul>

@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import Map from '$components/Map.svelte'
 
   type Hotel = { name: string; category: string; url: string; lng: number; lat: number }
 
-  $: hotels = $t('accommodation.hotels') as unknown as Hotel[]
+  $: hotels = $json('accommodation.hotels') as unknown as Hotel[]
 
   $: mapItems = hotels.map((hotel, i) => ({
     coordinates: [hotel.lng, hotel.lat] as [number, number],

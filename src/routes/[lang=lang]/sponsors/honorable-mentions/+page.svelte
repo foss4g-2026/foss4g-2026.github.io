@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import { page } from '$app/stores'
   
   $: lang = $page.params.lang || 'en'
@@ -30,7 +30,7 @@
     <h2 class="text-2xl font-semibold mb-6">{$t('about.sponsors.honorable_mentions.supporters_title')}</h2>
     
     <ul class="list-disc list-inside space-y-2 text-lg">
-      {#each $t('about.sponsors.honorable_mentions.supporters') as supporter}
+      {#each $json('about.sponsors.honorable_mentions.supporters') as supporter}
         <li>{supporter}</li>
       {/each}
     </ul>

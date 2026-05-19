@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import SubmitButton from '$components/SubmitButton.svelte'
 </script>
 
@@ -17,7 +17,7 @@
     <p class="text-base mb-4">{$t('community_events.when_description')}</p>
     
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('community_events.suggested_times') as time}
+      {#each $json('community_events.suggested_times') as time}
         <li class="text-base">{time}</li>
       {/each}
     </ul>
@@ -42,7 +42,7 @@
   <div class="prose max-w-none mt-8">
     <h2 class="text-2xl font-semibold mb-4">{$t('community_events.notes_title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('community_events.notes') as note}
+      {#each $json('community_events.notes') as note}
         <li class="text-base">{note}</li>
       {/each}
     </ul>
