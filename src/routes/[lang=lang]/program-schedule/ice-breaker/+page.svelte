@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
 </script>
 
 <svelte:head>
@@ -25,7 +25,7 @@
     
     <h2 class="text-2xl font-semibold mb-4">{$t('ice_breaker.what_to_expect_title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('ice_breaker.what_to_expect') as item}
+      {#each $json('ice_breaker.what_to_expect') as item}
         <li class="text-base mb-2">{item}</li>
       {/each}
     </ul>

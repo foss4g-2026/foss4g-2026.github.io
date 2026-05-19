@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import Table from '$components/Table.svelte'
 
   let isProspectusHovered = false
@@ -114,7 +114,7 @@
       </p>
       <p class="font-semibold text-yellow-900 mb-2">{$t('about.sponsors.call_for_sponsors.alternative_contact.required_info_title')}</p>
       <ul class="list-disc list-inside text-yellow-800 mb-4 space-y-1">
-        {#each $t('about.sponsors.call_for_sponsors.alternative_contact.required_info') as item}
+        {#each $json('about.sponsors.call_for_sponsors.alternative_contact.required_info') as item}
           <li>{item}</li>
         {/each}
       </ul>
