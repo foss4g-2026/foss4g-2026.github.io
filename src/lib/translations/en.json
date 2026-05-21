@@ -1360,7 +1360,7 @@
         "title": "How to Apply",
         "description": "Please fill out our volunteer application form. The information you provide will be reviewed by the Local Organizing Committee (LOC). Due to capacity constraints, we may not be able to accommodate all applicants, but we appreciate your interest in supporting FOSS4G Hiroshima 2026!",
         "closing": "We look forward to working with you!",
-        "button": "Volunteer Application Form"
+        "button": "Applications closed because capacity has been reached"
       }
     },
     "cancellation": {
