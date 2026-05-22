@@ -28,7 +28,7 @@
             <img src={item.icon} alt={item.title} class="w-6 h-6" />
           {:else if item.label !== undefined}
             <!-- Numbered circle marker -->
-            <div class="flex items-center justify-center w-8 h-8 rounded-full bg-red-500 text-white text-xs font-bold shadow-md border-2 border-white leading-none">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full bg-white text-2xl shadow-lg border-2 border-gray-300 leading-none">
               {item.label}
             </div>
           {:else}

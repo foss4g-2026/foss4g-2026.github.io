@@ -478,13 +478,13 @@
   },
   "excursion": {
     "title": "Excursion",
-    "date": "September 5, 2026 (Saturday)",
-    "time": "9:00 AM – 5:00 PM (tentative, free to leave anytime)",
-    "fee": "To be confirmed (maximum approx. ¥10,000)",
     "intro": "A guided excursion to historic and cultural sites in Hiroshima.",
-    "notes": [
-      "Lunch is included. We do not accommodate vegan, halal, or allergy requirements, so please bring your own if applicable.",
-      "Please note that capacity is limited and registration will be accepted on a first-come, first-served basis."
+    "details_title": "Event Details",
+    "details": [
+      "Date: Saturday, September 5, 2026",
+      "Time: Departure at 9:00 AM, event ends between 2:00 PM and 5:00 PM",
+      "Fee: JPY 10,000 (tax included)",
+      "Capacity: 70 participants (first-come, first-served basis)"
     ],
     "itinerary_title": "Itinerary",
     "itinerary": [
@@ -500,21 +500,46 @@
       },
       {
         "icon": "⛩️",
-        "title": "Itsukushima Shrine — Guided Tour",
-        "description": "A guided tour of Itsukushima Shrine, a Shinto shrine built over the sea on wooden stilts, known for its large vermilion torii gate standing in the water. Founded in the 6th century. A UNESCO World Heritage site."
+        "title": "Itsukushima Shrine",
+        "title_suffix": " — Guided Tour",
+        "description": "A guided tour of Itsukushima Shrine, a Shinto shrine built over the sea on wooden stilts, known for its large vermilion torii gate standing in the water. Founded in the 6th century. A UNESCO World Heritage site.",
+        "link": "https://www.japan-guide.com/e/e3450.html"
+      },
+      {
+        "icon": "🍱",
+        "title": "Lunch",
+        "description": "Lunch will feature local Hiroshima cuisine. Light refreshments with vegan and halal options will also be provided, but participants with specific dietary requirements are encouraged to bring their own food to ensure their needs are fully met."
       },
       {
         "icon": "🗺️",
-        "title": "Free Time on the Island",
-        "description": "After the guided tour, participants are free to spend the rest of the day on the island."
+        "title": "Afternoon Plans — Choose One of Three",
+        "description": "Please select your afternoon plan at the time of registration. The Mt. Misen and Daishō-in courses are limited to 20 participants each (first-come, first-served)."
       }
     ],
-    "free_time_options": [
-      "🥾 Hiking or taking the ropeway up Mt. Misen (the island's mountain, approx. 535m)",
-      "🏯 Visiting Daishō-in, a Buddhist temple on the mountainside",
-      "🦌 Walking through the town, which has traditional shops and local foods"
+    "afternoon_options": [
+      {
+        "icon": "⛰️",
+        "title": "Mt. Misen Course",
+        "description": "Hiking or taking the ropeway up Mt. Misen (the island's mountain, approx. 535m). Limited to 20 participants.",
+        "link": "https://www.japan-guide.com/e/e3451.html"
+      },
+      {
+        "icon": "🏯",
+        "title": "Daishō-in Course",
+        "description": "Visiting Daishō-in, a Shingon Buddhist temple on the mountainside. Limited to 20 participants.",
+        "link": "https://www.japan-guide.com/e/e3453.html"
+      },
+      {
+        "icon": "🦌",
+        "title": "Free Exploration",
+        "description": "Walking through the town at your own pace. The town has traditional shops and local foods such as grilled oysters and momiji manjū."
+      }
     ],
-    "return_note": "※ Return transportation is not included. Participants make their own way back to Hiroshima using the public ferry, train, or bus. Travel time to central Hiroshima is approximately 45–60 minutes."
+    "return_title": "Return Travel",
+    "return_note": "Return transportation is not included. Participants make their own way back to Hiroshima using the public ferry, train, or bus. Travel time to central Hiroshima is approximately 45–60 minutes.",
+    "map_title": "Map of Excursion",
+    "registration_title": "Registration",
+    "registration_url": "https://ti.to/osgeo-jp/foss4g-2026/with/excursion"
   },
   "workshops": {
     "announcement": "Program details will be announced in April 2026",

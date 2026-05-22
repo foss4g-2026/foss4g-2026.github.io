@@ -318,13 +318,22 @@
     <!-- Media Partners -->
     <div class="mb-10">
       <h3 class="text-xl font-semibold text-slate-700 mb-6 text-center">{$t('teaser.sponsors.media_partners')}</h3>
-      <div class="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
-        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+      <div class="flex flex-col items-center gap-6 max-w-5xl mx-auto">
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full">
           <a href="http://nextpb.com/gisnext/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/GISnext/logo2.png"
               alt="GIS next"
-              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full">
+          <a href="https://gisworld-tech.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/GISworldtech/GISWorld-tech_logo.jpg"
+              alt="GISWORLD-Tech"
+              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
