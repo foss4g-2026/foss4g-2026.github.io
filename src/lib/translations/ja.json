@@ -537,7 +537,8 @@
     ],
     "return_title": "帰りの交通",
     "return_note": "帰りの交通手段は含まれておりません。公共のフェリー、電車、バスを利用してご自身で広島へお戻りください。広島中心部までの所要時間は約45〜60分です。",
-    "registration_title": "登録",
+    "map_title": "エクスカーションマップ",
+    "registration_title": "参加登録",
     "registration_url": "https://ti.to/osgeo-jp/foss4g-2026/with/excursion"
   },
   "workshops": {

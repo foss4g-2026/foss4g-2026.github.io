@@ -71,6 +71,10 @@
     
     <h2 class="text-2xl font-semibold mb-4">🚆 {$t('excursion.return_title')}</h2>
     <p class="text-base text-gray-700 mb-6">{$t('excursion.return_note')}</p>
+    
+    <hr class="my-8" />
+    
+    <h2 class="text-2xl font-semibold mb-6">🗺️ {$t('excursion.map_title')}</h2>
   </div>
   
   <div class="mb-8">
