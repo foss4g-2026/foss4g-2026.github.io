@@ -118,14 +118,15 @@
       "title": "ニュース",
       "items": {
         "website_update": {
-          "date": "2026年5月13日",
+          "date": "2026年5月24日",
           "title": "新規スポンサーロゴを掲載しました",
-          "description": "新たにスポンサーロゴを追加いたしました。"
+          "description": "CesiumがPlatinumスポンサーとして新たに加わりました！"
         },
         "website_renewal": {
-          "date": "2026年5月13日",
-          "title": "ウェブサイトデザインをリニューアルしました",
-          "description": "より良いユーザー体験を提供するため、トップページのデザインを刷新しました。"
+          "date": "2026年5月22日",
+          "title": "エクスカーションページを公開しました",
+          "description": "詳細を見る",
+          "link": "/program-schedule/excursion"
         },
         "workshop_tickets": {
           "date": "2026年5月8日",

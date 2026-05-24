@@ -97,7 +97,9 @@
               {$t('teaser.news.items.website_renewal.title')}
             </h3>
             <p class="text-sm text-gray-600">
-              {$t('teaser.news.items.website_renewal.description')}
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.website_renewal.link')}" class="text-blue-600 hover:underline">
+                {$t('teaser.news.items.website_renewal.description')}
+              </a>
             </p>
           </div>
           <!-- News Item 3 -->
@@ -360,6 +362,15 @@
             <img
               src="/images/sponsors/MIERUNE/MIERUNE.png"
               alt="MIERUNE Inc."
+              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://cesium.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Cesium/15_Cesium_dark_color.png"
+              alt="Cesium"
               class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
