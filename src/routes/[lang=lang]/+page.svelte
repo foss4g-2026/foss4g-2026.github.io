@@ -97,7 +97,9 @@
               {$t('teaser.news.items.website_renewal.title')}
             </h3>
             <p class="text-sm text-gray-600">
-              {$t('teaser.news.items.website_renewal.description')}
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.website_renewal.link')}" class="text-blue-600 hover:underline">
+                {$t('teaser.news.items.website_renewal.description')}
+              </a>
             </p>
           </div>
           <!-- News Item 3 -->
