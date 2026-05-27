@@ -13,7 +13,7 @@
   <SubmitButton
     href="https://docs.google.com/forms/d/e/1FAIpQLSfRQU1JuPcRaq7qVqVbRQ2k25ggUA1rlemANzPeyJ9MK5n08Q/viewform?usp=publish-editor"
     text={$t('register.volunteering.apply.button')}
-    disabled={false}
+    disabled={true}
     target="_blank"
     rel="noopener noreferrer"
   />
