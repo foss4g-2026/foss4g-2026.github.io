@@ -495,6 +495,40 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://developmentseed.org/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/DevelopmentSeed/17_Development_Seed_hor--pos@2x.png"
+              alt="Development Seed"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partner Organizations -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.partner_organizations')}</h3>
+      <div class="flex flex-col items-center gap-6 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center w-full">
+          <a href="https://www.jpgu.org/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/JpGU/JpGU_logo.png"
+              alt="Japan Geoscience Union"
+              class="h-28 sm:h-36 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full">
+          <a href="https://www.mlit.go.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/MLIT/MLIT_logo.png"
+              alt="Ministry of Land, Infrastructure, Transport and Tourism"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
