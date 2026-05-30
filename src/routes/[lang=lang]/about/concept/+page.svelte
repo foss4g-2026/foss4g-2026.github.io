@@ -89,8 +89,18 @@
       
       <div class="mt-6 p-6 bg-white border-l-4 border-green-600 rounded-r-lg">
         <h4 class="text-lg font-semibold mb-3">Logo Downloads</h4>
-        <p class="mb-3">
-          Our logo is available for use in social media and marketing material. You can find the mark in various forms for download here at:
+        <p class="mb-4 text-gray-700">
+          Our logo is available for use in social media and marketing material under 
+          <a 
+            href="https://creativecommons.org/licenses/by/4.0/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-green-700 hover:text-green-900 underline font-medium"
+          >
+            CC BY 4.0
+          </a> license. 
+          You are free to use, share, and adapt these logos for any purpose, including commercial use, as long as you provide appropriate credit to "FOSS4G Hiroshima 2026". 
+          You can find the mark in various forms for download here at:
         </p>
         <div class="flex flex-col gap-2">
           <a 
@@ -115,28 +125,6 @@
             </svg>
             PNG Format (Raster)
           </a>
-        </div>
-        
-        <div class="mt-4 pt-4 border-t border-gray-200">
-          <p class="text-sm font-semibold mb-2">
-            <span class="inline-flex items-center gap-2">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              License: 
-              <a 
-                href="https://creativecommons.org/licenses/by/4.0/" 
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-green-700 hover:text-green-900 underline"
-              >
-                CC BY 4.0
-              </a>
-            </span>
-          </p>
-          <p class="text-sm text-gray-600">
-            You are free to use, share, and adapt these logos for any purpose, including commercial use, as long as you provide appropriate credit to "FOSS4G Hiroshima 2026".
-          </p>
         </div>
       </div>
     </div>
