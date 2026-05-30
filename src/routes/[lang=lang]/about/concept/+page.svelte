@@ -86,6 +86,47 @@
           </p>
         </div>
       </div>
+      
+      <div class="mt-6 p-6 bg-white border-l-4 border-green-600 rounded-r-lg">
+        <h4 class="text-lg font-semibold mb-3">Logo Downloads</h4>
+        <p class="mb-4 text-gray-700">
+          Our logo is available for use in social media and marketing material under 
+          <a 
+            href="https://creativecommons.org/licenses/by/4.0/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-green-700 hover:text-green-900 underline font-medium"
+          >
+            CC BY 4.0
+          </a> license. 
+          You are free to use, share, and adapt these logos for any purpose, including commercial use, as long as you provide appropriate credit to "FOSS4G Hiroshima 2026". 
+          You can find the mark in various forms for download here at:
+        </p>
+        <div class="flex flex-col gap-2">
+          <a 
+            href="https://github.com/foss4g-2026/foss4g-2026.github.io/tree/main/logo/svg" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-green-700 hover:text-green-900 font-medium flex items-center gap-2"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+            SVG Format (Vector)
+          </a>
+          <a 
+            href="https://github.com/foss4g-2026/foss4g-2026.github.io/tree/main/logo/png" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-green-700 hover:text-green-900 font-medium flex items-center gap-2"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+            PNG Format (Raster)
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
