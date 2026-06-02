@@ -330,6 +330,24 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://uc.i-ric.org/en" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/iRIC/18_iRic_logomark_color.jpg"
+              alt="iRIC"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="http://www.orbitalnet.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/Orbitalnet/19_orbitalnet.svg"
+              alt="Orbitalnet"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
