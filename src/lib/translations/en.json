@@ -23,21 +23,21 @@
       "title": "News",
       "items": {
         "website_update": {
-          "date": "May 24, 2026",
+          "date": "June 2, 2026",
           "title": "New Sponsor Logos Added",
-          "description": "We are pleased to welcome Cesium as our new Platinum Sponsor!"
+          "description": "We are pleased to welcome iRIC-U, Orbital Net as our new Bronze Sponsor!"
         },
         "website_renewal": {
+          "date": "May 27, 2026",
+          "title": "General Track Timetable Now Available",
+          "description": "View details",
+          "link": "/program-schedule/presentations"
+        },
+        "workshop_tickets": {
           "date": "May 22, 2026",
           "title": "Excursion Page Now Available",
           "description": "View details",
           "link": "/program-schedule/excursion"
-        },
-        "workshop_tickets": {
-          "date": "May 8, 2026",
-          "title": "Workshop tickets are now available!",
-          "description": "View details",
-          "link": "/program-schedule/workshops"
         }
       }
     },
