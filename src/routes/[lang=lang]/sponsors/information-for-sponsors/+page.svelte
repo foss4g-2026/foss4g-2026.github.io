@@ -333,7 +333,7 @@
         <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://uc.i-ric.org/en" target="_blank" rel="noopener noreferrer" class="block">
             <img
-              src="/images/sponsors/iRIC/18_iRic_logomark_color.jpg"
+              src="/images/sponsors/iRIC/18-2_iRic_signature01color.jpg"
               alt="iRIC"
               class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />

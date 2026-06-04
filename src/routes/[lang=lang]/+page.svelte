@@ -507,7 +507,7 @@
         <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
           <a href="https://uc.i-ric.org/en" target="_blank" rel="noopener noreferrer" class="block">
             <img
-              src="/images/sponsors/iRIC/18_iRic_logomark_color.jpg"
+              src="/images/sponsors/iRIC/18-2_iRic_signature01color.jpg"
               alt="iRIC"
               class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
