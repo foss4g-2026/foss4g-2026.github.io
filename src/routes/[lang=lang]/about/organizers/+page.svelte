@@ -1,6 +1,8 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
   import Card from '$components/Card.svelte'
+  import MemberCard from '$components/MemberCard.svelte'
+  import { steeringCommitteeMembers } from '$lib/data/steeringCommittee'
 </script>
 
 <svelte:head>
@@ -42,14 +44,13 @@
     </Card>
   </div>
 
-  <div class="prose max-w-none">
-    <h2 class="text-2xl font-semibold mb-4">{$t('about.organizer.organizing_committee.title')}</h2>
-    <p class="mb-4">
-      {$t('about.organizer.organizing_committee.description_1')}
-    </p>
-    
-    <p class="mb-4">
-      {$t('about.organizer.organizing_committee.description_2')}
-    </p>
-  </div>
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-2">{$t('about.organizer.steering_committee.title')}</h2>
+    <p class="text-gray-600 mb-6">{$t('about.organizer.steering_committee.description')}</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {#each steeringCommitteeMembers as member}
+        <MemberCard {member} />
+      {/each}
+    </div>
+  </section>
 </div>

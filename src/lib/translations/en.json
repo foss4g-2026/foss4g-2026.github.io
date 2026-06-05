@@ -907,6 +907,11 @@
         "title": "Organizing Committee",
         "description_1": "The FOSS4G Hiroshima 2026 organizing committee consists of dedicated volunteers from the Japanese and international geospatial community. Our team brings together expertise in open source geospatial technologies, event management, and local knowledge of Hiroshima.",
         "description_2": "Detailed information about all organizing committee members will be updated as the conference approaches."
+      },
+      "steering_committee": {
+        "title": "Steering Committee",
+        "description": "The Steering Committee consists of committee leaders who coordinate each working group of the FOSS4G Hiroshima 2026 organizing team.",
+        "profile_label": "Profile"
       }
     },
     "concept": {
