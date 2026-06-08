@@ -385,17 +385,16 @@
     "description": "You can choose to contribute to one or more projects. It's not all about programming — translation, documentation, feedback, discussions, and testing are all equally important contributions to OSGeo community projects. Conference registration is not a prerequisite for participation in the community sprint.",
     "date_title": "Date",
     "dates": [
-      "Friday, September 4, 2026  9:30 AM - 5:00 PM"
+      "Friday, September 4, 2026 9:30AM -5:00 PM"
     ],
     "venue_title": "Venue",
     "venue": "Aster Plaza 7F Seminar Rooms, Hiroshima",
     "venue_link": "https://hiyh.pr.arena.ne.jp/en/",
+    "venue_note": "Drinks allowed. No food.",
     "host_title": "Host a Community Sprint Session",
-    "host_description": "If you would like to host a community sprint session, please register your event using the form below.",
-    "host_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSc0pxNf-DU8a3k6mpPheEEddGzTTc90h2Ino-Pga3TrOMgKbw/viewform?usp=publish-editor",
-    "host_button_text": "Application Form",
+    "host_description": "If you would like to host a community sprint session, please add your event to <a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>.",
     "registration_title": "How to register",
-    "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the OSGeo Wiki (coming soon).",
+    "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the <a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>.",
     "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!"
   },
   "community_events": {
