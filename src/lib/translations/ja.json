@@ -385,17 +385,16 @@
     "description": "一つまたは複数のプロジェクトへの貢献をお選びいただけます。やることはプログラミングだけではありません。翻訳、文章化、フィードバック、議論、テストなど、あらゆる形での参加がOSGeoコミュニティプロジェクトにとって重要です。カンファレンスへの参加登録は、コミュニティスプリントへの参加の前提条件ではありません。",
     "date_title": "開催日時",
     "dates": [
-      "2026年9月4日（金） 9:30 AM - 5:00 PM"
+      "2026年9月4日（金） 9:30 AM -5:00 PM"
     ],
     "venue_title": "開催場所",
     "venue": "アステールプラザ 7階　研修室",
     "venue_link": "https://hiyh.pr.arena.ne.jp/en/",
+    "venue_note": "会場内では、飲み物可・食べ物不可。",
     "host_title": "ホスト団体",
-    "host_description": "コミュニティスプリントを開催するコミュニティはこちらのフォームをどうかご記載ください。",
-    "host_form_url": "https://docs.google.com/forms/d/e/1FAIpQLSc0pxNf-DU8a3k6mpPheEEddGzTTc90h2Ino-Pga3TrOMgKbw/viewform?usp=publish-editor",
-    "host_button_text": "申し込みフォーム",
+    "host_description": "コミュニティスプリントを開催するコミュニティは<a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>にどうかご記載ください。",
     "registration_title": "参加登録",
-    "registration_description": "コミュニティスプリントは無料ですが、参加を希望される方はできればOSGeo Wiki（準備中）に参加希望の旨をご記載ください。",
+    "registration_description": "コミュニティスプリントは無料ですが、参加を希望される方はできれば<a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>に参加希望の旨をご記載ください。",
     "registration_note": "Wikiの記入は推奨であり、必須ではありません。飛び込みの参加も大歓迎です！"
   },
   "community_events": {
