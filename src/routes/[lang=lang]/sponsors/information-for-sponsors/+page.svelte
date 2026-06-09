@@ -217,6 +217,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://locationmind.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/LocationMind/20_locationmind_logo-color-horizontal.png"
+              alt="LocationMind Inc."
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
