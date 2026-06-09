@@ -36,7 +36,8 @@
     
     <h2 class="text-2xl font-semibold mb-4">{$t('gala_dinner.ticket_price_title')}</h2>
     <p class="text-xl font-bold mb-2">{$t('gala_dinner.ticket_price')}</p>
-    <p class="text-base italic mb-6">{$t('gala_dinner.ticket_note')}</p>
+    <p class="text-base italic mb-3">{$t('gala_dinner.ticket_note')}</p>
+    <p class="text-sm text-gray-600 mb-6">{$t('gala_dinner.ticket_note_children')}</p>
   </div>
   
   <SubmitButton 

@@ -474,6 +474,7 @@
     "ticket_price_title": "Ticket Price",
     "ticket_price": "¥15,000 per person",
     "ticket_note": "Please note: The Gala Dinner is not included in the conference registration fee and must be purchased separately.",
+    "ticket_note_children": "Children aged 12 and under may attend free of charge when accompanied by a registered attendee. Guests aged under 20 will be charged a beverage fee of ¥1,500 (¥1,200 + 10% Japanese VAT + service charge) on site.",
     "register_button": "Register here",
     "register_url": "https://ti.to/osgeo-jp/foss4g-2026"
   },
