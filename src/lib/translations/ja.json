@@ -35,7 +35,7 @@
     "program_sub": {
       "outline": "アウトライン",
       "keynote": "基調講演",
-      "presentations": "発表",
+      "presentations": "一般セッション",
       "workshops": "ワークショップ",
       "community_sprint": "コミュニティスプリント",
       "community_events": "コミュニティイベント",
@@ -292,7 +292,7 @@
   },
   "presentations": {
     "announcement": "プログラムの詳細は2026年4月に公開予定です",
-    "title": "発表",
+    "title": "一般セッション",
     "confirmed_note": "このページには、プロポーザル登録システムで参加を確認済みの発表のみを掲載しています。スケジュールは今後変更になる場合があります。",
     "search_placeholder": "タイトルまたは発表者名で検索...",
     "general_tracks": "General Tracks",
@@ -579,7 +579,7 @@
       "title": "基調講演"
     },
     "presentations": {
-      "title": "発表",
+      "title": "一般セッション",
       "description": "会議で確定した発表とセッションを閲覧する。"
     },
     "workshop": {

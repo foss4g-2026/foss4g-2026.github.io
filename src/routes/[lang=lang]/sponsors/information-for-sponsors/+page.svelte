@@ -5,6 +5,8 @@
   let isProspectusHovered = false
   let isFormHovered = false
 
+  $: requiredInfo = $json('about.sponsors.call_for_sponsors.alternative_contact.required_info') as string[]
+
   $: headers = [
     $t('about.sponsors.packages.labels.title'),
     $t('about.sponsors.packages.diamond.title'),
@@ -114,7 +116,7 @@
       </p>
       <p class="font-semibold text-yellow-900 mb-2">{$t('about.sponsors.call_for_sponsors.alternative_contact.required_info_title')}</p>
       <ul class="list-disc list-inside text-yellow-800 mb-4 space-y-1">
-        {#each $json('about.sponsors.call_for_sponsors.alternative_contact.required_info') as item}
+        {#each requiredInfo as item}
           <li>{item}</li>
         {/each}
       </ul>

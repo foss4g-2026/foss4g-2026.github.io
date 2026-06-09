@@ -163,7 +163,7 @@
     "program_sub": {
       "outline": "Outline",
       "keynote": "Keynote Speakers",
-      "presentations": "Presentations",
+      "presentations": "General Sessions",
       "workshops": "Workshops",
       "community_sprint": "Community Sprint",
       "community_events": "Community Events",
@@ -292,7 +292,7 @@
   },
   "presentations": {
     "announcement": "Program details will be announced in April 2026",
-    "title": "Presentations",
+    "title": "General Sessions",
     "confirmed_note": "Only presentations confirmed in the proposal submission system are listed. Schedule is subject to change.",
     "search_placeholder": "Search by title or speaker name...",
     "general_tracks": "General Tracks",
@@ -1732,7 +1732,7 @@
       "title": "Keynote Speakers"
     },
     "presentations": {
-      "title": "Presentations",
+      "title": "General Sessions",
       "description": "Browse confirmed presentations and sessions for the conference."
     },
     "workshop": {

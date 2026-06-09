@@ -1,6 +1,14 @@
 <script lang="ts">
   import { t, json } from 'svelte-i18n'
   import SubmitButton from '$components/SubmitButton.svelte'
+
+  interface WhatToExpectItem {
+    icon: string
+    title: string
+    description: string
+  }
+
+  const whatToExpect = $derived($json('gala_dinner.what_to_expect') as WhatToExpectItem[])
 </script>
 
 <svelte:head>
@@ -23,7 +31,7 @@
     
     <h2 class="text-2xl font-semibold mb-4">{$t('gala_dinner.what_to_expect_title')}</h2>
     <ul class="space-y-4 mb-6">
-      {#each $json('gala_dinner.what_to_expect') as item}
+      {#each whatToExpect as item}
         <li class="flex items-start">
           <span class="text-3xl mr-4">{item.icon}</span>
           <div>
