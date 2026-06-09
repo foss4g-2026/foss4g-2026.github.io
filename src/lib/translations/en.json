@@ -23,21 +23,21 @@
       "title": "News",
       "items": {
         "website_update": {
-          "date": "June 2, 2026",
+          "date": "June 10, 2026",
           "title": "New Sponsor Logos Added",
-          "description": "We are pleased to welcome iRIC-U, Orbital Net as our new Bronze Sponsor!"
+          "description": "We are pleased to welcome LocationMind Inc. as our new Gold Sponsor!"
         },
         "website_renewal": {
+          "date": "June 10, 2026",
+          "title": "Steering Committee Members Now Listed",
+          "description": "View details",
+          "link": "/about/organizers"
+        },
+        "workshop_tickets": {
           "date": "May 27, 2026",
           "title": "General Track Timetable Now Available",
           "description": "View details",
           "link": "/program-schedule/presentations"
-        },
-        "workshop_tickets": {
-          "date": "May 22, 2026",
-          "title": "Excursion Page Now Available",
-          "description": "View details",
-          "link": "/program-schedule/excursion"
         }
       }
     },
@@ -163,7 +163,7 @@
     "program_sub": {
       "outline": "Outline",
       "keynote": "Keynote Speakers",
-      "presentations": "Presentations",
+      "presentations": "General Sessions",
       "workshops": "Workshops",
       "community_sprint": "Community Sprint",
       "community_events": "Community Events",
@@ -292,7 +292,7 @@
   },
   "presentations": {
     "announcement": "Program details will be announced in April 2026",
-    "title": "Presentations",
+    "title": "General Sessions",
     "confirmed_note": "Only presentations confirmed in the proposal submission system are listed. Schedule is subject to change.",
     "search_placeholder": "Search by title or speaker name...",
     "general_tracks": "General Tracks",
@@ -474,6 +474,7 @@
     "ticket_price_title": "Ticket Price",
     "ticket_price": "¥15,000 per person",
     "ticket_note": "Please note: The Gala Dinner is not included in the conference registration fee and must be purchased separately.",
+    "ticket_note_children": "Children aged 12 and under may attend free of charge when accompanied by a registered attendee. Guests aged under 20 will be charged a beverage fee of ¥1,500 (¥1,200 + 10% Japanese VAT + service charge) on site.",
     "register_button": "Register here",
     "register_url": "https://ti.to/osgeo-jp/foss4g-2026"
   },
@@ -907,6 +908,15 @@
         "title": "Organizing Committee",
         "description_1": "The FOSS4G Hiroshima 2026 organizing committee consists of dedicated volunteers from the Japanese and international geospatial community. Our team brings together expertise in open source geospatial technologies, event management, and local knowledge of Hiroshima.",
         "description_2": "Detailed information about all organizing committee members will be updated as the conference approaches."
+      },
+      "conference_chairs": {
+        "title": "Conference Chairs",
+        "description": "Conference Chairs lead the overall planning and management of FOSS4G Hiroshima 2026."
+      },
+      "steering_committee": {
+        "title": "Steering Committee",
+        "description": "The Steering Committee consists of committee leaders who coordinate each working group of the FOSS4G Hiroshima 2026 organizing team.",
+        "profile_label": "Profile"
       }
     },
     "concept": {
@@ -1726,7 +1736,7 @@
       "title": "Keynote Speakers"
     },
     "presentations": {
-      "title": "Presentations",
+      "title": "General Sessions",
       "description": "Browse confirmed presentations and sessions for the conference."
     },
     "workshop": {

@@ -35,7 +35,7 @@
     "program_sub": {
       "outline": "アウトライン",
       "keynote": "基調講演",
-      "presentations": "発表",
+      "presentations": "一般セッション",
       "workshops": "ワークショップ",
       "community_sprint": "コミュニティスプリント",
       "community_events": "コミュニティイベント",
@@ -118,21 +118,21 @@
       "title": "ニュース",
       "items": {
         "website_update": {
-          "date": "2026年6月2日",
+          "date": "2026年6月10日",
           "title": "新規スポンサーロゴを掲載しました",
-          "description": "iRIC-U、Orbital NetがBronzeスポンサーとして新たに加わりました！"
+          "description": "LocationMind株式会社がGoldスポンサーとして新たに加わりました！"
         },
         "website_renewal": {
+          "date": "2026年6月10日",
+          "title": "Organizing CommitteeにSteering Committeeメンバーを掲載しました",
+          "description": "詳細を見る",
+          "link": "/about/organizers"
+        },
+        "workshop_tickets": {
           "date": "2026年5月27日",
           "title": "一般発表のタイムテーブルを公開しました",
           "description": "詳細を見る",
           "link": "/program-schedule/presentations"
-        },
-        "workshop_tickets": {
-          "date": "2026年5月22日",
-          "title": "エクスカーションページを公開しました",
-          "description": "詳細を見る",
-          "link": "/program-schedule/excursion"
         }
       }
     },
@@ -292,7 +292,7 @@
   },
   "presentations": {
     "announcement": "プログラムの詳細は2026年4月に公開予定です",
-    "title": "発表",
+    "title": "一般セッション",
     "confirmed_note": "このページには、プロポーザル登録システムで参加を確認済みの発表のみを掲載しています。スケジュールは今後変更になる場合があります。",
     "search_placeholder": "タイトルまたは発表者名で検索...",
     "general_tracks": "General Tracks",
@@ -474,6 +474,7 @@
     "ticket_price_title": "チケット料金",
     "ticket_price": "お一人様 ¥15,000",
     "ticket_note": "注意：ガラディナーはカンファレンス参加費に含まれておりません。別途ご購入が必要です。",
+    "ticket_note_children": "12歳以下のお子様は登録済み参加者の同伴に限り無料でご参加いただけます。20歳未満の方には、当日会場にてソフトドリンク代として¥1,500（¥1,200＋消費税10％＋サービス料）を別途ご負担いただきます。",
     "register_button": "こちらから登録",
     "register_url": "https://ti.to/osgeo-jp/foss4g-2026"
   },
@@ -578,7 +579,7 @@
       "title": "基調講演"
     },
     "presentations": {
-      "title": "発表",
+      "title": "一般セッション",
       "description": "会議で確定した発表とセッションを閲覧する。"
     },
     "workshop": {
@@ -815,6 +816,15 @@
         "title": "実行委員会",
         "description_1": "FOSS4G Hiroshima 2026実行委員会は、日本および国際的な地理空間コミュニティの献身的なボランティアで構成されています。私たちのチームは、オープンソース地理空間技術、イベント管理、そして広島の地域知識における専門性を結集しています。",
         "description_2": "すべての実行委員会メンバーの詳細情報は、会議の開催が近づくにつれて更新される予定です。"
+      },
+      "conference_chairs": {
+        "title": "大会委員長",
+        "description": "大会委員長は、FOSS4G Hiroshima 2026の全体的な企画・運営を統括します。"
+      },
+      "steering_committee": {
+        "title": "運営委員会",
+        "description": "運営委員会は、FOSS4G Hiroshima 2026実行委員会の各ワーキンググループを統括する委員会リーダーで構成されています。",
+        "profile_label": "プロフィール"
       }
     },
     "concept": {

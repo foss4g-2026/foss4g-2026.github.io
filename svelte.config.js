@@ -24,7 +24,13 @@ const config = {
         '/en/_crawl',
         '/ja/_crawl',
       ],
-      handleUnseenRoutes: 'warn'
+      handleUnseenRoutes: 'warn',
+      handleHttpError: ({ path, referenceType }) => {
+        if (path.startsWith('/images/members/')) {
+          return
+        }
+        throw new Error(`${path} – ${referenceType}`)
+      }
     }
   }
 }
