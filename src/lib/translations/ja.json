@@ -118,21 +118,21 @@
       "title": "ニュース",
       "items": {
         "website_update": {
-          "date": "2026年6月2日",
+          "date": "2026年6月10日",
           "title": "新規スポンサーロゴを掲載しました",
-          "description": "iRIC-U、Orbital NetがBronzeスポンサーとして新たに加わりました！"
+          "description": "LocationMind株式会社がGoldスポンサーとして新たに加わりました！"
         },
         "website_renewal": {
+          "date": "2026年6月10日",
+          "title": "Organizing CommitteeにSteering Committeeメンバーを掲載しました",
+          "description": "詳細を見る",
+          "link": "/about/organizers"
+        },
+        "workshop_tickets": {
           "date": "2026年5月27日",
           "title": "一般発表のタイムテーブルを公開しました",
           "description": "詳細を見る",
           "link": "/program-schedule/presentations"
-        },
-        "workshop_tickets": {
-          "date": "2026年5月22日",
-          "title": "エクスカーションページを公開しました",
-          "description": "詳細を見る",
-          "link": "/program-schedule/excursion"
         }
       }
     },

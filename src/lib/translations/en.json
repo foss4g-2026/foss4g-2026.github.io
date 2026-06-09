@@ -23,21 +23,21 @@
       "title": "News",
       "items": {
         "website_update": {
-          "date": "June 2, 2026",
+          "date": "June 10, 2026",
           "title": "New Sponsor Logos Added",
-          "description": "We are pleased to welcome iRIC-U, Orbital Net as our new Bronze Sponsor!"
+          "description": "We are pleased to welcome LocationMind Inc. as our new Gold Sponsor!"
         },
         "website_renewal": {
+          "date": "June 10, 2026",
+          "title": "Steering Committee Members Now Listed",
+          "description": "View details",
+          "link": "/about/organizers"
+        },
+        "workshop_tickets": {
           "date": "May 27, 2026",
           "title": "General Track Timetable Now Available",
           "description": "View details",
           "link": "/program-schedule/presentations"
-        },
-        "workshop_tickets": {
-          "date": "May 22, 2026",
-          "title": "Excursion Page Now Available",
-          "description": "View details",
-          "link": "/program-schedule/excursion"
         }
       }
     },
