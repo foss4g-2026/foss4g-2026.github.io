@@ -396,7 +396,7 @@
             <img
               src="/images/sponsors/LocationMind/20_locationmind_logo-color-horizontal.png"
               alt="LocationMind Inc."
-              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+              class="h-28 sm:h-32 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
