@@ -22,6 +22,12 @@
     "news": {
       "title": "News",
       "items": {
+        "poster_session_launch": {
+          "date": "June 11, 2026",
+          "title": "Poster Session & High School Student Poster Pages Now Available",
+          "description": "View details",
+          "link": "/program-schedule/poster-session"
+        },
         "website_update": {
           "date": "June 10, 2026",
           "title": "New Sponsor Logos Added",
@@ -166,6 +172,8 @@
       "presentations": "General Sessions",
       "workshops": "Workshops",
       "community_sprint": "Community Sprint",
+      "poster_session": "Poster Session",
+      "student_poster": "High School Student Posters",
       "community_events": "Community Events",
       "ice_breaker": "Ice Breaker",
       "gala_dinner": "Gala Dinner",
@@ -1821,5 +1829,40 @@
     "title": "Get in touch",
     "description": "Let us know if you have any questions regarding the conference.",
     "help_message": "We are happy to help you."
+  },
+  "poster_session": {
+    "title": "Poster Session",
+    "about_title": "About Poster Presentations",
+    "about_description": "Posters will be displayed at the Sakura Lounge throughout the main conference days (September 1–3). A dedicated core time is scheduled on September 2 (Tue), 13:00–15:00 for authors to be present at their posters, inviting discussion and Q&A with attendees. This is an excellent opportunity to spark conversations and share your work in an interactive setting.",
+    "venue_title": "Venue",
+    "venue_name": "Sakura Lounge",
+    "schedule_title": "Core Time",
+    "core_time": "September 2 (Tue), 13:00–15:00",
+    "guidelines_title": "Poster Guidelines",
+    "guideline_1": "Each submission is allocated one poster, with a size of A0 (portrait orientation recommended).",
+    "guideline_2": "If you require more than one poster, please contact the organizers in advance.",
+    "guideline_3": "Presenters are responsible for printing and bringing their own posters. We are unable to arrange printing or delivery on your behalf.",
+    "list_title": "List of Poster Presentations",
+    "search_placeholder": "Search by title or speaker name...",
+    "total_count": "posters",
+    "table_id": "ID",
+    "table_title": "Title",
+    "table_speakers": "Speakers",
+    "no_results": "No posters found matching your search.",
+    "click_hint": "Click a row to expand the abstract."
+  },
+  "student_poster": {
+    "title": "High School Student Posters",
+    "about_title": "About Poster Presentations",
+    "about_description": "In conjunction with FOSS4G Hiroshima 2026, we solicited peace-related presentations primarily from high school students in Hiroshima Prefecture. The presentations submitted by these schools will be presented as posters.",
+    "venue_title": "Venue",
+    "venue_name": "The lobby in front of Phoenix Hall",
+    "schedule_title": "Core Time",
+    "core_time": "September 2 (Tue), 15:30–16:30",
+    "guidelines_title": "Poster Guidelines",
+    "guideline_1": "Each submission is allocated one poster, with a size of A0.",
+    "guideline_2": "Presenters are responsible for printing and bringing their own posters. We are unable to arrange printing or delivery on your behalf.",
+    "list_title": "List of Poster Presentations",
+    "click_hint": "Click a card to expand the abstract."
   }
 }
