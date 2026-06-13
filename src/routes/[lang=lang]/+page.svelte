@@ -412,7 +412,7 @@
             <img
               src="/images/sponsors/Gaia3D/gaia3d.avif"
               alt="Gaia3D Inc"
-              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+              class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
@@ -431,6 +431,15 @@
               src="/images/sponsors/QFieldCloud/QFieldCloud.png"
               alt="QFieldCloud GmbH"
               class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+          <a href="https://www.earthbrain.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/EarthBrain/21_Earthbrain_eb_logo.png"
+              alt="EarthBrain Inc."
+              class="h-28 sm:h-32 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
