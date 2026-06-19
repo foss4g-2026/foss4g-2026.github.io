@@ -331,8 +331,8 @@
     <!-- Diamond Sponsors -->
     <div class="mb-12 py-6">
       <h3 class="text-xl font-semibold text-slate-700 mb-6 text-center">{$t('teaser.sponsors.diamond_sponsors')}</h3>
-      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+      <div class="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://eukarya.io/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Eukarya/eukarya.svg"
@@ -341,7 +341,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://geot.jp/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/GeoTechnologies/08_GT_vi_horizontal_transparent_large.png"
@@ -356,8 +356,8 @@
     <!-- Platinum Sponsors -->
     <div class="mb-8">
       <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.platinum_sponsors')}</h3>
-      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+      <div class="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.mierune.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/MIERUNE/MIERUNE.png"
@@ -366,7 +366,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://cesium.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Cesium/15_Cesium_dark_color.png"
@@ -381,8 +381,8 @@
     <!-- Gold Sponsors -->
     <div class="mb-8">
       <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.gold_sponsors')}</h3>
-      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+      <div class="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="http://www.geocat.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/GeoCat/14_GeoCat colour - Jeroen Ticheler.svg"
@@ -391,7 +391,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://locationmind.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/LocationMind/20_locationmind_logo-color-horizontal.png"
@@ -406,8 +406,8 @@
     <!-- Silver Sponsors -->
     <div class="mb-8">
       <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.silver_sponsors')}</h3>
-      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+      <div class="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.gaia3d.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Gaia3D/gaia3d.avif"
@@ -416,7 +416,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://prometiprostor.hr/en/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Promet_i_prostor/Promet_i_prostor.png"
@@ -425,7 +425,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://qfield.cloud/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/QFieldCloud/QFieldCloud.png"
@@ -434,7 +434,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.earthbrain.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/EarthBrain/21_Earthbrain_eb_logo.png"
@@ -449,8 +449,8 @@
     <!-- Bronze Sponsors -->
     <div class="mb-8">
       <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.bronze_sponsors')}</h3>
-      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+      <div class="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://opendata.aws" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/AWS/AWS.svg"
@@ -459,7 +459,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.nayuta-inc.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Nayuta/Nayuta.png"
@@ -468,7 +468,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://auspatious.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Auspatious/10_logo_Auspatious_2.png"
@@ -477,7 +477,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.apptec.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/AppliedTechnology/05_応用技術_FOSS4G_MachiSpaceLogo_2026.png"
@@ -486,7 +486,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://arkedgespace.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/ArkEdgeSpace/13_ArkEdgeSpace_BRANDLOGO2lineB-RGB-Ver001 - Kota Yuhara.png"
@@ -495,7 +495,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.geosolutionsgroup.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Geosolutions/12_geosolutions_logo.png"
@@ -504,7 +504,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.jafta.or.jp/contents/home/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Jafta/16_Jafta.png"
@@ -513,7 +513,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://developmentseed.org/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/DevelopmentSeed/17_Development_Seed_hor--pos@2x.png"
@@ -522,7 +522,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://uc.i-ric.org/en" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/iRIC/18-2_iRic_signature01color.jpg"
@@ -531,7 +531,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="http://www.orbitalnet.jp/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Orbitalnet/19_orbitalnet.svg"
@@ -547,7 +547,7 @@
     <div class="mb-8">
       <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.partner_organizations')}</h3>
       <div class="flex flex-col items-center gap-6 max-w-4xl mx-auto">
-        <div class="flex items-center justify-center w-full">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full">
           <a href="https://www.jpgu.org/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/JpGU/JpGU_logo.png"
@@ -556,7 +556,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full">
           <a href="https://www.mlit.go.jp/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/MLIT/MLIT_logo.png"
@@ -572,7 +572,7 @@
     <div class="mb-8">
       <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.media_partners')}</h3>
       <div class="flex flex-col items-center gap-6 max-w-4xl mx-auto">
-        <div class="flex items-center justify-center w-full">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full">
           <a href="http://nextpb.com/gisnext/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/GISnext/logo2.png"
@@ -581,7 +581,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full">
           <a href="https://gisworld-tech.com/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/GISworldtech/GISWorld-tech_logo.jpg"
@@ -596,8 +596,8 @@
     <!-- Supporter Sponsors -->
     <div>
       <h3 class="text-xl font-semibold text-slate-700 mb-4 text-center">{$t('teaser.sponsors.supporter_sponsor')}</h3>
-      <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+      <div class="flex flex-wrap justify-center gap-6 max-w-4xl mx-auto">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://ti.to/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/Tito/tito-wordmark-blue.svg"
@@ -606,7 +606,7 @@
             />
           </a>
         </div>
-        <div class="flex items-center justify-center w-full sm:w-[calc(50%-0.5rem)]">
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
           <a href="https://www.isprs.org/" target="_blank" rel="noopener noreferrer" class="block">
             <img
               src="/images/sponsors/ISPRS/isprs_logo.jpg"
