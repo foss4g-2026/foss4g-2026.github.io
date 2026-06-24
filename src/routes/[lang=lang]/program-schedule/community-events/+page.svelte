@@ -1,6 +1,19 @@
 <script lang="ts">
   import { t, json } from 'svelte-i18n'
   import SubmitButton from '$components/SubmitButton.svelte'
+  import Map from '$components/Map_event.svelte'
+
+  type event = { name: string; planned_location: string; event_timing: string; url: string; lng: number; lat: number }
+
+  $: events = $json('community_events.community_list') as unknown as event[]
+  
+  $: mapItems = events.map((event, i) => ({
+    coordinates: [event.lng, event.lat] as [number, number],
+    label: i + 1,
+    title: event.name,
+    description: `${event.name}\n【${event.event_timing}】\n${event.planned_location}`,
+    color: 'text-red-600'
+  }))
 </script>
 
 <svelte:head>
@@ -46,5 +59,78 @@
         <li class="text-base">{note}</li>
       {/each}
     </ul>
+  </div>
+  <div class="container mx-auto px-4 py-8">
+    <h2 class="text-4xl font-bold mb-8">{$t('community_events.map_title')}</h2>
+
+    <!-- Map -->
+    <div class="mb-8">
+      <Map
+        mapClass="w-full h-120 rounded-lg"
+        center={[132.451043, 34.392077]}
+        zoom={5}
+        style={$t('map.settings.style')}
+        items={[
+          ...mapItems,
+          { coordinates: [132.451043, 34.392077] as [number, number], title: $t('venue.main_venue.title'), description: $t('venue.main_venue.title'), color: 'text-blue-600' },
+          { coordinates: [132.46937446033377, 34.395002597128396] as [number, number], title: $t('venue.workshop_venue.title'), description: $t('venue.workshop_venue.title'), color: 'text-green-600' },
+          { coordinates: [132.4754913298887, 34.397656485682845] as [number, number], title: $t('accommodation.legend.hiroshima_station'), description: $t('accommodation.legend.hiroshima_station'), color: 'text-orange-500' },
+        ]}
+      />
+    </div>
+    <!-- Map Legend -->
+    <div class="flex flex-wrap gap-4 mb-8 text-sm">
+      <div class="flex items-center gap-2">
+        <div class="w-4 h-4 rounded-full bg-red-500"></div>
+        <span>{$t('community_events.legend.event')}</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="text-blue-600"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+        <span>{$t('venue.main_venue.title')}</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="text-green-600"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+        <span>{$t('venue.workshop_venue.title')}</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="text-orange-500"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+        <span>{$t('accommodation.legend.hiroshima_station')}</span>
+      </div>
+    </div>
+
+    <!-- Event Table -->
+    <div class="overflow-x-auto">
+      <h2 class="text-2xl font-semibold mb-4">{$t('community_events.table_title')}</h2>    
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="border border-gray-300 px-3 py-2 text-left w-12">{$t('community_events.table.number')}</th>
+            <th class="border border-gray-300 px-3 py-2 text-left">{$t('community_events.table.name')}</th>
+            <th class="border border-gray-300 px-3 py-2 text-left w-100">{$t('community_events.table.planned_location')}</th>
+            <th class="border border-gray-300 px-3 py-2 text-left w-50">{$t('community_events.table.event_timing')}</th>
+            <th class="border border-gray-300 px-3 py-2 text-left w-28">{$t('community_events.table.website')}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {#each events as event, i}
+            <tr class="hover:bg-gray-50">
+              <td class="border border-gray-300 px-3 py-2 text-center">{i + 1}</td>
+              <td class="border border-gray-300 px-3 py-2">{event.name}</td>
+              <td class="border border-gray-300 px-3 py-2">{event.planned_location}</td>
+              <td class="border border-gray-300 px-3 py-2">{event.event_timing}</td>
+              <td class="border border-gray-300 px-3 py-2 text-center">
+                {#if event.url}
+                  <a href={event.url} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
+                    {$t('accommodation.table.website')}
+                  </a>
+                {:else}
+                  -
+                {/if}
+              </td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>

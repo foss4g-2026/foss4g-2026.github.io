@@ -430,7 +430,23 @@
       "All submissions will be reviewed by the organizing team before publication.",
       "Venue support cannot be guaranteed.",
       "Each community is responsible for planning and running its own event, including participant management."
-    ]
+    ],
+    "map_title": "Community Events Map",
+    "community_list": [
+      { "name": "SotM Asia 2026 Osaka", "organization_name": "SotM Asia Organizing Team","planned_location": "Nakazakicho, Osaka", "email": "mapconcierge@gmail.com", "event_timing": "September 6~7, 2026", "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan", "lng": 135.504760, "lat": 34.707653 },
+      { "name": "STAC Workshop", "organization_name": "STAC","planned_location": "JAXA’s Tsukuba Space Center", "email": "mapconcierge@gmail.com", "event_timing": "August 25~27, 2026", "url": "", "lng": 140.13049, "lat": 36.06821 }
+
+    ],
+    "table_title": "Community Event List",
+    "legend.event": "Community Event",
+    "table": {
+      "number": "No.",
+      "name": "Community Event Name",
+      "planned_location": "Planned Location",
+      "event_timing": "Event Timing",
+      "website": "Website"
+    }
+
   },
   "ice_breaker": {
     "title": "Ice Breaker",

@@ -10,7 +10,7 @@
     coordinates: [hotel.lng, hotel.lat] as [number, number],
     label: i + 1,
     title: hotel.name,
-    description: hotel.name,
+    description: hotel.name
   }))
 </script>
 

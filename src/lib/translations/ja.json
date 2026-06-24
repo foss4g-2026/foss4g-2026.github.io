@@ -430,7 +430,22 @@
       "応募内容は運営側で確認・調整のうえ、掲載可否を判断します。",
       "会場提供は必ずしも希望に添えるとは限りません。",
       "イベントの企画・運営、参加者管理等は各コミュニティの責任で実施してください。"
-    ]
+    ],
+    "map_title": "コミュニティイベントマップ",
+    "community_list": [
+      { "name": "SotM Asia 2026 Osaka", "organization_name": "SotM Asia Organizing Team","planned_location": "中崎町ホール（大阪府大阪市北区中崎西１丁目６−８）", "email": "mapconcierge@gmail.com", "event_timing": "2026年9月6日～9月7日", "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan", "lng": 135.504760, "lat": 34.707653 },
+      { "name": "STAC Workshop", "organization_name": "STAC","planned_location": "宇宙航空研究開発機構 筑波宇宙センター（茨城県つくば市千現２丁目１−１）", "email": "mapconcierge@gmail.com", "event_timing": "2026年8月25日～8月27日", "url": "", "lng": 140.13049, "lat": 36.06821 }
+    ],
+    "table_title": "コミュニティイベント一覧",
+    "legend.event": "コミュニティイベント",
+    "table": {
+      "number": "No.",
+      "name": "コミュニティイベント名",
+      "planned_location": "場所",
+      "event_timing": "日程",
+      "website": "Webサイト"
+    }
+
   },
   "ice_breaker": {
     "title": "アイスブレイカー",
