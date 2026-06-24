@@ -540,6 +540,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://pacificspatial.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/PSS/22_pss_horizontal.svg"
+              alt="Pacific Spatial Solutions"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
