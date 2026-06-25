@@ -17,10 +17,17 @@
   // 💡 画面幅（ブラウザの幅）の変化を監視するための変数
   let mapWidth = $state(0);
 
-  // 地図の準備ができたり、ピン（items）が変わったり、画面幅が変わるたびに実行する処理
+  // 💡 fitBounds を初回だけ実行するためのフラグ
+  // （これがないと、マップをスクロール/ズームするたびに $effect が再実行され、
+  //   fitBounds で中心が戻されてしまい、地図を動かせなくなる）
+  let hasFitted = false;
+
+  // 地図の準備ができたタイミングで「初回だけ」すべてのピンが収まるように表示する処理
   $effect(() => {
     // 地図がまだ読み込まれていない、またはピンがない場合は何もしない
     if (!mapInstance || !items || items.length === 0 || !center) return;
+    // すでに一度フィット済みなら、何もしない（スクロール時の再実行を無視する）
+    if (hasFitted) return;
 
     // 1. まずは「すべてのピン」を囲む四角い範囲（BBox）を計算する
     const bounds = new maplibregl.LngLatBounds();
@@ -49,6 +56,9 @@
       animate: false,   // 最初の表示時はアニメーションなしで一瞬で合わせる
       maxZoom: 15       // ピンが少なすぎるときに、拡大されすぎるのを防ぐ
     });
+
+    // 初回のフィットが完了したので、以降は実行しないようにする
+    hasFitted = true;
   });
 </script>
 
