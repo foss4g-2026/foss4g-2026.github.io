@@ -451,8 +451,48 @@
     ],
     "map_title": "Community Events Map",
     "community_list": [
-      { "name": "SotM Asia 2026 Osaka", "organization_name": "SotM Asia Organizing Team","planned_location": "Nakazakicho, Osaka", "email": "mapconcierge@gmail.com", "event_timing": "September 6~7, 2026", "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan", "lng": 135.504760, "lat": 34.707653 },
-      { "name": "STAC Workshop", "organization_name": "STAC","planned_location": "JAXA’s Tsukuba Space Center", "email": "mapconcierge@gmail.com", "event_timing": "August 25~27, 2026", "url": "", "lng": 140.13049, "lat": 36.06821 }
+      { 
+        "name": "SotM Asia 2026 Osaka", 
+        "description":[
+          "State of the Map Asia 2026 will be held in Osaka, Japan, as a regional conference where OpenStreetMap volunteer mappers from across Asia and around the world gather to share their experiences, mapping practices and community knowledge.",
+          "This will be the first-ever State of the Map Asia held in Japan. The event aims to connect the Japanese OpenStreetMap community with the wider Asian and global mapping communities, while highlighting humanitarian mapping, open data, civic tech, geospatial innovation and the role of open mapping in disaster preparedness and community resilience.",
+          "The event will take place in Nakazakichō, a walkable and creative neighborhood near Umeda, Osaka. Through collaboration with local community members, YouthMappers chapters in Japan, HOT Japan members, CrisisMappers Japan members and the Salon de AManTo team, participants will have the opportunity to explore Japanese culture, local approaches to disaster risk reduction and grassroots community activities in Osaka.",
+          "Event Details",
+          "Date : September 6–7, 2026",
+          "Location : Nakazakichō, Osaka, Japan",
+          "Planned venues : Nakazakichō Hall and Salon de AManTo",
+          "Participation : Free of charge, advance registration required"
+        ],
+        "organization_name": "SotM Asia Organizing Team",
+        "Representative Name": "Taichi Furuhashi",
+        "planned_location": "Nakazakicho, Osaka", 
+        "email": "mapconcierge@gmail.com", 
+        "event_timing": "September 6~7, 2026", 
+        "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan", 
+        "lng": 135.504760, 
+        "lat": 34.707653 
+      },
+      { 
+        "name": "STAC Workshop", 
+        "description":[
+          "The STAC Workshop will be held at JAXA’s Tsukuba Space Center on August 25–27, 2026, bringing together the STAC Project Steering Committee, JAXA staff, and STAC practitioners from industry and academia to support and grow the STAC community in Japan.",
+          "Hosted by JAXA’s Satellite Applications and Operations Center, Space Technology Directorate I, in partnership with the STAC Project Steering Committee, the workshop will highlight the strategic value of STAC for open science and geospatial data sharing. The event is intentionally timed for the week before FOSS4G 2026 in Hiroshima, creating an opportunity to connect the Japanese geospatial community with the wider STAC and open-source geospatial communities.",
+          "The three-day program is designed for different parts of the STAC community. The first day will be a maintenance sprint for specification and ecosystem maintainers. The second day will focus on data producers and best practices for cataloging data with STAC. The third day will focus on data users, scientific applications, industry adoption, and practical ways to integrate STAC into geospatial workflows.",
+          "Event Details",
+          "Date : August 25–27, 2026",
+          "Location : JAXA’s Tsukuba Space Center, Tsukuba, Japan",
+          "Host : JAXA’s Satellite Applications and Operations Center, Space Technology Directorate I",
+          "In partnership with : STAC Project Steering Committee"
+        ],
+        "organization_name": "STAC",
+        "Representative Name": "Michelle Roby, Alex Leith, Kamsin Raju",
+        "planned_location": "JAXA’s Tsukuba Space Center", 
+        "email": "kamsinraju@gmail.com", 
+        "event_timing": "August 25~27, 2026", 
+        "url": "", 
+        "lng": 140.13049, 
+        "lat": 36.06821 
+      }
 
     ],
     "table_title": "Community Event List",
@@ -464,7 +504,6 @@
       "event_timing": "Event Timing",
       "website": "Website"
     }
-
   },
   "ice_breaker": {
     "title": "Ice Breaker",
