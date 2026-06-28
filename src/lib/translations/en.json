@@ -39,6 +39,12 @@
           "description": "View details",
           "link": "/program-schedule/poster-session"
         },
+        "visa_fee_increase": {
+          "date": "June 27, 2026",
+          "title": "VISA fees will increase from July 1",
+          "description": "Details here",
+          "link": "https://www.mofa.go.jp/j_info/visit/visa/procedure/pagewe_000001_00391.html"
+        },
         "website_update": {
           "date": "June 10, 2026",
           "title": "New Sponsor Logos Added",
