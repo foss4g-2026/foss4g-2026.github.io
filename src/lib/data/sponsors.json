@@ -1,0 +1,180 @@
+{
+  "diamond": [
+    {
+      "name": "Eukarya",
+      "website": "https://eukarya.io/",
+      "logo": "/images/sponsors/Eukarya/eukarya.svg",
+      "description": null
+    },
+    {
+      "name": "Geo Technologies",
+      "website": "https://geot.jp/",
+      "logo": "/images/sponsors/GeoTechnologies/08_GT_vi_horizontal_transparent_large.png",
+      "description": null
+    }
+  ],
+  "platinum": [
+    {
+      "name": "MIERUNE Inc.",
+      "website": "https://www.mierune.co.jp/",
+      "logo": "/images/sponsors/MIERUNE/MIERUNE.png",
+      "description": null
+    },
+    {
+      "name": "Cesium",
+      "website": "https://cesium.com/",
+      "logo": "/images/sponsors/Cesium/15_Cesium_dark_color.png",
+      "description": null
+    }
+  ],
+  "gold": [
+    {
+      "name": "GeoCat",
+      "website": "https://www.geocat.net/",
+      "logo": "/images/sponsors/GeoCat/14_GeoCat colour - Jeroen Ticheler.svg",
+      "description": null
+    },
+    {
+      "name": "LocationMind Inc.",
+      "website": "https://locationmind.com/",
+      "logo": "/images/sponsors/LocationMind/20_locationmind_logo-color-horizontal.png",
+      "description": null
+    }
+  ],
+  "silver": [
+    {
+      "name": "Gaia3D Inc.",
+      "website": "https://www.gaia3d.com/",
+      "logo": "/images/sponsors/Gaia3D/gaia3d.avif",
+      "description": null
+    },
+    {
+      "name": "Promet i prostor d.o.o.",
+      "website": "https://prometiprostor.hr/en/",
+      "logo": "/images/sponsors/Promet_i_prostor/Promet_i_prostor.png",
+      "description": null
+    },
+    {
+      "name": "QFieldCloud GmbH",
+      "website": "https://qfield.cloud/",
+      "logo": "/images/sponsors/QFieldCloud/QFieldCloud.png",
+      "description": null
+    },
+    {
+      "name": "EarthBrain Inc.",
+      "website": "https://www.earthbrain.com/",
+      "logo": "/images/sponsors/EarthBrain/21_Earthbrain_eb_logo.png",
+      "description": null
+    }
+  ],
+  "bronze": [
+    {
+      "name": "Amazon Web Services (AWS)",
+      "website": "https://opendata.aws",
+      "logo": "/images/sponsors/AWS/AWS.svg",
+      "description": null
+    },
+    {
+      "name": "Nayuta, Inc.",
+      "website": "https://www.nayuta-inc.co.jp/",
+      "logo": "/images/sponsors/Nayuta/Nayuta.png",
+      "description": null
+    },
+    {
+      "name": "Auspatious",
+      "website": "https://auspatious.com/",
+      "logo": "/images/sponsors/Auspatious/10_logo_Auspatious_2.png",
+      "description": null
+    },
+    {
+      "name": "Applied Technology Co., Ltd.",
+      "website": "https://www.apptec.co.jp/",
+      "logo": "/images/sponsors/AppliedTechnology/05_応用技術_FOSS4G_MachiSpaceLogo_2026.png",
+      "description": null
+    },
+    {
+      "name": "ArkEdge Space Inc.",
+      "website": "https://arkedgespace.com/",
+      "logo": "/images/sponsors/ArkEdgeSpace/13_ArkEdgeSpace_BRANDLOGO2lineB-RGB-Ver001 - Kota Yuhara.png",
+      "description": null
+    },
+    {
+      "name": "GeoSolutions",
+      "website": "https://www.geosolutionsgroup.com/",
+      "logo": "/images/sponsors/Geosolutions/12_geosolutions_logo.png",
+      "description": null
+    },
+    {
+      "name": "Japan Forest Technology Association",
+      "website": "https://www.jafta.or.jp/contents/home/",
+      "logo": "/images/sponsors/Jafta/16_Jafta.png",
+      "description": null
+    },
+    {
+      "name": "Development Seed",
+      "website": "https://developmentseed.org/",
+      "logo": "/images/sponsors/DevelopmentSeed/17_Development_Seed_hor--pos@2x.png",
+      "description": null
+    },
+    {
+      "name": "iRIC",
+      "website": "https://uc.i-ric.org/en",
+      "logo": "/images/sponsors/iRIC/18-2_iRic_signature01color.jpg",
+      "description": null
+    },
+    {
+      "name": "Orbitalnet",
+      "website": "http://www.orbitalnet.jp/",
+      "logo": "/images/sponsors/Orbitalnet/19_orbitalnet.svg",
+      "description": null
+    },
+    {
+      "name": "Pacific Spatial Solutions",
+      "website": "https://pacificspatial.com/",
+      "logo": "/images/sponsors/PSS/22_pss_horizontal.svg",
+      "description": null
+    }
+  ],
+  "supporter": [
+    {
+      "name": "Tito",
+      "website": "https://ti.to/",
+      "logo": "/images/sponsors/Tito/tito-wordmark-blue.svg",
+      "description": null
+    },
+    {
+      "name": "ISPRS",
+      "website": "https://www.isprs.org/",
+      "logo": "/images/sponsors/ISPRS/isprs_logo.jpg",
+      "description": null
+    }
+  ],
+  "media_partner": [
+    {
+      "name": "GIS next",
+      "website": "http://nextpb.com/gisnext/",
+      "logo": "/images/sponsors/GISnext/logo2.png",
+      "description": null
+    },
+    {
+      "name": "GISWORLD-Tech",
+      "website": "https://gisworld-tech.com/",
+      "logo": "/images/sponsors/GISworldtech/GISWorld-tech_logo.jpg",
+      "description": null
+    }
+  ],
+  "partner_organization": [
+    {
+      "name": "Japan Geoscience Union",
+      "website": "https://www.jpgu.org/",
+      "logo": "/images/sponsors/JpGU/JpGU_logo.png",
+      "description": null
+    },
+    {
+      "name": "Ministry of Land, Infrastructure, Transport and Tourism",
+      "website": "https://www.mlit.go.jp/",
+      "logo": "/images/sponsors/MLIT/MLIT_logo.png",
+      "description": null
+    }
+  ]
+}

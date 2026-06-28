@@ -11,6 +11,7 @@ const base_routes = [
   '/about/terms-conditions',
   // Sponsors sub-pages
   '/sponsors',
+  '/sponsors/our-sponsors',
   '/sponsors/information-for-sponsors',
   '/sponsors/honorable-mentions',
   // Register sub-pages

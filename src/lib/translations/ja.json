@@ -54,6 +54,7 @@
       "childcare": "託児サービス"
     },
     "sponsors_sub": {
+      "our_sponsors": "スポンサー一覧",
       "information_for_sponsors": "スポンサー募集",
       "honorable_mentions": "Honorable Mentions"
     },
@@ -119,6 +120,17 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "community_events_map": {
+          "date": "2026年6月26日",
+          "title": "コミュニティイベントの一覧とマップを公開しました",
+          "description": "詳細を見る",
+          "link": "/program-schedule/community-events"
+        },
+        "pss_sponsor": {
+          "date": "2026年6月26日",
+          "title": "新規スポンサーロゴを掲載しました",
+          "description": "Pacific Spatial SolutionsがBronzeスポンサーとして新たに加わりました！"
+        },
         "poster_session_launch": {
           "date": "2026年6月11日",
           "title": "ポスターセッション・高校生ポスターのページを公開しました",
@@ -228,7 +240,7 @@
       "bronze_sponsors": "ブロンズスポンサー",
       "media_partners": "メディアパートナー",
       "supporter_sponsor": "サポータースポンサー",
-      "partner_organizations": "協賛団体"
+      "partner_organizations": "後援"
     }
   },
   "common": {

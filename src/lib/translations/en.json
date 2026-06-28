@@ -22,6 +22,17 @@
     "news": {
       "title": "News",
       "items": {
+        "community_events_map": {
+          "date": "June 26, 2026",
+          "title": "Community Event List and Map Now Available",
+          "description": "View details",
+          "link": "/program-schedule/community-events"
+        },
+        "pss_sponsor": {
+          "date": "June 26, 2026",
+          "title": "New Sponsor Logos Added",
+          "description": "We are pleased to welcome Pacific Spatial Solutions as our new Bronze Sponsor!"
+        },
         "poster_session_launch": {
           "date": "June 11, 2026",
           "title": "Poster Session & High School Student Poster Pages Now Available",
@@ -188,6 +199,7 @@
       "childcare": "Childcare"
     },
     "sponsors_sub": {
+      "our_sponsors": "Our Sponsors",
       "information_for_sponsors": "Call for Sponsors",
       "honorable_mentions": "Honorable Mentions"
     },
