@@ -159,6 +159,7 @@
           <details bind:open={mobileSponsorsOpen}>
             <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('sponsors'); }}>{$t('nav.sponsors')}</summary>
             <ul class="p-2">
+              <li><NavLink href={'/' + data.locale + '/sponsors/our-sponsors'} enabled={isNavEnabled('sponsors', 'ourSponsors')}>{$t('nav.sponsors_sub.our_sponsors')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/sponsors/information-for-sponsors'} enabled={isNavEnabled('sponsors', 'informationForSponsors')}>{$t('nav.sponsors_sub.information_for_sponsors')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/sponsors/honorable-mentions'} enabled={isNavEnabled('sponsors', 'honorableMentions')}>{$t('nav.sponsors_sub.honorable_mentions')}</NavLink></li>
             </ul>
@@ -270,6 +271,7 @@
         <details bind:open={desktopSponsorsOpen}>
           <summary onclick={() => closeDesktopDropdowns('sponsors')}>{$t('nav.sponsors')}</summary>
           <ul class="bg-white rounded-lg shadow-xl border border-gray-100 p-2 w-52 mt-2">
+            <li><NavLink href={'/' + data.locale + '/sponsors/our-sponsors'} enabled={isNavEnabled('sponsors', 'ourSponsors')}>{$t('nav.sponsors_sub.our_sponsors')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/sponsors/information-for-sponsors'} enabled={isNavEnabled('sponsors', 'informationForSponsors')}>{$t('nav.sponsors_sub.information_for_sponsors')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/sponsors/honorable-mentions'} enabled={isNavEnabled('sponsors', 'honorableMentions')}>{$t('nav.sponsors_sub.honorable_mentions')}</NavLink></li>
           </ul>

@@ -82,6 +82,28 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.community_events_map.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.community_events_map.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.community_events_map.link')}" class="text-blue-600 hover:underline">
+                {$t('teaser.news.items.community_events_map.description')}
+              </a>
+            </p>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.pss_sponsor.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.pss_sponsor.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              {$t('teaser.news.items.pss_sponsor.description')}
+            </p>
+          </div>
+          <!-- News Item 3 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.poster_session_launch.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.poster_session_launch.title')}
@@ -89,28 +111,6 @@
             <p class="text-sm text-gray-600">
               <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.poster_session_launch.link')}" class="text-blue-600 hover:underline">
                 {$t('teaser.news.items.poster_session_launch.description')}
-              </a>
-            </p>
-          </div>
-          <!-- News Item 2 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.website_update.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.website_update.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              {$t('teaser.news.items.website_update.description')}
-            </p>
-          </div>
-          <!-- News Item 3 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.website_renewal.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.website_renewal.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.website_renewal.link')}" class="text-blue-600 hover:underline">
-                {$t('teaser.news.items.website_renewal.description')}
               </a>
             </p>
           </div>
@@ -537,6 +537,15 @@
               src="/images/sponsors/Orbitalnet/19_orbitalnet.svg"
               alt="Orbitalnet"
               class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://pacificspatial.com/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/PSS/22_pss_horizontal.svg"
+              alt="Pacific Spatial Solutions"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>
