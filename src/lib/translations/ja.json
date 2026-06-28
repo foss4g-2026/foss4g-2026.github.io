@@ -54,6 +54,7 @@
       "childcare": "託児サービス"
     },
     "sponsors_sub": {
+      "our_sponsors": "スポンサー一覧",
       "information_for_sponsors": "スポンサー募集",
       "honorable_mentions": "Honorable Mentions"
     },
@@ -119,6 +120,17 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "community_events_map": {
+          "date": "2026年6月26日",
+          "title": "コミュニティイベントの一覧とマップを公開しました",
+          "description": "詳細を見る",
+          "link": "/program-schedule/community-events"
+        },
+        "pss_sponsor": {
+          "date": "2026年6月26日",
+          "title": "新規スポンサーロゴを掲載しました",
+          "description": "Pacific Spatial SolutionsがBronzeスポンサーとして新たに加わりました！"
+        },
         "poster_session_launch": {
           "date": "2026年6月11日",
           "title": "ポスターセッション・高校生ポスターのページを公開しました",
@@ -228,7 +240,7 @@
       "bronze_sponsors": "ブロンズスポンサー",
       "media_partners": "メディアパートナー",
       "supporter_sponsor": "サポータースポンサー",
-      "partner_organizations": "協賛団体"
+      "partner_organizations": "後援"
     }
   },
   "common": {
@@ -433,47 +445,8 @@
     ],
     "map_title": "コミュニティイベントマップ",
     "community_list": [
-      { 
-        "name": "SotM Asia 2026 Osaka", 
-        "description":[
-          "「State of the Map Asia 2026」は、日本・大阪で開催される地域会議であり、アジア各地および世界中のOpenStreetMapボランティアマッパーが一堂に会し、経験やマッピングの実践、コミュニティの知見を共有する場となります。",
-          "日本での「State of the Map Asia」の開催は今回が初めてとなります。本イベントは、日本のOpenStreetMapコミュニティをアジアおよび世界中のマッピングコミュニティと結びつけることを目指すとともに、人道支援マッピング、オープンデータ、シビックテック、地理空間イノベーション、そして災害対策やコミュニティのレジリエンスにおけるオープンマッピングの役割に焦点を当てます。",
-          "会場は、大阪・梅田に近い、歩きやすくクリエイティブな雰囲気の中崎町です。地元のコミュニティメンバー、日本のYouthMappers支部、HOT Japanのメンバー、CrisisMappers Japanのメンバー、そしてSalon de AManToチームとの協力を通じて、参加者は大阪の日本文化、災害リスク軽減に向けた地域独自の取り組み、そして草の根のコミュニティ活動を体験する機会を得ることができます。",
-          "イベント詳細",
-          "日程：2026年9月6日～9月7日",
-          "開催予定会場：中崎町ホール（大阪府大阪市北区中崎西１丁目６−８）",
-          "参加：無料、事前登録必須"
-        ],
-        "organization_name": "SotM Asia Organizing Team",
-        "Representative Name": "Taichi Furuhashi",
-        "planned_location": "中崎町ホール（大阪府大阪市北区中崎西１丁目６−８）", 
-        "email": "mapconcierge@gmail.com", 
-        "event_timing": "2026年9月6日～9月7日", 
-        "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan", 
-        "lng": 135.504760, 
-        "lat": 34.707653 
-      },
-      { 
-        "name": "STAC Workshop", 
-        "description":[
-          "STACワークショップは、2026年8月25日から27日にかけてJAXAの筑波宇宙センターで開催されます。本ワークショップには、STACプロジェクト運営委員会、JAXA職員、および産学のSTAC実務者が一堂に会し、日本におけるSTACコミュニティの支援と発展を図ります。",
-          "JAXA宇宙技術局第1部 衛星応用・運用センターがSTACプロジェクト運営委員会と共同で主催する本ワークショップでは、オープンサイエンスおよび地理空間データの共有におけるSTACの戦略的価値に焦点を当てます。本イベントは、広島で開催されるFOSS4G 2026の1週間前に意図的に日程が設定されており、日本の地理空間コミュニティと、より広範なSTACおよびオープンソースの地理空間コミュニティを結びつける機会を提供します。",
-          "3日間にわたるプログラムは、STACコミュニティのさまざまな層を対象に構成されています。1日目は、仕様およびエコシステムのメンテナーを対象としたメンテナンス・スプリントが行われます。2日目は、データ提供者と、STACを用いたデータカタログ化のベストプラクティスに焦点を当てます。3日目は、データ利用者、科学的な応用、産業界での導入、およびSTACを地理空間ワークフローに統合するための実践的な方法に焦点を当てます。",
-          "イベント詳細",
-          "日程：2026年8月25日～27日",
-          "会場：宇宙航空研究開発機構 筑波宇宙センター（茨城県つくば市千現２丁目１−１）",
-          "主催：JAXA’s Satellite Applications and Operations Center, Space Technology Directorate I",
-          "共済：STAC Project Steering Committee"
-        ],
-        "organization_name": "STAC",
-        "Representative Name": "Michelle Roby, Alex Leith, Kamsin Raju",
-        "planned_location": "宇宙航空研究開発機構 筑波宇宙センター（茨城県つくば市千現２丁目１−１）", 
-        "email": "kamsinraju@gmail.com", 
-        "event_timing": "2026年8月25日～8月27日", 
-        "url": "", 
-        "lng": 140.13049, 
-        "lat": 36.06821
-      }
+      { "name": "SotM Asia 2026 Osaka", "organization_name": "SotM Asia Organizing Team","planned_location": "中崎町ホール（大阪府大阪市北区中崎西１丁目６−８）", "email": "mapconcierge@gmail.com", "event_timing": "2026年9月6日～9月7日", "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan", "lng": 135.504760, "lat": 34.707653 },
+      { "name": "STAC Workshop", "organization_name": "STAC","planned_location": "宇宙航空研究開発機構 筑波宇宙センター（茨城県つくば市千現２丁目１−１）", "email": "mapconcierge@gmail.com", "event_timing": "2026年8月25日～8月27日", "url": "", "lng": 140.13049, "lat": 36.06821 }
     ],
     "table_title": "コミュニティイベント一覧",
     "legend.event": "コミュニティイベント",

@@ -3,7 +3,7 @@
   import SubmitButton from '$components/SubmitButton.svelte'
   import Map from '$components/Map_event.svelte'
 
-  type event = { name: string; description: string[]; planned_location: string; event_timing: string; url: string; lng: number; lat: number }
+  type event = { name: string; planned_location: string; event_timing: string; url: string; lng: number; lat: number }
 
   $: events = $json('community_events.community_list') as unknown as event[]
   
@@ -104,47 +104,33 @@
       <table class="w-full border-collapse text-sm">
         <thead>
           <tr class="bg-gray-100">
-            <th class="border border-gray-300 px-3 py-2 text-left w-12">
-              {$t('community_events.table.number')}
-            </th>
-            <th class="border border-gray-300 px-3 py-2 text-left">
-              {$t('community_events.table.name')} </th>
+            <th class="border border-gray-300 px-3 py-2 text-left w-12">{$t('community_events.table.number')}</th>
+            <th class="border border-gray-300 px-3 py-2 text-left">{$t('community_events.table.name')}</th>
+            <th class="border border-gray-300 px-3 py-2 text-left w-100">{$t('community_events.table.planned_location')}</th>
+            <th class="border border-gray-300 px-3 py-2 text-left w-50">{$t('community_events.table.event_timing')}</th>
+            <th class="border border-gray-300 px-3 py-2 text-left w-28">{$t('community_events.table.website')}</th>
           </tr>
         </thead>
         <tbody>
           {#each events as event, i}
             <tr class="hover:bg-gray-50">
-              <td class="border border-gray-300 px-3 py-2 text-center valign-top">
-                {i + 1}
-              </td>
-              
-              <td class="border border-gray-300 px-3 py-2">
-                <div class="font-bold text-base mb-2">
-                  {event.name}
-                </div>
-                
-                {#if event.description && event.description.length > 0}
-                  <div class="space-y-2 text-gray-700">
-                    {#each event.description as paragraph}
-                      <p>{paragraph}</p>
-                    {/each}
-                  </div>
+              <td class="border border-gray-300 px-3 py-2 text-center">{i + 1}</td>
+              <td class="border border-gray-300 px-3 py-2">{event.name}</td>
+              <td class="border border-gray-300 px-3 py-2">{event.planned_location}</td>
+              <td class="border border-gray-300 px-3 py-2">{event.event_timing}</td>
+              <td class="border border-gray-300 px-3 py-2 text-center">
+                {#if event.url}
+                  <a href={event.url} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
+                    {$t('accommodation.table.website')}
+                  </a>
+                {:else}
+                  -
                 {/if}
-                <div class="pt-2 border-t border-gray-100 text-xs">
-                  {#if event.url}
-                    <span class="font-semibold text-gray-600 mr-1">URL:</span>
-                    <a href={event.url} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline break-all">
-                      {event.url}
-                    </a>
-                  {:else}
-                    <span class="text-gray-400">URL: -</span>
-                  {/if}
-                </div>
               </td>
             </tr>
           {/each}
         </tbody>
-      </table>    
+      </table>
     </div>
   </div>
 </div>
