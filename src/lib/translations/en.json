@@ -451,6 +451,7 @@
           "State of the Map Asia 2026 will be held in Osaka, Japan, as a regional conference where OpenStreetMap volunteer mappers from across Asia and around the world gather to share their experiences, mapping practices and community knowledge.",
           "This will be the first-ever State of the Map Asia held in Japan. The event aims to connect the Japanese OpenStreetMap community with the wider Asian and global mapping communities, while highlighting humanitarian mapping, open data, civic tech, geospatial innovation and the role of open mapping in disaster preparedness and community resilience.",
           "The event will take place in Nakazakichō, a walkable and creative neighborhood near Umeda, Osaka. Through collaboration with local community members, YouthMappers chapters in Japan, HOT Japan members, CrisisMappers Japan members and the Salon de AManTo team, participants will have the opportunity to explore Japanese culture, local approaches to disaster risk reduction and grassroots community activities in Osaka.",
+          "---",
           "Event Details",
           "Date : September 6–7, 2026",
           "Location : Nakazakichō, Osaka, Japan",
@@ -472,6 +473,7 @@
           "The STAC Workshop will be held at JAXA’s Tsukuba Space Center on August 25–27, 2026, bringing together the STAC Project Steering Committee, JAXA staff, and STAC practitioners from industry and academia to support and grow the STAC community in Japan.",
           "Hosted by JAXA’s Satellite Applications and Operations Center, Space Technology Directorate I, in partnership with the STAC Project Steering Committee, the workshop will highlight the strategic value of STAC for open science and geospatial data sharing. The event is intentionally timed for the week before FOSS4G 2026 in Hiroshima, creating an opportunity to connect the Japanese geospatial community with the wider STAC and open-source geospatial communities.",
           "The three-day program is designed for different parts of the STAC community. The first day will be a maintenance sprint for specification and ecosystem maintainers. The second day will focus on data producers and best practices for cataloging data with STAC. The third day will focus on data users, scientific applications, industry adoption, and practical ways to integrate STAC into geospatial workflows.",
+          "---",
           "Event Details",
           "Date : August 25–27, 2026",
           "Location : JAXA’s Tsukuba Space Center, Tsukuba, Japan",
@@ -486,6 +488,29 @@
         "url": "", 
         "lng": 140.13049, 
         "lat": 36.06821 
+      },
+      { 
+        "name": "CNG Forum Japan", 
+        "description":[
+          "CNG Forum Japan will be held in Tokyo on August 24, 2026, as a half-day Cloud-Native Geospatial community meetup designed to bring together local and regional practitioners working in and around Japan.",
+          "The event will provide an afternoon of demos, conversation and a social reception, creating a space for participants to share what they are building, learn from each other and connect with the broader global CNG network. The program will feature casual, demo-style talks on production deployments, works in progress, tools, workflows and lessons learned related to cloud-native geospatial technologies.",
+          "CNG Forum Japan is part of the 2026 CNG global event series. The event aims to support Japan’s growing cloud-native geospatial community and strengthen both local and international connections.",
+          "---",
+          "Event Details",
+          "Date : August 24, 2026, afternoon",
+          "Location : Tokyo, Japan (specific venue TBD)",
+          "Participation : Open to the local and regional cloud-native geospatial community. Speaker proposals are welcome.",
+          "For more information, please see the Call for Speakers "
+        ],
+        "organization_name": "CNG Forum",
+        "Representative Name": "Michelle Roby",
+        "planned_location": "Tokyo (specific venue TBD)", 
+        "email": "michelle@radiant.earth", 
+        "event_timing": "August 24, 2026", 
+        "url": "https://medium.com/radiant-earth-insights/call-for-speakers-cng-japan-2026-c5a0beac013d", 
+        "lng": 139.76880, 
+        "lat": 35.68081,
+        "coment": "場所が未定のため、東京駅に位置を指定した"
       }
 
     ],
