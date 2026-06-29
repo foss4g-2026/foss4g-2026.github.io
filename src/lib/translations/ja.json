@@ -137,6 +137,12 @@
           "description": "詳細を見る",
           "link": "/program-schedule/poster-session"
         },
+        "visa_fee_increase": {
+          "date": "2026年6月27日",
+          "title": "7月1日からVISAの費用が値上げされます",
+          "description": "詳細はこちら",
+          "link": "https://www.mofa.go.jp/j_info/visit/visa/procedure/pagewe_000001_00391.html"
+        },
         "website_update": {
           "date": "2026年6月10日",
           "title": "新規スポンサーロゴを掲載しました",
