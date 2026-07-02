@@ -258,15 +258,55 @@
     "schedule_glance": {
       "title": "Schedule at a Glance",
       "table": {
-        "headers": ["Date", "Event", "Venue", "Duration"],
+        "headers": [
+          "Date",
+          "Event",
+          "Venue",
+          "Duration"
+        ],
         "rows": [
-          ["August 30 (Sun)", "Workshops Day 1", "RCC Bunka Center", "9:00 - 17:00"],
-          ["August 31 (Mon)", "Workshops Day 2", "RCC Bunka Center", "9:00 - 17:00"],
-          ["September 1 (Tue)", "Main Conference Day 1", "Int'l Conference Center", "9:00 - 18:00"],
-          ["September 2 (Wed)", "Main Conference Day 2", "Int'l Conference Center", "9:00 - 18:00"],
-          ["September 3 (Thu)", "Main Conference Day 3", "Int'l Conference Center", "9:00 - 17:00"],
-          ["September 4 (Fri)", "Community Sprint", "ASTER PLAZA", "9:00 - 18:00"],
-          ["September 5 (Sat)", "Excursion", "TBD", "9:00 - 17:00"]
+          [
+            "August 30 (Sun)",
+            "Workshops Day 1",
+            "RCC Bunka Center",
+            "9:00 - 17:00"
+          ],
+          [
+            "August 31 (Mon)",
+            "Workshops Day 2",
+            "RCC Bunka Center",
+            "9:00 - 17:00"
+          ],
+          [
+            "September 1 (Tue)",
+            "Main Conference Day 1",
+            "Int'l Conference Center",
+            "9:00 - 18:00"
+          ],
+          [
+            "September 2 (Wed)",
+            "Main Conference Day 2",
+            "Int'l Conference Center",
+            "9:00 - 18:00"
+          ],
+          [
+            "September 3 (Thu)",
+            "Main Conference Day 3",
+            "Int'l Conference Center",
+            "9:00 - 17:00"
+          ],
+          [
+            "September 4 (Fri)",
+            "Community Sprint",
+            "ASTER PLAZA",
+            "9:00 - 18:00"
+          ],
+          [
+            "September 5 (Sat)",
+            "Excursion",
+            "TBD",
+            "9:00 - 17:00"
+          ]
         ]
       }
     }
@@ -451,9 +491,9 @@
     ],
     "map_title": "Community Events Map",
     "community_list": [
-      { 
-        "name": "SotM Asia 2026 Osaka", 
-        "description":[
+      {
+        "name": "SotM Asia 2026 Osaka",
+        "description": [
           "State of the Map Asia 2026 will be held in Osaka, Japan, as a regional conference where OpenStreetMap volunteer mappers from across Asia and around the world gather to share their experiences, mapping practices and community knowledge.",
           "This will be the first-ever State of the Map Asia held in Japan. The event aims to connect the Japanese OpenStreetMap community with the wider Asian and global mapping communities, while highlighting humanitarian mapping, open data, civic tech, geospatial innovation and the role of open mapping in disaster preparedness and community resilience.",
           "The event will take place in Nakazakichō, a walkable and creative neighborhood near Umeda, Osaka. Through collaboration with local community members, YouthMappers chapters in Japan, HOT Japan members, CrisisMappers Japan members and the Salon de AManTo team, participants will have the opportunity to explore Japanese culture, local approaches to disaster risk reduction and grassroots community activities in Osaka.",
@@ -466,16 +506,16 @@
         ],
         "organization_name": "SotM Asia Organizing Team",
         "Representative Name": "Taichi Furuhashi",
-        "planned_location": "Nakazakicho, Osaka", 
-        "email": "mapconcierge@gmail.com", 
-        "event_timing": "September 6~7, 2026", 
-        "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan", 
-        "lng": 135.504760, 
-        "lat": 34.707653 
+        "planned_location": "Nakazakicho, Osaka",
+        "email": "mapconcierge@gmail.com",
+        "event_timing": "September 6~7, 2026",
+        "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan",
+        "lng": 135.50476,
+        "lat": 34.707653
       },
-      { 
-        "name": "STAC Workshop", 
-        "description":[
+      {
+        "name": "STAC Workshop",
+        "description": [
           "The STAC Workshop will be held at JAXA’s Tsukuba Space Center on August 25–27, 2026, bringing together the STAC Project Steering Committee, JAXA staff, and STAC practitioners from industry and academia to support and grow the STAC community in Japan.",
           "Hosted by JAXA’s Satellite Applications and Operations Center, Space Technology Directorate I, in partnership with the STAC Project Steering Committee, the workshop will highlight the strategic value of STAC for open science and geospatial data sharing. The event is intentionally timed for the week before FOSS4G 2026 in Hiroshima, creating an opportunity to connect the Japanese geospatial community with the wider STAC and open-source geospatial communities.",
           "The three-day program is designed for different parts of the STAC community. The first day will be a maintenance sprint for specification and ecosystem maintainers. The second day will focus on data producers and best practices for cataloging data with STAC. The third day will focus on data users, scientific applications, industry adoption, and practical ways to integrate STAC into geospatial workflows.",
@@ -488,16 +528,16 @@
         ],
         "organization_name": "STAC",
         "Representative Name": "Michelle Roby, Alex Leith, Kamsin Raju",
-        "planned_location": "JAXA’s Tsukuba Space Center", 
-        "email": "kamsinraju@gmail.com", 
-        "event_timing": "August 25~27, 2026", 
-        "url": "", 
-        "lng": 140.13049, 
-        "lat": 36.06821 
+        "planned_location": "JAXA’s Tsukuba Space Center",
+        "email": "kamsinraju@gmail.com",
+        "event_timing": "August 25~27, 2026",
+        "url": "",
+        "lng": 140.13049,
+        "lat": 36.06821
       },
-      { 
-        "name": "CNG Forum Japan", 
-        "description":[
+      {
+        "name": "CNG Forum Japan",
+        "description": [
           "CNG Forum Japan will be held in Tokyo on August 24, 2026, as a half-day Cloud-Native Geospatial community meetup designed to bring together local and regional practitioners working in and around Japan.",
           "The event will provide an afternoon of demos, conversation and a social reception, creating a space for participants to share what they are building, learn from each other and connect with the broader global CNG network. The program will feature casual, demo-style talks on production deployments, works in progress, tools, workflows and lessons learned related to cloud-native geospatial technologies.",
           "CNG Forum Japan is part of the 2026 CNG global event series. The event aims to support Japan’s growing cloud-native geospatial community and strengthen both local and international connections.",
@@ -510,15 +550,14 @@
         ],
         "organization_name": "CNG Forum",
         "Representative Name": "Michelle Roby",
-        "planned_location": "Tokyo (specific venue TBD)", 
-        "email": "michelle@radiant.earth", 
-        "event_timing": "August 24, 2026", 
-        "url": "https://medium.com/radiant-earth-insights/call-for-speakers-cng-japan-2026-c5a0beac013d", 
-        "lng": 139.76880, 
+        "planned_location": "Tokyo (specific venue TBD)",
+        "email": "michelle@radiant.earth",
+        "event_timing": "August 24, 2026",
+        "url": "https://medium.com/radiant-earth-insights/call-for-speakers-cng-japan-2026-c5a0beac013d",
+        "lng": 139.7688,
         "lat": 35.68081,
         "coment": "場所が未定のため、東京駅に位置を指定した"
       }
-
     ],
     "table_title": "Community Event List",
     "legend.event": "Community Event",
@@ -830,9 +869,27 @@
         "green_child": "Green Car (Child)"
       },
       "table_rows": [
-        { "duration": "7 Days", "ordinary_adult": "50,000 yen", "ordinary_child": "25,000 yen", "green_adult": "70,000 yen", "green_child": "35,000 yen" },
-        { "duration": "14 Days", "ordinary_adult": "80,000 yen", "ordinary_child": "40,000 yen", "green_adult": "110,000 yen", "green_child": "55,000 yen" },
-        { "duration": "21 Days", "ordinary_adult": "100,000 yen", "ordinary_child": "50,000 yen", "green_adult": "140,000 yen", "green_child": "70,000 yen" }
+        {
+          "duration": "7 Days",
+          "ordinary_adult": "50,000 yen",
+          "ordinary_child": "25,000 yen",
+          "green_adult": "70,000 yen",
+          "green_child": "35,000 yen"
+        },
+        {
+          "duration": "14 Days",
+          "ordinary_adult": "80,000 yen",
+          "ordinary_child": "40,000 yen",
+          "green_adult": "110,000 yen",
+          "green_child": "55,000 yen"
+        },
+        {
+          "duration": "21 Days",
+          "ordinary_adult": "100,000 yen",
+          "ordinary_child": "50,000 yen",
+          "green_adult": "140,000 yen",
+          "green_child": "70,000 yen"
+        }
       ],
       "nozomi": {
         "title": "Using the \"Nozomi\" and \"Mizuho\" Trains",
@@ -843,19 +900,350 @@
   },
   "travel_guide": {
     "title": "Travel Guide",
-    "intro": {
-      "description": "Comprehensive travel guide for international visitors will be available in early 2026."
+    "welcome": {
+      "title": "Welcome to Hiroshima",
+      "description": "Welcome to Hiroshima, Japan. We hope you enjoy your stay and your participation in our conference."
     },
-    "coming_soon": {
-      "title": "Coming Soon",
-      "description": "Visa information, cultural tips, and practical travel advice for FOSS4G 2026 attendees."
+    "safety": {
+      "title": "Safety and Security",
+      "description": "Japan is one of the safest countries in the world. Crime rates are low, and public transportation is generally safe. However, please take normal precautions and keep your valuables safe."
     },
-    "basic_info": {
-      "title": "Basic Information",
-      "visa": "Visa Information - Short-term stays from many countries possible with tourist visa",
-      "currency": "Currency - Japanese Yen (JPY)",
-      "language": "Language - Japanese (English widely understood in major areas)",
-      "emergency": "Emergency - Police: 110, Fire/Ambulance: 119"
+    "culture": {
+      "title": "Culture and Etiquette",
+      "items": [
+        "When meeting someone, a small bow is common.",
+        "Please be quiet on trains and buses. Talking loudly on the phone in public transportation is not common.",
+        "People usually stand in line and wait their turn.",
+        "Tipping is not required in Japan."
+      ]
+    },
+    "religion": {
+      "title": "Religion and Diversity",
+      "description": "Japan has many religions, including Shintoism and Buddhism. People are generally respectful of different religions and cultures. Visitors from all backgrounds are welcome."
+    },
+    "food": {
+      "title": "Food Culture",
+      "description": "Japan is famous for its food.",
+      "popular_title": "Popular Japanese foods include:",
+      "popular": [
+        "Sushi",
+        "Ramen",
+        "Tempura",
+        "Udon",
+        "Soba"
+      ],
+      "hiroshima_title": "Hiroshima is especially famous for:",
+      "hiroshima": [
+        "Hiroshima-style Okonomiyaki",
+        "Oysters",
+        "Momiji Manju"
+      ]
+    },
+    "peace": {
+      "title": "Hiroshima and Peace",
+      "description": "Hiroshima is known around the world as a city of peace. After the atomic bombing in 1945, the city was rebuilt and became a symbol of peace and recovery.",
+      "visit_title": "Visitors may wish to visit:",
+      "places": [
+        "Hiroshima Peace Memorial Park",
+        "Atomic Bomb Dome",
+        "Hiroshima Peace Memorial Museum"
+      ]
+    },
+    "language": {
+      "title": "Language",
+      "description": "The official language of Japan is Japanese. English signs are common at airports, train stations, and tourist areas. Learning a few Japanese phrases may be helpful.",
+      "phrases_title": "Useful phrases:",
+      "phrases": [
+        "Hello: Konnichiwa",
+        "Thank you: Arigatou gozaimasu",
+        "Excuse me: Sumimasen"
+      ]
+    },
+    "transportation": {
+      "title": "Transportation",
+      "description": "Japan has an excellent public transportation system. In Hiroshima, trams, buses, and trains are available. IC cards such as ICOCA, Suica, and PASMO can be used for many transportation services."
+    },
+    "currency": {
+      "title": "Currency",
+      "description": "The currency of Japan is the Japanese Yen (¥). Credit cards and electronic payments are widely accepted, but some small shops may only accept cash."
+    },
+    "electricity": {
+      "title": "Electricity",
+      "description": "Japan uses 100V electricity. The plug type is Type A. Visitors may need a plug adapter."
+    },
+    "emergency": {
+      "title": "Emergency Services",
+      "police": "Police: 110",
+      "fire": "Fire and Ambulance: 119"
+    },
+    "internet": {
+      "title": "Mobile Phones and Internet",
+      "description": "Free Wi-Fi is available in many hotels, stations, and public facilities. Visitors can also purchase a SIM card or eSIM for mobile internet access."
+    },
+    "smoking": {
+      "title": "Smoking",
+      "description": "Smoking is not allowed in many indoor public places. Please use designated smoking areas."
+    },
+    "lgbtq": {
+      "title": "LGBTQ+ Visitors",
+      "description": "Japan welcomes visitors from diverse backgrounds. Many large cities and universities support diversity and inclusion."
+    },
+    "places_nearby": {
+      "title": "Places to Visit Near Hiroshima",
+      "items": [
+        "Miyajima Island",
+        "Itsukushima Shrine",
+        "Hiroshima Castle",
+        "Shukkeien Garden",
+        "Hiroshima Peace Memorial Park"
+      ]
+    },
+    "guide_title": "Travel Guide: Hiroshima and Nearby Areas",
+    "guide_intro": "Hiroshima offers a unique mix of history, culture, nature, and beautiful scenery. Here are some recommended places to visit during your stay.",
+    "must_see": {
+      "title": "Must-See Places in Hiroshima",
+      "peace_park": {
+        "title": "Hiroshima Peace Memorial Park",
+        "description": "A symbol of peace and hope for the future. The park includes the Peace Memorial Museum, the Cenotaph for the Atomic Bomb Victims, and many monuments dedicated to peace.",
+        "visit_time": "Recommended visit time: 2–3 hours",
+        "admission_title": "Admission:",
+        "admission": [
+          "Park: Free",
+          "Peace Memorial Museum: About ¥200"
+        ]
+      },
+      "atomic_dome": {
+        "title": "Atomic Bomb Dome",
+        "description": "One of Hiroshima's most famous landmarks and a UNESCO World Heritage Site. The building survived the atomic bombing in 1945 and remains as a reminder of the importance of peace.",
+        "admission": "Admission: Free",
+        "visit_time": "Recommended visit time: 30–60 minutes"
+      },
+      "castle": {
+        "title": "Hiroshima Castle",
+        "description": "Originally built in the 16th century by Mori Terumoto and rebuilt after World War II. The castle was an important center of Hiroshima's history and samurai culture. Please note that the main tower (castle keep) is currently closed, and visitors cannot enter the inside of the tower. However, the outside appearance of the castle can still be viewed. Visitors can also explore the Ninomaru area, where restored traditional wooden buildings are located.",
+        "admission_title": "Admission:",
+        "admission": [
+          "Castle grounds: Free",
+          "Ninomaru area: Free"
+        ],
+        "visit_time": "Recommended visit time: 1–2 hours"
+      }
+    },
+    "miyajima": {
+      "title": "Miyajima Island",
+      "shrine": {
+        "title": "Itsukushima Shrine",
+        "description": "One of Japan's most famous shrines and a UNESCO World Heritage Site. The large red torii gate appears to float on the sea during high tide.",
+        "admission": "Admission: About ¥300",
+        "visit_time": "Recommended visit time: Half day",
+        "highlights_title": "Highlights:",
+        "highlights": [
+          "Floating torii gate",
+          "Traditional shrine buildings",
+          "Friendly deer",
+          "Local food and souvenirs"
+        ]
+      },
+      "misen": {
+        "title": "Mount Misen",
+        "description": "The highest mountain on Miyajima Island. Visitors can hike or use the ropeway to enjoy spectacular views of the Seto Inland Sea.",
+        "visit_time": "Recommended visit time: 2–4 hours"
+      }
+    },
+    "transport_exp": {
+      "title": "Unique Transportation Experiences",
+      "streetcar": {
+        "title": "Hiroshima Streetcars (Hiroden)",
+        "description": "Hiroshima has Japan's largest streetcar network. The streetcars are a convenient and affordable way to travel around the city.",
+        "route_title": "Recommended route:",
+        "route": "Hiroshima Station → Atomic Bomb Dome → Miyajimaguchi",
+        "fare_title": "Fare:",
+        "fare": "¥240 for all routes"
+      },
+      "ferry": {
+        "title": "Peace Park to Miyajima Ferry",
+        "description": "A direct sightseeing ferry connects Peace Memorial Park and Miyajima. The journey offers beautiful views of Hiroshima's rivers and Hiroshima Bay.",
+        "time_title": "Travel time:",
+        "time": "About 45 minutes",
+        "fare_title": "Fare:",
+        "fare": "About ¥200 one way"
+      }
+    },
+    "historic_towns": {
+      "title": "Historic Towns",
+      "onomichi": {
+        "title": "Onomichi",
+        "description": "A charming seaside town famous for narrow slopes, temples, and cycling.",
+        "highlights_title": "Highlights:",
+        "highlights": [
+          "Temple Walk",
+          "Cat Alley",
+          "Onomichi Ramen",
+          "Scenic views of the Seto Inland Sea"
+        ],
+        "access": "Travel time from Hiroshima: About 1 hour by train"
+      },
+      "takehara": {
+        "title": "Takehara",
+        "description": "Known as the \"Little Kyoto of Aki.\" The preserved historic district features traditional merchant houses and sake breweries.",
+        "access": "Travel time from Hiroshima: About 40 minutes by train"
+      }
+    },
+    "maritime": {
+      "title": "Maritime and Industrial Heritage",
+      "yamato": {
+        "title": "Yamato Museum (Kure)",
+        "description": "Learn about Japan's maritime history and see a large model of the battleship Yamato.",
+        "access": "Travel time from Hiroshima: About 40 minutes by train",
+        "admission": "Admission: About ¥1000"
+      },
+      "kure": {
+        "title": "Kure Waterfront Area",
+        "description": "Explore naval history, submarines, and one of Japan's largest industrial port areas.",
+        "highlights_title": "Highlights:",
+        "highlights": [
+          "JMSDF Kure Museum",
+          "Shipbuilding industry",
+          "Port views"
+        ]
+      }
+    },
+    "day_trips": {
+      "title": "Scenic Day Trips",
+      "shimanami": {
+        "title": "Shimanami Kaido",
+        "description": "One of the world's most famous cycling routes. The route connects islands across the Seto Inland Sea with spectacular bridges and ocean views.",
+        "highlights_title": "Highlights:",
+        "highlights": [
+          "Cycling",
+          "Island hopping",
+          "Scenic viewpoints"
+        ],
+        "recommended": "Recommended: Full day or overnight trip"
+      },
+      "sandankyo": {
+        "title": "Sandankyo Gorge",
+        "description": "A beautiful canyon with rivers, forests, and hiking trails.",
+        "season": "Best season: Spring and autumn",
+        "access": "Travel time from Hiroshima: About 1.5 hours by bus",
+        "visit_time": "Recommended visit time: Half day to full day"
+      }
+    },
+    "onsen": {
+      "title": "Hot Springs",
+      "dogo": {
+        "title": "Dogo Onsen (Ehime)",
+        "description": "One of Japan's oldest hot springs. The historic bathhouse inspired many works of Japanese literature and animation.",
+        "access": "Travel time from Hiroshima: About 2–3 hours by ferry and train",
+        "visit_time": "Recommended visit time: Full day"
+      }
+    },
+    "food_try": {
+      "title": "Food You Should Try",
+      "items": [
+        "Hiroshima-style Okonomiyaki",
+        "Oysters",
+        "Anago (Conger Eel)",
+        "Momiji Manju",
+        "Lemon products from Setouchi"
+      ]
+    },
+    "itineraries": {
+      "title": "Suggested Itineraries",
+      "half_day": {
+        "title": "Half-Day Visit",
+        "items": [
+          "Peace Memorial Park",
+          "Atomic Bomb Dome",
+          "Hiroshima Castle"
+        ]
+      },
+      "one_day": {
+        "title": "One-Day Visit",
+        "items": [
+          "Peace Memorial Park",
+          "Hiroshima Castle",
+          "Miyajima Island"
+        ]
+      },
+      "weekend": {
+        "title": "Weekend Trip",
+        "items": [
+          "Miyajima",
+          "Onomichi",
+          "Shimanami Kaido",
+          "Kure"
+        ]
+      }
+    },
+    "dining_title": "Dining Guide for International Guests in Hiroshima",
+    "dining_intro": "Welcome to Hiroshima! This guide helps you find places to eat that match your dietary needs, such as Halal or Vegetarian meals. Please note that most Halal-friendly restaurants in Japan are not officially certified, but they use ingredients that are suitable for Muslim guests or offer specific Halal menus.",
+    "halal_dedicated": {
+      "title": "🕌 Halal Restaurants (Explicitly Stated / Dedicated Menu)",
+      "restaurants": [
+        {
+          "name": "Gyumon Ramen (牛もん)",
+          "type": "Japanese Ramen (Beef broth)",
+          "detail": "This restaurant explicitly offers Halal ramen options using beef."
+        },
+        {
+          "name": "Warung Matahari (ワルン マタハリ)",
+          "type": "Indonesian Cuisine",
+          "detail": "A small restaurant serving authentic Indonesian food. It is quite small, so it is not suitable for large groups. Please note that prices are relatively high (Ramen is around 3,000 JPY)."
+        },
+        {
+          "name": "Kanak (カナック)",
+          "type": "Indian Cuisine",
+          "detail": "A popular Indian restaurant that explicitly serves Halal food with a variety of curries and naan."
+        },
+        {
+          "name": "Uzbekistan Palace (ウズベキスタンパレス)",
+          "type": "Uzbek Cuisine",
+          "detail": "Enjoy traditional Central Asian and Uzbek dishes prepared with Halal ingredients."
+        },
+        {
+          "name": "Gonta (ゴンタ)",
+          "type": "Yakiniku (Japanese BBQ) / Meat dishes",
+          "detail": "Offers a Halal-friendly menu so you can enjoy Japanese-style grilled meat safely."
+        }
+      ]
+    },
+    "halal_ingredients": {
+      "title": "🥩 Restaurants Using Halal Ingredients",
+      "restaurants": [
+        {
+          "name": "Karsiyaka (カルシヤカ)",
+          "type": "Turkish Cuisine",
+          "detail": "Serves delicious Turkish dishes made with Halal ingredients. The price is a bit expensive, but the quality is great."
+        },
+        {
+          "name": "Namaste (ナマステ)",
+          "type": "Indian / Nepalese Cuisine",
+          "detail": "A casual dining place using Halal meat and ingredients for their traditional curries."
+        },
+        {
+          "name": "Zaika (ザイカ)",
+          "type": "Indian / Pakistani Cuisine",
+          "detail": "Another excellent choice for spice lovers, utilizing Halal-certified ingredients for their menus."
+        }
+      ]
+    },
+    "vegetarian": {
+      "title": "🥗 Vegetarian & Vegan Options",
+      "restaurants": [
+        {
+          "name": "Keiai Vegan & Vegetarian Chinese Food (恵愛)",
+          "type": "Chinese Cuisine (Vegan / Vegetarian)",
+          "detail": "A great place for plant-based Chinese meals. It is very popular among international visitors."
+        }
+      ]
+    },
+    "seafood": {
+      "title": "🍣 Try Traditional Japanese Seafood and Noodles!",
+      "description": "If you want to experience local Japanese food affordably, we highly recommend trying Udon (wheat noodles) and Sushi.",
+      "why_safe": "Why it is safe: Traditional Japanese seafood dishes (Seafood Washoku) focus mainly on fish, seaweed, and vegetables rather than meat.",
+      "affordable": "Affordable: Conveyor belt sushi (Kaiten-sushi) and local Udon shops are very cheap, delicious, and easy to find all over Hiroshima.",
+      "note": "Note: Some soy sauces or soup stocks (Dashi) may contain a small amount of cooking alcohol (Mirin/Sake). If you are strict about this, please ask the restaurant staff before ordering."
     }
   },
   "accommodation": {
@@ -878,44 +1266,272 @@
       "hiroshima_station": "Hiroshima Station"
     },
     "hotels": [
-      { "name": "ANA Crowne Plaza Hiroshima", "category": "hotel", "url": "https://www.ihg.com/crowneplaza/hotels/us/en/hiroshima/hijja/hoteldetail", "lng": 132.4569381, "lat": 34.390445 },
-      { "name": "Mitsui Garden Hotel Hiroshima", "category": "hotel", "url": "https://www.gardenhotels.co.jp/hiroshima/eng/", "lng": 132.4592915, "lat": 34.389546 },
-      { "name": "RIHGA Royal Hotel Hiroshima", "category": "hotel", "url": "https://www.rihga.com/hiroshima", "lng": 132.4573815, "lat": 34.397438 },
-      { "name": "Hilton Hiroshima", "category": "hotel", "url": "https://www.hilton.com/en/hotels/hijshhi-hilton-hiroshima/", "lng": 132.4621165, "lat": 34.386168 },
-      { "name": "Hiroshima City Bunka Koryu Kaikan", "category": "hotel", "url": "https://h-bkk.jp/stay/", "lng": 132.4489769, "lat": 34.3887901 },
-      { "name": "Urbain Hiroshima Central", "category": "hotel", "url": "https://www.urbain-hotels.com/hce", "lng": 132.4646004, "lat": 34.39646383 },
-      { "name": "Alley Hotel Hiroshima Namiki-dori", "category": "hotel", "url": "https://www.2482255.com/", "lng": 132.4609212, "lat": 34.39073819 },
-      { "name": "WeBase HIROSHIMA", "category": "pension", "url": "https://we-base.jp/hiroshima/", "lng": 132.4592418, "lat": 34.39014592 },
-      { "name": "EN HOTEL Hiroshima", "category": "hotel", "url": "https://en-hotel.com/hiroshima/ja/", "lng": 132.4684719, "lat": 34.3915992 },
-      { "name": "Oriental Hotel Hiroshima", "category": "hotel", "url": "https://www.oriental-hiroshima.com/index.html", "lng": 132.4638647, "lat": 34.38823629 },
-      { "name": "Grand Prince Hotel Hiroshima", "category": "hotel", "url": "http://www.princehotels.co.jp/hiroshima/", "lng": 132.4640634, "lat": 34.3430145 },
-      { "name": "Koko Hotel Hiroshima Ekimae", "category": "hotel", "url": "https://koko-hotels.com/hiroshima_ekimae/", "lng": 132.472577, "lat": 34.39407666 },
-      { "name": "Sotetsu Fresa Inn Hiroshima", "category": "hotel", "url": "https://sotetsu-hotels.com/fresa-inn/hiroshima-ekimae/", "lng": 132.4766571, "lat": 34.3948531 },
-      { "name": "Toyoko Inn Hiroshima-eki Minami-guchi Migi", "category": "hotel", "url": "https://www.toyoko-inn.com/search/detail/00145/", "lng": 132.4682221, "lat": 34.39673776 },
-      { "name": "Hiroshima Intelligent Hotel Annex", "category": "hotel", "url": "http://www.intelligent-hotel.co.jp/annex/", "lng": 132.4703289, "lat": 34.39241577 },
-      { "name": "Hiroshima Intelligent Hotel Stadium", "category": "hotel", "url": "https://intelligent-hotel.co.jp/main/", "lng": 132.4797677, "lat": 34.39462614 },
-      { "name": "Hiroshima Guesthouse EN", "category": "pension", "url": "https://hostel-en.com/", "lng": 132.4507593, "lat": 34.4079974 },
-      { "name": "Hiroshima Guesthouse HARU", "category": "pension", "url": "", "lng": 132.4817685, "lat": 34.3904329 },
-      { "name": "Hiroshima Tokyu Rei Hotel", "category": "hotel", "url": "https://www.tokyuhotels.co.jp/hiroshima-r/index.html", "lng": 132.4616894, "lat": 34.38883199 },
-      { "name": "Hiroshima no Yado Aioi", "category": "ryokan", "url": "https://aioi-hiroshima.com/", "lng": 132.4544134, "lat": 34.3954727 },
-      { "name": "Hiroshima Pacific Hotel", "category": "hotel", "url": "http://h-pacific.com/", "lng": 132.4643062, "lat": 34.3982047 },
-      { "name": "Hiroshima Peace Hotel", "category": "hotel", "url": "http://www.peace-h.com/", "lng": 132.4495825, "lat": 34.4088008 },
-      { "name": "Vessel Inn Hiroshima Ekimae", "category": "hotel", "url": "https://www.vessel-hotel.jp/inn/hiroshima/", "lng": 132.4782534, "lat": 34.39334891 },
-      { "name": "Hostel Mallika", "category": "pension", "url": "", "lng": 132.4500149, "lat": 34.3898512 },
-      { "name": "Hotel Granvia Hiroshima", "category": "hotel", "url": "http://hgh.co.jp/", "lng": 132.4755149, "lat": 34.39912045 },
-      { "name": "Hotel Kuretakeso Hiroshima Otemachi", "category": "hotel", "url": "http://www.kuretake-inn.com/hiroshima/", "lng": 132.454945, "lat": 34.38812005 },
-      { "name": "Hotel New Yorishiro", "category": "hotel", "url": "https://yorishiro.info/", "lng": 132.4801717, "lat": 34.39690965 },
-      { "name": "Hiroshima Garden Palace", "category": "hotel", "url": "https://www.hotelgp-hiroshima.com/", "lng": 132.4801576, "lat": 34.3969038 },
-      { "name": "Hotel Promote Hiroshima", "category": "hotel", "url": "https://www.promote-hiroshima.com/", "lng": 132.4445982, "lat": 34.3936264 },
-      { "name": "Hotel Hokke Club Hiroshima", "category": "hotel", "url": "https://www.hokke.co.jp/hiroshima/", "lng": 132.4575986, "lat": 34.39042452 },
-      { "name": "Hotel Mystays Hiroshima Peace Park", "category": "hotel", "url": "https://www.mystays.com/hotel-mystays-hiroshima-peace-park-hiroshima/", "lng": 132.4540476, "lat": 34.38964371 },
-      { "name": "LAZULI HIROSHIMA HOTEL&LOUNGE", "category": "ryokan", "url": "https://lazulihiroshima.com/", "lng": 132.4794683, "lat": 34.39080284 },
-      { "name": "Urbain Hiroshima Executive", "category": "hotel", "url": "https://www.urbain-hotels.com/hex/", "lng": 132.4800296, "lat": 34.3970976 },
-      { "name": "Hotel Park Side Hiroshima Peace Park", "category": "hotel", "url": "https://www.park-side.co.jp/", "lng": 132.4555812, "lat": 34.3922827 },
-      { "name": "HOTEL GRANVIA HIROSHIMA SOUTH GATE", "category": "hotel", "url": "https://southgate.hgh.co.jp/", "lng": 132.4752182, "lat": 34.39740833 },
-      { "name": "HOTEL SUITE HIROSHIMA YOKOGAWA", "category": "hotel", "url": "https://www.hotelsuite.co.jp/yokogawa/", "lng": 132.4520592, "lat": 34.41279636 },
-      { "name": "HOTEL SUITE HIROSHIMA HAKUSHIMA", "category": "hotel", "url": "https://www.hotelsuite.co.jp/hakushima/", "lng": 132.4659868, "lat": 34.40562895 },
-      { "name": "J-Hoppers Hiroshima Guesthouse", "category": "pension", "url": "https://hiroshima.j-hoppers.com/ja/", "lng": 132.4472315, "lat": 34.3930168 }
+      {
+        "name": "ANA Crowne Plaza Hiroshima",
+        "category": "hotel",
+        "url": "https://www.ihg.com/crowneplaza/hotels/us/en/hiroshima/hijja/hoteldetail",
+        "lng": 132.4569381,
+        "lat": 34.390445
+      },
+      {
+        "name": "Mitsui Garden Hotel Hiroshima",
+        "category": "hotel",
+        "url": "https://www.gardenhotels.co.jp/hiroshima/eng/",
+        "lng": 132.4592915,
+        "lat": 34.389546
+      },
+      {
+        "name": "RIHGA Royal Hotel Hiroshima",
+        "category": "hotel",
+        "url": "https://www.rihga.com/hiroshima",
+        "lng": 132.4573815,
+        "lat": 34.397438
+      },
+      {
+        "name": "Hilton Hiroshima",
+        "category": "hotel",
+        "url": "https://www.hilton.com/en/hotels/hijshhi-hilton-hiroshima/",
+        "lng": 132.4621165,
+        "lat": 34.386168
+      },
+      {
+        "name": "Hiroshima City Bunka Koryu Kaikan",
+        "category": "hotel",
+        "url": "https://h-bkk.jp/stay/",
+        "lng": 132.4489769,
+        "lat": 34.3887901
+      },
+      {
+        "name": "Urbain Hiroshima Central",
+        "category": "hotel",
+        "url": "https://www.urbain-hotels.com/hce",
+        "lng": 132.4646004,
+        "lat": 34.39646383
+      },
+      {
+        "name": "Alley Hotel Hiroshima Namiki-dori",
+        "category": "hotel",
+        "url": "https://www.2482255.com/",
+        "lng": 132.4609212,
+        "lat": 34.39073819
+      },
+      {
+        "name": "WeBase HIROSHIMA",
+        "category": "pension",
+        "url": "https://we-base.jp/hiroshima/",
+        "lng": 132.4592418,
+        "lat": 34.39014592
+      },
+      {
+        "name": "EN HOTEL Hiroshima",
+        "category": "hotel",
+        "url": "https://en-hotel.com/hiroshima/ja/",
+        "lng": 132.4684719,
+        "lat": 34.3915992
+      },
+      {
+        "name": "Oriental Hotel Hiroshima",
+        "category": "hotel",
+        "url": "https://www.oriental-hiroshima.com/index.html",
+        "lng": 132.4638647,
+        "lat": 34.38823629
+      },
+      {
+        "name": "Grand Prince Hotel Hiroshima",
+        "category": "hotel",
+        "url": "http://www.princehotels.co.jp/hiroshima/",
+        "lng": 132.4640634,
+        "lat": 34.3430145
+      },
+      {
+        "name": "Koko Hotel Hiroshima Ekimae",
+        "category": "hotel",
+        "url": "https://koko-hotels.com/hiroshima_ekimae/",
+        "lng": 132.472577,
+        "lat": 34.39407666
+      },
+      {
+        "name": "Sotetsu Fresa Inn Hiroshima",
+        "category": "hotel",
+        "url": "https://sotetsu-hotels.com/fresa-inn/hiroshima-ekimae/",
+        "lng": 132.4766571,
+        "lat": 34.3948531
+      },
+      {
+        "name": "Toyoko Inn Hiroshima-eki Minami-guchi Migi",
+        "category": "hotel",
+        "url": "https://www.toyoko-inn.com/search/detail/00145/",
+        "lng": 132.4682221,
+        "lat": 34.39673776
+      },
+      {
+        "name": "Hiroshima Intelligent Hotel Annex",
+        "category": "hotel",
+        "url": "http://www.intelligent-hotel.co.jp/annex/",
+        "lng": 132.4703289,
+        "lat": 34.39241577
+      },
+      {
+        "name": "Hiroshima Intelligent Hotel Stadium",
+        "category": "hotel",
+        "url": "https://intelligent-hotel.co.jp/main/",
+        "lng": 132.4797677,
+        "lat": 34.39462614
+      },
+      {
+        "name": "Hiroshima Guesthouse EN",
+        "category": "pension",
+        "url": "https://hostel-en.com/",
+        "lng": 132.4507593,
+        "lat": 34.4079974
+      },
+      {
+        "name": "Hiroshima Guesthouse HARU",
+        "category": "pension",
+        "url": "",
+        "lng": 132.4817685,
+        "lat": 34.3904329
+      },
+      {
+        "name": "Hiroshima Tokyu Rei Hotel",
+        "category": "hotel",
+        "url": "https://www.tokyuhotels.co.jp/hiroshima-r/index.html",
+        "lng": 132.4616894,
+        "lat": 34.38883199
+      },
+      {
+        "name": "Hiroshima no Yado Aioi",
+        "category": "ryokan",
+        "url": "https://aioi-hiroshima.com/",
+        "lng": 132.4544134,
+        "lat": 34.3954727
+      },
+      {
+        "name": "Hiroshima Pacific Hotel",
+        "category": "hotel",
+        "url": "http://h-pacific.com/",
+        "lng": 132.4643062,
+        "lat": 34.3982047
+      },
+      {
+        "name": "Hiroshima Peace Hotel",
+        "category": "hotel",
+        "url": "http://www.peace-h.com/",
+        "lng": 132.4495825,
+        "lat": 34.4088008
+      },
+      {
+        "name": "Vessel Inn Hiroshima Ekimae",
+        "category": "hotel",
+        "url": "https://www.vessel-hotel.jp/inn/hiroshima/",
+        "lng": 132.4782534,
+        "lat": 34.39334891
+      },
+      {
+        "name": "Hostel Mallika",
+        "category": "pension",
+        "url": "",
+        "lng": 132.4500149,
+        "lat": 34.3898512
+      },
+      {
+        "name": "Hotel Granvia Hiroshima",
+        "category": "hotel",
+        "url": "http://hgh.co.jp/",
+        "lng": 132.4755149,
+        "lat": 34.39912045
+      },
+      {
+        "name": "Hotel Kuretakeso Hiroshima Otemachi",
+        "category": "hotel",
+        "url": "http://www.kuretake-inn.com/hiroshima/",
+        "lng": 132.454945,
+        "lat": 34.38812005
+      },
+      {
+        "name": "Hotel New Yorishiro",
+        "category": "hotel",
+        "url": "https://yorishiro.info/",
+        "lng": 132.4801717,
+        "lat": 34.39690965
+      },
+      {
+        "name": "Hiroshima Garden Palace",
+        "category": "hotel",
+        "url": "https://www.hotelgp-hiroshima.com/",
+        "lng": 132.4801576,
+        "lat": 34.3969038
+      },
+      {
+        "name": "Hotel Promote Hiroshima",
+        "category": "hotel",
+        "url": "https://www.promote-hiroshima.com/",
+        "lng": 132.4445982,
+        "lat": 34.3936264
+      },
+      {
+        "name": "Hotel Hokke Club Hiroshima",
+        "category": "hotel",
+        "url": "https://www.hokke.co.jp/hiroshima/",
+        "lng": 132.4575986,
+        "lat": 34.39042452
+      },
+      {
+        "name": "Hotel Mystays Hiroshima Peace Park",
+        "category": "hotel",
+        "url": "https://www.mystays.com/hotel-mystays-hiroshima-peace-park-hiroshima/",
+        "lng": 132.4540476,
+        "lat": 34.38964371
+      },
+      {
+        "name": "LAZULI HIROSHIMA HOTEL&LOUNGE",
+        "category": "ryokan",
+        "url": "https://lazulihiroshima.com/",
+        "lng": 132.4794683,
+        "lat": 34.39080284
+      },
+      {
+        "name": "Urbain Hiroshima Executive",
+        "category": "hotel",
+        "url": "https://www.urbain-hotels.com/hex/",
+        "lng": 132.4800296,
+        "lat": 34.3970976
+      },
+      {
+        "name": "Hotel Park Side Hiroshima Peace Park",
+        "category": "hotel",
+        "url": "https://www.park-side.co.jp/",
+        "lng": 132.4555812,
+        "lat": 34.3922827
+      },
+      {
+        "name": "HOTEL GRANVIA HIROSHIMA SOUTH GATE",
+        "category": "hotel",
+        "url": "https://southgate.hgh.co.jp/",
+        "lng": 132.4752182,
+        "lat": 34.39740833
+      },
+      {
+        "name": "HOTEL SUITE HIROSHIMA YOKOGAWA",
+        "category": "hotel",
+        "url": "https://www.hotelsuite.co.jp/yokogawa/",
+        "lng": 132.4520592,
+        "lat": 34.41279636
+      },
+      {
+        "name": "HOTEL SUITE HIROSHIMA HAKUSHIMA",
+        "category": "hotel",
+        "url": "https://www.hotelsuite.co.jp/hakushima/",
+        "lng": 132.4659868,
+        "lat": 34.40562895
+      },
+      {
+        "name": "J-Hoppers Hiroshima Guesthouse",
+        "category": "pension",
+        "url": "https://hiroshima.j-hoppers.com/ja/",
+        "lng": 132.4472315,
+        "lat": 34.3930168
+      }
     ]
   },
   "childcare": {
@@ -1301,17 +1917,44 @@
       "additional_items_title": "Optional Extras",
       "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in February 2026.",
       "main_registration_types": [
-        ["<s>Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)</s>", "<s>JPY 40,000</s>"],
-        ["<s>Early Bird (After Super Early Bird ends - May 8, 2026)</s>", "<s>JPY 50,000</s>"],
-        ["Regular (May 9 - September 3, 2026)", "JPY 80,000"],
-        ["Local", "JPY 40,000"],
-        ["Studentship", "JPY 30,000"]
+        [
+          "<s>Super Early Bird (February 23 - March 8, 2026 *Limited to 100 registrants)</s>",
+          "<s>JPY 40,000</s>"
+        ],
+        [
+          "<s>Early Bird (After Super Early Bird ends - May 8, 2026)</s>",
+          "<s>JPY 50,000</s>"
+        ],
+        [
+          "Regular (May 9 - September 3, 2026)",
+          "JPY 80,000"
+        ],
+        [
+          "Local",
+          "JPY 40,000"
+        ],
+        [
+          "Studentship",
+          "JPY 30,000"
+        ]
       ],
       "additional_items": [
-        ["Gala Dinner", "+JPY 15,000"],
-        ["Workshop", "+JPY 7,500"],
-        ["B2B", "+JPY 3,000"],
-        ["Ice Breaker (※)", "+JPY 3,000"]
+        [
+          "Gala Dinner",
+          "+JPY 15,000"
+        ],
+        [
+          "Workshop",
+          "+JPY 7,500"
+        ],
+        [
+          "B2B",
+          "+JPY 3,000"
+        ],
+        [
+          "Ice Breaker (※)",
+          "+JPY 3,000"
+        ]
       ],
       "get_ticket_button": "Get your ticket here",
       "ticket_link_note": "Registration is scheduled to begin in February 2026",
@@ -1469,28 +2112,76 @@
         "title": "What Will You Do?",
         "intro": "Depending on your interests and skills, you can contribute in various areas:",
         "items": [
-          { "value": "Event Content Planning", "description": "Help design sessions, workshops, and conference programs" },
-          { "value": "Academic Paper Review", "description": "Participate in the review process for academic submissions" },
-          { "value": "Facility and Operations Management", "description": "Support venue logistics and day-to-day operations" },
-          { "value": "Public Relations and Communications", "description": "Assist with social media, announcements, and community outreach" },
-          { "value": "Sponsor Relations", "description": "Help coordinate with sponsors and manage partnerships" },
-          { "value": "Participant Registration and Travel Grant Program", "description": "Support attendee registration and travel grant processes" },
-          { "value": "Ice Breaker and Gala Dinner", "description": "Plan and support social events" },
-          { "value": "MC/Moderator", "description": "Facilitate sessions and presentations during the event" },
-          { "value": "Venue Guidance", "description": "Help attendees navigate the conference venue" },
-          { "value": "Reception", "description": "Welcome participants and provide information at registration desks" }
+          {
+            "value": "Event Content Planning",
+            "description": "Help design sessions, workshops, and conference programs"
+          },
+          {
+            "value": "Academic Paper Review",
+            "description": "Participate in the review process for academic submissions"
+          },
+          {
+            "value": "Facility and Operations Management",
+            "description": "Support venue logistics and day-to-day operations"
+          },
+          {
+            "value": "Public Relations and Communications",
+            "description": "Assist with social media, announcements, and community outreach"
+          },
+          {
+            "value": "Sponsor Relations",
+            "description": "Help coordinate with sponsors and manage partnerships"
+          },
+          {
+            "value": "Participant Registration and Travel Grant Program",
+            "description": "Support attendee registration and travel grant processes"
+          },
+          {
+            "value": "Ice Breaker and Gala Dinner",
+            "description": "Plan and support social events"
+          },
+          {
+            "value": "MC/Moderator",
+            "description": "Facilitate sessions and presentations during the event"
+          },
+          {
+            "value": "Venue Guidance",
+            "description": "Help attendees navigate the conference venue"
+          },
+          {
+            "value": "Reception",
+            "description": "Welcome participants and provide information at registration desks"
+          }
         ]
       },
       "gains": {
         "title": "What Will You Gain?",
         "intro": "Volunteering at FOSS4G Hiroshima 2026 offers valuable experiences and opportunities:",
         "items": [
-          { "value": "Networking", "description": "Connect with global experts, developers, and researchers in the geospatial community" },
-          { "value": "Skill Development", "description": "Gain experience in event management, community building, and project coordination" },
-          { "value": "Inside Access", "description": "Get behind-the-scenes insights into running an international conference" },
-          { "value": "Community Contribution", "description": "Play a meaningful role in supporting the open-source geospatial movement" },
-          { "value": "Cultural Exchange", "description": "Work with an international team and experience cross-cultural collaboration" },
-          { "value": "Professional Growth", "description": "Enhance your resume with international volunteer experience" }
+          {
+            "value": "Networking",
+            "description": "Connect with global experts, developers, and researchers in the geospatial community"
+          },
+          {
+            "value": "Skill Development",
+            "description": "Gain experience in event management, community building, and project coordination"
+          },
+          {
+            "value": "Inside Access",
+            "description": "Get behind-the-scenes insights into running an international conference"
+          },
+          {
+            "value": "Community Contribution",
+            "description": "Play a meaningful role in supporting the open-source geospatial movement"
+          },
+          {
+            "value": "Cultural Exchange",
+            "description": "Work with an international team and experience cross-cultural collaboration"
+          },
+          {
+            "value": "Professional Growth",
+            "description": "Enhance your resume with international volunteer experience"
+          }
         ]
       },
       "benefits": {
@@ -1515,10 +2206,22 @@
       "refund_schedule": {
         "title": "Refund Schedule",
         "policy_summary": "For cancellations up to 2 months before the conference (until June 30, 2026), a 25% cancellation fee will be charged and 75% of the registration fee will be refunded. No refunds will be provided for cancellations after July 1, 2026.",
-        "headers": ["Cancellation Date", "Refund Amount", "Cancellation Fee"],
+        "headers": [
+          "Cancellation Date",
+          "Refund Amount",
+          "Cancellation Fee"
+        ],
         "rows": [
-          ["Until June 30, 2026", "75% refund", "25%"],
-          ["After July 1, 2026", "No refund", "100%"]
+          [
+            "Until June 30, 2026",
+            "75% refund",
+            "25%"
+          ],
+          [
+            "After July 1, 2026",
+            "No refund",
+            "100%"
+          ]
         ]
       },
       "cancellation_process": {
