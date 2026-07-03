@@ -34,7 +34,11 @@
 
   <!-- Travel Guide -->
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('attending.travel_guide.title')}</h2>
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/attending/travel-guide" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('attending.travel_guide.title')}
+      </a>
+    </h2>
     <p class="text-gray-700 mb-4">{$t('attending.travel_guide.description')}</p>
   </section>
 

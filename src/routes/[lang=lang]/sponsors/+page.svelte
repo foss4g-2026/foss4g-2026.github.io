@@ -12,6 +12,16 @@
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('about.sponsors.title')}</h1>
   
+  <!-- Our Sponsors -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/sponsors/our-sponsors" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.sponsors_sub.our_sponsors')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('about.sponsors.landing.our_sponsors_description')}</p>
+  </section>
+
   <!-- Information for Sponsors -->
   <section class="mb-12">
     <h2 class="text-2xl font-semibold mb-4">

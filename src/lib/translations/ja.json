@@ -13,7 +13,7 @@
       "foss4g": "FOSS4Gについて",
       "map": "マップ",
       "organizers": "主催者",
-      "concept": "コンセプト",
+      "concept": "コンセプト・ロゴ",
       "code_of_conduct": "行動規範",
       "privacy_policy": "プライバシーポリシー",
       "terms_conditions": "登録条件及び規約"
@@ -1450,7 +1450,7 @@
       "foss4g_description": "FOSS4Gとグローバルなオープンソース地理空間コミュニティについて学ぶ。",
       "map_description": "会議会場の地図と広島の探索。",
       "organizers_description": "FOSS4G Hiroshima 2026を支える組織委員会のご紹介。",
-      "concept_description": "技術と人間性をつなぐ会議テーマとビジョンを発見する。",
+      "concept_description": "会議テーマ・ビジョンの紹介と公式ロゴのダウンロード（CC BY 4.0）。",
       "code_of_conduct_description": "すべての人にハラスメントのない会議体験を提供するための行動規範。",
       "privacy_policy_description": "個人情報の収集、使用、保護に関する方針。",
       "terms_conditions_description": "会議への参加登録に関する利用規約。"
@@ -1695,6 +1695,7 @@
     "sponsors": {
       "title": "スポンサー",
       "landing": {
+        "our_sponsors_description": "FOSS4G Hiroshima 2026を支えてくださっている企業・団体をご紹介します。",
         "information_description": "スポンサーシップパッケージ、特典、FOSS4G Hiroshima 2026のスポンサーになる方法について詳しくご覧ください。",
         "honorable_description": "Adopt-a-ticketプログラムを通じて、コミュニティを寛大にサポートしてくださった方々への感謝の意を表します。"
       },
