@@ -13,7 +13,7 @@
       "foss4g": "FOSS4Gについて",
       "map": "マップ",
       "organizers": "主催者",
-      "concept": "コンセプト",
+      "concept": "コンセプト・ロゴ",
       "code_of_conduct": "行動規範",
       "privacy_policy": "プライバシーポリシー",
       "terms_conditions": "登録条件及び規約"
@@ -258,15 +258,55 @@
     "schedule_glance": {
       "title": "スケジュール一覧",
       "table": {
-        "headers": ["日付", "イベント", "会場", "時間"],
+        "headers": [
+          "日付",
+          "イベント",
+          "会場",
+          "時間"
+        ],
         "rows": [
-          ["8月30日（日）", "ワークショップ1日目", "RCC文化センター", "9:00 - 17:00"],
-          ["8月31日（月）", "ワークショップ2日目", "RCC文化センター", "9:00 - 17:00"],
-          ["9月1日（火）", "メイン会議1日目", "国際会議場", "9:00 - 18:00"],
-          ["9月2日（水）", "メイン会議2日目", "国際会議場", "9:00 - 18:00"],
-          ["9月3日（木）", "メイン会議3日目", "国際会議場", "9:00 - 17:00"],
-          ["9月4日（金）", "コミュニティスプリント", "アステールプラザ", "9:00 - 18:00"],
-          ["9月5日（土）", "エクスカーション", "未定", "9:00 - 17:00"]
+          [
+            "8月30日（日）",
+            "ワークショップ1日目",
+            "RCC文化センター",
+            "9:00 - 17:00"
+          ],
+          [
+            "8月31日（月）",
+            "ワークショップ2日目",
+            "RCC文化センター",
+            "9:00 - 17:00"
+          ],
+          [
+            "9月1日（火）",
+            "メイン会議1日目",
+            "国際会議場",
+            "9:00 - 18:00"
+          ],
+          [
+            "9月2日（水）",
+            "メイン会議2日目",
+            "国際会議場",
+            "9:00 - 18:00"
+          ],
+          [
+            "9月3日（木）",
+            "メイン会議3日目",
+            "国際会議場",
+            "9:00 - 17:00"
+          ],
+          [
+            "9月4日（金）",
+            "コミュニティスプリント",
+            "アステールプラザ",
+            "9:00 - 18:00"
+          ],
+          [
+            "9月5日（土）",
+            "エクスカーション",
+            "未定",
+            "9:00 - 17:00"
+          ]
         ]
       }
     }
@@ -451,9 +491,9 @@
     ],
     "map_title": "コミュニティイベントマップ",
     "community_list": [
-      { 
-        "name": "SotM Asia 2026 Osaka", 
-        "description":[
+      {
+        "name": "SotM Asia 2026 Osaka",
+        "description": [
           "「State of the Map Asia 2026」は、日本・大阪で開催される地域会議であり、アジア各地および世界中のOpenStreetMapボランティアマッパーが一堂に会し、経験やマッピングの実践、コミュニティの知見を共有する場となります。",
           "日本での「State of the Map Asia」の開催は今回が初めてとなります。本イベントは、日本のOpenStreetMapコミュニティをアジアおよび世界中のマッピングコミュニティと結びつけることを目指すとともに、人道支援マッピング、オープンデータ、シビックテック、地理空間イノベーション、そして災害対策やコミュニティのレジリエンスにおけるオープンマッピングの役割に焦点を当てます。",
           "会場は、大阪・梅田に近い、歩きやすくクリエイティブな雰囲気の中崎町です。地元のコミュニティメンバー、日本のYouthMappers支部、HOT Japanのメンバー、CrisisMappers Japanのメンバー、そしてSalon de AManToチームとの協力を通じて、参加者は大阪の日本文化、災害リスク軽減に向けた地域独自の取り組み、そして草の根のコミュニティ活動を体験する機会を得ることができます。",
@@ -465,16 +505,16 @@
         ],
         "organization_name": "SotM Asia Organizing Team",
         "Representative Name": "Taichi Furuhashi",
-        "planned_location": "中崎町ホール（大阪府大阪市北区中崎西１丁目６−８）", 
-        "email": "mapconcierge@gmail.com", 
-        "event_timing": "2026年9月6日～9月7日", 
-        "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan", 
-        "lng": 135.504760, 
-        "lat": 34.707653 
+        "planned_location": "中崎町ホール（大阪府大阪市北区中崎西１丁目６−８）",
+        "email": "mapconcierge@gmail.com",
+        "event_timing": "2026年9月6日～9月7日",
+        "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan",
+        "lng": 135.504760,
+        "lat": 34.707653
       },
-      { 
-        "name": "STAC Workshop", 
-        "description":[
+      {
+        "name": "STAC Workshop",
+        "description": [
           "STACワークショップは、2026年8月25日から27日にかけてJAXAの筑波宇宙センターで開催されます。本ワークショップには、STACプロジェクト運営委員会、JAXA職員、および産学のSTAC実務者が一堂に会し、日本におけるSTACコミュニティの支援と発展を図ります。",
           "JAXA宇宙技術局第1部 衛星応用・運用センターがSTACプロジェクト運営委員会と共同で主催する本ワークショップでは、オープンサイエンスおよび地理空間データの共有におけるSTACの戦略的価値に焦点を当てます。本イベントは、広島で開催されるFOSS4G 2026の1週間前に意図的に日程が設定されており、日本の地理空間コミュニティと、より広範なSTACおよびオープンソースの地理空間コミュニティを結びつける機会を提供します。",
           "3日間にわたるプログラムは、STACコミュニティのさまざまな層を対象に構成されています。1日目は、仕様およびエコシステムのメンテナーを対象としたメンテナンス・スプリントが行われます。2日目は、データ提供者と、STACを用いたデータカタログ化のベストプラクティスに焦点を当てます。3日目は、データ利用者、科学的な応用、産業界での導入、およびSTACを地理空間ワークフローに統合するための実践的な方法に焦点を当てます。",
@@ -487,16 +527,16 @@
         ],
         "organization_name": "STAC",
         "Representative Name": "Michelle Roby, Alex Leith, Kamsin Raju",
-        "planned_location": "宇宙航空研究開発機構 筑波宇宙センター（茨城県つくば市千現２丁目１−１）", 
-        "email": "kamsinraju@gmail.com", 
-        "event_timing": "2026年8月25日～8月27日", 
-        "url": "", 
-        "lng": 140.13049, 
+        "planned_location": "宇宙航空研究開発機構 筑波宇宙センター（茨城県つくば市千現２丁目１−１）",
+        "email": "kamsinraju@gmail.com",
+        "event_timing": "2026年8月25日～8月27日",
+        "url": "",
+        "lng": 140.13049,
         "lat": 36.06821
       },
-      { 
-        "name": "CNG Forum Japan", 
-        "description":[
+      {
+        "name": "CNG Forum Japan",
+        "description": [
           "「CNGフォーラム・ジャパン」は、2026年8月24日に東京で開催されます。これは、日本国内および周辺地域で活動する実務家が一堂に会することを目的とした、半日間のクラウドネイティブ・ジオスペーシャル・コミュニティの交流会です。",
           "本イベントでは、デモやディスカッション、懇親会を通じて、参加者が現在取り組んでいるプロジェクトを共有し、互いに学び合い、世界的なCNGネットワークとのつながりを深める場を提供します。プログラムでは、クラウドネイティブな地理空間技術に関連する本番環境での導入事例、進行中のプロジェクト、ツール、ワークフロー、そして得られた知見について、カジュアルなデモ形式のトークが行われます。",
           "「CNG Forum Japan」は、2026年のCNGグローバルイベントシリーズの一環です。本イベントは、日本において成長を続けるクラウドネイティブの地理空間コミュニティを支援し、国内外のつながりを強化することを目的としています。",
@@ -509,11 +549,11 @@
         ],
         "organization_name": "CNG Forum",
         "Representative Name": "Michelle Roby",
-        "planned_location": " 東京、日本 (具体的な会場は未定)", 
-        "email": "michelle@radiant.earth", 
-        "event_timing": "2026年8月24日、午後", 
-        "url": "https://medium.com/radiant-earth-insights/call-for-speakers-cng-japan-2026-c5a0beac013d", 
-        "lng": 139.76880, 
+        "planned_location": " 東京、日本 (具体的な会場は未定)",
+        "email": "michelle@radiant.earth",
+        "event_timing": "2026年8月24日、午後",
+        "url": "https://medium.com/radiant-earth-insights/call-for-speakers-cng-japan-2026-c5a0beac013d",
+        "lng": 139.76880,
         "lat": 35.68081,
         "coment": "場所が未定のため、東京駅に位置を指定した"
       }
@@ -764,6 +804,354 @@
       "description": "託児サービスの提供に関する情報。"
     }
   },
+  "travel_guide": {
+    "title": "旅行ガイド",
+    "welcome": {
+      "title": "広島へようこそ",
+      "description": "日本の広島へようこそ。滞在と会議へのご参加をお楽しみいただければ幸いです。"
+    },
+    "safety": {
+      "title": "安全・治安",
+      "description": "日本は世界で最も安全な国の一つです。犯罪率は低く、公共交通機関も安全です。ただし、通常の注意を払い、貴重品の管理には気をつけてください。"
+    },
+    "culture": {
+      "title": "文化・マナー",
+      "items": [
+        "挨拶の際は、軽くお辞儀をするのが一般的です。",
+        "電車やバスの中では静かにしましょう。公共交通機関での大声での通話はマナー違反とされています。",
+        "列に並んで順番を待つのが一般的です。",
+        "日本ではチップは不要です。"
+      ]
+    },
+    "religion": {
+      "title": "宗教・多様性",
+      "description": "日本には神道や仏教など多くの宗教があります。異なる宗教や文化への敬意が一般的に持たれています。様々な背景を持つ訪問者を歓迎します。"
+    },
+    "food": {
+      "title": "食文化",
+      "description": "日本は食で有名な国です。",
+      "popular_title": "代表的な日本食：",
+      "popular": [
+        "寿司",
+        "ラーメン",
+        "天ぷら",
+        "うどん",
+        "そば"
+      ],
+      "hiroshima_title": "広島名物：",
+      "hiroshima": [
+        "広島風お好み焼き",
+        "牡蠣",
+        "もみじまんじゅう"
+      ]
+    },
+    "peace": {
+      "title": "広島と平和",
+      "description": "広島は世界平和の象徴として知られています。1945年の原爆投下後、広島は復興し、平和と再生の象徴となりました。",
+      "visit_title": "ぜひ訪れてほしい場所：",
+      "places": [
+        "広島平和記念公園",
+        "原爆ドーム",
+        "広島平和記念資料館"
+      ]
+    },
+    "language": {
+      "title": "言語",
+      "description": "日本の公用語は日本語です。空港や駅、観光地では英語の案内が多く見られます。日本語の簡単なフレーズを覚えておくと役立ちます。",
+      "phrases_title": "役立つフレーズ：",
+      "phrases": [
+        "こんにちは（Konnichiwa）",
+        "ありがとうございます（Arigatou gozaimasu）",
+        "すみません（Sumimasen）"
+      ]
+    },
+    "transportation": {
+      "title": "交通",
+      "description": "日本は優れた公共交通機関を持っています。広島では路面電車・バス・電車が利用できます。ICOCA・Suica・PASMOなどのICカードが多くの交通機関で使えます。"
+    },
+    "currency": {
+      "title": "通貨",
+      "description": "日本の通貨は日本円（¥）です。クレジットカードや電子決済も広く使えますが、現金のみ受付の小規模店舗もあります。"
+    },
+    "electricity": {
+      "title": "電気",
+      "description": "日本のコンセントは100Vです。プラグタイプはAタイプです。変換アダプターが必要な場合があります。"
+    },
+    "emergency": {
+      "title": "緊急連絡先",
+      "police": "警察：110",
+      "fire": "消防・救急：119"
+    },
+    "internet": {
+      "title": "携帯・インターネット",
+      "description": "多くのホテル・駅・公共施設で無料Wi-Fiが利用できます。SIMカードやeSIMを購入してモバイルインターネットを利用することも可能です。"
+    },
+    "smoking": {
+      "title": "喫煙",
+      "description": "多くの屋内公共施設では喫煙が禁止されています。指定の喫煙エリアをご利用ください。"
+    },
+    "lgbtq": {
+      "title": "LGBTQ+の方へ",
+      "description": "日本は多様な背景を持つ訪問者を歓迎しています。多くの大都市や大学がダイバーシティ＆インクルージョンを支持しています。"
+    },
+    "places_nearby": {
+      "title": "広島近郊のおすすめスポット",
+      "items": [
+        "宮島",
+        "厳島神社",
+        "広島城",
+        "縮景園",
+        "広島平和記念公園"
+      ]
+    },
+    "guide_title": "旅行ガイド：広島と近郊エリア",
+    "guide_intro": "広島は歴史・文化・自然・美しい景観が融合したユニークな都市です。滞在中のおすすめスポットをご紹介します。",
+    "must_see": {
+      "title": "広島の必見スポット",
+      "peace_park": {
+        "title": "広島平和記念公園",
+        "description": "平和と希望のシンボル。平和記念資料館・原爆慰霊碑・多くの平和のモニュメントがあります。",
+        "visit_time": "推奨見学時間：2〜3時間",
+        "admission_title": "入場料：",
+        "admission": [
+          "公園：無料",
+          "平和記念資料館：約200円"
+        ]
+      },
+      "atomic_dome": {
+        "title": "原爆ドーム",
+        "description": "広島を代表するランドマークであり、ユネスコ世界遺産。1945年の原爆投下後も残存したこの建物は、平和の大切さを伝え続けています。",
+        "admission": "入場料：無料",
+        "visit_time": "推奨見学時間：30〜60分"
+      },
+      "castle": {
+        "title": "広島城",
+        "description": "16世紀に毛利輝元によって築かれ、第二次世界大戦後に再建されました。広島の歴史と武士文化の重要な中心地でした。現在、天守閣（本丸）は工事中のため内部には入れませんが、外観は見学可能です。二の丸エリアでは復元された伝統的な木造建築を見学できます。",
+        "admission_title": "入場料：",
+        "admission": [
+          "城郭内：無料",
+          "二の丸：無料"
+        ],
+        "visit_time": "推奨見学時間：1〜2時間"
+      }
+    },
+    "miyajima": {
+      "title": "宮島",
+      "shrine": {
+        "title": "厳島神社",
+        "description": "日本で最も有名な神社の一つであり、ユネスコ世界遺産。満潮時には大きな赤い鳥居が海に浮かんで見えます。",
+        "admission": "拝観料：約300円",
+        "visit_time": "推奨見学時間：半日",
+        "highlights_title": "見どころ：",
+        "highlights": [
+          "海に浮かぶ鳥居",
+          "伝統的な社殿建築",
+          "人懐っこいシカ",
+          "地元グルメとお土産"
+        ]
+      },
+      "misen": {
+        "title": "弥山",
+        "description": "宮島で最も高い山。徒歩またはロープウェイで瀬戸内海の絶景を楽しめます。",
+        "visit_time": "推奨見学時間：2〜4時間"
+      }
+    },
+    "transport_exp": {
+      "title": "ユニークな交通体験",
+      "streetcar": {
+        "title": "広島電鉄（路面電車）",
+        "description": "広島は日本最大の路面電車ネットワークを誇ります。市内観光に便利でリーズナブルな移動手段です。",
+        "route_title": "おすすめルート：",
+        "route": "広島駅 → 原爆ドーム前 → 宮島口",
+        "fare_title": "運賃：",
+        "fare": "全線240円"
+      },
+      "ferry": {
+        "title": "平和公園〜宮島フェリー",
+        "description": "平和記念公園と宮島を結ぶ直行観光フェリー。広島の川や広島湾の美しい景色を楽しみながら移動できます。",
+        "time_title": "所要時間：",
+        "time": "約45分",
+        "fare_title": "運賃：",
+        "fare": "片道約200円"
+      }
+    },
+    "historic_towns": {
+      "title": "歴史的な街並み",
+      "onomichi": {
+        "title": "尾道",
+        "description": "坂道・寺院・サイクリングで有名な魅力的な港町。",
+        "highlights_title": "見どころ：",
+        "highlights": [
+          "寺院めぐり",
+          "猫の細道",
+          "尾道ラーメン",
+          "瀬戸内海の絶景"
+        ],
+        "access": "広島からのアクセス：電車で約1時間"
+      },
+      "takehara": {
+        "title": "竹原",
+        "description": "「安芸の小京都」と呼ばれる街。伝統的な商家や酒蔵が残る歴史地区が特徴です。",
+        "access": "広島からのアクセス：電車で約40分"
+      }
+    },
+    "maritime": {
+      "title": "海洋・産業遺産",
+      "yamato": {
+        "title": "大和ミュージアム（呉）",
+        "description": "日本の海洋史を学び、戦艦大和の大型模型を見学できます。",
+        "access": "広島からのアクセス：電車で約40分",
+        "admission": "入場料：約1,000円"
+      },
+      "kure": {
+        "title": "呉ウォーターフロント",
+        "description": "海軍の歴史・潜水艦・日本最大級の工業港エリアを探訪できます。",
+        "highlights_title": "見どころ：",
+        "highlights": [
+          "海上自衛隊呉資料館（てつのくじら館）",
+          "造船業",
+          "港の景色"
+        ]
+      }
+    },
+    "day_trips": {
+      "title": "日帰り観光スポット",
+      "shimanami": {
+        "title": "しまなみ海道",
+        "description": "世界的に有名なサイクリングルート。瀬戸内海の島々を渡る絶景の橋とオーシャンビューが続きます。",
+        "highlights_title": "見どころ：",
+        "highlights": [
+          "サイクリング",
+          "島めぐり",
+          "絶景スポット"
+        ],
+        "recommended": "推奨：1日〜1泊2日"
+      },
+      "sandankyo": {
+        "title": "三段峡",
+        "description": "渓流・森林・ハイキングコースが楽しめる美しい峡谷。",
+        "season": "ベストシーズン：春・秋",
+        "access": "広島からのアクセス：バスで約1.5時間",
+        "visit_time": "推奨見学時間：半日〜1日"
+      }
+    },
+    "onsen": {
+      "title": "温泉",
+      "dogo": {
+        "title": "道後温泉（愛媛）",
+        "description": "日本最古の温泉の一つ。歴史ある浴場は多くの日本文学やアニメ作品にインスピレーションを与えました。",
+        "access": "広島からのアクセス：フェリー＋電車で約2〜3時間",
+        "visit_time": "推奨見学時間：1日"
+      }
+    },
+    "food_try": {
+      "title": "ぜひ食べてみてほしいグルメ",
+      "items": [
+        "広島風お好み焼き",
+        "牡蠣",
+        "アナゴ",
+        "もみじまんじゅう",
+        "瀬戸内レモン製品"
+      ]
+    },
+    "itineraries": {
+      "title": "おすすめモデルコース",
+      "half_day": {
+        "title": "半日コース",
+        "items": [
+          "平和記念公園",
+          "原爆ドーム",
+          "広島城"
+        ]
+      },
+      "one_day": {
+        "title": "1日コース",
+        "items": [
+          "平和記念公園",
+          "広島城",
+          "宮島"
+        ]
+      },
+      "weekend": {
+        "title": "週末コース",
+        "items": [
+          "宮島",
+          "尾道",
+          "しまなみ海道",
+          "呉"
+        ]
+      }
+    },
+    "dining_title": "広島のダイニングガイド（外国人向け）",
+    "dining_intro": "広島へようこそ！このガイドでは、ハラール・ベジタリアンなどの食の制限に対応したレストランをご紹介します。日本のほとんどのハラール対応店舗は公式認証を取得していませんが、ムスリムの方に適した食材を使用しているか、専用メニューを提供しています。",
+    "halal_dedicated": {
+      "title": "🕌 ハラール対応レストラン（明示・専用メニューあり）",
+      "restaurants": [
+        {
+          "name": "牛もん（Gyumon Ramen）",
+          "type": "日本のラーメン（牛骨ベース）",
+          "detail": "牛肉を使ったハラールラーメンを明示的に提供しているお店です。"
+        },
+        {
+          "name": "ワルン マタハリ（Warung Matahari）",
+          "type": "インドネシア料理",
+          "detail": "本格インドネシア料理のお店。かなり小さいお店のため大人数には不向きです。価格はやや高め（ラーメンは約3,000円）です。"
+        },
+        {
+          "name": "カナック（Kanak）",
+          "type": "インド料理",
+          "detail": "ハラール対応を明示している人気のインド料理店。カレーやナンが豊富に揃っています。"
+        },
+        {
+          "name": "ウズベキスタンパレス（Uzbekistan Palace）",
+          "type": "ウズベク料理",
+          "detail": "ハラール食材を使用した中央アジア・ウズベクの伝統料理を楽しめます。"
+        },
+        {
+          "name": "ゴンタ（Gonta）",
+          "type": "焼肉・肉料理",
+          "detail": "ハラール対応メニューで安心して日本式焼肉を楽しめます。"
+        }
+      ]
+    },
+    "halal_ingredients": {
+      "title": "🥩 ハラール食材使用レストラン",
+      "restaurants": [
+        {
+          "name": "カルシヤカ（Karsiyaka）",
+          "type": "トルコ料理",
+          "detail": "ハラール食材で作られた美味しいトルコ料理のお店。少し高めですがクオリティは抜群です。"
+        },
+        {
+          "name": "ナマステ（Namaste）",
+          "type": "インド・ネパール料理",
+          "detail": "ハラール肉・食材を使用した伝統的なカレーを気軽に楽しめる店。"
+        },
+        {
+          "name": "ザイカ（Zaika）",
+          "type": "インド・パキスタン料理",
+          "detail": "ハラール認証食材を使用したスパイス料理が充実する優良店。"
+        }
+      ]
+    },
+    "vegetarian": {
+      "title": "🥗 ベジタリアン・ヴィーガン向け",
+      "restaurants": [
+        {
+          "name": "恵愛（Keiai Vegan & Vegetarian Chinese Food）",
+          "type": "中華料理（ヴィーガン・ベジタリアン）",
+          "detail": "植物性の中華料理が楽しめるお店。外国人観光客にも大変人気があります。"
+        }
+      ]
+    },
+    "seafood": {
+      "title": "🍣 和食の海の幸・麺類もぜひ！",
+      "description": "手軽に地元の日本食を楽しみたいなら、うどんや寿司がおすすめです。",
+      "why_safe": "安心の理由：日本の伝統的な海鮮料理（海鮮和食）は、主に魚・海藻・野菜を使用しており、肉類はほとんど使われていません。",
+      "affordable": "リーズナブル：回転寿司やうどん屋は広島市内に多く、非常に安くて美味しいです。",
+      "note": "注意：醤油や出汁に微量の調理酒（みりん・日本酒）が含まれる場合があります。気になる方はご注文前にお店のスタッフにご確認ください。"
+    }
+  },
   "accommodation": {
     "title": "宿泊",
     "intro": "広島市内のホテルやペンションをご紹介します。",
@@ -784,49 +1172,277 @@
       "hiroshima_station": "広島駅"
     },
     "hotels": [
-      { "name": "ANA Crowne Plaza Hiroshima", "category": "hotel", "url": "https://www.ihg.com/crowneplaza/hotels/us/en/hiroshima/hijja/hoteldetail", "lng": 132.4569381, "lat": 34.390445 },
-      { "name": "Mitsui Garden Hotel Hiroshima", "category": "hotel", "url": "https://www.gardenhotels.co.jp/hiroshima/eng/", "lng": 132.4592915, "lat": 34.389546 },
-      { "name": "RIHGA Royal Hotel Hiroshima", "category": "hotel", "url": "https://www.rihga.com/hiroshima", "lng": 132.4573815, "lat": 34.397438 },
-      { "name": "Hilton Hiroshima", "category": "hotel", "url": "https://www.hilton.com/en/hotels/hijshhi-hilton-hiroshima/", "lng": 132.4621165, "lat": 34.386168 },
-      { "name": "Hiroshima City Bunka Koryu Kaikan", "category": "hotel", "url": "https://h-bkk.jp/stay/", "lng": 132.4489769, "lat": 34.3887901 },
-      { "name": "Urbain Hiroshima Central", "category": "hotel", "url": "https://www.urbain-hotels.com/hce", "lng": 132.4646004, "lat": 34.39646383 },
-      { "name": "Alley Hotel Hiroshima Namiki-dori", "category": "hotel", "url": "https://www.2482255.com/", "lng": 132.4609212, "lat": 34.39073819 },
-      { "name": "WeBase HIROSHIMA", "category": "pension", "url": "https://we-base.jp/hiroshima/", "lng": 132.4592418, "lat": 34.39014592 },
-      { "name": "EN HOTEL Hiroshima", "category": "hotel", "url": "https://en-hotel.com/hiroshima/ja/", "lng": 132.4684719, "lat": 34.3915992 },
-      { "name": "Oriental Hotel Hiroshima", "category": "hotel", "url": "https://www.oriental-hiroshima.com/index.html", "lng": 132.4638647, "lat": 34.38823629 },
-      { "name": "Grand Prince Hotel Hiroshima", "category": "hotel", "url": "http://www.princehotels.co.jp/hiroshima/", "lng": 132.4640634, "lat": 34.3430145 },
-      { "name": "Koko Hotel Hiroshima Ekimae", "category": "hotel", "url": "https://koko-hotels.com/hiroshima_ekimae/", "lng": 132.472577, "lat": 34.39407666 },
-      { "name": "Sotetsu Fresa Inn Hiroshima", "category": "hotel", "url": "https://sotetsu-hotels.com/fresa-inn/hiroshima-ekimae/", "lng": 132.4766571, "lat": 34.3948531 },
-      { "name": "Toyoko Inn Hiroshima-eki Minami-guchi Migi", "category": "hotel", "url": "https://www.toyoko-inn.com/search/detail/00145/", "lng": 132.4682221, "lat": 34.39673776 },
-      { "name": "Hiroshima Intelligent Hotel Annex", "category": "hotel", "url": "http://www.intelligent-hotel.co.jp/annex/", "lng": 132.4703289, "lat": 34.39241577 },
-      { "name": "Hiroshima Intelligent Hotel Stadium", "category": "hotel", "url": "https://intelligent-hotel.co.jp/main/", "lng": 132.4797677, "lat": 34.39462614 },
-      { "name": "Hiroshima Guesthouse EN", "category": "pension", "url": "https://hostel-en.com/", "lng": 132.4507593, "lat": 34.4079974 },
-      { "name": "Hiroshima Guesthouse HARU", "category": "pension", "url": "", "lng": 132.4817685, "lat": 34.3904329 },
-      { "name": "Hiroshima Tokyu Rei Hotel", "category": "hotel", "url": "https://www.tokyuhotels.co.jp/hiroshima-r/index.html", "lng": 132.4616894, "lat": 34.38883199 },
-      { "name": "Hiroshima no Yado Aioi", "category": "ryokan", "url": "https://aioi-hiroshima.com/", "lng": 132.4544134, "lat": 34.3954727 },
-      { "name": "Hiroshima Pacific Hotel", "category": "hotel", "url": "http://h-pacific.com/", "lng": 132.4643062, "lat": 34.3982047 },
-      { "name": "Hiroshima Peace Hotel", "category": "hotel", "url": "http://www.peace-h.com/", "lng": 132.4495825, "lat": 34.4088008 },
-      { "name": "Vessel Inn Hiroshima Ekimae", "category": "hotel", "url": "https://www.vessel-hotel.jp/inn/hiroshima/", "lng": 132.4782534, "lat": 34.39334891 },
-      { "name": "Hostel Mallika", "category": "pension", "url": "", "lng": 132.4500149, "lat": 34.3898512 },
-      { "name": "Hotel Granvia Hiroshima", "category": "hotel", "url": "http://hgh.co.jp/", "lng": 132.4755149, "lat": 34.39912045 },
-      { "name": "Hotel Kuretakeso Hiroshima Otemachi", "category": "hotel", "url": "http://www.kuretake-inn.com/hiroshima/", "lng": 132.454945, "lat": 34.38812005 },
-      { "name": "Hotel New Yorishiro", "category": "hotel", "url": "https://yorishiro.info/", "lng": 132.4801717, "lat": 34.39690965 },
-      { "name": "Hiroshima Garden Palace", "category": "hotel", "url": "https://www.hotelgp-hiroshima.com/", "lng": 132.4801576, "lat": 34.3969038 },
-      { "name": "Hotel Promote Hiroshima", "category": "hotel", "url": "https://www.promote-hiroshima.com/", "lng": 132.4445982, "lat": 34.3936264 },
-      { "name": "Hotel Hokke Club Hiroshima", "category": "hotel", "url": "https://www.hokke.co.jp/hiroshima/", "lng": 132.4575986, "lat": 34.39042452 },
-      { "name": "Hotel Mystays Hiroshima Peace Park", "category": "hotel", "url": "https://www.mystays.com/hotel-mystays-hiroshima-peace-park-hiroshima/", "lng": 132.4540476, "lat": 34.38964371 },
-      { "name": "LAZULI HIROSHIMA HOTEL&LOUNGE", "category": "ryokan", "url": "https://lazulihiroshima.com/", "lng": 132.4794683, "lat": 34.39080284 },
-      { "name": "Urbain Hiroshima Executive", "category": "hotel", "url": "https://www.urbain-hotels.com/hex/", "lng": 132.4800296, "lat": 34.3970976 },
-      { "name": "Hotel Park Side Hiroshima Peace Park", "category": "hotel", "url": "https://www.park-side.co.jp/", "lng": 132.4555812, "lat": 34.3922827 },
-      { "name": "HOTEL GRANVIA HIROSHIMA SOUTH GATE", "category": "hotel", "url": "https://southgate.hgh.co.jp/", "lng": 132.4752182, "lat": 34.39740833 },
-      { "name": "HOTEL SUITE HIROSHIMA YOKOGAWA", "category": "hotel", "url": "https://www.hotelsuite.co.jp/yokogawa/", "lng": 132.4520592, "lat": 34.41279636 },
-      { "name": "HOTEL SUITE HIROSHIMA HAKUSHIMA", "category": "hotel", "url": "https://www.hotelsuite.co.jp/hakushima/", "lng": 132.4659868, "lat": 34.40562895 },
-      { "name": "J-Hoppers Hiroshima Guesthouse", "category": "pension", "url": "https://hiroshima.j-hoppers.com/ja/", "lng": 132.4472315, "lat": 34.3930168 }
+      {
+        "name": "ANA Crowne Plaza Hiroshima",
+        "category": "hotel",
+        "url": "https://www.ihg.com/crowneplaza/hotels/us/en/hiroshima/hijja/hoteldetail",
+        "lng": 132.4569381,
+        "lat": 34.390445
+      },
+      {
+        "name": "Mitsui Garden Hotel Hiroshima",
+        "category": "hotel",
+        "url": "https://www.gardenhotels.co.jp/hiroshima/eng/",
+        "lng": 132.4592915,
+        "lat": 34.389546
+      },
+      {
+        "name": "RIHGA Royal Hotel Hiroshima",
+        "category": "hotel",
+        "url": "https://www.rihga.com/hiroshima",
+        "lng": 132.4573815,
+        "lat": 34.397438
+      },
+      {
+        "name": "Hilton Hiroshima",
+        "category": "hotel",
+        "url": "https://www.hilton.com/en/hotels/hijshhi-hilton-hiroshima/",
+        "lng": 132.4621165,
+        "lat": 34.386168
+      },
+      {
+        "name": "Hiroshima City Bunka Koryu Kaikan",
+        "category": "hotel",
+        "url": "https://h-bkk.jp/stay/",
+        "lng": 132.4489769,
+        "lat": 34.3887901
+      },
+      {
+        "name": "Urbain Hiroshima Central",
+        "category": "hotel",
+        "url": "https://www.urbain-hotels.com/hce",
+        "lng": 132.4646004,
+        "lat": 34.39646383
+      },
+      {
+        "name": "Alley Hotel Hiroshima Namiki-dori",
+        "category": "hotel",
+        "url": "https://www.2482255.com/",
+        "lng": 132.4609212,
+        "lat": 34.39073819
+      },
+      {
+        "name": "WeBase HIROSHIMA",
+        "category": "pension",
+        "url": "https://we-base.jp/hiroshima/",
+        "lng": 132.4592418,
+        "lat": 34.39014592
+      },
+      {
+        "name": "EN HOTEL Hiroshima",
+        "category": "hotel",
+        "url": "https://en-hotel.com/hiroshima/ja/",
+        "lng": 132.4684719,
+        "lat": 34.3915992
+      },
+      {
+        "name": "Oriental Hotel Hiroshima",
+        "category": "hotel",
+        "url": "https://www.oriental-hiroshima.com/index.html",
+        "lng": 132.4638647,
+        "lat": 34.38823629
+      },
+      {
+        "name": "Grand Prince Hotel Hiroshima",
+        "category": "hotel",
+        "url": "http://www.princehotels.co.jp/hiroshima/",
+        "lng": 132.4640634,
+        "lat": 34.3430145
+      },
+      {
+        "name": "Koko Hotel Hiroshima Ekimae",
+        "category": "hotel",
+        "url": "https://koko-hotels.com/hiroshima_ekimae/",
+        "lng": 132.472577,
+        "lat": 34.39407666
+      },
+      {
+        "name": "Sotetsu Fresa Inn Hiroshima",
+        "category": "hotel",
+        "url": "https://sotetsu-hotels.com/fresa-inn/hiroshima-ekimae/",
+        "lng": 132.4766571,
+        "lat": 34.3948531
+      },
+      {
+        "name": "Toyoko Inn Hiroshima-eki Minami-guchi Migi",
+        "category": "hotel",
+        "url": "https://www.toyoko-inn.com/search/detail/00145/",
+        "lng": 132.4682221,
+        "lat": 34.39673776
+      },
+      {
+        "name": "Hiroshima Intelligent Hotel Annex",
+        "category": "hotel",
+        "url": "http://www.intelligent-hotel.co.jp/annex/",
+        "lng": 132.4703289,
+        "lat": 34.39241577
+      },
+      {
+        "name": "Hiroshima Intelligent Hotel Stadium",
+        "category": "hotel",
+        "url": "https://intelligent-hotel.co.jp/main/",
+        "lng": 132.4797677,
+        "lat": 34.39462614
+      },
+      {
+        "name": "Hiroshima Guesthouse EN",
+        "category": "pension",
+        "url": "https://hostel-en.com/",
+        "lng": 132.4507593,
+        "lat": 34.4079974
+      },
+      {
+        "name": "Hiroshima Guesthouse HARU",
+        "category": "pension",
+        "url": "",
+        "lng": 132.4817685,
+        "lat": 34.3904329
+      },
+      {
+        "name": "Hiroshima Tokyu Rei Hotel",
+        "category": "hotel",
+        "url": "https://www.tokyuhotels.co.jp/hiroshima-r/index.html",
+        "lng": 132.4616894,
+        "lat": 34.38883199
+      },
+      {
+        "name": "Hiroshima no Yado Aioi",
+        "category": "ryokan",
+        "url": "https://aioi-hiroshima.com/",
+        "lng": 132.4544134,
+        "lat": 34.3954727
+      },
+      {
+        "name": "Hiroshima Pacific Hotel",
+        "category": "hotel",
+        "url": "http://h-pacific.com/",
+        "lng": 132.4643062,
+        "lat": 34.3982047
+      },
+      {
+        "name": "Hiroshima Peace Hotel",
+        "category": "hotel",
+        "url": "http://www.peace-h.com/",
+        "lng": 132.4495825,
+        "lat": 34.4088008
+      },
+      {
+        "name": "Vessel Inn Hiroshima Ekimae",
+        "category": "hotel",
+        "url": "https://www.vessel-hotel.jp/inn/hiroshima/",
+        "lng": 132.4782534,
+        "lat": 34.39334891
+      },
+      {
+        "name": "Hostel Mallika",
+        "category": "pension",
+        "url": "",
+        "lng": 132.4500149,
+        "lat": 34.3898512
+      },
+      {
+        "name": "Hotel Granvia Hiroshima",
+        "category": "hotel",
+        "url": "http://hgh.co.jp/",
+        "lng": 132.4755149,
+        "lat": 34.39912045
+      },
+      {
+        "name": "Hotel Kuretakeso Hiroshima Otemachi",
+        "category": "hotel",
+        "url": "http://www.kuretake-inn.com/hiroshima/",
+        "lng": 132.454945,
+        "lat": 34.38812005
+      },
+      {
+        "name": "Hotel New Yorishiro",
+        "category": "hotel",
+        "url": "https://yorishiro.info/",
+        "lng": 132.4801717,
+        "lat": 34.39690965
+      },
+      {
+        "name": "Hiroshima Garden Palace",
+        "category": "hotel",
+        "url": "https://www.hotelgp-hiroshima.com/",
+        "lng": 132.4801576,
+        "lat": 34.3969038
+      },
+      {
+        "name": "Hotel Promote Hiroshima",
+        "category": "hotel",
+        "url": "https://www.promote-hiroshima.com/",
+        "lng": 132.4445982,
+        "lat": 34.3936264
+      },
+      {
+        "name": "Hotel Hokke Club Hiroshima",
+        "category": "hotel",
+        "url": "https://www.hokke.co.jp/hiroshima/",
+        "lng": 132.4575986,
+        "lat": 34.39042452
+      },
+      {
+        "name": "Hotel Mystays Hiroshima Peace Park",
+        "category": "hotel",
+        "url": "https://www.mystays.com/hotel-mystays-hiroshima-peace-park-hiroshima/",
+        "lng": 132.4540476,
+        "lat": 34.38964371
+      },
+      {
+        "name": "LAZULI HIROSHIMA HOTEL&LOUNGE",
+        "category": "ryokan",
+        "url": "https://lazulihiroshima.com/",
+        "lng": 132.4794683,
+        "lat": 34.39080284
+      },
+      {
+        "name": "Urbain Hiroshima Executive",
+        "category": "hotel",
+        "url": "https://www.urbain-hotels.com/hex/",
+        "lng": 132.4800296,
+        "lat": 34.3970976
+      },
+      {
+        "name": "Hotel Park Side Hiroshima Peace Park",
+        "category": "hotel",
+        "url": "https://www.park-side.co.jp/",
+        "lng": 132.4555812,
+        "lat": 34.3922827
+      },
+      {
+        "name": "HOTEL GRANVIA HIROSHIMA SOUTH GATE",
+        "category": "hotel",
+        "url": "https://southgate.hgh.co.jp/",
+        "lng": 132.4752182,
+        "lat": 34.39740833
+      },
+      {
+        "name": "HOTEL SUITE HIROSHIMA YOKOGAWA",
+        "category": "hotel",
+        "url": "https://www.hotelsuite.co.jp/yokogawa/",
+        "lng": 132.4520592,
+        "lat": 34.41279636
+      },
+      {
+        "name": "HOTEL SUITE HIROSHIMA HAKUSHIMA",
+        "category": "hotel",
+        "url": "https://www.hotelsuite.co.jp/hakushima/",
+        "lng": 132.4659868,
+        "lat": 34.40562895
+      },
+      {
+        "name": "J-Hoppers Hiroshima Guesthouse",
+        "category": "pension",
+        "url": "https://hiroshima.j-hoppers.com/ja/",
+        "lng": 132.4472315,
+        "lat": 34.3930168
+      }
     ]
   },
   "childcare": {
-      "title": "託児サービス",
-      "description": "FOSS4G Hiroshima 2026では、小さなご家族がいる人も参加しやすいように、託児サービスを提供します。"
+    "title": "託児サービス",
+    "description": "FOSS4G Hiroshima 2026では、小さなご家族がいる人も参加しやすいように、託児サービスを提供します。"
   },
   "about": {
     "title": "概要",
@@ -834,7 +1450,7 @@
       "foss4g_description": "FOSS4Gとグローバルなオープンソース地理空間コミュニティについて学ぶ。",
       "map_description": "会議会場の地図と広島の探索。",
       "organizers_description": "FOSS4G Hiroshima 2026を支える組織委員会のご紹介。",
-      "concept_description": "技術と人間性をつなぐ会議テーマとビジョンを発見する。",
+      "concept_description": "会議テーマ・ビジョンの紹介と公式ロゴのダウンロード（CC BY 4.0）。",
       "code_of_conduct_description": "すべての人にハラスメントのない会議体験を提供するための行動規範。",
       "privacy_policy_description": "個人情報の収集、使用、保護に関する方針。",
       "terms_conditions_description": "会議への参加登録に関する利用規約。"
@@ -1079,6 +1695,7 @@
     "sponsors": {
       "title": "スポンサー",
       "landing": {
+        "our_sponsors_description": "FOSS4G Hiroshima 2026を支えてくださっている企業・団体をご紹介します。",
         "information_description": "スポンサーシップパッケージ、特典、FOSS4G Hiroshima 2026のスポンサーになる方法について詳しくご覧ください。",
         "honorable_description": "Adopt-a-ticketプログラムを通じて、コミュニティを寛大にサポートしてくださった方々への感謝の意を表します。"
       },
@@ -1207,17 +1824,44 @@
       "additional_items_title": "追加オプション",
       "fees_note": "注意：参加費は暫定的なものであり、変更される可能性があります。最終的な料金は2026年2月に発表予定です。",
       "main_registration_types": [
-        ["<s>超早期割引 (2026年2月23日 - 最長3月8日 ※100名限定)</s>", "<s>40,000円</s>"],
-        ["<s>早期割引 (超早期割引終了後 - 5月8日)</s>", "<s>50,000円</s>"],
-        ["通常料金 (2026年5月9日 - 9月3日)", "80,000円"],
-        ["日本居住者料金", "40,000円"],
-        ["学生料金", "30,000円"]
+        [
+          "<s>超早期割引 (2026年2月23日 - 最長3月8日 ※100名限定)</s>",
+          "<s>40,000円</s>"
+        ],
+        [
+          "<s>早期割引 (超早期割引終了後 - 5月8日)</s>",
+          "<s>50,000円</s>"
+        ],
+        [
+          "通常料金 (2026年5月9日 - 9月3日)",
+          "80,000円"
+        ],
+        [
+          "日本居住者料金",
+          "40,000円"
+        ],
+        [
+          "学生料金",
+          "30,000円"
+        ]
       ],
       "additional_items": [
-        ["Gala Dinner", "+15,000円"],
-        ["Workshop", "+7,500円"],
-        ["B2B", "+3,000円"],
-        ["Ice Breaker（※一人分追加）", "+3,000円"]
+        [
+          "Gala Dinner",
+          "+15,000円"
+        ],
+        [
+          "Workshop",
+          "+7,500円"
+        ],
+        [
+          "B2B",
+          "+3,000円"
+        ],
+        [
+          "Ice Breaker（※一人分追加）",
+          "+3,000円"
+        ]
       ],
       "get_ticket_button": "チケットを取得する",
       "ticket_link_note": "登録開始は2026年2月を予定しています",
@@ -1295,28 +1939,76 @@
         "title": "どのような活動をするのか？",
         "intro": "ご自身の興味やスキルに応じて、さまざまな領域で貢献いただけます：",
         "items": [
-          { "value": "イベントのコンテンツ企画", "description": "セッション、ワークショップ、カンファレンスプログラムの設計をサポート" },
-          { "value": "アカデミック投稿の査読", "description": "学術投稿の査読プロセスに参加" },
-          { "value": "施設・運営管理", "description": "会場のロジスティクスや日々の運営をサポート" },
-          { "value": "広報活動", "description": "ソーシャルメディア、告知、コミュニティへの情報発信を支援" },
-          { "value": "スポンサー関連", "description": "スポンサーとの調整やパートナーシップ管理をサポート" },
-          { "value": "参加者登録・Travel Grant Program", "description": "参加者登録やトラベルグラントのプロセスをサポート" },
-          { "value": "Ice Breaker・Gala Dinner", "description": "交流イベントの企画・サポート" },
-          { "value": "司会・モデレーター", "description": "イベント期間中のセッションやプレゼンテーションの進行" },
-          { "value": "会場案内", "description": "参加者が会場内を円滑に移動できるようサポート" },
-          { "value": "受付", "description": "参加者を歓迎し、受付で情報提供" }
+          {
+            "value": "イベントのコンテンツ企画",
+            "description": "セッション、ワークショップ、カンファレンスプログラムの設計をサポート"
+          },
+          {
+            "value": "アカデミック投稿の査読",
+            "description": "学術投稿の査読プロセスに参加"
+          },
+          {
+            "value": "施設・運営管理",
+            "description": "会場のロジスティクスや日々の運営をサポート"
+          },
+          {
+            "value": "広報活動",
+            "description": "ソーシャルメディア、告知、コミュニティへの情報発信を支援"
+          },
+          {
+            "value": "スポンサー関連",
+            "description": "スポンサーとの調整やパートナーシップ管理をサポート"
+          },
+          {
+            "value": "参加者登録・Travel Grant Program",
+            "description": "参加者登録やトラベルグラントのプロセスをサポート"
+          },
+          {
+            "value": "Ice Breaker・Gala Dinner",
+            "description": "交流イベントの企画・サポート"
+          },
+          {
+            "value": "司会・モデレーター",
+            "description": "イベント期間中のセッションやプレゼンテーションの進行"
+          },
+          {
+            "value": "会場案内",
+            "description": "参加者が会場内を円滑に移動できるようサポート"
+          },
+          {
+            "value": "受付",
+            "description": "参加者を歓迎し、受付で情報提供"
+          }
         ]
       },
       "gains": {
         "title": "何が得られるのか？",
         "intro": "FOSS4G Hiroshima 2026でのボランティアは、貴重な経験と機会を提供します。",
         "items": [
-          { "value": "ネットワーキング", "description": "地理空間コミュニティの世界的な専門家、開発者、研究者とつながる" },
-          { "value": "スキル開発", "description": "イベント管理、コミュニティ構築、プロジェクト調整の経験を積む" },
-          { "value": "舞台裏へのアクセス", "description": "国際カンファレンス運営の舞台裏を体験" },
-          { "value": "コミュニティへの貢献", "description": "オープンソース地理空間ムーブメントを支える有意義な役割を担う" },
-          { "value": "文化交流", "description": "国際的なチームと協力し、異文化間のコラボレーションを体験" },
-          { "value": "キャリア成長", "description": "国際的なボランティア経験で履歴書を充実させる" }
+          {
+            "value": "ネットワーキング",
+            "description": "地理空間コミュニティの世界的な専門家、開発者、研究者とつながる"
+          },
+          {
+            "value": "スキル開発",
+            "description": "イベント管理、コミュニティ構築、プロジェクト調整の経験を積む"
+          },
+          {
+            "value": "舞台裏へのアクセス",
+            "description": "国際カンファレンス運営の舞台裏を体験"
+          },
+          {
+            "value": "コミュニティへの貢献",
+            "description": "オープンソース地理空間ムーブメントを支える有意義な役割を担う"
+          },
+          {
+            "value": "文化交流",
+            "description": "国際的なチームと協力し、異文化間のコラボレーションを体験"
+          },
+          {
+            "value": "キャリア成長",
+            "description": "国際的なボランティア経験で履歴書を充実させる"
+          }
         ]
       },
       "benefits": {
@@ -1341,10 +2033,22 @@
       "refund_schedule": {
         "title": "返金スケジュール",
         "policy_summary": "会議開催の2ヶ月前（2026年6月30日）までのキャンセルの場合、キャンセル料として25%を徴収し、残り75%を返金いたします。2026年7月1日以降のキャンセルについては返金いたしません。",
-        "headers": ["キャンセル日", "返金額", "キャンセル料"],
+        "headers": [
+          "キャンセル日",
+          "返金額",
+          "キャンセル料"
+        ],
         "rows": [
-          ["2026年6月30日まで", "75%返金", "25%"],
-          ["2026年7月1日以降", "返金なし", "100%"]
+          [
+            "2026年6月30日まで",
+            "75%返金",
+            "25%"
+          ],
+          [
+            "2026年7月1日以降",
+            "返金なし",
+            "100%"
+          ]
         ]
       },
       "cancellation_process": {
@@ -1728,11 +2432,31 @@
         "duration": "所要時間"
       },
       "rows": [
-        { "origin": "東京駅", "transport": "JR東海道・山陽新幹線「のぞみ」（広島駅まで直通）", "duration": "約3時間50分" },
-        { "origin": "新大阪駅", "transport": "JR山陽新幹線「のぞみ」「みずほ」「さくら」（広島駅まで直通）", "duration": "約1時間30分" },
-        { "origin": "博多駅", "transport": "JR山陽新幹線「のぞみ」「みずほ」「さくら」（広島駅まで直通）", "duration": "約1時間10分" },
-        { "origin": "新千歳空港", "transport": "ANA・JAL直行便 → 広島空港", "duration": "約1時間45分" },
-        { "origin": "広島空港", "transport": "リムジンバス → 広島バスセンター・広島駅", "duration": "約50分" }
+        {
+          "origin": "東京駅",
+          "transport": "JR東海道・山陽新幹線「のぞみ」（広島駅まで直通）",
+          "duration": "約3時間50分"
+        },
+        {
+          "origin": "新大阪駅",
+          "transport": "JR山陽新幹線「のぞみ」「みずほ」「さくら」（広島駅まで直通）",
+          "duration": "約1時間30分"
+        },
+        {
+          "origin": "博多駅",
+          "transport": "JR山陽新幹線「のぞみ」「みずほ」「さくら」（広島駅まで直通）",
+          "duration": "約1時間10分"
+        },
+        {
+          "origin": "新千歳空港",
+          "transport": "ANA・JAL直行便 → 広島空港",
+          "duration": "約1時間45分"
+        },
+        {
+          "origin": "広島空港",
+          "transport": "リムジンバス → 広島バスセンター・広島駅",
+          "duration": "約50分"
+        }
       ]
     }
   },
