@@ -175,6 +175,12 @@
       "website": "https://www.mlit.go.jp/",
       "logo": "/images/sponsors/MLIT/MLIT_logo.png",
       "description": null
+    },
+    {
+      "name": "Ministry of Foreign Affairs of Japan",
+      "website": "https://www.mofa.go.jp/",
+      "logo": "/images/sponsors/MOFA/06_mofa_logo.png",
+      "description": null
     }
   ]
 }

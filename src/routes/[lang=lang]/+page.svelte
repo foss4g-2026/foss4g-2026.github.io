@@ -574,6 +574,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full">
+          <a href="https://www.mofa.go.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/MOFA/06_mofa_logo.png"
+              alt="Ministry of Foreign Affairs of Japan"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
