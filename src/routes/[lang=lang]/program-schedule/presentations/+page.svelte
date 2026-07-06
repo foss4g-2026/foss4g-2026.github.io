@@ -29,7 +29,7 @@
   <title>{$t('nav.program_sub.presentations')} - {$t('title')}</title>
 </svelte:head>
 
-<div class="container mx-auto px-4 py-8">
+<div class="py-4">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.program_sub.presentations')}</h1>
 
   <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
