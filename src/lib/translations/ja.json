@@ -744,8 +744,11 @@
         },
         "date_time": "日時",
         "venue": "会場",
-        "tbc": "未定"
+        "date_time_details": "2026年8月31日 18:00 PM - 21:00 PM",
+        "venue_details": "JOHN BLUE（ジョンブルー）, Namiki St. Hiroshima"
       },
+      "registration_url": "https://ti.to/osgeo-jp/foss4g-2026/with/geochicas",
+      "registration_title": "参加登録",
       "about": {
         "title": "Geochicasについて",
         "description": "Geochicasは、OpenStreetMap、OSGeo、そしてより広範な地理空間情報やオープンソースのコミュニティにおける、トランスジェンダーを含む女性たちのグループです。彼女たちは活動の柱として、以下の3点を掲げています。",
@@ -1512,6 +1515,11 @@
         "title": "コミュニティスプリント会場",
         "name": "アステールプラザ",
         "dates": "2026年9月4日"
+      },
+      "geochicas_venue": {
+        "title": "Geochicas 会場",
+        "name": "JOHN BLUE",
+        "dates": "2026年8月31日"
       }
     },
     "organizer": {
@@ -2393,6 +2401,16 @@
       "address": "広島市中区元町5-25",
       "access": [
         "原爆ドーム電停から徒歩1分。"
+      ]
+    },
+    "geochicas_venue": {
+      "title": "JOHN BLUE",
+      "description": "FOSS4G Hiroshima 2026 の Geochicas イベントは、JOHN BLUE で開催されます。",
+      "details": "JOHN BLUE は、広島市の並木通りに位置する人気の会場で、さまざまなコミュニティイベントが開催されています。",
+      "address_title": "会場概要",
+      "address": "広島市並木通り John Blue",
+      "access": [
+        "RCC文化センターから徒歩15分。"
       ]
     }
   },

@@ -155,4 +155,39 @@
       </ul>
     </div>
   </section>
+
+  <!-- Geochicas Venue: JOHN BLUE -->
+  <section class="mb-16">
+    <h2 class="text-2xl font-semibold mb-4">{$t('venue.geochicas_venue.title')}</h2>
+    <p class="mb-4">{$t('venue.geochicas_venue.description')}</p>
+    <p class="mb-6 text-gray-700">{$t('venue.geochicas_venue.details')}</p>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-6">
+      <div>
+        <Map
+          mapClass="w-full h-64 rounded-lg"
+          center={[132.46095264907268, 34.38989639131672]}
+          zoom={15}
+          style={$t('map.settings.style')}
+          items={[
+            {
+              coordinates: [132.46095264907268, 34.38989639131672],
+              title: $t('venue.geochicas_venue.title'),
+              description: $t('venue.geochicas_venue.address')
+            }
+          ]}
+        />
+      </div>
+    </div>
+
+    <div class="bg-gray-50 p-6 rounded-lg">
+      <h3 class="text-lg font-semibold mb-3">{$t('venue.geochicas_venue.address_title')}</h3>
+      <p class="mb-3">{$t('venue.geochicas_venue.address')}</p>
+      <ul class="list-disc pl-6 space-y-1">
+        {#each ($json('venue.geochicas_venue.access') as unknown as string[]) as item}
+          <li>{item}</li>
+        {/each}
+      </ul>
+    </div>
+  </section>   
 </div>

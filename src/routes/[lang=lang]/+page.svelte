@@ -253,7 +253,13 @@
               title: $t('about.map.sprint_venue.name'),
               description: $t('about.map.sprint_venue.title') + ' - ' + $t('about.map.sprint_venue.dates'),
               color: "text-purple-600"
-            }
+            },
+            {
+          coordinates: [132.46095264907268, 34.38989639131672],
+          title: $t('about.map.geochicas_venue.name'),
+          description: $t('about.map.geochicas_venue.title') + ' - ' + $t('about.map.geochicas_venue.dates'),
+          color: "text-purple-400"
+        }
           ]}
         />
       </div>

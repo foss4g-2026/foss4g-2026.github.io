@@ -757,6 +757,16 @@
       "access": [
         "1-minute walk from Atomic Bomb Dome tram stop."
       ]
+    },
+    "geochicas_venue": {
+      "title": "JOHN BLUE",
+      "description": "The Geochicas event for FOSS4G Hiroshima 2026 will be held at JOHN BLUE.",
+      "details": "JOHN BLUE is a popular venue located on Namiki Street in Hiroshima, known for hosting various community events.",
+      "address_title": "Venue Details",
+      "address": "John Blue, Namiki St. Hiroshima",
+      "access": [
+        "15-minute walk from RCC Bunka Center."
+      ]
     }
   },
   "transport": {
@@ -1606,6 +1616,11 @@
         "title": "Community Sprint Venue",
         "name": "ASTER PLAZA",
         "dates": "September 4, 2026"
+      },
+      "geochicas_venue": {
+        "title": "Geochicas Venue",
+        "name": "JOHN BLUE",
+        "dates": "August 31, 2026"
       }
     },
     "organizer": {
@@ -2567,8 +2582,11 @@
         },
         "date_time": "Date & Time",
         "venue": "Venue",
-        "tbc": "TBC"
+        "date_time_details": "August 31, 2026, 18:00 PM - 21:00 PM",
+        "venue_details": "JOHN BLUE, Namiki St. Hiroshima"
       },
+      "registration_url": "https://ti.to/osgeo-jp/foss4g-2026/with/geochicas",
+      "registration_title": "Registeration",
       "about": {
         "title": "About Geochicas",
         "description": "Geochicas is a transinclusive women's group within the OpenStreetMap, OSGeo and broader geospatial and open source communities. They center their work in three pillars:",
