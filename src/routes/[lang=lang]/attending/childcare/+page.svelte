@@ -64,9 +64,11 @@
 
         <div class="mb-8">
           <h3 class="text-2xl font-semibold mb-4">6. 利用方法（事前登録）</h3>
-          <p class="mb-4">託児サービスの利用を希望される方は、託児事業者が提供する専用フォームから直接お申し込みください。フォームのリンクは、準備ができ次第カンファレンスウェブサイトおよび参加登録時にご案内します。</p>
+          <p class="mb-4">託児サービスの利用を希望される方は、参加登録（Tito）で「無料託児を利用しますか？（Would you like to use the free childcare?）」の項目を「Yes」に変更してください（締切後も変更可能です）。</p>
+          <p class="mb-4">託児をご希望とご回答いただいた方には、託児事業者（株式会社Simplee）の予約フォームを個別にメールでご案内済みです。</p>
+          <p class="mb-4">託児費用は、FOSS4G Hiroshima 2026 の参加者の方に課金は発生しません（実行委員会とSimplee社の直接契約により対応します）。</p>
           <blockquote class="border-l-4 border-gray-400 pl-4 italic">
-            お子様の年齢・月齢、アレルギー情報、緊急連絡先等は、託児事業者に直接ご申告いただきます。
+            ※ お子様の年齢・月齢、アレルギー情報、緊急連絡先、同意事項等は、ご案内する予約フォームにて、保護者ご本人が託児事業者に直接ご申告・ご同意いただきます。
           </blockquote>
         </div>
 
@@ -130,9 +132,11 @@
 
         <div class="mb-8">
           <h3 class="text-2xl font-semibold mb-4">6. How to Use (Pre-registration)</h3>
-          <p class="mb-4">Those wishing to use childcare services are requested to register directly through the childcare provider's dedicated registration form. The link to the form will be available on the conference website and during the ticket registration process once ready.</p>
+          <p class="mb-4">If you would like to use the childcare service, please set "Would you like to use the free childcare?" to "Yes" in your registration (Tito). Changes are still possible after the deadline.</p>
+          <p class="mb-4">We have already emailed the childcare provider's (Simplee Inc.) reservation form individually to those who requested childcare.</p>
+          <p class="mb-4">There is no charge to FOSS4G Hiroshima 2026 participants (handled via a direct contract between the LOC and Simplee).</p>
           <blockquote class="border-l-4 border-gray-400 pl-4 italic">
-            Note: Personal information such as the child's age, allergy details, and emergency contacts will be submitted directly to the childcare provider.
+            Note: The child's age, allergy details, emergency contacts, and consent will be submitted and agreed directly by the guardian through the reservation form.
           </blockquote>
         </div>
 
