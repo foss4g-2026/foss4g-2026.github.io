@@ -1,6 +1,8 @@
 <script lang="ts">
   import { t, json } from 'svelte-i18n'
   import Table from '$components/Table.svelte'
+  import Map from '$components/Map.svelte'
+  import SubmitButton from '$components/SubmitButton.svelte';
 </script>
 
 <svelte:head>
@@ -58,16 +60,43 @@
       </p>
     </div>
 
+    <div class="p-6 mt-6">
+      <SubmitButton 
+        href={$t('program_schedule.geochicas.registration_url')}
+        text={$t('program_schedule.geochicas.registration_title')}
+        disabled={false}
+        target="_blank"
+        rel="noopener noreferrer"
+      />
+    </div>
+
     <!-- Event Details Table -->
     <h2 class="text-2xl font-semibold mb-4">{$t('program_schedule.geochicas.event_info.title')}</h2>
     <Table 
       headers={[String($t('program_schedule.geochicas.event_info.headers.item')), String($t('program_schedule.geochicas.event_info.headers.details'))]}
       rows={[
-        [String($t('program_schedule.geochicas.event_info.date_time')), String($t('program_schedule.geochicas.event_info.tbc'))],
-        [String($t('program_schedule.geochicas.event_info.venue')), String($t('program_schedule.geochicas.event_info.tbc'))]
+        [String($t('program_schedule.geochicas.event_info.date_time')), String($t('program_schedule.geochicas.event_info.date_time_details'))],
+        [String($t('program_schedule.geochicas.event_info.venue')), String($t('program_schedule.geochicas.event_info.venue_details'))]
       ]}
       class="w-full mb-8"
     />
+
+    <div>
+      <Map
+        mapClass="w-full h-64 md:h-128 rounded-lg"
+        center={[132.46095264907268, 34.38989639131672]}
+        zoom={15}
+        style={$t('map.settings.style')}
+        items={[
+          {
+            coordinates: [132.46095264907268, 34.38989639131672],
+            title: $t('venue.geochicas_venue.title'),
+            description: $t('venue.geochicas_venue.address')
+          }
+        ]}
+      />
+      </div>
+  
 
     <!-- Learn More -->
     <h2 class="text-2xl font-semibold mb-4">{$t('program_schedule.geochicas.learn_more.title')}</h2>
