@@ -82,6 +82,18 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.academic_sessions_schedule.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.academic_sessions_schedule.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.academic_sessions_schedule.link')}" class="text-blue-600 hover:underline">
+                {$t('teaser.news.items.academic_sessions_schedule.description')}
+              </a>
+            </p>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.visa_fee_increase.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.visa_fee_increase.title')}
@@ -92,7 +104,7 @@
               </a>
             </p>
           </div>
-          <!-- News Item 2 -->
+          <!-- News Item 3 -->
           <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.community_events_map.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
@@ -102,16 +114,6 @@
               <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.community_events_map.link')}" class="text-blue-600 hover:underline">
                 {$t('teaser.news.items.community_events_map.description')}
               </a>
-            </p>
-          </div>
-          <!-- News Item 3 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.pss_sponsor.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.pss_sponsor.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              {$t('teaser.news.items.pss_sponsor.description')}
             </p>
           </div>
         </div>
