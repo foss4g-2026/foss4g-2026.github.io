@@ -22,6 +22,12 @@
     "news": {
       "title": "News",
       "items": {
+        "academic_sessions_schedule": {
+          "date": "July 9, 2026",
+          "title": "Academic Track Sessions Added to Program Schedule",
+          "description": "View details",
+          "link": "/program-schedule/presentations"
+        },
         "community_events_map": {
           "date": "June 26, 2026",
           "title": "Community Event List and Map Now Available",
@@ -186,7 +192,7 @@
     "program_sub": {
       "outline": "Outline",
       "keynote": "Keynote Speakers",
-      "presentations": "General Sessions",
+      "presentations": "Presentations",
       "workshops": "Workshops",
       "community_sprint": "Community Sprint",
       "poster_session": "Poster Session",
@@ -358,7 +364,7 @@
   },
   "presentations": {
     "announcement": "Program details will be announced in April 2026",
-    "title": "General Sessions",
+    "title": "Presentations",
     "confirmed_note": "Only presentations confirmed in the proposal submission system are listed. Schedule is subject to change.",
     "search_placeholder": "Search by title or speaker name...",
     "general_tracks": "General Tracks",
@@ -2561,7 +2567,7 @@
       "title": "Keynote Speakers"
     },
     "presentations": {
-      "title": "General Sessions",
+      "title": "Presentations",
       "description": "Browse confirmed presentations and sessions for the conference."
     },
     "workshop": {

@@ -35,7 +35,7 @@
     "program_sub": {
       "outline": "アウトライン",
       "keynote": "基調講演",
-      "presentations": "一般セッション",
+      "presentations": "発表一覧",
       "workshops": "ワークショップ",
       "community_sprint": "コミュニティスプリント",
       "poster_session": "ポスターセッション",
@@ -120,6 +120,12 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "academic_sessions_schedule": {
+          "date": "2026年7月9日",
+          "title": "アカデミックトラックのセッションがプログラムスケジュールに追加されました",
+          "description": "詳細を見る",
+          "link": "/program-schedule/presentations"
+        },
         "community_events_map": {
           "date": "2026年6月26日",
           "title": "コミュニティイベントの一覧とマップを公開しました",
@@ -358,7 +364,7 @@
   },
   "presentations": {
     "announcement": "プログラムの詳細は2026年4月に公開予定です",
-    "title": "一般セッション",
+    "title": "発表一覧",
     "confirmed_note": "このページには、プロポーザル登録システムで参加を確認済みの発表のみを掲載しています。スケジュールは今後変更になる場合があります。",
     "search_placeholder": "タイトルまたは発表者名で検索...",
     "general_tracks": "General Tracks",
@@ -723,7 +729,7 @@
       "title": "基調講演"
     },
     "presentations": {
-      "title": "一般セッション",
+      "title": "発表一覧",
       "description": "会議で確定した発表とセッションを閲覧する。"
     },
     "workshop": {
