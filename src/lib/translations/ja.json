@@ -665,20 +665,20 @@
       {
         "icon": "🗺️",
         "title": "午後のプラン — 3つの中から1つを選択",
-        "description": "登録時に午後のプランをお選びください。弥山コースと大聖院コースはそれぞれ20名限定（先着順）です。"
+        "description": "登録時に午後のプランをお選びください。"
       }
     ],
     "afternoon_options": [
       {
         "icon": "⛰️",
         "title": "弥山コース",
-        "description": "弥山（標高約535m）へのハイキングまたはロープウェイ。20名限定。",
+        "description": "弥山（標高約535m）へのハイキングまたはロープウェイ。",
         "link": "https://www.japan-guide.com/e/e3451.html"
       },
       {
         "icon": "🏯",
         "title": "大聖院コース",
-        "description": "山腹にある真言宗の寺院、大聖院の訪問。20名限定。",
+        "description": "山腹にある真言宗の寺院、大聖院の訪問。",
         "link": "https://www.japan-guide.com/e/e3453.html"
       },
       {

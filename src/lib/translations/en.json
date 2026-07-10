@@ -666,20 +666,20 @@
       {
         "icon": "🗺️",
         "title": "Afternoon Plans — Choose One of Three",
-        "description": "Please select your afternoon plan at the time of registration. The Mt. Misen and Daishō-in courses are limited to 20 participants each (first-come, first-served)."
+        "description": "Please select your afternoon plan at the time of registration."
       }
     ],
     "afternoon_options": [
       {
         "icon": "⛰️",
         "title": "Mt. Misen Course",
-        "description": "Hiking or taking the ropeway up Mt. Misen (the island's mountain, approx. 535m). Limited to 20 participants.",
+        "description": "Hiking or taking the ropeway up Mt. Misen (the island's mountain, approx. 535m).",
         "link": "https://www.japan-guide.com/e/e3451.html"
       },
       {
         "icon": "🏯",
         "title": "Daishō-in Course",
-        "description": "Visiting Daishō-in, a Shingon Buddhist temple on the mountainside. Limited to 20 participants.",
+        "description": "Visiting Daishō-in, a Shingon Buddhist temple on the mountainside. ",
         "link": "https://www.japan-guide.com/e/e3453.html"
       },
       {
