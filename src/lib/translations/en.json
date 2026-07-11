@@ -563,7 +563,77 @@
         "lng": 139.7688,
         "lat": 35.68081,
         "coment": "場所が未定のため、東京駅に位置を指定した"
+      },
+      {
+        "name": "[Japanese Only]QGIS Japan Community Activities Planning Meeting",
+        "description": [
+          "Until now, the OSGeo Japan Chapter has served as the official QGIS community in Japan, facilitating information exchange among QGIS users; however, in recent years, the scope of its various activities has become somewhat unclear.",
+          "Since QGIS users from Japan will be gathering at FOSSG Hiroshima, we would like to use this community event as an opportunity to organize and discuss the future activities of the QGIS Japan Community.",
+          "We hope you will join us in this discussion about the QGIS Japan Community and share your candid opinions.",
+          "Let’s work together to make the QGIS Japan Community even more vibrant!",
+          "Please note that this event will be held exclusively in Japanese, so participants must be able to speak Japanese.",
+          "Please register in advance via Peatix.",
+          "https://qgisjapancom001.peatix.com/view",
+          "---",
+          "Event Details",
+          "Date : September 4, 10:00 AM to 12:00 PM",
+          "Planned venues : Training Room, 7th Floor, Hiroshima City International Youth Center Aster Plaza (4-17 Kako-cho, Naka-ku, Hiroshima City)",
+          "Participation : Free of charge, advance registration required"
+        ],
+        "organization_name": "QGIS Japan community",
+        "Representative Name": "kouichi kita",
+        "planned_location": "Training Room, 7th Floor, Hiroshima City International Youth Center Aster Plaza (4-17 Kako-cho, Naka-ku, Hiroshima City)",
+        "email": "qgisshitumon@gmail.com",
+        "event_timing": "September 4, 10:00 AM to 12:00 PM",
+        "url": "https://qgisjapancom001.peatix.com/view",
+        "lng": 132.44852,
+        "lat": 34.38779
+      },
+      {
+        "name": "Overture Maps Office Hours",
+        "description": [
+          "Overture Maps Office Hours will be held during FOSS4G 2026 Hiroshima as an informal session hosted by the Overture Maps Foundation. The session will introduce Overture’s free and open global datasets and ID reference system.",
+          "Participants will have the opportunity to ask questions, join hands-on demos and activities, and learn more about Overture Maps.",
+          "---",
+          "Event Details",
+          "Date : August 30–31 or September 1–3, 2026 To be held during this period; date and time to be determined",
+          "Planned venues : Inside the FOSS4G Hiroshima 2026 venue—the specific venue has not yet been determined",
+          "Participation :  Open to participants interested in Overture Maps, open global datasets and hands-on demos"
+        ],
+        "organization_name": "Overture Maps Foundation",
+        "Representative Name": "Dana Bauer",
+        "planned_location": "TBD",
+        "email": "dana@overturemaps.org",
+        "event_timing": "August 30–31 or September 1–3, 2026 To be held during this period; date and time to be determined",
+        "url": "",
+        "lng": 132.4507,
+        "lat": 34.3921,
+        "coment": "場所未定、決定次第地図に記載"
+      },
+      {
+        "name": "XR meets FOSS4G: Practical and open Exchange on AR, VR and Geospatial Use Cases",
+        "description": [
+          "XR and Geospatial Community Roundtable",
+          "Extended Reality (XR) is becoming increasingly relevant for geospatial applications, including immersive map visualization, digital twins, field navigation, training, remote collaboration, and spatial data exploration.",
+          "This community event will provide an open and informal space for participants interested in the intersection of XR and geospatial technology. The event aims to bring together practitioners, developers, researchers, and organizations who are experimenting with or already using AR, VR, and mixed reality in geospatial contexts.",
+          "The discussion will focus on practical experience rather than product presentations. Topics may include XR hardware, development environments, SDKs, implemented use cases, technical and organizational challenges, lessons learned, AR navigation, map overlays, spatial annotations, indoor/outdoor positioning, and the visualization of geodata in immersive environments.",
+          "---",
+          "Event Details",
+          "Date : August 30–31 or September 1–3, 2026 To be held during this period; date and time to be determined",
+          "Planned venues : Inside the FOSS4G Hiroshima 2026 venue—the specific venue has not yet been determined",
+          "Participation : Open to participants interested in AR, VR, mixed reality, geospatial visualization, navigation, open-source tools, and practical lessons learned"
+        ],
+        "organization_name": "Rohde & Schwarz GmbH & Co. KG",
+        "Representative Name": "Alexander Engel",
+        "planned_location": "TBD",
+        "email": "alexander-a.engel@rohde-schwarz.com",
+        "event_timing": "August 30–31 or September 1–3, 2026 To be held during this period; date and time to be determined",
+        "url": "",
+        "lng": 132.4513,
+        "lat": 34.3921,
+        "coment": "場所未定、決定次第地図に記載"
       }
+
     ],
     "table_title": "Community Event List",
     "legend.event": "Community Event",
