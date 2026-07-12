@@ -3,6 +3,20 @@
   import { page } from '$app/stores'
   
   $: lang = $page.params.lang || 'en'
+
+  const supporters: string[] = [
+    "Thomas Palan",
+    "Bonifacio Di Pietrantonio",
+    "Julian Simoni",
+    "Peter Johnson",
+    "Jarrett Keifer",
+    "Robert Cheetham",
+    "Francis Josef Gasgonia",
+    "Jared K Marcotte",
+    "Edoardo Neerhut",
+    "Hirofumi Hayashi",
+    "Hiroshi Miura"
+  ]
 </script>
 
 <svelte:head>
@@ -30,7 +44,7 @@
     <h2 class="text-2xl font-semibold mb-6">{$t('about.sponsors.honorable_mentions.supporters_title')}</h2>
     
     <ul class="list-disc list-inside space-y-2 text-lg">
-      {#each $json('about.sponsors.honorable_mentions.supporters') as supporter}
+      {#each supporters as supporter}
         <li>{supporter}</li>
       {/each}
     </ul>
