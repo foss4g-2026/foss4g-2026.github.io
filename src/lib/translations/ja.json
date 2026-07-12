@@ -1791,16 +1791,6 @@
         "description_link": "Adopt-a-ticket",
         "description_after": "プログラムに参加してくださったすべての方々に深く感謝いたします。ワークショップ講師、旅費助成受給者、その他の参加者のチケット費用を負担していただくことで、FOSS4G Hiroshima 2026をより包括的で、多様性に富み、アクセスしやすいものにしていただきました。これらの行為は、オープンソースが本当に何であるかを思い出させてくれます — 人々が人々を支援することです。",
         "supporters_title": "Adopt-a-ticket 寄付者の皆様",
-        "supporters": [
-          "Thomas Palan",
-          "Bonifacio Di Pietrantonio",
-          "Julian Simoni",
-          "Jarrett Keifer",
-          "Robert Cheetham",
-          "Francis Josef Gasgonia",
-          "Jared K Marcotte",
-          "Edoardo Neerhut"
-        ],
         "thank_you": "その精神の一部となっていただき、ありがとうございます。"
       },
       "call_for_sponsors": {
