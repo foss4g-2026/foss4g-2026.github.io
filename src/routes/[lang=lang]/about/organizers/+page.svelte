@@ -3,6 +3,7 @@
   import Card from '$components/Card.svelte'
   import MemberCard from '$components/MemberCard.svelte'
   import { steeringCommitteeMembers } from '$lib/data/steeringCommittee'
+  import { locMembers } from '$lib/data/locMember'
 </script>
 
 <svelte:head>
@@ -53,6 +54,15 @@
     <p class="text-gray-600 mb-6">{$t('about.organizer.steering_committee.description')}</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {#each steeringCommitteeMembers as member}
+        <MemberCard {member} />
+      {/each}
+    </div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-2x font-semibold mb-2">LOC Members</h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {#each locMembers as member}
         <MemberCard {member} />
       {/each}
     </div>
