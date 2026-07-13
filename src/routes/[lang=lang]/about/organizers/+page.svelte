@@ -60,17 +60,20 @@
   </section>
 
   <section class="mb-12">
-    <h2 class="text-2x font-semibold mb-2">LOC Members</h2>
-     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <h2 class="text-2xl font-semibold mb-2">{$t('about.organizer.loc_members.title')}</h2>
+    <p class="text-gray-600 mb-6">{$t('about.organizer.loc_members.description')}</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {#each locMembers as member}
         <MemberCard {member} />
       {/each}
     </div>
   </section>
 
+  <!--
   <section class="mb-12">
     <h2 class="text-2xl font-semibold mb-4">{$t('about.organizer.organizing_committee.title')}</h2>
     <p class="text-gray-700 mb-4">{$t('about.organizer.organizing_committee.description_1')}</p>
     <p class="text-gray-700">{$t('about.organizer.organizing_committee.description_2')}</p>
   </section>
+  -->
 </div>
