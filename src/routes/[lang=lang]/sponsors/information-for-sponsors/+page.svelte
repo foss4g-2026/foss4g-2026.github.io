@@ -377,6 +377,24 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-1rem)]">
+          <a href="https://www.ajiko.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/AsiaAirSurvey/23_AsiaAirSurvey.png"
+              alt="Asia Air Survey Co., Ltd."
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-1rem)]">
+          <a href="https://overturemaps.org/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/OvertureMaps/24_OvertureMapsFoundationHorizontalColor_NoraAnwar.svg"
+              alt="Overture Maps Foundation"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 

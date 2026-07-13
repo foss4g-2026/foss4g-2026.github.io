@@ -120,6 +120,17 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "new_sponsors_jul13": {
+          "date": "2026年7月13日",
+          "title": "新規スポンサーロゴを掲載しました",
+          "description": "アジア航測株式会社とOverture Maps FoundationがBronzeスポンサーとして新たに加わりました！"
+        },
+        "loc_members": {
+          "date": "2026年7月13日",
+          "title": "オーガナイザーページにLOCメンバーを掲載しました",
+          "description": "詳細を見る",
+          "link": "/about/organizers"
+        },
         "academic_sessions_schedule": {
           "date": "2026年7月9日",
           "title": "アカデミックトラックのセッションがプログラムスケジュールに追加されました",
