@@ -22,6 +22,17 @@
     "news": {
       "title": "News",
       "items": {
+        "new_sponsors_jul13": {
+          "date": "July 13, 2026",
+          "title": "New Sponsor Logos Added",
+          "description": "We are pleased to welcome Asia Air Survey Co., Ltd. and Overture Maps Foundation as our new Bronze Sponsors!"
+        },
+        "loc_members": {
+          "date": "July 13, 2026",
+          "title": "LOC Members Now Listed on Organizers Page",
+          "description": "View details",
+          "link": "/about/organizers"
+        },
         "academic_sessions_schedule": {
           "date": "July 9, 2026",
           "title": "Academic Track Sessions Added to Program Schedule",

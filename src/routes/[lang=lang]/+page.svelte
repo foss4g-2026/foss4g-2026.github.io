@@ -82,6 +82,28 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.new_sponsors_jul13.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.new_sponsors_jul13.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              {$t('teaser.news.items.new_sponsors_jul13.description')}
+            </p>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.loc_members.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.loc_members.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.loc_members.link')}" class="text-blue-600 hover:underline">
+                {$t('teaser.news.items.loc_members.description')}
+              </a>
+            </p>
+          </div>
+          <!-- News Item 3 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.academic_sessions_schedule.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.academic_sessions_schedule.title')}
@@ -89,30 +111,6 @@
             <p class="text-sm text-gray-600">
               <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.academic_sessions_schedule.link')}" class="text-blue-600 hover:underline">
                 {$t('teaser.news.items.academic_sessions_schedule.description')}
-              </a>
-            </p>
-          </div>
-          <!-- News Item 2 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.visa_fee_increase.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.visa_fee_increase.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              <a href="{$t('teaser.news.items.visa_fee_increase.link')}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
-                {$t('teaser.news.items.visa_fee_increase.description')}
-              </a>
-            </p>
-          </div>
-          <!-- News Item 3 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.community_events_map.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.community_events_map.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.community_events_map.link')}" class="text-blue-600 hover:underline">
-                {$t('teaser.news.items.community_events_map.description')}
               </a>
             </p>
           </div>
@@ -553,6 +551,24 @@
             <img
               src="/images/sponsors/PSS/22_pss_horizontal.svg"
               alt="Pacific Spatial Solutions"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://www.ajiko.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/AsiaAirSurvey/23_AsiaAirSurvey.png"
+              alt="Asia Air Survey Co., Ltd."
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://overturemaps.org/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/OvertureMaps/24_OvertureMapsFoundationHorizontalColor_NoraAnwar.svg"
+              alt="Overture Maps Foundation"
               class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
