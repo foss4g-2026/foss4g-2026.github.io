@@ -1630,6 +1630,10 @@
         "title": "運営委員会",
         "description": "運営委員会は、FOSS4G Hiroshima 2026実行委員会の各ワーキンググループを統括する委員会リーダーで構成されています。",
         "profile_label": "プロフィール"
+      },
+      "loc_members": {
+        "title": "現地実行委員会 (LOC) メンバー",
+        "description": "現地実行委員会（LOC）のメンバーは、会場の手配・現地のロジスティクス・コミュニティとの連携など、FOSS4G Hiroshima 2026 の現地における運営を担当します。"
       }
     },
     "concept": {

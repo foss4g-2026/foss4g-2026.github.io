@@ -87,4 +87,13 @@ export const steeringCommitteeMembers: SteeringMember[] = [
       'Specialist in technical research for Science, Technology and Innovation (STI) strategy, with applied expertise in GIS and urban environmental management.',
     photo: 'LOC_EitaHorishita.webp',
   },
+  {
+    name: "Zenichi TAKEUCHI",
+    nameJa: "竹内善一",
+    committees: ["Finance / Legal"],
+    affiliation: "Laboratory of Geographic Information Science, Department of Agricultural Science, Graduate School of Sustainability Science, Tottori University",
+    jobTitle: "Master's student",
+    profile: "Zenichi Takeuchi is a Master’s student at Tottori University, specializing in Geographic Information Science (GIS). His research involves the classification of abandoned farmland and evaluating its potential for forest conversion. His work utilizes spatial analysis to support sustainable land management in rural areas.",
+    photo: "LOC_Zenichi_Takeuchi.webp",
+  },
 ]
