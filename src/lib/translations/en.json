@@ -329,49 +329,14 @@
     }
   },
   "keynote": {
-    "announcement": "Program details will be announced in April 2026",
     "title": "Keynote Speakers",
-    "coming_soon_message": "Keynote speakers will be announced in Spring 2026",
-    "program": {
-      "title": "Keynote Program",
-      "description": "FOSS4G Hiroshima 2026 will feature three inspiring keynote presentations from world-renowned experts in geospatial technology, open-source development, and humanitarian applications."
-    },
-    "schedule": {
-      "day1": {
-        "title": "Day 1 Keynote",
-        "date": "September 1, 9:30-10:30",
-        "speaker": "Speaker TBA",
-        "topic": "Topic: Opening & Vision"
-      },
-      "day2": {
-        "title": "Day 2 Keynote",
-        "date": "September 2, 9:30-10:30",
-        "speaker": "Speaker TBA",
-        "topic": "Topic: Innovation & Technology"
-      },
-      "day3": {
-        "title": "Day 3 Keynote",
-        "date": "September 3, 9:30-10:30",
-        "speaker": "Speaker TBA",
-        "topic": "Topic: Community & Future"
-      },
-      "tba": "TBA"
-    },
-    "selection_criteria": {
-      "title": "Selection Criteria",
-      "description": "Our keynote speakers are selected based on:",
-      "criteria": [
-        "Significant contributions to open-source geospatial community",
-        "Leadership in technological innovation",
-        "Impact on humanitarian and social applications",
-        "Ability to inspire and engage diverse audiences",
-        "Alignment with conference themes and values"
-      ]
-    },
-    "stay_updated": {
-      "title": "Stay Updated",
-      "description": "Follow our announcements for keynote speaker reveals and presentation topics!"
-    }
+    "speakers_label": "Speakers",
+    "moderator_label": "Moderator",
+    "coordinator_label": "Coordinator",
+    "profile_label": "Profile",
+    "disclaimer": "This page is updated automatically based on Pretalx.",
+    "load_error": "Some keynote information could not be loaded. Please try again later.",
+    "day_tba_message": "Details will be announced once confirmed."
   },
   "presentations": {
     "announcement": "Program details will be announced in April 2026",
