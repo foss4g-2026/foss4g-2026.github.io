@@ -24,8 +24,11 @@
 
   <!-- Keynote Speakers -->
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('program_schedule.keynote.title')}</h2>
-    <p class="text-gray-700 mb-4">{$t('common.coming_soon')}</p>
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/program-schedule/keynote" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('program_schedule.keynote.title')}
+      </a>
+    </h2>
   </section>
 
   <!-- Presentations -->

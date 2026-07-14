@@ -38,7 +38,7 @@ export const navigationConfig = {
     enabled: true,
     subItems: {
       outline: { enabled: true },
-      keynote: { enabled: false }, // Disabled per user request
+      keynote: { enabled: true },
       presentations: { enabled: true },
       workshops: { enabled: true },
       community_sprint: { enabled: true },
