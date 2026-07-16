@@ -609,7 +609,6 @@
         "lat": 34.3921,
         "coment": "場所未定、決定次第地図に記載"
       }
-
     ],
     "table_title": "Community Event List",
     "legend.event": "Community Event",
@@ -2040,6 +2039,15 @@
       "vat_notice": {
         "title": "Note:",
         "content": "Prices shown are <strong>exclusive</strong> of local tax – <strong>EX. Japanese VAT @10%</strong> will be added at checkout."
+      },
+      "goods": {
+        "title": "Goods",
+        "description": "Original FOSS4G Hiroshima 2026 goods. Distributed to attendees at the venue.",
+        "tshirt": "T-shirt",
+        "tshirt_front": "Front",
+        "tshirt_back": "Back",
+        "bag": "Tote Bag",
+        "tenugui": "Tenugui (Japanese hand towel)"
       }
     },
     "studentship": {

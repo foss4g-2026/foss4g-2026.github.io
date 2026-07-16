@@ -491,7 +491,7 @@
         "email": "mapconcierge@gmail.com",
         "event_timing": "2026年9月6日～9月7日",
         "url": "https://wiki.openstreetmap.org/wiki/State_of_the_Map_Asia_2026/Call_for_Venues/Japan",
-        "lng": 135.504760,
+        "lng": 135.50476,
         "lat": 34.707653
       },
       {
@@ -535,7 +535,7 @@
         "email": "michelle@radiant.earth",
         "event_timing": "2026年8月24日、午後",
         "url": "https://medium.com/radiant-earth-insights/call-for-speakers-cng-japan-2026-c5a0beac013d",
-        "lng": 139.76880,
+        "lng": 139.7688,
         "lat": 35.68081,
         "coment": "場所が未定のため、東京駅に位置を指定した"
       },
@@ -609,7 +609,6 @@
         "lat": 34.3921,
         "coment": "場所未定、決定次第地図に記載"
       }
-
     ],
     "table_title": "コミュニティイベント一覧",
     "legend.event": "コミュニティイベント",
@@ -1940,6 +1939,15 @@
       "vat_notice": {
         "title": "注意：",
         "content": "表示価格は<strong>税抜き</strong>です。支払い時に<strong>日本の消費税10%</strong>が加算されます。"
+      },
+      "goods": {
+        "title": "グッズ",
+        "description": "FOSS4G Hiroshima 2026 オリジナルグッズです。会場で配布します。",
+        "tshirt": "Tシャツ",
+        "tshirt_front": "表",
+        "tshirt_back": "裏",
+        "bag": "トートバッグ",
+        "tenugui": "手ぬぐい"
       }
     },
     "studentship": {
