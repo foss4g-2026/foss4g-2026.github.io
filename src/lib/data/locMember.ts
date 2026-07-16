@@ -10,6 +10,15 @@ export interface LocMember {
 
 export const locMembers: LocMember[] = [
   {
+    name: "Alen Mangafić",
+    nameJa: "アレン・マンガフィッチ",
+    committees: ["Scientific Committee"],
+    affiliation: "Geodetic Institute of Slovenia",
+    jobTitle: "",
+    profile: "I work at the Geodetic Institute of Slovenia in Ljubljana as Head of Digital Transformation and contribute to projects as a Senior Geospatial Data Scientist and Remote Sensing Specialist. I hold a PhD in Environmental Protection focused on the hyperspectral remote sensing of heavy metals. My work centers around the analysis of multispectral, hyperspectral, and SAR imagery, as well as LiDAR point clouds, though I enjoy tackling data problems of all kinds. I rely heavily on Python, GRASS, GDAL, PDAL, QGIS, and PostgreSQL for data torturing and distribution. I love Linux. I currently serve as the secretary of OSGeo Slovenia.",
+    photo: "LOC_Alen_Mangafic.webp",
+  },
+  {
     name: "Yoshinori Yamazaki",
     nameJa: "山崎宜範",
     committees: ["Sponsorship / Partnership"],
