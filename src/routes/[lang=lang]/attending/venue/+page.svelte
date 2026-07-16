@@ -1,6 +1,8 @@
 <script lang="ts">
   import { t, json } from 'svelte-i18n'
   import Map from '$components/Map.svelte'
+  import { page } from '$app/stores'
+  $: lang = $page.params.lang
 </script>
 
 <svelte:head>
@@ -45,6 +47,40 @@
           <li>{item}</li>
         {/each}
       </ul>
+    </div>
+
+    <!-- Accessibility Information -->
+    <div class="bg-gray-50 p-6 rounded-lg mt-6">
+      <h3 class="text-lg font-semibold mb-3">{$t('venue.main_venue.accessibility.title')}</h3>
+      <p class="mb-5 text-gray-700">{$t('venue.main_venue.accessibility.intro')}</p>
+
+      <!-- Accessible Toilets -->
+      <h4 class="font-semibold mb-1">{$t('venue.main_venue.accessibility.toilet.title')}</h4>
+      <p class="mb-1">{$t('venue.main_venue.accessibility.toilet.description')}</p>
+      <ul class="list-disc pl-6 mb-1 space-y-1">
+        {#each ($json('venue.main_venue.accessibility.toilet.locations') as unknown as string[]) as loc}
+          <li>{loc}</li>
+        {/each}
+      </ul>
+      <p class="mb-4 text-gray-700">{$t('venue.main_venue.accessibility.toilet.ostomate')}</p>
+
+      <!-- Wheelchair Access -->
+      <h4 class="font-semibold mb-1">{$t('venue.main_venue.accessibility.wheelchair.title')}</h4>
+      <p class="mb-4">{$t('venue.main_venue.accessibility.wheelchair.description')}</p>
+
+      <!-- Nursing Room -->
+      <h4 class="font-semibold mb-1">{$t('venue.main_venue.accessibility.nursing.title')}</h4>
+      <p class="mb-4">{$t('venue.main_venue.accessibility.nursing.description')}</p>
+
+      <!-- Childcare -->
+      <h4 class="font-semibold mb-1">{$t('venue.main_venue.accessibility.childcare.title')}</h4>
+      <p>
+        {$t('venue.main_venue.accessibility.childcare.description')}
+        <a href="/{lang}/attending/childcare" class="text-blue-600 hover:text-blue-800 hover:underline">
+          {$t('venue.main_venue.accessibility.childcare.link_text')}
+        </a>
+        {$t('venue.main_venue.accessibility.childcare.description_after')}
+      </p>
     </div>
   </section>
 
