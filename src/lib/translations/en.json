@@ -725,7 +725,31 @@
       "access": [
         "10-minute walk from Hiroden (Hiroshima Electric Railway) Genbaku-dome-mae stop.",
         "Directly accessible from Hiroshima Bus Route 24 at the Peace Memorial Park bus stop."
-      ]
+      ],
+      "accessibility": {
+        "title": "Accessibility Information",
+        "intro": "We are committed to making the conference and sightseeing experience accessible to all participants.",
+        "toilet": {
+          "title": "Accessible Toilets",
+          "description": "Accessible toilets are available on:",
+          "locations": ["Basement Floor 2 (B2)", "Floor 3"],
+          "ostomate": "An ostomate-friendly toilet is available on Basement Floor 2."
+        },
+        "wheelchair": {
+          "title": "Wheelchair Access",
+          "description": "The building provides barrier-free access and accessible toilets for wheelchair users."
+        },
+        "nursing": {
+          "title": "Nursing Room",
+          "description": "There is no permanent nursing room. However, conference participants may be able to use a temporary private space in the administration office on the first floor. Please ask the venue staff for assistance."
+        },
+        "childcare": {
+          "title": "Childcare",
+          "description": "Childcare services are available during the main conference. Please see the",
+          "link_text": "Childcare page",
+          "description_after": "for details."
+        }
+      }
     },
     "workshop_venue": {
       "title": "RCC Bunka Center",
