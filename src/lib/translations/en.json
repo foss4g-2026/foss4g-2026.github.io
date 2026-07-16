@@ -22,6 +22,23 @@
     "news": {
       "title": "News",
       "items": {
+        "gsi_partner_jul16": {
+          "date": "July 16, 2026",
+          "title": "New Partner Organization Logo Added",
+          "description": "We are pleased to welcome the Geospatial Information Authority of Japan (GSI) as a new Partner Organization!"
+        },
+        "goods_jul16": {
+          "date": "July 16, 2026",
+          "title": "Conference Goods Preview Now Available",
+          "description": "View details",
+          "link": "/register/registration"
+        },
+        "keynote_jul16": {
+          "date": "July 16, 2026",
+          "title": "Keynote Speaker Information Partially Available",
+          "description": "View details",
+          "link": "/program-schedule/keynote"
+        },
         "new_sponsors_jul13": {
           "date": "July 13, 2026",
           "title": "New Sponsor Logos Added",
@@ -541,13 +558,13 @@
         "coment": "場所が未定のため、東京駅に位置を指定した"
       },
       {
-        "name": "[Japanese Only]QGIS Japan Community Activities Planning Meeting",
+        "name": "QGIS Japan Community Activities Planning Meeting",
         "description": [
           "Until now, the OSGeo Japan Chapter has served as the official QGIS community in Japan, facilitating information exchange among QGIS users; however, in recent years, the scope of its various activities has become somewhat unclear.",
           "Since QGIS users from Japan will be gathering at FOSSG Hiroshima, we would like to use this community event as an opportunity to organize and discuss the future activities of the QGIS Japan Community.",
           "We hope you will join us in this discussion about the QGIS Japan Community and share your candid opinions.",
           "Let’s work together to make the QGIS Japan Community even more vibrant!",
-          "Please note that this event will be held exclusively in Japanese, so participants must be able to speak Japanese.",
+          "Anyone can participate in this event.",
           "Please register in advance via Peatix.",
           "https://qgisjapancom001.peatix.com/view",
           "---",
@@ -776,7 +793,31 @@
       "access": [
         "10-minute walk from Hiroden (Hiroshima Electric Railway) Genbaku-dome-mae stop.",
         "Directly accessible from Hiroshima Bus Route 24 at the Peace Memorial Park bus stop."
-      ]
+      ],
+      "accessibility": {
+        "title": "Accessibility Information",
+        "intro": "We are committed to making the conference and sightseeing experience accessible to all participants.",
+        "toilet": {
+          "title": "Accessible Toilets",
+          "description": "Accessible toilets are available on:",
+          "locations": ["Basement Floor 2 (B2)", "Floor 3"],
+          "ostomate": "An ostomate-friendly toilet is available on Basement Floor 2."
+        },
+        "wheelchair": {
+          "title": "Wheelchair Access",
+          "description": "The building provides barrier-free access and accessible toilets for wheelchair users."
+        },
+        "nursing": {
+          "title": "Nursing Room",
+          "description": "There is no permanent nursing room. However, conference participants may be able to use a temporary private space in the administration office on the first floor. Please ask the venue staff for assistance."
+        },
+        "childcare": {
+          "title": "Childcare",
+          "description": "Childcare services are available during the main conference. Please see the",
+          "link_text": "Childcare page",
+          "description_after": "for details."
+        }
+      }
     },
     "workshop_venue": {
       "title": "RCC Bunka Center",
