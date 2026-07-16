@@ -120,6 +120,23 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "gsi_partner_jul16": {
+          "date": "2026年7月16日",
+          "title": "後援団体に国土地理院のロゴを掲載しました",
+          "description": "国土地理院（GSI）が新たな後援団体として加わりました！"
+        },
+        "goods_jul16": {
+          "date": "2026年7月16日",
+          "title": "会議グッズの画像を公開しました",
+          "description": "詳細を見る",
+          "link": "/register/registration"
+        },
+        "keynote_jul16": {
+          "date": "2026年7月16日",
+          "title": "キーノートスピーカー情報を一部公開しました",
+          "description": "詳細を見る",
+          "link": "/program-schedule/keynote"
+        },
         "new_sponsors_jul13": {
           "date": "2026年7月13日",
           "title": "新規スポンサーロゴを掲載しました",

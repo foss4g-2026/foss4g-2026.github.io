@@ -82,35 +82,35 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.new_sponsors_jul13.date')}</p>
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.gsi_partner_jul16.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.new_sponsors_jul13.title')}
+              {$t('teaser.news.items.gsi_partner_jul16.title')}
             </h3>
             <p class="text-sm text-gray-600">
-              {$t('teaser.news.items.new_sponsors_jul13.description')}
+              {$t('teaser.news.items.gsi_partner_jul16.description')}
             </p>
           </div>
           <!-- News Item 2 -->
           <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.loc_members.date')}</p>
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.goods_jul16.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.loc_members.title')}
+              {$t('teaser.news.items.goods_jul16.title')}
             </h3>
             <p class="text-sm text-gray-600">
-              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.loc_members.link')}" class="text-blue-600 hover:underline">
-                {$t('teaser.news.items.loc_members.description')}
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.goods_jul16.link')}" class="text-blue-600 hover:underline">
+                {$t('teaser.news.items.goods_jul16.description')}
               </a>
             </p>
           </div>
           <!-- News Item 3 -->
           <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.academic_sessions_schedule.date')}</p>
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.keynote_jul16.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.academic_sessions_schedule.title')}
+              {$t('teaser.news.items.keynote_jul16.title')}
             </h3>
             <p class="text-sm text-gray-600">
-              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.academic_sessions_schedule.link')}" class="text-blue-600 hover:underline">
-                {$t('teaser.news.items.academic_sessions_schedule.description')}
+              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.keynote_jul16.link')}" class="text-blue-600 hover:underline">
+                {$t('teaser.news.items.keynote_jul16.description')}
               </a>
             </p>
           </div>
@@ -594,6 +594,15 @@
             <img
               src="/images/sponsors/MLIT/MLIT_logo.png"
               alt="Ministry of Land, Infrastructure, Transport and Tourism"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full">
+          <a href="https://www.gsi.go.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/GSI/GSI_logo.png"
+              alt="Geospatial Information Authority of Japan"
               class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>

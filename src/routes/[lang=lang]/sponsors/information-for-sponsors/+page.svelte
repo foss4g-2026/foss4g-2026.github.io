@@ -420,6 +420,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full">
+          <a href="https://www.gsi.go.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/GSI/GSI_logo.png"
+              alt="Geospatial Information Authority of Japan"
+              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 

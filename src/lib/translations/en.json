@@ -22,6 +22,23 @@
     "news": {
       "title": "News",
       "items": {
+        "gsi_partner_jul16": {
+          "date": "July 16, 2026",
+          "title": "New Partner Organization Logo Added",
+          "description": "We are pleased to welcome the Geospatial Information Authority of Japan (GSI) as a new Partner Organization!"
+        },
+        "goods_jul16": {
+          "date": "July 16, 2026",
+          "title": "Conference Goods Preview Now Available",
+          "description": "View details",
+          "link": "/register/registration"
+        },
+        "keynote_jul16": {
+          "date": "July 16, 2026",
+          "title": "Keynote Speaker Information Partially Available",
+          "description": "View details",
+          "link": "/program-schedule/keynote"
+        },
         "new_sponsors_jul13": {
           "date": "July 13, 2026",
           "title": "New Sponsor Logos Added",
