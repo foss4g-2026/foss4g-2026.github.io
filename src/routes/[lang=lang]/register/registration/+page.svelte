@@ -60,4 +60,61 @@
       <span class="text-sm text-gray-500">※{$t('register.registration.fees_note_additional')}</span>
     </div>
   </div>
+
+  <!-- Goods -->
+  <div class="mb-8">
+    <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.goods.title')}</h2>
+    <p class="text-base mb-6">{$t('register.registration.goods.description')}</p>
+
+    <!-- T-shirt (front / back) -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold mb-3">{$t('register.registration.goods.tshirt')}</h3>
+      <div class="grid grid-cols-2 gap-4">
+        <figure>
+          <img
+            src="/images/goods/t_shirts_front.jpg"
+            alt="{$t('register.registration.goods.tshirt')} - {$t('register.registration.goods.tshirt_front')}"
+            class="w-full h-auto rounded-lg border border-gray-200"
+            loading="lazy"
+          />
+          <figcaption class="mt-2 text-center text-sm text-gray-600">{$t('register.registration.goods.tshirt_front')}</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="/images/goods/t_shirts_back.jpg"
+            alt="{$t('register.registration.goods.tshirt')} - {$t('register.registration.goods.tshirt_back')}"
+            class="w-full h-auto rounded-lg border border-gray-200"
+            loading="lazy"
+          />
+          <figcaption class="mt-2 text-center text-sm text-gray-600">{$t('register.registration.goods.tshirt_back')}</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- Bag -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold mb-3">{$t('register.registration.goods.bag')}</h3>
+      <figure class="max-w-sm">
+        <img
+          src="/images/goods/bag.jpg"
+          alt={$t('register.registration.goods.bag')}
+          class="w-full h-auto rounded-lg border border-gray-200"
+          loading="lazy"
+        />
+      </figure>
+    </div>
+
+    <!-- Tenugui -->
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold mb-3">{$t('register.registration.goods.tenugui')}</h3>
+      <figure>
+        <img
+          src="/images/goods/tenugui.jpg"
+          alt={$t('register.registration.goods.tenugui')}
+          class="w-full h-auto rounded-lg border border-gray-200"
+          loading="lazy"
+        />
+      </figure>
+    </div>
+  </div>
 </div>
