@@ -537,25 +537,25 @@
       {
         "name": "CNG Forum Japan",
         "description": [
-          "CNG Forum Japan will be held in Tokyo on August 24, 2026, as a half-day Cloud-Native Geospatial community meetup designed to bring together local and regional practitioners working in and around Japan.",
+          "CNG Forum Japan will be held in Yokohama on August 24, 2026, as a half-day Cloud-Native Geospatial community meetup designed to bring together local and regional practitioners working in and around Japan.",
           "The event will provide an afternoon of demos, conversation and a social reception, creating a space for participants to share what they are building, learn from each other and connect with the broader global CNG network. The program will feature casual, demo-style talks on production deployments, works in progress, tools, workflows and lessons learned related to cloud-native geospatial technologies.",
           "CNG Forum Japan is part of the 2026 CNG global event series. The event aims to support Japan’s growing cloud-native geospatial community and strengthen both local and international connections.",
           "---",
           "Event Details",
-          "Date : August 24, 2026, afternoon",
-          "Location : Tokyo, Japan (specific venue TBD)",
+          "Date : August 24, 2026, from 13:00",
+          "Location : Yokohama, Japan (JAMSTEC Yokohama Institute for Earth Sciences)",
           "Participation : Open to the local and regional cloud-native geospatial community. Speaker proposals are welcome.",
-          "For more information, please see the Call for Speakers "
+          "For more information and registration, please visit the event page "
         ],
         "organization_name": "CNG Forum",
         "Representative Name": "Michelle Roby",
-        "planned_location": "Tokyo (specific venue TBD)",
+        "planned_location": "Yokohama, Japan (JAMSTEC Yokohama Institute for Earth Sciences)",
         "email": "michelle@radiant.earth",
         "event_timing": "August 24, 2026",
-        "url": "https://medium.com/radiant-earth-insights/call-for-speakers-cng-japan-2026-c5a0beac013d",
-        "lng": 139.7688,
-        "lat": 35.68081,
-        "coment": "場所が未定のため、東京駅に位置を指定した"
+        "url": "https://luma.com/majfkvtc",
+        "lng": 139.6244196,
+        "lat": 35.380448,
+        "coment": "JAMSTEC横浜研究所"
       },
       {
         "name": "QGIS Japan Community Activities Planning Meeting",
