@@ -460,7 +460,72 @@
     "host_description": "If you would like to host a community sprint session, please add your event to <a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>.",
     "registration_title": "How to register",
     "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the <a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>.",
-    "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!"
+    "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!",
+    "nearby_restaurants_title": "Nearby Restaurants",
+    "nearby_restaurants_note": "The venue does not allow food inside. Please use nearby restaurants for meals.",
+    "restaurants_table": {
+      "name": "Name",
+      "cuisine": "Cuisine",
+      "hours": "Opening Hours",
+      "walk": "Walk",
+      "notes": "Notes"
+    },
+    "restaurants": [
+      {
+        "name": "Mikazuki",
+        "cuisine": "Hiroshima-style Okonomiyaki",
+        "hours": "11:30 AM – 2:00 PM, 5:30 PM – 10:00 PM",
+        "walk": "1 min walk",
+        "notes": "",
+        "lng": 132.44843,
+        "lat": 34.3876802
+      },
+      {
+        "name": "Ichi Okonomiyaki",
+        "cuisine": "Hiroshima-style Okonomiyaki",
+        "hours": "11:00 AM – 10:00 PM",
+        "walk": "2 min walk",
+        "notes": "",
+        "lng": 132.4493771,
+        "lat": 34.387894
+      },
+      {
+        "name": "Yotte-ne Shimakara Kitchen Cafe",
+        "cuisine": "Japanese Set Meals",
+        "hours": "11:30 AM – 3:00 PM, 5:00 PM – 8:30 PM",
+        "walk": "6 min walk",
+        "notes": "Vegan options available",
+        "lng": 132.4493117,
+        "lat": 34.3904861
+      },
+      {
+        "name": "Okkundou Mazemen",
+        "cuisine": "Soupless Tantan Noodles",
+        "hours": "11:00 AM – 9:30 PM",
+        "walk": "11 min walk",
+        "notes": "Vegetarian options available",
+        "lng": 132.4486112,
+        "lat": 34.3879525
+      },
+      {
+        "name": "McDonald's Funairi",
+        "cuisine": "Fast Food",
+        "hours": "Open 24 hours",
+        "walk": "8 min walk",
+        "notes": "",
+        "lng": 132.4459008,
+        "lat": 34.386008
+      },
+      {
+        "name": "7-Eleven Hiroshima Kakomachi",
+        "cuisine": "Convenience Store",
+        "hours": "Open 24 hours",
+        "walk": "1 min walk",
+        "notes": "",
+        "lng": 132.4466916,
+        "lat": 34.3875857
+      }
+    ]
   },
   "community_events": {
     "title": "Community Events",

@@ -460,7 +460,72 @@
     "host_description": "コミュニティスプリントを開催するコミュニティは<a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>にどうかご記載ください。",
     "registration_title": "参加登録",
     "registration_description": "コミュニティスプリントは無料ですが、参加を希望される方はできれば<a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>に参加希望の旨をご記載ください。",
-    "registration_note": "Wikiの記入は推奨であり、必須ではありません。飛び込みの参加も大歓迎です！"
+    "registration_note": "Wikiの記入は推奨であり、必須ではありません。飛び込みの参加も大歓迎です！",
+    "nearby_restaurants_title": "周辺飲食店情報",
+    "nearby_restaurants_note": "会場内では飲み物可・食べ物不可です。お食事は近隣の飲食店をご利用ください。",
+    "restaurants_table": {
+      "name": "名前",
+      "cuisine": "ジャンル",
+      "hours": "営業時間",
+      "walk": "徒歩",
+      "notes": "備考"
+    },
+    "restaurants": [
+      {
+        "name": "ミカヅキ",
+        "cuisine": "お好み焼き（広島風）",
+        "hours": "11:30〜14:00、17:30〜22:00",
+        "walk": "徒歩1分",
+        "notes": "",
+        "lng": 132.44843,
+        "lat": 34.3876802
+      },
+      {
+        "name": "お好み焼き・鉄板焼き 壱",
+        "cuisine": "お好み焼き（広島風）",
+        "hours": "11:00〜22:00",
+        "walk": "徒歩2分",
+        "notes": "",
+        "lng": 132.4493771,
+        "lat": 34.387894
+      },
+      {
+        "name": "ナチュラルキッチン シマカラ食堂",
+        "cuisine": "定食",
+        "hours": "11:30〜15:00、17:00〜20:30",
+        "walk": "徒歩6分",
+        "notes": "ヴィーガンメニューあり",
+        "lng": 132.4493117,
+        "lat": 34.3904861
+      },
+      {
+        "name": "おっくん堂",
+        "cuisine": "汁なし担々麺",
+        "hours": "11:00〜21:30",
+        "walk": "徒歩11分",
+        "notes": "ベジタリアンメニューあり",
+        "lng": 132.4486112,
+        "lat": 34.3879525
+      },
+      {
+        "name": "マクドナルド 舟入店",
+        "cuisine": "ファストフード",
+        "hours": "24時間営業",
+        "walk": "徒歩8分",
+        "notes": "",
+        "lng": 132.4459008,
+        "lat": 34.386008
+      },
+      {
+        "name": "セブン-イレブン 広島加古町店",
+        "cuisine": "コンビニ",
+        "hours": "24時間営業",
+        "walk": "徒歩1分",
+        "notes": "",
+        "lng": 132.4466916,
+        "lat": 34.3875857
+      }
+    ]
   },
   "community_events": {
     "title": "コミュニティイベント",
