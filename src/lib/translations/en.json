@@ -226,6 +226,7 @@
       "poster_session": "Poster Session",
       "student_poster": "High School Student Posters",
       "community_events": "Community Events",
+      "b2b_session": "B2B Session",
       "ice_breaker": "Ice Breaker",
       "gala_dinner": "Gala Dinner",
       "excursion": "Excursion",
@@ -701,6 +702,32 @@
       "event_timing": "Event Timing",
       "website": "Website"
     }
+  },
+  "b2b_session": {
+    "title": "B2B Session",
+    "date": "Tuesday, September 1, 2026 | 12:00 – 15:30",
+    "intro": "The B2B session is for companies, organizations, and individuals who are using FOSS4G technology in their business, or who want to newly challenge themselves to adopt it.",
+    "description": "The history of Open Source Software, including FOSS4G, has grown significantly not only through individual and academic contributions but also through adoption and support from many businesses. The spread of FOSS4G in business has played, and will continue to play, a major role in contributing to a sustainable community and society. We encourage you to take this opportunity to share your case studies of solving challenges with FOSS4G or new ideas, and to use it as a chance to find new business partners.",
+    "lunch_description": "This B2B session will have lunchtime as a buffet, featuring presentations from sponsor companies. After the lunch buffet, there will be a café time where you can enjoy famous Hiroshima sweets selected by the LOC (Local Organizing Committee). Please use this time to share new ideas over coffee or Japanese tea.",
+    "register_url": "https://ti.to/osgeo-jp/foss4g-2026/with/business-to-business",
+    "register_button": "Register for B2B Session",
+    "overview_title": "Event Overview",
+    "venue_title": "Venue",
+    "venue": "Himawari",
+    "ticket_title": "Ticket",
+    "ticket_price": "3,000 JPY",
+    "ticket_note": "Can be purchased together with the main conference ticket, or separately afterward.",
+    "schedule_title": "Schedule",
+    "schedule": [
+      { "time": "12:00 – 13:00", "content": "Lunch Buffet" },
+      { "time": "12:20 – 13:00", "content": "Presentations from Sponsor Companies" },
+      { "time": "13:00 – 15:30", "content": "Café Time" }
+    ],
+    "content_title": "Event Content",
+    "content_items": [
+      { "icon": "🎤", "title": "Presentations", "description": "Presentations from sponsor companies during the lunch buffet (12:20 – 13:00)." },
+      { "icon": "🤝", "title": "Networking", "description": "Connect with businesses and practitioners using FOSS4G technology over coffee and Hiroshima sweets." }
+    ]
   },
   "ice_breaker": {
     "title": "Ice Breaker",

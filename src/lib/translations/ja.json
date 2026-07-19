@@ -41,6 +41,7 @@
       "poster_session": "ポスターセッション",
       "student_poster": "高校生ポスター",
       "community_events": "コミュニティイベント",
+      "b2b_session": "B2Bセッション",
       "ice_breaker": "アイスブレイカー",
       "gala_dinner": "ガラディナー",
       "excursion": "エクスカーション",
@@ -701,6 +702,32 @@
       "event_timing": "日程",
       "website": "Webサイト"
     }
+  },
+  "b2b_session": {
+    "title": "B2Bセッション",
+    "date": "2026年9月1日（火）| 12:00 – 15:30",
+    "intro": "B2BセッションはFOSS4G技術をビジネスに活用している、または新しく活用に挑戦したい企業、組織、個人のためのセッションです。",
+    "description": "FOSS4Gを含むOpen Source Softwareの歴史は個人やアカデミックだけでなく多くの企業に導入され、そのサポートによって大きく成長してきました。ビジネスにおけるFOSS4Gの普及が、これまでも、そしてこれからも持続可能なコミュニティと社会への貢献の大きな役割を担っています。ぜひこの機会にFOSS4Gによる課題解決案や新しいアイディアをシェアし、新たなビジネスパートナーを見つける機会としてご活用ください。",
+    "lunch_description": "今回のB2Bセッションはランチをビュッフェで用意しています。この間、スポンサー各社からのプレゼンがあります。ランチタイム後はLOCが選んだ広島銘菓をお楽しみいただけるカフェタイムとなります。コーヒーや日本茶と共に新しいアイディアを共有する時間としてご利用ください。",
+    "register_url": "https://ti.to/osgeo-jp/foss4g-2026/with/business-to-business",
+    "register_button": "B2Bセッションに登録",
+    "overview_title": "イベント概要",
+    "venue_title": "会場",
+    "venue": "Himawari",
+    "ticket_title": "チケット",
+    "ticket_price": "3,000円",
+    "ticket_note": "本会議チケット購入時、または購入後に別途お申し込みいただけます。",
+    "schedule_title": "スケジュール",
+    "schedule": [
+      { "time": "12:00 – 13:00", "content": "ランチビュッフェ" },
+      { "time": "12:20 – 13:00", "content": "スポンサー各社によるプレゼン" },
+      { "time": "13:00 – 15:30", "content": "カフェタイム" }
+    ],
+    "content_title": "イベント内容",
+    "content_items": [
+      { "icon": "🎤", "title": "プレゼン", "description": "ランチビュッフェ中（12:20〜13:00）にスポンサー各社よりプレゼンがあります。" },
+      { "icon": "🤝", "title": "ネットワーキング", "description": "コーヒーや日本茶、広島銘菓を楽しみながら、FOSS4Gを活用するビジネス関係者との交流を深めましょう。" }
+    ]
   },
   "ice_breaker": {
     "title": "アイスブレイカー",

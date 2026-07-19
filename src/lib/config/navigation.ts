@@ -44,6 +44,7 @@ export const navigationConfig = {
       community_sprint: { enabled: true },
       poster_session: { enabled: true },
       student_poster: { enabled: true },
+      b2b_session: { enabled: true },
       ice_breaker: { enabled: true },
       gala_dinner: { enabled: true },
       excursion: { enabled: true },
