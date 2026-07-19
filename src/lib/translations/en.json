@@ -22,6 +22,11 @@
     "news": {
       "title": "News",
       "items": {
+        "b2b_hiring_jul19": {
+          "date": "July 19, 2026",
+          "title": "B2B Session and Hiring Session Pages Now Available",
+          "description": "Information on the B2B Session and Hiring Session has been added to the Program & Schedule section."
+        },
         "gsi_partner_jul16": {
           "date": "July 16, 2026",
           "title": "New Partner Organization Logo Added",
@@ -227,6 +232,7 @@
       "student_poster": "High School Student Posters",
       "community_events": "Community Events",
       "b2b_session": "B2B Session",
+      "hiring_session": "Hiring Session",
       "ice_breaker": "Ice Breaker",
       "gala_dinner": "Gala Dinner",
       "excursion": "Excursion",
@@ -702,6 +708,23 @@
       "event_timing": "Event Timing",
       "website": "Website"
     }
+  },
+  "hiring_session": {
+    "title": "Hiring Session",
+    "date": "Wednesday, September 2, 2026 | 12:00 – 13:00 (Lunch Break)",
+    "tagline": "Connect with sponsors of FOSS4G Hiroshima 2026 and explore career opportunities in the open source geospatial community.",
+    "intro": "The Hiring Session brings together FOSS4G Hiroshima 2026 sponsors and conference attendees to learn more about the organizations supporting the event. While the session offers a great opportunity for students, early-career professionals, and job seekers to explore career opportunities, it is open to all attendees interested in learning about the participating companies and their work. As the session takes place during the lunch break, attendees are welcome to enjoy their lunch while listening to the presentations.",
+    "description": "Each sponsor will introduce their organization and answer questions from the audience. Presentation times are allocated according to each sponsor's FOSS4G Hiroshima 2026 sponsorship level. Following the presentations, attendees and sponsors will have time for informal networking and conversation.",
+    "venue_title": "Venue",
+    "venue": "Himawari",
+    "what_to_expect_title": "What to Expect",
+    "what_to_expect": [
+      { "icon": "🏢", "description": "Company introductions from FOSS4G Hiroshima 2026 sponsors, including their work, technologies, and career opportunities." },
+      { "icon": "⏱️", "description": "Presentation times allocated according to each sponsor's FOSS4G Hiroshima 2026 sponsorship level." },
+      { "icon": "❓", "description": "A Q&A session following each sponsor presentation." },
+      { "icon": "🤝", "description": "An opportunity to meet sponsor representatives and network with them after the presentations." },
+      { "icon": "👥", "description": "Open to all conference attendees, whether you are exploring career opportunities or simply interested in learning more about the organizations behind FOSS4G Hiroshima 2026." }
+    ]
   },
   "b2b_session": {
     "title": "B2B Session",

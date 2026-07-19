@@ -45,6 +45,7 @@ export const navigationConfig = {
       poster_session: { enabled: true },
       student_poster: { enabled: true },
       b2b_session: { enabled: true },
+      hiring_session: { enabled: true },
       ice_breaker: { enabled: true },
       gala_dinner: { enabled: true },
       excursion: { enabled: true },

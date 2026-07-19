@@ -71,6 +71,26 @@
     <p class="text-gray-700 mb-4">{$t('community_sprint.intro')}</p>
   </section>
 
+  <!-- B2B Session -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/program-schedule/b2b-session" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.program_sub.b2b_session')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('b2b_session.intro')}</p>
+  </section>
+
+  <!-- Hiring Session -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/program-schedule/hiring-session" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.program_sub.hiring_session')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('hiring_session.tagline')}</p>
+  </section>
+
   <!-- Ice Breaker -->
   <section class="mb-12">
     <h2 class="text-2xl font-semibold mb-4">

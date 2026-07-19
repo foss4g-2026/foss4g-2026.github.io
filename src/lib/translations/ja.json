@@ -42,6 +42,7 @@
       "student_poster": "高校生ポスター",
       "community_events": "コミュニティイベント",
       "b2b_session": "B2Bセッション",
+      "hiring_session": "Hiring Session",
       "ice_breaker": "アイスブレイカー",
       "gala_dinner": "ガラディナー",
       "excursion": "エクスカーション",
@@ -121,6 +122,11 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "b2b_hiring_jul19": {
+          "date": "2026年7月19日",
+          "title": "B2BセッションとHiring Sessionのページを公開しました",
+          "description": "B2BセッションとHiring Sessionの情報をプログラム&スケジュールに追加しました。"
+        },
         "gsi_partner_jul16": {
           "date": "2026年7月16日",
           "title": "後援団体に国土地理院のロゴを掲載しました",
@@ -702,6 +708,23 @@
       "event_timing": "日程",
       "website": "Webサイト"
     }
+  },
+  "hiring_session": {
+    "title": "Hiring Session",
+    "date": "9月2日（水）| 12:00 – 13:00（ランチタイム）",
+    "tagline": "FOSS4G Hiroshima 2026のスポンサー企業と交流し、オープンソース地理空間分野でのキャリアや企業の取り組みについて知ることができるセッションです。",
+    "intro": "Hiring Sessionでは、FOSS4G Hiroshima 2026を支えるスポンサー企業が、それぞれの事業内容や取り組みについて紹介します。学生や若手技術者、就職を検討している方にとってはキャリアの可能性を広げる絶好の機会ですが、企業やプロジェクトに興味のある方であれば、どなたでもご参加いただけます。ランチタイムに開催されるため、お食事を楽しみながら気軽にご参加いただけます。",
+    "description": "各スポンサーによる会社紹介の後には、参加者との質疑応答を行います。発表時間はFOSS4G Hiroshima 2026のスポンサーランクに応じて設定されています。また、すべての発表終了後には、スポンサー企業と参加者が自由に交流できるネットワーキングの時間を設けています。",
+    "venue_title": "会場",
+    "venue": "Himawari",
+    "what_to_expect_title": "当日の内容",
+    "what_to_expect": [
+      { "icon": "🏢", "description": "スポンサー企業による会社紹介（事業内容、技術、採用情報など）" },
+      { "icon": "⏱️", "description": "スポンサーランクに応じた発表時間" },
+      { "icon": "❓", "description": "各発表後の質疑応答" },
+      { "icon": "🤝", "description": "発表終了後のスポンサー企業とのネットワーキング" },
+      { "icon": "👥", "description": "就職を検討している方はもちろん、スポンサー企業やその取り組みに興味のあるすべての参加者がご参加いただけます。" }
+    ]
   },
   "b2b_session": {
     "title": "B2Bセッション",
