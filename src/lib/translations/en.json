@@ -22,6 +22,11 @@
     "news": {
       "title": "News",
       "items": {
+        "b2b_hiring_jul19": {
+          "date": "July 19, 2026",
+          "title": "B2B Session and Hiring Session Pages Now Available",
+          "description": "Information on the B2B Session and Hiring Session has been added to the Program & Schedule section."
+        },
         "gsi_partner_jul16": {
           "date": "July 16, 2026",
           "title": "New Partner Organization Logo Added",
@@ -226,6 +231,8 @@
       "poster_session": "Poster Session",
       "student_poster": "High School Student Posters",
       "community_events": "Community Events",
+      "b2b_session": "B2B Session",
+      "hiring_session": "Hiring Session",
       "ice_breaker": "Ice Breaker",
       "gala_dinner": "Gala Dinner",
       "excursion": "Excursion",
@@ -460,7 +467,72 @@
     "host_description": "If you would like to host a community sprint session, please add your event to <a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>.",
     "registration_title": "How to register",
     "registration_description": "The community sprint is free of charge, but we kindly ask participants to add their name to the <a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>.",
-    "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!"
+    "registration_note": "Filling out the Wiki is recommended but not required. Drop-in participation is also very welcome!",
+    "nearby_restaurants_title": "Nearby Restaurants",
+    "nearby_restaurants_note": "The venue does not allow food inside. Please use nearby restaurants for meals.",
+    "restaurants_table": {
+      "name": "Name",
+      "cuisine": "Cuisine",
+      "hours": "Opening Hours",
+      "walk": "Walk",
+      "notes": "Notes"
+    },
+    "restaurants": [
+      {
+        "name": "Mikazuki",
+        "cuisine": "Hiroshima-style Okonomiyaki",
+        "hours": "11:30 AM – 2:00 PM, 5:30 PM – 10:00 PM",
+        "walk": "1 min walk",
+        "notes": "",
+        "lng": 132.44843,
+        "lat": 34.3876802
+      },
+      {
+        "name": "Ichi Okonomiyaki",
+        "cuisine": "Hiroshima-style Okonomiyaki",
+        "hours": "11:00 AM – 10:00 PM",
+        "walk": "2 min walk",
+        "notes": "",
+        "lng": 132.4493771,
+        "lat": 34.387894
+      },
+      {
+        "name": "Yotte-ne Shimakara Kitchen Cafe",
+        "cuisine": "Japanese Set Meals",
+        "hours": "11:30 AM – 3:00 PM, 5:00 PM – 8:30 PM",
+        "walk": "6 min walk",
+        "notes": "Vegan options available",
+        "lng": 132.4493117,
+        "lat": 34.3904861
+      },
+      {
+        "name": "Okkundou Mazemen",
+        "cuisine": "Soupless Tantan Noodles",
+        "hours": "11:00 AM – 9:30 PM",
+        "walk": "11 min walk",
+        "notes": "Vegetarian options available",
+        "lng": 132.4486112,
+        "lat": 34.3879525
+      },
+      {
+        "name": "McDonald's Funairi",
+        "cuisine": "Fast Food",
+        "hours": "Open 24 hours",
+        "walk": "8 min walk",
+        "notes": "",
+        "lng": 132.4459008,
+        "lat": 34.386008
+      },
+      {
+        "name": "7-Eleven Hiroshima Kakomachi",
+        "cuisine": "Convenience Store",
+        "hours": "Open 24 hours",
+        "walk": "1 min walk",
+        "notes": "",
+        "lng": 132.4466916,
+        "lat": 34.3875857
+      }
+    ]
   },
   "community_events": {
     "title": "Community Events",
@@ -636,6 +708,49 @@
       "event_timing": "Event Timing",
       "website": "Website"
     }
+  },
+  "hiring_session": {
+    "title": "Hiring Session",
+    "date": "Wednesday, September 2, 2026 | 12:00 – 13:00 (Lunch Break)",
+    "tagline": "Connect with sponsors of FOSS4G Hiroshima 2026 and explore career opportunities in the open source geospatial community.",
+    "intro": "The Hiring Session brings together FOSS4G Hiroshima 2026 sponsors and conference attendees to learn more about the organizations supporting the event. While the session offers a great opportunity for students, early-career professionals, and job seekers to explore career opportunities, it is open to all attendees interested in learning about the participating companies and their work. As the session takes place during the lunch break, attendees are welcome to enjoy their lunch while listening to the presentations.",
+    "description": "Each sponsor will introduce their organization and answer questions from the audience. Presentation times are allocated according to each sponsor's FOSS4G Hiroshima 2026 sponsorship level. Following the presentations, attendees and sponsors will have time for informal networking and conversation.",
+    "venue_title": "Venue",
+    "venue": "Himawari",
+    "what_to_expect_title": "What to Expect",
+    "what_to_expect": [
+      { "icon": "🏢", "description": "Company introductions from FOSS4G Hiroshima 2026 sponsors, including their work, technologies, and career opportunities." },
+      { "icon": "⏱️", "description": "Presentation times allocated according to each sponsor's FOSS4G Hiroshima 2026 sponsorship level." },
+      { "icon": "❓", "description": "A Q&A session following each sponsor presentation." },
+      { "icon": "🤝", "description": "An opportunity to meet sponsor representatives and network with them after the presentations." },
+      { "icon": "👥", "description": "Open to all conference attendees, whether you are exploring career opportunities or simply interested in learning more about the organizations behind FOSS4G Hiroshima 2026." }
+    ]
+  },
+  "b2b_session": {
+    "title": "B2B Session",
+    "date": "Tuesday, September 1, 2026 | 12:00 – 15:30",
+    "intro": "The B2B session is for companies, organizations, and individuals who are using FOSS4G technology in their business, or who want to newly challenge themselves to adopt it.",
+    "description": "The history of Open Source Software, including FOSS4G, has grown significantly not only through individual and academic contributions but also through adoption and support from many businesses. The spread of FOSS4G in business has played, and will continue to play, a major role in contributing to a sustainable community and society. We encourage you to take this opportunity to share your case studies of solving challenges with FOSS4G or new ideas, and to use it as a chance to find new business partners.",
+    "lunch_description": "This B2B session will have lunchtime as a buffet, featuring presentations from sponsor companies. After the lunch buffet, there will be a café time where you can enjoy famous Hiroshima sweets selected by the LOC (Local Organizing Committee). Please use this time to share new ideas over coffee or Japanese tea.",
+    "register_url": "https://ti.to/osgeo-jp/foss4g-2026/with/business-to-business",
+    "register_button": "Register for B2B Session",
+    "overview_title": "Event Overview",
+    "venue_title": "Venue",
+    "venue": "Himawari",
+    "ticket_title": "Ticket",
+    "ticket_price": "3,000 JPY",
+    "ticket_note": "Can be purchased together with the main conference ticket, or separately afterward.",
+    "schedule_title": "Schedule",
+    "schedule": [
+      { "time": "12:00 – 13:00", "content": "Lunch Buffet" },
+      { "time": "12:20 – 13:00", "content": "Presentations from Sponsor Companies" },
+      { "time": "13:00 – 15:30", "content": "Café Time" }
+    ],
+    "content_title": "Event Content",
+    "content_items": [
+      { "icon": "🎤", "title": "Presentations", "description": "Presentations from sponsor companies during the lunch buffet (12:20 – 13:00)." },
+      { "icon": "🤝", "title": "Networking", "description": "Connect with businesses and practitioners using FOSS4G technology over coffee and Hiroshima sweets." }
+    ]
   },
   "ice_breaker": {
     "title": "Ice Breaker",

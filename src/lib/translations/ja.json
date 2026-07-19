@@ -41,6 +41,8 @@
       "poster_session": "ポスターセッション",
       "student_poster": "高校生ポスター",
       "community_events": "コミュニティイベント",
+      "b2b_session": "B2Bセッション",
+      "hiring_session": "Hiring Session",
       "ice_breaker": "アイスブレイカー",
       "gala_dinner": "ガラディナー",
       "excursion": "エクスカーション",
@@ -120,6 +122,11 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "b2b_hiring_jul19": {
+          "date": "2026年7月19日",
+          "title": "B2BセッションとHiring Sessionのページを公開しました",
+          "description": "B2BセッションとHiring Sessionの情報をプログラム&スケジュールに追加しました。"
+        },
         "gsi_partner_jul16": {
           "date": "2026年7月16日",
           "title": "後援団体に国土地理院のロゴを掲載しました",
@@ -460,7 +467,72 @@
     "host_description": "コミュニティスプリントを開催するコミュニティは<a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>にどうかご記載ください。",
     "registration_title": "参加登録",
     "registration_description": "コミュニティスプリントは無料ですが、参加を希望される方はできれば<a href=\"https://wiki.osgeo.org/wiki/FOSS4G2026/Community_sprint\" target=\"_blank\" rel=\"noopener noreferrer\">OSGeo Wiki</a>に参加希望の旨をご記載ください。",
-    "registration_note": "Wikiの記入は推奨であり、必須ではありません。飛び込みの参加も大歓迎です！"
+    "registration_note": "Wikiの記入は推奨であり、必須ではありません。飛び込みの参加も大歓迎です！",
+    "nearby_restaurants_title": "周辺飲食店情報",
+    "nearby_restaurants_note": "会場内では飲み物可・食べ物不可です。お食事は近隣の飲食店をご利用ください。",
+    "restaurants_table": {
+      "name": "名前",
+      "cuisine": "ジャンル",
+      "hours": "営業時間",
+      "walk": "徒歩",
+      "notes": "備考"
+    },
+    "restaurants": [
+      {
+        "name": "ミカヅキ",
+        "cuisine": "お好み焼き（広島風）",
+        "hours": "11:30〜14:00、17:30〜22:00",
+        "walk": "徒歩1分",
+        "notes": "",
+        "lng": 132.44843,
+        "lat": 34.3876802
+      },
+      {
+        "name": "お好み焼き・鉄板焼き 壱",
+        "cuisine": "お好み焼き（広島風）",
+        "hours": "11:00〜22:00",
+        "walk": "徒歩2分",
+        "notes": "",
+        "lng": 132.4493771,
+        "lat": 34.387894
+      },
+      {
+        "name": "ナチュラルキッチン シマカラ食堂",
+        "cuisine": "定食",
+        "hours": "11:30〜15:00、17:00〜20:30",
+        "walk": "徒歩6分",
+        "notes": "ヴィーガンメニューあり",
+        "lng": 132.4493117,
+        "lat": 34.3904861
+      },
+      {
+        "name": "おっくん堂",
+        "cuisine": "汁なし担々麺",
+        "hours": "11:00〜21:30",
+        "walk": "徒歩11分",
+        "notes": "ベジタリアンメニューあり",
+        "lng": 132.4486112,
+        "lat": 34.3879525
+      },
+      {
+        "name": "マクドナルド 舟入店",
+        "cuisine": "ファストフード",
+        "hours": "24時間営業",
+        "walk": "徒歩8分",
+        "notes": "",
+        "lng": 132.4459008,
+        "lat": 34.386008
+      },
+      {
+        "name": "セブン-イレブン 広島加古町店",
+        "cuisine": "コンビニ",
+        "hours": "24時間営業",
+        "walk": "徒歩1分",
+        "notes": "",
+        "lng": 132.4466916,
+        "lat": 34.3875857
+      }
+    ]
   },
   "community_events": {
     "title": "コミュニティイベント",
@@ -636,6 +708,49 @@
       "event_timing": "日程",
       "website": "Webサイト"
     }
+  },
+  "hiring_session": {
+    "title": "Hiring Session",
+    "date": "9月2日（水）| 12:00 – 13:00（ランチタイム）",
+    "tagline": "FOSS4G Hiroshima 2026のスポンサー企業と交流し、オープンソース地理空間分野でのキャリアや企業の取り組みについて知ることができるセッションです。",
+    "intro": "Hiring Sessionでは、FOSS4G Hiroshima 2026を支えるスポンサー企業が、それぞれの事業内容や取り組みについて紹介します。学生や若手技術者、就職を検討している方にとってはキャリアの可能性を広げる絶好の機会ですが、企業やプロジェクトに興味のある方であれば、どなたでもご参加いただけます。ランチタイムに開催されるため、お食事を楽しみながら気軽にご参加いただけます。",
+    "description": "各スポンサーによる会社紹介の後には、参加者との質疑応答を行います。発表時間はFOSS4G Hiroshima 2026のスポンサーランクに応じて設定されています。また、すべての発表終了後には、スポンサー企業と参加者が自由に交流できるネットワーキングの時間を設けています。",
+    "venue_title": "会場",
+    "venue": "Himawari",
+    "what_to_expect_title": "当日の内容",
+    "what_to_expect": [
+      { "icon": "🏢", "description": "スポンサー企業による会社紹介（事業内容、技術、採用情報など）" },
+      { "icon": "⏱️", "description": "スポンサーランクに応じた発表時間" },
+      { "icon": "❓", "description": "各発表後の質疑応答" },
+      { "icon": "🤝", "description": "発表終了後のスポンサー企業とのネットワーキング" },
+      { "icon": "👥", "description": "就職を検討している方はもちろん、スポンサー企業やその取り組みに興味のあるすべての参加者がご参加いただけます。" }
+    ]
+  },
+  "b2b_session": {
+    "title": "B2Bセッション",
+    "date": "2026年9月1日（火）| 12:00 – 15:30",
+    "intro": "B2BセッションはFOSS4G技術をビジネスに活用している、または新しく活用に挑戦したい企業、組織、個人のためのセッションです。",
+    "description": "FOSS4Gを含むOpen Source Softwareの歴史は個人やアカデミックだけでなく多くの企業に導入され、そのサポートによって大きく成長してきました。ビジネスにおけるFOSS4Gの普及が、これまでも、そしてこれからも持続可能なコミュニティと社会への貢献の大きな役割を担っています。ぜひこの機会にFOSS4Gによる課題解決案や新しいアイディアをシェアし、新たなビジネスパートナーを見つける機会としてご活用ください。",
+    "lunch_description": "今回のB2Bセッションはランチをビュッフェで用意しています。この間、スポンサー各社からのプレゼンがあります。ランチタイム後はLOCが選んだ広島銘菓をお楽しみいただけるカフェタイムとなります。コーヒーや日本茶と共に新しいアイディアを共有する時間としてご利用ください。",
+    "register_url": "https://ti.to/osgeo-jp/foss4g-2026/with/business-to-business",
+    "register_button": "B2Bセッションに登録",
+    "overview_title": "イベント概要",
+    "venue_title": "会場",
+    "venue": "Himawari",
+    "ticket_title": "チケット",
+    "ticket_price": "3,000円",
+    "ticket_note": "本会議チケット購入時、または購入後に別途お申し込みいただけます。",
+    "schedule_title": "スケジュール",
+    "schedule": [
+      { "time": "12:00 – 13:00", "content": "ランチビュッフェ" },
+      { "time": "12:20 – 13:00", "content": "スポンサー各社によるプレゼン" },
+      { "time": "13:00 – 15:30", "content": "カフェタイム" }
+    ],
+    "content_title": "イベント内容",
+    "content_items": [
+      { "icon": "🎤", "title": "プレゼン", "description": "ランチビュッフェ中（12:20〜13:00）にスポンサー各社よりプレゼンがあります。" },
+      { "icon": "🤝", "title": "ネットワーキング", "description": "コーヒーや日本茶、広島銘菓を楽しみながら、FOSS4Gを活用するビジネス関係者との交流を深めましょう。" }
+    ]
   },
   "ice_breaker": {
     "title": "アイスブレイカー",

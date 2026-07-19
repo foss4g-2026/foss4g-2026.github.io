@@ -82,6 +82,16 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.b2b_hiring_jul19.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.b2b_hiring_jul19.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              {$t('teaser.news.items.b2b_hiring_jul19.description')}
+            </p>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.gsi_partner_jul16.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.gsi_partner_jul16.title')}
@@ -90,7 +100,7 @@
               {$t('teaser.news.items.gsi_partner_jul16.description')}
             </p>
           </div>
-          <!-- News Item 2 -->
+          <!-- News Item 3 -->
           <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.goods_jul16.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
@@ -99,18 +109,6 @@
             <p class="text-sm text-gray-600">
               <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.goods_jul16.link')}" class="text-blue-600 hover:underline">
                 {$t('teaser.news.items.goods_jul16.description')}
-              </a>
-            </p>
-          </div>
-          <!-- News Item 3 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.keynote_jul16.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.keynote_jul16.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.keynote_jul16.link')}" class="text-blue-600 hover:underline">
-                {$t('teaser.news.items.keynote_jul16.description')}
               </a>
             </p>
           </div>
