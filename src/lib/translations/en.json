@@ -1866,6 +1866,14 @@
       "loc_members": {
         "title": "Local Organizing Committee (LOC) Members",
         "description": "The Local Organizing Committee (LOC) members are responsible for the on-the-ground organization of FOSS4G Hiroshima 2026, including venue arrangements, local logistics, and community engagement."
+      },
+      "scientific_committee": {
+        "title": "Scientific Committee",
+        "description": "The Scientific Committee oversees the technical content of the conference, including paper submissions, workshops, and presentations.",
+        "co-chair": "The FOSS4G 2026 Academic Track Scientific Committee Co-chairs",
+        "members": "Scientific Committee Members",
+        "name": "Name",
+        "affiliation": "Affiliation"
       }
     },
     "concept": {
