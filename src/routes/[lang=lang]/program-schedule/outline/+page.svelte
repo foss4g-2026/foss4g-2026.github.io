@@ -10,9 +10,7 @@
 
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.program_sub.outline')}</h1>
-  
-  <ComingSoon message={$t('program_outline.coming_soon_message')} class="mb-8" />
-  
+
   <div class="prose max-w-none">
     <h2 class="text-2xl font-semibold mb-4">{$t('program_outline.schedule_glance.title')}</h2>
     <div class="mb-8">
