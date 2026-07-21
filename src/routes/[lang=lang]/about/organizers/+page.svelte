@@ -4,6 +4,7 @@
   import MemberCard from '$components/MemberCard.svelte'
   import { steeringCommitteeMembers } from '$lib/data/steeringCommittee'
   import { locMembers } from '$lib/data/locMember'
+  import { scientificCommitteeCochairs, scientificCommitteeMembers } from '$lib/data/scientificCommittee'
 </script>
 
 <svelte:head>
@@ -69,11 +70,48 @@
     </div>
   </section>
 
-  <!--
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4">{$t('about.organizer.organizing_committee.title')}</h2>
-    <p class="text-gray-700 mb-4">{$t('about.organizer.organizing_committee.description_1')}</p>
-    <p class="text-gray-700">{$t('about.organizer.organizing_committee.description_2')}</p>
+    <h2 class="text-2xl font-semibold mb-2">{$t('about.organizer.scientific_committee.title')}</h2>
+    <p class="text-gray-600 mb-6">{$t('about.organizer.scientific_committee.description')}</p>
+    <div>
+      <h3 class="text-lg font-semibold mb-2">{$t('about.organizer.scientific_committee.co-chair')}</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 mb-6">
+        <table class="table table-zebra [&_:where(th,td)]:border [&_:where(th,td)]:border-base-300">
+          <thead>
+            <tr class="bg-base-200">
+              <th>{$t('about.organizer.scientific_committee.name')}</th>
+              <th>{$t('about.organizer.scientific_committee.affiliation')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {#each scientificCommitteeCochairs as coChair}
+              <tr>
+                <td>{coChair.name}</td>
+                <td>{coChair.affiliation}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      </div>
+      <h3 class="text-lg font-semibold mb-2">{$t('about.organizer.scientific_committee.members')}</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 mb-6">
+        <table class="table table-zebra [&_:where(th,td)]:border [&_:where(th,td)]:border-base-300">
+          <thead>
+            <tr class="bg-base-200">
+              <th>{$t('about.organizer.scientific_committee.name')}</th>
+              <th>{$t('about.organizer.scientific_committee.affiliation')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {#each scientificCommitteeMembers as member}
+              <tr>
+                <td>{member.name}</td>
+                <td>{member.affiliation}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      </div>
+    </div>
   </section>
-  -->
 </div>

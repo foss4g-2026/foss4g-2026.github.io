@@ -1742,6 +1742,14 @@
       "loc_members": {
         "title": "現地実行委員会 (LOC) メンバー",
         "description": "現地実行委員会（LOC）のメンバーは、会場の手配・現地のロジスティクス・コミュニティとの連携など、FOSS4G Hiroshima 2026 の現地における運営を担当します。"
+      },
+      "scientific_committee": {
+        "title": "学術委員会",
+        "description": "学術委員会は、論文投稿、ワークショップ、発表など、会議の技術的内容を監督します。",
+        "co-chair": "The FOSS4G 2026 Academic Track Scientific Committee Co-chairs",
+        "members": "Scientific Committee Members",
+        "name": "名前",
+        "affiliation": "所属"
       }
     },
     "concept": {
