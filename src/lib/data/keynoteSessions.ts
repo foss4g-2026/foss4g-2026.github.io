@@ -28,8 +28,15 @@ export const keynoteSessionConfigs: KeynoteSessionConfig[] = [
     roleOverrides: { '77LQA9': 'coordinator' }, // Toru Mori
   },
   {
+    id: 'day2-ypvvzw',
+    dayLabel: 'Day 2',
+    pretalxCode: 'YPVVZW',
+    date: 'September 2, 2026, 9:30-11:00',
+    room: 'Phoenix Hall',
+  },
+  {
     id: 'day3-opening-s9rdgb',
-    dayLabel: 'Day 3 (Opening)',
+    dayLabel: 'Day 3',
     pretalxCode: 'S9RDGB',
     date: 'September 3, 2026, 09:30–11:00',
     room: 'Phoenix Hall',
@@ -39,9 +46,16 @@ export const keynoteSessionConfigs: KeynoteSessionConfig[] = [
   },
   {
     id: 'day3-closing-vrkjj9',
-    dayLabel: 'Day 3 (Closing Keynote)',
+    dayLabel: 'Day 3',
     pretalxCode: 'VRKJJ9',
     date: 'September 3, 2026, 16:00–16:30',
+    room: 'Phoenix Hall',
+  },
+  {
+    id: 'day3-closing-9x7g6y',
+    dayLabel: 'Day 3',
+    pretalxCode: 'HDRU7L',
+    date: 'September 3, 2026, 16:30–18:00',
     room: 'Phoenix Hall',
   },
 ]
