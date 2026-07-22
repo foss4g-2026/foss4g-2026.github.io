@@ -122,6 +122,11 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "pasco_sponsor_jul23": {
+          "date": "2026年7月23日",
+          "title": "新規スポンサーロゴを掲載しました",
+          "description": "PASCOがBronzeスポンサーとして新たに加わりました！"
+        },
         "b2b_hiring_jul19": {
           "date": "2026年7月19日",
           "title": "B2BセッションとHiring Sessionのページを公開しました",
@@ -1660,6 +1665,13 @@
         "url": "https://hiroshima.j-hoppers.com/ja/",
         "lng": 132.4472315,
         "lat": 34.3930168
+      },
+      {
+        "name": "Guest House Mitaki",
+        "category": "pension",
+        "url": "http://www.guesthouse-mitaki.com",
+        "lng": 132.4406,
+        "lat": 34.4191
       }
     ]
   },

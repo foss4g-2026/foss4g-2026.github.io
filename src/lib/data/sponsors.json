@@ -4,13 +4,13 @@
       "name": "Eukarya",
       "website": "https://eukarya.io/",
       "logo": "/images/sponsors/Eukarya/eukarya.svg",
-      "description": null
+      "description": "Re:Earth is an open-source geospatial data platform for government and public sector, released under an open license and built in the open from day one. Re:Earth comprises four services: Re:Earth CMS for data management, Re:Earth Flow for data processing, Re:Earth Visualizer for data visualization, and Re:Earth Dashboard as the platform foundation. Together they cover the full data lifecycle — from collection through processing, visualization, and delivery — within a single open-source stack. Re:Earth supports standard open formats including GeoJSON, MVT, and 3D Tiles, and is cloud-native, running entirely in the browser with no installation required. Developed and maintained by Eukarya Inc., a Japan-based team, together with contributors from the community."
     },
     {
       "name": "Geo Technologies",
       "website": "https://geot.jp/",
       "logo": "/images/sponsors/GeoTechnologies/08_GT_vi_horizontal_transparent_large.png",
-      "description": null
+      "description": "GeoTechnologies, Inc., founded in 1994, has consistently provided digital maps. The company has a comprehensive portfolio of geospatial data including its proprietary \"MapFan\" brand, map data for automotive navigation and enterprise clients, and AD/ADAS maps essential for advanced autonomous driving. Additionally, GeoTechnologies leverages \"dynamic data\" obtained through apps such as TORIMA to analyze human movement and behavior patterns, aiming to realize a more comfortable and sustainable society. Geolonia Inc., a location information startup established in 2019, has been a part of the GeoTechnologies Group since 2024. As a Geospatial Information Authority of Japan partner and member of the United Nations Open GIS Initiative, Geolonia provides web mapping services and location platforms."
     }
   ],
   "platinum": [
@@ -18,13 +18,13 @@
       "name": "MIERUNE Inc.",
       "website": "https://www.mierune.co.jp/",
       "logo": "/images/sponsors/MIERUNE/MIERUNE.png",
-      "description": null
+      "description": "MIERUNE was founded ten years ago by three active members of the FOSS4G community. Since then, we have delivered hundreds of GIS projects across Japan's public and private sectors. In April 2026, we launched Kumoy, a cloud platform that helps organizations unlock the full potential of QGIS by making it easy to share QGIS maps on the web. Since our founding, we have actively supported the OSGeo Japan chapter and QGIS. We have also sponsored MapLibre development for five consecutive years, including recent contributions to the Matterhorn project."
     },
     {
       "name": "Cesium",
       "website": "https://cesium.com/",
       "logo": "/images/sponsors/Cesium/15_Cesium_dark_color.png",
-      "description": null
+      "description": "Cesium is a leading 3D geospatial platform company, providing open technologies for creating, sharing, and visualizing 3D data at global scale. Through technologies such as CesiumJS, Cesium ion, and the open standard 3D Tiles, Cesium enables developers and organizations to build digital twins, geospatial applications, and immersive experiences across industries including infrastructure, AEC, climate, environmental monitoring, urban planning, and space. Cesium is committed to open standards and an open ecosystem, helping to connect data, tools, and communities to advance the future of geospatial technology."
     }
   ],
   "gold": [
@@ -32,13 +32,13 @@
       "name": "GeoCat",
       "website": "https://www.geocat.net/",
       "logo": "/images/sponsors/GeoCat/14_GeoCat colour - Jeroen Ticheler.svg",
-      "description": null
+      "description": "GeoCat has been delivering Spatial Data Infrastructure solutions worldwide based on GeoCat Find and GeoCat Map software. We provide ready-to-go products and consultancy services to a wide range of international and national agencies, local states and provinces, as well as European-funded projects."
     },
     {
       "name": "LocationMind Inc.",
       "website": "https://locationmind.com/",
       "logo": "/images/sponsors/LocationMind/20_locationmind_logo-color-horizontal.png",
-      "description": null
+      "description": "Founded in 2019 by researchers, we are a geospatial AI company dedicated to solving social challenges. Processing location big data across 150 countries from smartphones, vehicles, and vessels, we provide global mobility analysis, forecasting, and consulting. We deliver large-scale, advanced analytics to enterprises and governments, tackling modern crises like disasters, urban planning, traffic, and carbon offsets. By structuring global data and offering advanced analysis models, we aim to make real-world analysis easily accessible to anyone, anywhere, at any time."
     }
   ],
   "silver": [
@@ -46,13 +46,13 @@
       "name": "Gaia3D Inc.",
       "website": "https://www.gaia3d.com/",
       "logo": "/images/sponsors/Gaia3D/gaia3d.avif",
-      "description": null
+      "description": "Gaia3D aims to solve many of the problems we face and contribute to sustainable development through a deep understanding of space and Earth."
     },
     {
       "name": "Promet i prostor d.o.o.",
       "website": "https://prometiprostor.hr/en/",
       "logo": "/images/sponsors/Promet_i_prostor/Promet_i_prostor.png",
-      "description": null
+      "description": "Promet i prostor d.o.o. offers a holistic suite of tools designed to build smarter, more resilient urban environments through advanced Digital Twin technology. By leveraging high-resolution 3D modeling and interactive panoramic views, we provide decision-makers with precise, real-time data visualization. Our impact focuses on mobility and climate by using space simulations to optimize traffic flow, assess solar potential, and enhance green spaces — all while prioritizing safer infrastructure for pedestrians and cyclists. Our AI-ready platforms enable predictive maintenance for proactive management of roads and city assets, while digital ecosystems like signage registries streamline the complexities of modern city management."
     },
     {
       "name": "QFieldCloud GmbH",
@@ -64,7 +64,7 @@
       "name": "EarthBrain Inc.",
       "website": "https://www.earthbrain.com/",
       "logo": "/images/sponsors/EarthBrain/21_Earthbrain_eb_logo.png",
-      "description": null
+      "description": "Our vision is to transform the construction production process by optimizing it through digital technology, dramatically improving productivity, safety, and environmental adaptability. Our mission is to drive a global revolution in civil construction by leveraging advanced digital technologies to enhance productivity, safety, and environmental performance at construction sites."
     }
   ],
   "bronze": [
@@ -78,43 +78,43 @@
       "name": "Nayuta, Inc.",
       "website": "https://www.nayuta-inc.co.jp/",
       "logo": "/images/sponsors/Nayuta/Nayuta.png",
-      "description": null
+      "description": "Closing the Digital Divide. From administrative procedures and membership registration to reservations and applications — now that digital channels have become the primary point of access, a society where those who cannot use them are at a disadvantage is simply unacceptable. We design and implement systems that ensure everyone can navigate them without getting lost, taking into account everything from how information is presented and user flows to UI and accessibility."
     },
     {
       "name": "Auspatious",
       "website": "https://auspatious.com/",
       "logo": "/images/sponsors/Auspatious/10_logo_Auspatious_2.png",
-      "description": null
+      "description": "Auspatious designs and delivers cloud-native geospatial solutions that turn complex data into useful, usable products."
     },
     {
       "name": "Applied Technology Co., Ltd.",
       "website": "https://www.apptec.co.jp/",
       "logo": "/images/sponsors/AppliedTechnology/05_応用技術_FOSS4G_MachiSpaceLogo_2026.png",
-      "description": null
+      "description": "Applied Technology Co., Ltd. is an innovation company dedicated to bringing well-being to all through future technologies and transforming challenges into value. Founded 42 years ago, we have grown into a trusted enterprise with 270 employees and annual sales of approximately 46.6 million USD. We drive innovation in two core domains: Solution Service Business, supporting operational efficiency and business expansion for the manufacturing and construction industries; and Engineering Service Business, addressing social issues across environment, disaster prevention/mitigation, CIM/construction ICT, and maintenance management using specialized simulation and GIS technologies."
     },
     {
       "name": "ArkEdge Space Inc.",
       "website": "https://arkedgespace.com/",
       "logo": "/images/sponsors/ArkEdgeSpace/13_ArkEdgeSpace_BRANDLOGO2lineB-RGB-Ver001 - Kota Yuhara.png",
-      "description": null
+      "description": "ArkEdge Space is a Japanese space technology company offering end-to-end solutions for micro-satellite constellations — from planning and design to mass production and operations. Guided by its mission of \"empowering people with satellites for a prosperous future\", the company is advancing capabilities in Earth observation, maritime satellite communications (VDES), optical communications, and low-Earth orbit satellite positioning, as well as lunar activities and deep space exploration."
     },
     {
       "name": "GeoSolutions",
       "website": "https://www.geosolutionsgroup.com/",
       "logo": "/images/sponsors/Geosolutions/12_geosolutions_logo.png",
-      "description": null
+      "description": "Founded in 2006, GeoSolutions is a global open-source geospatial company with headquarters in Italy and an office in the United States. Our team includes core developers and steering committee members with commit rights on leading open-source geospatial projects, including GeoServer, MapStore, GeoNode, and GeoNetwork. We deliver mission-critical platforms to over 300 government agencies, international organizations, and private companies worldwide through Enterprise Support, Subscription, Professional Training, and custom development services. GeoSolutions is ISO 9001:2015 and ISO 27001:2022 certified, and an OGC Member since 2016."
     },
     {
       "name": "Japan Forest Technology Association",
       "website": "https://www.jafta.or.jp/contents/home/",
       "logo": "/images/sponsors/Jafta/16_Jafta.png",
-      "description": null
+      "description": "The Japan Forest Technology Association (JAFTA) is a professional organization that conducts forestry surveys and research and engages in technical development in Japan and around the world. Since 1921, JAFTA has accumulated expertise through field-based studies and developed forest technologies, survey methods, and analytical techniques utilizing geospatial technologies including remote sensing and GIS. JAFTA's international cooperation activities address sustainable forest management and community-based initiatives through capacity-building projects in developing countries in collaboration with organizations such as JICA."
     },
     {
       "name": "Development Seed",
       "website": "https://developmentseed.org/",
       "logo": "/images/sponsors/DevelopmentSeed/17_Development_Seed_hor--pos@2x.png",
-      "description": null
+      "description": "Development Seed builds open-source geospatial tools, cloud-native infrastructure, and AI-powered applications that help people use Earth data more effectively. We partner with science agencies, nonprofits, and mission-driven organizations to make complex data easier to access, analyze, and act on, supporting work in climate resilience, disaster response, environmental monitoring, and global development."
     },
     {
       "name": "iRIC",
@@ -126,7 +126,7 @@
       "name": "Orbitalnet",
       "website": "http://www.orbitalnet.jp/",
       "logo": "/images/sponsors/Orbitalnet/19_orbitalnet.svg",
-      "description": null
+      "description": "Orbital Net is an IT firm aiming to be a leading Geospatial Data Science Company, specializing in the geospatial and construction consulting sectors. The company provides innovative solutions by combining FOSS4G with advanced AI technologies such as deep learning, Transformers, and diffusion models. Its main services include high-precision satellite and aerial image analysis, automated mapping, 3D data generation, and open-source GIS development. By integrating spatial data with AI, Orbital Net optimizes business processes for surveyors and construction consultants while contributing to the development of resilient social infrastructure."
     },
     {
       "name": "Pacific Spatial Solutions",
@@ -144,6 +144,12 @@
       "name": "Overture Maps Foundation",
       "website": "https://overturemaps.org/",
       "logo": "/images/sponsors/OvertureMaps/24_OvertureMapsFoundationHorizontalColor_NoraAnwar.svg",
+      "description": "Overture Maps Foundation is a global collaborative effort of 50+ organizations building open, reliable, and interoperable map data infrastructure."
+    },
+    {
+      "name": "PASCO",
+      "website": "https://www.pasco.co.jp/",
+      "logo": "/images/sponsors/PASCO/25_PASCO_logo_color.svg",
       "description": null
     }
   ],
