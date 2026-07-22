@@ -754,34 +754,27 @@
     "venue": "Himawari",
     "ticket_title": "Ticket",
     "ticket_price": "3,000 JPY",
-    "ticket_note": "Can be purchased together with the main conference ticket, or separately afterward.",
-    "schedule_title": "Schedule",
+    "ticket_note": "B2B tickets can be purchased at the time of purchasing your main conference ticket or at any time afterward. Please note that B2B tickets are available only to main conference participants.",
+    "schedule_title": "Event Schedule",
     "schedule": [
       {
-        "time": "12:00 – 13:00",
-        "content": "Lunch Buffet"
+        "time": "12:15 – 12:20",
+        "content": "Opening"
       },
       {
         "time": "12:20 – 13:00",
-        "content": "Presentations from Sponsor Companies"
+        "content": "Presentations by Sponsors"
       },
       {
         "time": "13:00 – 15:30",
-        "content": "Café Time"
+        "content": "Networking"
       }
     ],
-    "content_title": "Event Content",
-    "content_items": [
-      {
-        "icon": "🎤",
-        "title": "Presentations",
-        "description": "Presentations from sponsor companies during the lunch buffet (12:20 – 13:00)."
-      },
-      {
-        "icon": "🤝",
-        "title": "Networking",
-        "description": "Connect with businesses and practitioners using FOSS4G technology over coffee and Hiroshima sweets."
-      }
+    "datetime_title": "Date and Time",
+    "datetime": "Tuesday, September 1, 2026, 12:00 – 15:30",
+    "datetime_details": [
+      "12:00 – 13:00: Lunch Buffet (Japanese cuisine along with Hiroshima sake and craft beer)",
+      "13:00 – 15:30: Coffee Break (Hiroshima's famous sweets and fruits, selected by the LOC, along with coffee and Japanese tea)"
     ]
   },
   "ice_breaker": {

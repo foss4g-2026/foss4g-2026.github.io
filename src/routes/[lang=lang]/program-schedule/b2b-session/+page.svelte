@@ -7,14 +7,8 @@
     content: string
   }
 
-  interface ContentItem {
-    icon: string
-    title: string
-    description: string
-  }
-
   $: schedule = $json('b2b_session.schedule') as unknown as ScheduleItem[]
-  $: contentItems = $json('b2b_session.content_items') as unknown as ContentItem[]
+  $: datetimeDetails = $json('b2b_session.datetime_details') as unknown as string[]
 </script>
 
 <svelte:head>
@@ -34,6 +28,17 @@
     <!-- Overview -->
     <h2 class="text-2xl font-semibold mb-4 mt-8">{$t('b2b_session.overview_title')}</h2>
     <ul class="list-none pl-0 mb-6 space-y-2">
+      <li class="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-2">
+        <span class="font-semibold min-w-24">{$t('b2b_session.datetime_title')}:</span>
+        <span>
+          {$t('b2b_session.datetime')}
+          <ul class="list-disc pl-5 text-sm text-gray-700 mt-1 space-y-1">
+            {#each datetimeDetails as detail}
+              <li>{detail}</li>
+            {/each}
+          </ul>
+        </span>
+      </li>
       <li class="flex items-start gap-2">
         <span class="font-semibold min-w-24">{$t('b2b_session.venue_title')}:</span>
         <span>{$t('b2b_session.venue')}</span>
@@ -61,20 +66,6 @@
         </tbody>
       </table>
     </div>
-
-    <!-- Content -->
-    <h2 class="text-2xl font-semibold mb-4 mt-8">{$t('b2b_session.content_title')}</h2>
-    <ul class="space-y-4 mb-6">
-      {#each contentItems as item}
-        <li class="flex items-start">
-          <span class="text-3xl mr-4">{item.icon}</span>
-          <div>
-            <strong class="text-lg">{item.title}</strong>
-            <p class="text-base text-gray-700">{item.description}</p>
-          </div>
-        </li>
-      {/each}
-    </ul>
   </div>
 
   <SubmitButton
