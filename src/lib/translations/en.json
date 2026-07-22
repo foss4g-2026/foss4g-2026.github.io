@@ -2090,15 +2090,20 @@
         "alternative_contact": {
           "title": "For companies unable to access the Google Form",
           "intro": "If you are unable to access the form or upload files (e.g., due to Google account restrictions or company security policies), we gladly accept sponsorship applications via email. Please send an email to our organizing committee sponsor[at]foss4g.org with the following required information:",
-          "diamond_closed_note": "Please Note: Applications for Diamond Sponsorship have reached capacity and are now closed. Thank you for your understanding.",
           "required_info_title": "<Required Information>",
           "required_info": [
             "Company or Organization Name",
             "Contact Person Name",
             "Email Address",
-            "Preferred Sponsorship Level (Platinum, Gold, Silver, Bronze, or Other) - Diamond sponsorship is closed."
+            "Preferred Sponsorship Level (Gold, Silver, Bronze, or Other) - Diamond and Platinum sponsorships are closed."
           ],
           "note": "Upon receiving your email, our team will contact you to confirm further details, such as your exhibition booth preferences and logo submission."
+        },
+        "status_notice": {
+          "title": "Important Notice: Sponsorship Status and Deadlines",
+          "closed": "Diamond and Platinum Sponsorships: Reached capacity and are now closed.",
+          "regular_deadline": "Regular Deadline: Friday, July 31 (Note: Gold Sponsorship will completely close on this date.)",
+          "extended": "Extended/Conditional Acceptance (Silver & Bronze only): Saturday, August 1 – Friday, August 21. *Disclaimer: For applications received during this extended period, please be aware that some benefits (such as logo placement on printed materials and specific exposure) may not be guaranteed/provided."
         }
       },
       "benefits": {
@@ -2119,7 +2124,7 @@
           "booth": "4×2m"
         },
         "platinum": {
-          "title": "Platinum",
+          "title": "Platinum (Closed)",
           "cost": "3,500,000",
           "tickets": "6",
           "cxo_tickets": "1",
