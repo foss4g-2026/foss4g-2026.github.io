@@ -220,14 +220,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* リンクのスタイル統一 */
-.prose a,
+.prose a:not(.btn),
 .container a:not(.btn) {
   color: #2563eb;
   text-decoration: underline;
   transition: color 0.2s ease;
 }
 
-.prose a:hover,
+.prose a:not(.btn):hover,
 .container a:not(.btn):hover {
   color: #1d4ed8;
 }

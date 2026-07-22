@@ -719,11 +719,26 @@
     "venue": "Himawari",
     "what_to_expect_title": "What to Expect",
     "what_to_expect": [
-      { "icon": "🏢", "description": "Company introductions from FOSS4G Hiroshima 2026 sponsors, including their work, technologies, and career opportunities." },
-      { "icon": "⏱️", "description": "Presentation times allocated according to each sponsor's FOSS4G Hiroshima 2026 sponsorship level." },
-      { "icon": "❓", "description": "A Q&A session following each sponsor presentation." },
-      { "icon": "🤝", "description": "An opportunity to meet sponsor representatives and network with them after the presentations." },
-      { "icon": "👥", "description": "Open to all conference attendees, whether you are exploring career opportunities or simply interested in learning more about the organizations behind FOSS4G Hiroshima 2026." }
+      {
+        "icon": "🏢",
+        "description": "Company introductions from FOSS4G Hiroshima 2026 sponsors, including their work, technologies, and career opportunities."
+      },
+      {
+        "icon": "⏱️",
+        "description": "Presentation times allocated according to each sponsor's FOSS4G Hiroshima 2026 sponsorship level."
+      },
+      {
+        "icon": "❓",
+        "description": "A Q&A session following each sponsor presentation."
+      },
+      {
+        "icon": "🤝",
+        "description": "An opportunity to meet sponsor representatives and network with them after the presentations."
+      },
+      {
+        "icon": "👥",
+        "description": "Open to all conference attendees, whether you are exploring career opportunities or simply interested in learning more about the organizations behind FOSS4G Hiroshima 2026."
+      }
     ]
   },
   "b2b_session": {
@@ -742,14 +757,31 @@
     "ticket_note": "Can be purchased together with the main conference ticket, or separately afterward.",
     "schedule_title": "Schedule",
     "schedule": [
-      { "time": "12:00 – 13:00", "content": "Lunch Buffet" },
-      { "time": "12:20 – 13:00", "content": "Presentations from Sponsor Companies" },
-      { "time": "13:00 – 15:30", "content": "Café Time" }
+      {
+        "time": "12:00 – 13:00",
+        "content": "Lunch Buffet"
+      },
+      {
+        "time": "12:20 – 13:00",
+        "content": "Presentations from Sponsor Companies"
+      },
+      {
+        "time": "13:00 – 15:30",
+        "content": "Café Time"
+      }
     ],
     "content_title": "Event Content",
     "content_items": [
-      { "icon": "🎤", "title": "Presentations", "description": "Presentations from sponsor companies during the lunch buffet (12:20 – 13:00)." },
-      { "icon": "🤝", "title": "Networking", "description": "Connect with businesses and practitioners using FOSS4G technology over coffee and Hiroshima sweets." }
+      {
+        "icon": "🎤",
+        "title": "Presentations",
+        "description": "Presentations from sponsor companies during the lunch buffet (12:20 – 13:00)."
+      },
+      {
+        "icon": "🤝",
+        "title": "Networking",
+        "description": "Connect with businesses and practitioners using FOSS4G technology over coffee and Hiroshima sweets."
+      }
     ]
   },
   "ice_breaker": {
@@ -767,7 +799,17 @@
       "Mingle in a relaxed, open-air setting and start building the connections that will enrich your conference experience.",
       "Join in a Bon Odori (traditional Japanese folk dance) in a place that stands as a living symbol of Hiroshima's peace and recovery. It promises to be a truly memorable evening where culture, community, and geospatial passion come together."
     ],
-    "closing": "Grab a drink, join the circle, and let your FOSS4G Hiroshima journey begin."
+    "closing": "Grab a drink, join the circle, and let your FOSS4G Hiroshima journey begin.",
+    "dj_request": {
+      "title": "DJ Live — Song Requests",
+      "intro": "As part of the Ice Breaker activities, we will be hosting a DJ live and are currently accepting song requests for this hour.",
+      "body": "Whether it is a song that captures the spirit of FOSS4G, a track associated with Hiroshima, or simply an upbeat song to get everyone excited, we look forward to your suggestions!",
+      "note": "(While we will make every effort to accommodate all requests, please understand that we may not be able to include every selection.)",
+      "form_prompt": "Please submit your requests via the Google Form below:",
+      "form_label": "Submit a song request",
+      "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSfpFZEv-Ye6LsUeYg3YxWqiRDrEdXpi8XKIPAh42wXicsamhg/viewform?usp=sharing&ouid=114636830858847167894",
+      "deadline": "This request will be closed on August 15."
+    }
   },
   "gala_dinner": {
     "title": "Gala Dinner",
@@ -916,7 +958,10 @@
         "toilet": {
           "title": "Accessible Toilets",
           "description": "Accessible toilets are available on:",
-          "locations": ["Basement Floor 2 (B2)", "Floor 3"],
+          "locations": [
+            "Basement Floor 2 (B2)",
+            "Floor 3"
+          ],
           "ostomate": "An ostomate-friendly toilet is available on Basement Floor 2."
         },
         "wheelchair": {
@@ -2045,15 +2090,20 @@
         "alternative_contact": {
           "title": "For companies unable to access the Google Form",
           "intro": "If you are unable to access the form or upload files (e.g., due to Google account restrictions or company security policies), we gladly accept sponsorship applications via email. Please send an email to our organizing committee sponsor[at]foss4g.org with the following required information:",
-          "diamond_closed_note": "Please Note: Applications for Diamond Sponsorship have reached capacity and are now closed. Thank you for your understanding.",
           "required_info_title": "<Required Information>",
           "required_info": [
             "Company or Organization Name",
             "Contact Person Name",
             "Email Address",
-            "Preferred Sponsorship Level (Platinum, Gold, Silver, Bronze, or Other) - Diamond sponsorship is closed."
+            "Preferred Sponsorship Level (Gold, Silver, Bronze, or Other) - Diamond and Platinum sponsorships are closed."
           ],
           "note": "Upon receiving your email, our team will contact you to confirm further details, such as your exhibition booth preferences and logo submission."
+        },
+        "status_notice": {
+          "title": "Important Notice: Sponsorship Status and Deadlines",
+          "closed": "Diamond and Platinum Sponsorships: Reached capacity and are now closed.",
+          "regular_deadline": "Regular Deadline: Friday, July 31 (Note: Gold Sponsorship will completely close on this date.)",
+          "extended": "Extended/Conditional Acceptance (Silver & Bronze only): Saturday, August 1 – Friday, August 21. *Disclaimer: For applications received during this extended period, please be aware that some benefits (such as logo placement on printed materials and specific exposure) may not be guaranteed/provided."
         }
       },
       "benefits": {
@@ -2074,7 +2124,7 @@
           "booth": "4×2m"
         },
         "platinum": {
-          "title": "Platinum",
+          "title": "Platinum (Closed)",
           "cost": "3,500,000",
           "tickets": "6",
           "cxo_tickets": "1",
