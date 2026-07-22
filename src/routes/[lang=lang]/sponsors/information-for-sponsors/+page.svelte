@@ -73,6 +73,17 @@
     <p class="text-lg mb-6 leading-relaxed text-gray-700">
       {$t('about.sponsors.call_for_sponsors.intro')}
     </p>
+
+    <!-- Sponsorship Status & Deadlines Notice -->
+    <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-8">
+      <h3 class="text-lg font-bold text-red-800 mb-3">{$t('about.sponsors.call_for_sponsors.status_notice.title')}</h3>
+      <ul class="list-disc list-inside space-y-2 text-red-900">
+        <li>{$t('about.sponsors.call_for_sponsors.status_notice.closed')}</li>
+        <li>{$t('about.sponsors.call_for_sponsors.status_notice.regular_deadline')}</li>
+        <li>{$t('about.sponsors.call_for_sponsors.status_notice.extended')}</li>
+      </ul>
+    </div>
+
     <div class="flex flex-col sm:flex-row gap-6 justify-center">
       <a 
         href="/documents/SponsorshipProspectus.pdf" 
@@ -110,9 +121,6 @@
       <h3 class="text-lg font-semibold text-yellow-900 mb-3">{$t('about.sponsors.call_for_sponsors.alternative_contact.title')}</h3>
       <p class="text-yellow-800 mb-4">
         {$t('about.sponsors.call_for_sponsors.alternative_contact.intro')}
-      </p>
-      <p class="text-red-700 font-semibold mb-4">
-        {$t('about.sponsors.call_for_sponsors.alternative_contact.diamond_closed_note')}
       </p>
       <p class="font-semibold text-yellow-900 mb-2">{$t('about.sponsors.call_for_sponsors.alternative_contact.required_info_title')}</p>
       <ul class="list-disc list-inside text-yellow-800 mb-4 space-y-1">
