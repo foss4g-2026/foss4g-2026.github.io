@@ -82,6 +82,16 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.pasco_sponsor_jul23.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.pasco_sponsor_jul23.title')}
+            </h3>
+            <p class="text-sm text-gray-600">
+              {$t('teaser.news.items.pasco_sponsor_jul23.description')}
+            </p>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.b2b_hiring_jul19.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.b2b_hiring_jul19.title')}
@@ -90,7 +100,7 @@
               {$t('teaser.news.items.b2b_hiring_jul19.description')}
             </p>
           </div>
-          <!-- News Item 2 -->
+          <!-- News Item 3 -->
           <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.gsi_partner_jul16.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
@@ -98,18 +108,6 @@
             </h3>
             <p class="text-sm text-gray-600">
               {$t('teaser.news.items.gsi_partner_jul16.description')}
-            </p>
-          </div>
-          <!-- News Item 3 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.goods_jul16.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.goods_jul16.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}{$t('teaser.news.items.goods_jul16.link')}" class="text-blue-600 hover:underline">
-                {$t('teaser.news.items.goods_jul16.description')}
-              </a>
             </p>
           </div>
         </div>
@@ -567,7 +565,16 @@
             <img
               src="/images/sponsors/OvertureMaps/24_OvertureMapsFoundationHorizontalColor_NoraAnwar.svg"
               alt="Overture Maps Foundation"
-              class="h-20 sm:h-24 w-auto object-contain hover:scale-105 transition-transform duration-200"
+              class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://www.pasco.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/PASCO/25_PASCO_logo_color.svg"
+              alt="PASCO"
+              class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
             />
           </a>
         </div>

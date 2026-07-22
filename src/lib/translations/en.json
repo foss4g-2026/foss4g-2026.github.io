@@ -22,6 +22,11 @@
     "news": {
       "title": "News",
       "items": {
+        "pasco_sponsor_jul23": {
+          "date": "July 23, 2026",
+          "title": "New Sponsor Logo Added",
+          "description": "We are pleased to welcome PASCO as our new Bronze Sponsor!"
+        },
         "b2b_hiring_jul19": {
           "date": "July 19, 2026",
           "title": "B2B Session and Hiring Session Pages Now Available",

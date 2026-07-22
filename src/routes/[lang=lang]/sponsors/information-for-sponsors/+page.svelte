@@ -403,6 +403,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white p-8 rounded-lg shadow-md w-full sm:w-[calc(50%-1rem)]">
+          <a href="https://www.pasco.co.jp/" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/PASCO/25_PASCO_logo_color.svg"
+              alt="PASCO"
+              class="h-24 sm:h-28 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
