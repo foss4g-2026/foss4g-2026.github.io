@@ -205,6 +205,12 @@
       "website": "https://www.mofa.go.jp/",
       "logo": "/images/sponsors/MOFA/06_mofa_logo.png",
       "description": null
+    },
+    {
+      "name": "Code for Japan",
+      "website": "https://code4japan.org/",
+      "logo": "/images/sponsors/Code4Japan/CfJlogo_ver2_landscape.png",
+      "description": null
     }
   ]
 }
