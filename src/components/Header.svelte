@@ -133,6 +133,7 @@
               <li><NavLink href={'/' + data.locale + '/program-schedule/presentations'} enabled={isNavEnabled('program', 'presentations')}>{$t('nav.program_sub.presentations')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/poster-session'} enabled={isNavEnabled('program', 'poster_session')}>{$t('nav.program_sub.poster_session')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/student-poster'} enabled={isNavEnabled('program', 'student_poster')}>{$t('nav.program_sub.student_poster')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/program-schedule/demonstration'} enabled={isNavEnabled('program', 'demonstration')}>{$t('nav.program_sub.demonstration')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/workshops'} enabled={isNavEnabled('program', 'workshops')}>{$t('nav.program_sub.workshops')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/community-sprint'} enabled={isNavEnabled('program', 'community_sprint')}>{$t('nav.program_sub.community_sprint')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/program-schedule/community-events'} enabled={isNavEnabled('program', 'community_events')}>{$t('nav.program_sub.community_events')}</NavLink></li>
@@ -243,6 +244,7 @@
             <li><NavLink href={'/' + data.locale + '/program-schedule/presentations'} enabled={isNavEnabled('program', 'presentations')}>{$t('nav.program_sub.presentations')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/poster-session'} enabled={isNavEnabled('program', 'poster_session')}>{$t('nav.program_sub.poster_session')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/student-poster'} enabled={isNavEnabled('program', 'student_poster')}>{$t('nav.program_sub.student_poster')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/program-schedule/demonstration'} enabled={isNavEnabled('program', 'demonstration')}>{$t('nav.program_sub.demonstration')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/workshops'} enabled={isNavEnabled('program', 'workshops')}>{$t('nav.program_sub.workshops')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/community-sprint'} enabled={isNavEnabled('program', 'community_sprint')}>{$t('nav.program_sub.community_sprint')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/program-schedule/community-events'} enabled={isNavEnabled('program', 'community_events')}>{$t('nav.program_sub.community_events')}</NavLink></li>
