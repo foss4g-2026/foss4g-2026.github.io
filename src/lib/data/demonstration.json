@@ -1,0 +1,101 @@
+[
+  {
+    "ID": "8UEDJS",
+    "Proposal title": "Machine Learning–Driven Detection and Suitability Assessment of Rooftop Solar Photovoltaic Installations Using Satellite Imagery",
+    "Session type": {
+      "en": "Interactive demonstration"
+    },
+    "Abstract": "This project develops a machine learning framework that leverages satellite imagery to automate the detection, mapping, and suitability assessment of rooftops for solar photovoltaic (PV) installations at scale. The primary objective is to create an intelligent, data-driven system capable of identifying viable rooftop locations, and quantifying installation potential.",
+    "Description": "RIFFAI provides a lightweight, rapid, high-coverage proprietary model that operates with low processing power and can run on both cloud and on-premise infrastructure for enhanced security and privacy. designed to detect signs of environmental changes by leveraging various data sources and analytical techniques including satellite imagery database, image matching point distribution, and forecasted weather. The model continuously receives real-time satellite imagery. Then imagery provides up-to-date visual information about the Earth's surface, allowing the model to monitor changes in terrain that may indicate the environment has been affected.\r\n\r\nThis research aims to develop a machine learning framework that leverages satellite imagery to automate the detection, mapping, and suitability assessment of rooftops for solar photovoltaic (PV) installations at scale. The primary objective is to create an intelligent, data-driven system capable of identifying viable rooftop locations, quantifying installation potential, and generating actionable deployment recommendations, thereby accelerating the transition to distributed solar energy.\r\n\r\nThe core challenge addressed is the inefficiency of current rooftop solar assessment methods. Today, solar deployment decisions rely heavily on manual site inspections, incomplete cadastral data, and labor-intensive feasibility studies that slow project development and create bottlenecks for developers, especially smaller enterprises with limited resources. This creates a critical gap: while rooftop solar represents one of the fastest-growing segments of renewable energy globally, the lack of automated, large-scale suitability mapping prevents many viable installations from being identified and prioritized. Between identification and deployment, projects experience delays, cost overruns, and abandonment due to incomplete or late-stage environmental and spatial analysis.\r\n\r\nOur research directly addresses this bottleneck by automating the earliest, most critical stages of rooftop solar project development. Using high-resolution satellite imagery combined with machine learning algorithms, we will develop a system capable of: (1) detecting building footprints and classifying roof typologies; (2) calculating precise roof area and surface orientation (pitch and azimuth); (3) assessing shading, obstructions, and local environmental factors affecting solar viability; (4) estimating panel capacity and energy generation potential; and (5) producing spatially explicit suitability maps that rank rooftops by deployment feasibility and financial return.\r\n\r\nOriginality and Unique Aspects: While prior work has applied satellite imagery to solar resource assessment or building detection independently, this research integrates these capabilities into a cohesive, operationally-focused framework specifically designed for roofjintop PV deployment. The novelty lies in combining multi-spectral and high-resolution optical imagery with machine learning for simultaneous roof detection, geometric characterization, and suitability ranking—producing outputs (panel density estimates, directional installation maps, energy projections, and optimal tilt angles) directly usable by installers and developers. This end-to-end, satellite-to-action pipeline is distinct from prior academic approaches and commercially relevant to the solar industry's scaling challenges.\r\nWe have successfully developed and validated a computer vision-based model for automated rooftop identification and delineation. Our deep learning approach, trained on high-resolution satellite and aerial imagery, achieves over 75% accuracy in rooftop detection across diverse urban and suburban environments.",
+    "Speaker names": [
+      "Kolatat Katousano"
+    ]
+  },
+  {
+    "ID": "F9U78Q",
+    "Proposal title": "Hiroshima “Atomic Bomb Drawings” Visualization Project",
+    "Session type": {
+      "en": "Interactive demonstration"
+    },
+    "Abstract": "An “Atomic Bomb Drawings” project in which Hiroshima high school students create paintings based on survivors’ testimonies. Presented as an interactive map-based digital archive, participants explore the works and related datasets on the open-source platform Re:Earth to experience new possibilities for learning and remembrance.",
+    "Description": "This session introduces a GIS and digital archive visualization project centered on \"Atomic Bomb Drawings,\" led by the Hidenori Watanabe Laboratory, Graduate School of Interdisciplinary Information Studies, The University of Tokyo, in collaboration with high school students from Hiroshima and Nagasaki. The \"Atomic Bomb Drawings\" are a collection of artworks created by students at Hiroshima City Motomachi High School (General Course and Creative Expression Course). Through collaboration between atomic bomb survivors and students, the students carefully interview survivors about the scenes from the time of the bombing that remain in their memories and depict them in paintings. This ongoing initiative aims to convey the circumstances of that time. As atomic bomb survivors continue to age, this initiative aims to preserve the realities of the atomic bombing through paintings for future generations. Through the creative process, high school students inherit the thoughts and experiences of survivors, reflect on the value of peace, and carry these messages forward to the next generation.\r\nThis project goes beyond simply browsing these works in a list format, reconstructing them as an experience where they can be viewed and explored in connection with geographic information. By placing the Atomic Bomb Drawings on a digital map and connecting locations, paintings, and related explanatory information (metadata), we enable viewers to experience the works and data in a new way. Furthermore, we visualize insights that emerge from spatial relationships (such as memories concentrated in the same area, traces of movement, and the spread of damage), leading to understanding that is difficult to achieve through conventional search or list displays. Additionally, the collaboration between students from Hiroshima and Nagasaki (Nagasaki Higashi High School)  holds great significance as co-creation among young people from the two atomic-bombed cities.",
+    "Speaker names": [
+      "Michi Okada"
+    ]
+  },
+  {
+    "ID": "KM3QFS",
+    "Proposal title": "Machi-Space: The Urban Digital Twin Platform Powered by Project PLATEAU",
+    "Session type": {
+      "en": "Interactive demonstration"
+    },
+    "Abstract": "In this session, you will be able to experience how ”Machi-Space” empowers non-experts to take an active role in the planning process, effectively changing traditional urban development workflows through digital twin technology.",
+    "Description": "This session provides practical, step-by-step experience with the environmental numerical simulations integrated into “Machi-Space”. You will gain hands-on experience with three core analysis tools:\r\n1.Shadow Analysis (Sunlight/Shading impact)\r\n2.Noise Analysis (Acoustic simulation)\r\n3.Wind Analysis (Airflow simulation)\r\nBeyond running these simulations, you will learn how to share results among stakeholders and integrate IFC files of planned buildings into the digital twin environment. By the end of this session, you will have a deep understanding of “Machi-Space”’s role as a collaborative platform in urban development and its utility in streamlining modern urban development.",
+    "Speaker names": [
+      "Hirofumi Hayashi",
+      "Kunihiko Hirosawa"
+    ]
+  },
+  {
+    "ID": "PKA7XG",
+    "Proposal title": "Source Cooperative: Publish, Discover, and Access Open Data with S3-Compatible Tools",
+    "Session type": {
+      "en": "Interactive demonstration"
+    },
+    "Abstract": "Source Cooperative is an open platform for publishing and sharing open datasets. In this demonstration, attendees will walk through the full lifecycle of data on Source Cooperative: creating an account, publishing a dataset, discovering existing data, and accessing it programmatically with tools they already use.",
+    "Description": "Source Cooperative provides hosting and discovery for open datasets. Data is accessible through any S3-compatible client, meaning researchers and developers can pull datasets directly into their existing workflows using tools like aws-cli, boto3, obstore, GDAL, DuckDB, and others without installing anything new or learning a proprietary API.\r\n\r\nOn the publishing side, we will create an organization, set up a new data product with metadata and tags, and upload files through the web interface. We will cover how Source Cooperative organizes data into products, how to describe datasets so they are discoverable, and how the platform handles storage across multiple cloud backends transparently.\r\n\r\nOn the consumer side, we will show how to browse and search for datasets through the web UI, then shift to programmatic access. We will demonstrate reading data directly from Source Cooperative using a variety of tools: listing and downloading files with aws-cli, querying tabular data in place with DuckDB, reading raster data with GDAL, and loading files from Python using boto3 and obstore. Because Source Cooperative exposes an S3-compatible endpoint, all of these tools work by simply pointing them at the right URL.\r\n\r\nWe will also demonstrate the platform's authentication system, showing how to generate API keys and use them for both read and write access. For users interested in automated workflows, we will show how to integrate Source Cooperative into scripts and CI pipelines.\r\n\r\nWe will also highlight Source Cooperative's built-in data viewers, which take advantage of modern cloud-native formats like Cloud-Optimized GeoTIFF, GeoParquet, and PMTiles. These viewers let users preview and explore datasets directly in the browser before downloading anything, making it faster to evaluate whether a dataset fits their needs.\r\n\r\nThroughout the session, we will take questions and help attendees set up their own accounts and try the platform firsthand. Whether you are looking for a place to publish a dataset, searching for open data to use in a project, or curious about how an S3-compatible data platform works under the hood, this session will get you started.",
+    "Speaker names": [
+      "Michelle Roby",
+      "Anthony Lukach"
+    ]
+  },
+  {
+    "ID": "SBUMDY",
+    "Proposal title": "Using Lonboard for interactive STAC, COG, and Zarr visualization from Python",
+    "Session type": {
+      "en": "Interactive demonstration"
+    },
+    "Abstract": "[Lonboard](https://developmentseed.org/lonboard) is the fastest, most capable Python library for interactive geospatial data visualization, but until now, it has only supported vector data. This demonstration will show how to visualize [STAC], [COG](https://cogeo.org/), and [Zarr](https://zarr.dev/) in Lonboard.\r\n\r\n[STAC]: https://stacspec.org/en",
+    "Description": "[Lonboard] is the fastest, most capable Python library for interactive geospatial data visualization. It changed the game for plotting large vector data from Python, being 10-40x faster than alternatives like ipyleaflet. But until now Lonboard has only supported vector data.\r\n\r\nIn 2026, Lonboard is adding support for raster data visualization through integration with [deck.gl-raster], a new JavaScript library for client-side, GPU-accelerated raster data visualization in deck.gl. This allows for streaming very large COG and Zarr datasets into Lonboard, loading only the relevant parts that are currently visible in the map. \r\n\r\n[deck.gl-raster]: https://github.com/developmentseed/deck.gl-raster\r\n\r\nThis interactive demonstration will show how to visualize [STAC], [COG], and [Zarr] in Lonboard. It will show how to customize visualizations by changing band math, filtering out nodata values, applying colormaps, and more.\r\n\r\n[Lonboard]: https://developmentseed.org/lonboard\r\n[STAC]: https://stacspec.org/en\r\n[COG]: https://cogeo.org/\r\n[Zarr]: https://zarr.dev/",
+    "Speaker names": [
+      "Kyle Barron"
+    ]
+  },
+  {
+    "ID": "U9CVLJ",
+    "Proposal title": "A new way of mapping with Discrete Global Grid Reference System",
+    "Session type": {
+      "en": "Interactive demonstration"
+    },
+    "Abstract": "DGGRS divides the Earth's sphere into regular zones with unique identifiers, thus resolving the distortion and reprojection problems of traditional flat maps and making them accessible to AI agents, enabling consistent indexing and analysis at global scale. Tools like Examind provide a unified standard API for multiple DGGRS implementations.",
+    "Description": "## What is a Discrete Global Grid Reference System ?\r\n\r\nTraditional maps make the world look flat, but as we all know the earth is spherical.\r\nSo how could we still map the world, but with a regular unit area all over the world which gets minimal distortion ?\r\n\r\nThat need is answered by Discrete Global Grid Reference System.\r\n\r\nA DGGRS is a regular, homogenous division of the earth surface with zones for various shapes.\r\nYou might even known one of the precursor of DGGRS, with **Uber H3** indexing system.\r\n\r\n\r\n## What are the benefits of Discrete Global Grid Reference System ?\r\n\r\nFlat traditional maps always loose something, angles, areas or distances or several of those properties.\r\n\r\nDifferent countries use different map projections and resolution, so we can't overlaps them right aways. They need to go throught\r\na processing step called reprojection or resampling, and by doing so data quality and precision drops, sometimes by tenths of meters.\r\n\r\nFor statistics, analysis and IA all those different map projections are a real problem.\r\n\r\nDGGRS offer a grid system which works everywhere, with defined resolutions, zone neighbor relations and every single zone has a unique identifier.\r\nMaking this approach beneficial for indexing and analysis.\r\n\r\n\r\n## State of the art\r\n\r\nThere are several DGGRS with different properties.\r\n\r\nWhen it comes to 2D DGGRS the current list you can choose from is :\r\nH3, A5, S2, ISEA4T/3H/4H/7H/7Z, IVEA4T/3H/4H/7H/7Z, Gnosis, Healpix, rHealpix\r\n\r\nThey have different zone shapes (Hexagons,Diamonds,Triangles,Pentagons), resolution ratios (1/3,1/4,1/5,1/7,1/9),\r\nequal-area properties and congruency.\r\n\r\n\r\n## Apache SIS : DGGRS API\r\n\r\nSeveral tools exist to handle DGGRS, here we will see Apache-SIS which has one of the largest scope of DGGRS made available.\r\n\r\nApache SIS use bindings to different DGGS libraries (DGGAL,H3Geom,S2geom,Healpix-CDS) and federates them under a single API.\r\nSo users do not have to deal with the different capabilities or weakness of the libraries. Apache-SIS feel in\r\nthe gaps and harmonize the way of using them and making them fit right in with ISO standards, like Coordinate Reference Systems and ReferencingByIdentifiers.\r\n\r\nAs a user, changing from one DGGRS to another is just a matter of changing a name.\r\n\r\n\r\n## DGGRS in action with Examind\r\n\r\nAll the above is somehow very technical, let's see what DGGRS looks like with real data.\r\nAnd to provide this data we will use Examind-Community, and Open-Source web server application\r\nwhich uses Apache-SIS and the new OGCAPI DGGRS standard.",
+    "Speaker names": [
+      "Ginane Dorian"
+    ]
+  },
+  {
+    "ID": "WF9VXG",
+    "Proposal title": "TerriaJS applications",
+    "Session type": {
+      "en": "Interactive demonstration"
+    },
+    "Abstract": "This demonstration showcases TerriaJS's data visualisation capabilities through real-world deployments including satellite imagery and digital twins. Attendees will see large-scale raster datasets, authoritative government data layers, and immersive 3D urban environments, all running open-source, in the browser, with no plugins required.",
+    "Description": "This demonstration showcases TerriaJS as an open-source platform for web-based geospatial visualisation, capable of connecting to and rendering an extensive range of 2D and 3D data formats directly in the browser. From OGC standards such as WMS, WFS, and WMTS, to Esri MapServer and FeatureServer services, to modern formats including 3D Tiles, PMTiles, CZML, GeoJSON, and CSV, TerriaJS brings together diverse data sources into a single, seamless interface — no plugins required.\r\nA highlight of the demonstration will be TerriaJS's 3D capabilities, where 3D Tiles unlock rich visualisation of urban environments, infrastructure, terrain, and point clouds — contextualised alongside traditional 2D layers. Attendees will see firsthand how TerriaJS handles catalogues of thousands of layers while remaining deployable as a lightweight static website.\r\nThis is a practical and visually engaging introduction to what open geospatial technology can deliver in 2026.",
+    "Speaker names": [
+      "Ana Belgun"
+    ]
+  },
+  {
+    "ID": "ZXZMK3",
+    "Proposal title": "Programmatic and QGIS Workflows for NASA-ISRO Synthetic Aperture Radar (NISAR) Mission Data",
+    "Session type": {
+      "en": "Interactive demonstration"
+    },
+    "Abstract": "The NISAR mission launched in July 2025, and data is now publicly available. This demonstration presents examples of working with NISAR data in QGIS and programmatically using open-source packages.",
+    "Description": "The NASA-ISRO Synthetic Aperture Radar (NISAR) mission launched in July 2025, and data is now freely available to the public. SAR sensors use active microwave signals that penetrate through clouds and smoke, allowing imagery of Earth’s surface to be acquired on every pass. Regular imaging cycles, combined with the ability to quantify surface deformation on the centimeter scale, make NISAR a powerful tool for monitoring landscape processes. \r\n\r\nThe NISAR mission provides a number of Analysis-Ready Data (ARD) products that can reduce the need to perform extensive preprocessing of datasets prior to incorporating them into new and existing programmatic workflows. The ARD products are processed to predetermined specifications that, while suitable for many analyses, do not meet the requirements for every use case; users may want to generate similar products with different parameters.\r\n\r\nThere are a number of open-source tools (QGIS, gdal, isce3, xarray, rioxarray, s3fs, h5py, asf_search, earthaccess, etc.) and API-backed services (ASF HyP3, NASA Harmony, ASF Data Search) that allow users to subset, access, and process NISAR data to meet their specific needs. It can be difficult to know which tools are appropriate for a given workflow, so the Alaska Satellite Facility (ASF) has developed resources to help users determine suitable approaches for their use case.\r\n\r\nWe will begin this interactive demonstration with an introduction to several NISAR data access methods. We will then tailor the remaining demonstrations to real-time requests from attendees. These will draw on ASF’s Jupyter Notebook tutorials and services, as well as examples of common approaches for visualizing and analyzing NISAR datasets in QGIS. NISAR data and notebook tutorials are available online, so attendees may follow along on their laptops.",
+    "Speaker names": [
+      "Heidi Kristenson",
+      "Alex Lewandowski"
+    ]
+  }
+]
