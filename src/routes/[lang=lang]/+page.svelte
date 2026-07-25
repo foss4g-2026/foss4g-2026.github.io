@@ -1,5 +1,6 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
+  import { page } from '$app/state'
   import Map from '$components/Map.svelte'
   import Countdown from '$components/Countdown.svelte'
   const HiroshimaImage = '/images/HiroshimaConventionCenter.webp'
@@ -82,32 +83,33 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.demonstration_jul26.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.demonstration_jul26.title')}
+            </h3>
+            <a href={'/' + page.params.lang + $t('teaser.news.items.demonstration_jul26.link')} class="text-sm text-green-700 hover:underline">
+              {$t('teaser.news.items.demonstration_jul26.description')}
+            </a>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.poster_update_jul26.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.poster_update_jul26.title')}
+            </h3>
+            <p class="text-sm text-gray-600">{$t('teaser.news.items.poster_update_jul26.description')}</p>
+            <a href={'/' + page.params.lang + $t('teaser.news.items.poster_update_jul26.link')} class="text-sm text-green-700 hover:underline">
+              {$t('teaser.news.items.poster_update_jul26.link_text')}
+            </a>
+          </div>
+          <!-- News Item 3 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.pasco_sponsor_jul23.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.pasco_sponsor_jul23.title')}
             </h3>
             <p class="text-sm text-gray-600">
               {$t('teaser.news.items.pasco_sponsor_jul23.description')}
-            </p>
-          </div>
-          <!-- News Item 2 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.b2b_hiring_jul19.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.b2b_hiring_jul19.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              {$t('teaser.news.items.b2b_hiring_jul19.description')}
-            </p>
-          </div>
-          <!-- News Item 3 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.gsi_partner_jul16.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.gsi_partner_jul16.title')}
-            </h3>
-            <p class="text-sm text-gray-600">
-              {$t('teaser.news.items.gsi_partner_jul16.description')}
             </p>
           </div>
         </div>

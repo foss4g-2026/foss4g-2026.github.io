@@ -22,6 +22,19 @@
     "news": {
       "title": "News",
       "items": {
+        "demonstration_jul26": {
+          "date": "July 26, 2026",
+          "title": "Interactive Demonstrations Page Now Available",
+          "description": "View details",
+          "link": "/program-schedule/demonstration"
+        },
+        "poster_update_jul26": {
+          "date": "July 26, 2026",
+          "title": "Poster Session List Updated",
+          "description": "The poster session and high school student poster lists have been updated.",
+          "link": "/program-schedule/poster-session",
+          "link_text": "View details"
+        },
         "pasco_sponsor_jul23": {
           "date": "July 23, 2026",
           "title": "New Sponsor Logo Added",
