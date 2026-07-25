@@ -123,6 +123,19 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "demonstration_jul26": {
+          "date": "2026年7月26日",
+          "title": "インタラクティブデモンストレーションのページを公開しました",
+          "description": "詳細を見る",
+          "link": "/program-schedule/demonstration"
+        },
+        "poster_update_jul26": {
+          "date": "2026年7月26日",
+          "title": "ポスターセッションのリストを更新しました",
+          "description": "ポスターセッションおよび高校生ポスターの一覧を更新しました。",
+          "link": "/program-schedule/poster-session",
+          "link_text": "詳細を見る"
+        },
         "pasco_sponsor_jul23": {
           "date": "2026年7月23日",
           "title": "新規スポンサーロゴを掲載しました",
