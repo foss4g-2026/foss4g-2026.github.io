@@ -27,7 +27,7 @@
     
     <h2 class="text-2xl font-semibold mb-4">{$t('ice_breaker.what_to_expect_title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $json('ice_breaker.what_to_expect') as item}
+      {#each ($json('ice_breaker.what_to_expect') as unknown as any[]) as item}
         <li class="text-base mb-2">{item}</li>
       {/each}
     </ul>

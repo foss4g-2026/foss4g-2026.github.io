@@ -28,7 +28,7 @@
 
     <h2 class="text-2xl font-semibold mb-4 mt-8">{$t('community_sprint.date_title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $json('community_sprint.dates') as date}
+      {#each ($json('community_sprint.dates') as unknown as any[]) as date}
         <li class="text-base">{date}</li>
       {/each}
     </ul>
