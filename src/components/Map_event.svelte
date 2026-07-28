@@ -12,7 +12,7 @@
   const { mapClass, style, center, zoom, items, ...props } = $props()
 
   // 💡 地図の「生（なま）のオブジェクト」をキャッチするための変数を準備します
-  let mapInstance: maplibregl.Map | null = $state(null);
+  let mapInstance = $state<maplibregl.Map | undefined>(undefined);
 
   // 💡 画面幅（ブラウザの幅）の変化を監視するための変数
   let mapWidth = $state(0);

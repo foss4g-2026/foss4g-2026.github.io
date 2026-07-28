@@ -55,14 +55,14 @@
     
     <h3 class="text-xl font-semibold mb-3">{$t('call_for_papers.academic_track.submission_process.step1.title')}</h3>
     <ul class="list-disc pl-6 mb-4">
-      {#each $json('call_for_papers.academic_track.submission_process.step1.items') as item}
+      {#each ($json('call_for_papers.academic_track.submission_process.step1.items') as unknown as any[]) as item}
         <li>{item}</li>
       {/each}
     </ul>
 
     <h3 class="text-xl font-semibold mb-3">{$t('call_for_papers.academic_track.submission_process.step2.title')}</h3>
     <ul class="list-disc pl-6 mb-6">
-      {#each $json('call_for_papers.academic_track.submission_process.step2.items') as item}
+      {#each ($json('call_for_papers.academic_track.submission_process.step2.items') as unknown as any[]) as item}
         <li>{item}</li>
       {/each}
     </ul>

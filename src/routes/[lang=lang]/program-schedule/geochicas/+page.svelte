@@ -29,7 +29,7 @@
     </p>
     
     <ul class="list-disc pl-6 mb-6 space-y-2">
-      {#each $json('program_schedule.geochicas.about.pillars') as pillar}
+      {#each ($json('program_schedule.geochicas.about.pillars') as unknown as any[]) as pillar}
         <li>{pillar}</li>
       {/each}
     </ul>
@@ -45,7 +45,7 @@
     </p>
 
     <ul class="list-disc pl-6 mb-6 space-y-2">
-      {#each $json('program_schedule.geochicas.gathering.opportunities') as opportunity}
+      {#each ($json('program_schedule.geochicas.gathering.opportunities') as unknown as any[]) as opportunity}
         <li>{opportunity}</li>
       {/each}
     </ul>

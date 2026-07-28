@@ -40,7 +40,7 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('register.registration.whats_included.title')}</h2>
     
     <ul class="list-disc pl-6 mb-6">
-      {#each $json('register.registration.whats_included.items') as item}
+      {#each ($json('register.registration.whats_included.items') as unknown as any[]) as item}
         <li>{item}</li>
       {/each}
     </ul>

@@ -26,14 +26,14 @@
   <div class="prose max-w-none mb-8 mt-8">
     <h2 class="text-2xl font-semibold mb-4">{$t('excursion.details_title')}</h2>
     <ul class="list-disc pl-6 mb-6">
-      {#each $json('excursion.details') as detail}
+      {#each ($json('excursion.details') as unknown as any[]) as detail}
         <li class="text-base">{detail}</li>
       {/each}
     </ul>
     
     <h2 class="text-2xl font-semibold mb-6">{$t('excursion.itinerary_title')}</h2>
     
-    {#each $json('excursion.itinerary') as item}
+    {#each ($json('excursion.itinerary') as unknown as any[]) as item}
       <div class="mb-6">
         <h3 class="text-xl font-semibold mb-2">
           <span class="text-3xl mr-2">{item.icon}</span>
@@ -51,7 +51,7 @@
     
     <div class="bg-gray-50 p-6 rounded-lg mb-6">
       <ul class="space-y-4">
-        {#each $json('excursion.afternoon_options') as option}
+        {#each ($json('excursion.afternoon_options') as unknown as any[]) as option}
           <li class="text-base">
             <span class="text-2xl mr-2">{option.icon}</span>
             {#if option.link}
