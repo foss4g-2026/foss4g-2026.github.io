@@ -246,3 +246,9 @@ h1, h2, h3, h4, h5, h6 {
 .container table {
   margin-bottom: 2rem;
 }
+
+/* daisyUI 5.7 でメニュー項目が white-space: nowrap になり、
+   固定幅のナビゲーションドロップダウンから長い項目がはみ出すため、折り返しを復活させる */
+.menu a {
+  white-space: normal;
+}
