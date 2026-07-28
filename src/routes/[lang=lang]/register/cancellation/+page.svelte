@@ -29,13 +29,13 @@
         <table class="table w-full">
           <thead>
             <tr>
-              {#each $json('register.cancellation.refund_schedule.headers') as header}
+              {#each ($json('register.cancellation.refund_schedule.headers') as unknown as any[]) as header}
                 <th class="bg-gray-100">{header}</th>
               {/each}
             </tr>
           </thead>
           <tbody>
-            {#each $json('register.cancellation.refund_schedule.rows') as row}
+            {#each ($json('register.cancellation.refund_schedule.rows') as unknown as any[]) as row}
               <tr>
                 {#each row as cell}
                   <td>{cell}</td>
@@ -50,7 +50,7 @@
     <h2 class="text-2xl font-semibold mb-4">{$t('register.cancellation.cancellation_process.title')}</h2>
     <div class="mb-6">
       <ol class="list-decimal list-inside space-y-2">
-        {#each $json('register.cancellation.cancellation_process.steps') as step}
+        {#each ($json('register.cancellation.cancellation_process.steps') as unknown as any[]) as step}
           <li>{step}</li>
         {/each}
       </ol>

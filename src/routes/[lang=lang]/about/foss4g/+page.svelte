@@ -27,7 +27,7 @@
         {$t('about.foss4g.knowledge_section.intro')}
       </p>
       <ul class="list-disc list-inside mb-4 space-y-2">
-        {#each $json('about.foss4g.knowledge_section.topics') as topic}
+        {#each ($json('about.foss4g.knowledge_section.topics') as unknown as any[]) as topic}
           <li>{topic}</li>
         {/each}
       </ul>
