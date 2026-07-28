@@ -1203,7 +1203,9 @@
           "label": "Hiroshima Prefecture Disaster Prevention Web",
           "url": "https://www.bousai.pref.hiroshima.lg.jp/"
         }
-      ]
+      ],
+      "registration_title": "Register with your home country's travel registration service",
+      "registration_note": "Japan is occasionally affected by earthquakes and typhoons. Before you travel, we recommend registering with your home country's traveller or crisis registration service (for example, STEP for the United States, ELEFAND for Germany, or your government's equivalent). Registration allows your embassy or consulate to contact you and provide assistance in the event of an emergency."
     },
     "culture": {
       "title": "Culture and Etiquette",
