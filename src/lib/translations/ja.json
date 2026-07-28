@@ -716,6 +716,34 @@
         "lng": 132.4513,
         "lat": 34.3921,
         "coment": "場所未定、決定次第地図に記載"
+      },
+      {
+        "name": "One map, many engines. Render together — MapLibre Meetup Hiroshima 2026",
+        "description": [
+          "地図レンダリングの未来はどこへ向かうのか?",
+          "WebGPU、3D、そしてMLTをはじめとする新しいタイルフォーマット……地図を「描く」技術はいま、転換点にあります。FOSS4G 2026 Hiroshimaの会期中のある夜、世界中から広島に集まるMapLibreコミュニティとともに、この問いを考えるMeetupを開催します。",
+          "MapLibreプロジェクトを動かす当事者から、プロジェクトの現在と未来を直接聞ける夜です。夜の締めくくりは開発者パネル「Inside the Engines」……一つの地図を、複数のエンジンがともに描く未来についての対話です。",
+          "会場は原爆ドームのすぐ隣、おりづるタワー12F。ドリンク片手にご参加ください。",
+          "---",
+          "イベント詳細",
+          "日程：2026年8月30日(月)19:00–21:00(開場18:30)",
+          "開催会場：おりづるタワー12F「ORIZURU SQUARE / ORIZURU WALL」(広島市中区大手町一丁目2番1号)",
+          "参加無料・定員100名・英語開催",
+          "ドリンク・軽食あり",
+          "ライトニングトーク募集",
+          "5分×4枠のLTを公募します。MapLibreの活用事例、プラグイン、実験的な試み、「What comes next」にまつわる話……なんでも歓迎です。参加登録フォームからご応募ください",
+          "おりづるタワー12F「ORIZURU SQUARE / ORIZURU WALL」 広島市中区大手町一丁目2番1号……原爆ドームのすぐ隣、FOSS4G会場から徒歩圏内。立食形式です。",
+          "主催: MapLibre / スポンサー: Re:Earth"
+        ],
+        "organization_name": "MapLibre",
+        "Representative Name": "Kenya Tamura",
+        "planned_location": "おりづるタワー12F「ORIZURU SQUARE / ORIZURU WALL」(広島市中区大手町一丁目2番1号)",
+        "email": "k.tamura@eukarya.io",
+        "event_timing": "2026年8月30日(月)19:00–21:00(開場18:30)",
+        "url": "https://maplibre-meetup-hiroshima.peatix.com/view",
+        "lng": 132.4547,
+        "lat": 34.3957,
+        "coment": ""
       }
     ],
     "table_title": "コミュニティイベント一覧",
