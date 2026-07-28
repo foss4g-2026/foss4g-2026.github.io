@@ -1177,7 +1177,33 @@
     },
     "safety": {
       "title": "Safety and Security",
-      "description": "Japan is one of the safest countries in the world. Crime rates are low, and public transportation is generally safe. However, please take normal precautions and keep your valuables safe."
+      "description": "Japan is one of the safest countries in the world. Crime rates are low, and public transportation is generally safe. However, please take normal precautions and keep your valuables safe.",
+      "resources_title": "Useful safety and disaster information:",
+      "resources": [
+        {
+          "label": "Safe Travel Information for Japan (JNTO)",
+          "url": "https://www.japan.travel/en/japan-safe-travel-information/"
+        }
+      ],
+      "hiroshima_title": "Hiroshima City / Prefecture",
+      "hiroshima_resources": [
+        {
+          "label": "Disaster Preparedness Guide for International Residents in Hiroshima",
+          "url": "https://h-ircd.jp/en/guide/bosai-en.html"
+        },
+        {
+          "label": "Disaster Preparedness (Hiroshima City)",
+          "url": "https://www.city.hiroshima.lg.jp/english/emergency/1029781/1031803/index.html"
+        },
+        {
+          "label": "Hiroshima City Disaster Prevention Portal",
+          "url": "https://www.city.hiroshima.lg.jp/english/emergency/1029781/1009697.html"
+        },
+        {
+          "label": "Hiroshima Prefecture Disaster Prevention Web",
+          "url": "https://www.bousai.pref.hiroshima.lg.jp/"
+        }
+      ]
     },
     "culture": {
       "title": "Culture and Etiquette",
