@@ -20,7 +20,21 @@
 
     <!-- Safety -->
     <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.safety.title')}</h2>
-    <p class="mb-6">{$t('travel_guide.safety.description')}</p>
+    <p class="mb-2">{$t('travel_guide.safety.description')}</p>
+    <p class="mb-1 font-medium">{$t('travel_guide.safety.resources_title')}</p>
+    <ul class="list-disc pl-6 mb-6">
+      {#each ($json('travel_guide.safety.resources') as unknown as Array<{label: string; url: string}>) as r}
+        <li><a href={r.url} target="_blank" rel="noopener noreferrer">{r.label}</a></li>
+      {/each}
+      <li>
+        {$t('travel_guide.safety.hiroshima_title')}
+        <ul class="list-disc pl-6 mt-2">
+          {#each ($json('travel_guide.safety.hiroshima_resources') as unknown as Array<{label: string; url: string}>) as r}
+            <li><a href={r.url} target="_blank" rel="noopener noreferrer">{r.label}</a></li>
+          {/each}
+        </ul>
+      </li>
+    </ul>
 
     <hr class="my-8" />
 
