@@ -1050,7 +1050,33 @@
     },
     "safety": {
       "title": "安全・治安",
-      "description": "日本は世界で最も安全な国の一つです。犯罪率は低く、公共交通機関も安全です。ただし、通常の注意を払い、貴重品の管理には気をつけてください。"
+      "description": "日本は世界で最も安全な国の一つです。犯罪率は低く、公共交通機関も安全です。ただし、通常の注意を払い、貴重品の管理には気をつけてください。",
+      "resources_title": "安全・防災に役立つ情報:",
+      "resources": [
+        {
+          "label": "日本の安全な旅行情報（日本政府観光局 JNTO）",
+          "url": "https://www.japan.travel/en/japan-safe-travel-information/"
+        }
+      ],
+      "hiroshima_title": "広島市・広島県関係",
+      "hiroshima_resources": [
+        {
+          "label": "広島で暮らす外国人のための防災ガイド",
+          "url": "https://h-ircd.jp/en/guide/bosai-en.html"
+        },
+        {
+          "label": "災害への備え（広島市）",
+          "url": "https://www.city.hiroshima.lg.jp/english/emergency/1029781/1031803/index.html"
+        },
+        {
+          "label": "広島市 防災ポータル",
+          "url": "https://www.city.hiroshima.lg.jp/english/emergency/1029781/1009697.html"
+        },
+        {
+          "label": "広島県防災Web",
+          "url": "https://www.bousai.pref.hiroshima.lg.jp/"
+        }
+      ]
     },
     "culture": {
       "title": "文化・マナー",
