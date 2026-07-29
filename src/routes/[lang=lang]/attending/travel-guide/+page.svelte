@@ -36,6 +36,9 @@
       </li>
     </ul>
 
+    <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.safety.registration_title')}</h3>
+    <p class="mb-6">{$t('travel_guide.safety.registration_note')}</p>
+
     <hr class="my-8" />
 
     <!-- Culture -->

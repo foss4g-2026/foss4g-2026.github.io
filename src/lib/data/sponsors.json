@@ -151,6 +151,12 @@
       "website": "https://www.pasco.co.jp/",
       "logo": "/images/sponsors/PASCO/25_PASCO_logo_color.svg",
       "description": "PASCO provides geospatial information services that address societal challenges. We combine a \"remote perspective,\" using satellites, aircraft, and drones to observe events and conditions on Earth, with an \"on-the-ground perspective,\" gained through direct, on-site observation. By applying analysis technologies powered by AI, IoT, GIS, and image processing to this combined view, we deliver insights that help solve societal challenges. PASCO applies these capabilities to disaster prevention and mitigation, land and environmental management, and infrastructure maintenance. This includes responding to major natural disasters, where we work to rapidly assess the damage, help prevent secondary disasters, and support the development of prompt recovery plans."
+    },
+    {
+      "name": "AERO TOYOTA",
+      "website": "https://www.aerotoyota.co.jp",
+      "logo": "/images/sponsors/AeroToyota/AERO-TOYOTA_logo.svg",
+      "description": "AERO TOYOTA is the professional team, which makes full use of geospatial information in all sorts of fields-land, sea and air. We have a variety of vehicles for survey, such as aircrafts, UAVs (Unmanned Aerial Vehicles), MMSs (Mobile Mapping System), which can acquire high-accurate geospatial information. Those data are practically used for fixed property appraisal, maintenance of transport & public infrastructures, electric power operation, agriculture & forestry management and disaster prevention. Our geospatial information solutions have been provided to various clients, including public agencies, research institutes and private companies."
     }
   ],
   "supporter": [
