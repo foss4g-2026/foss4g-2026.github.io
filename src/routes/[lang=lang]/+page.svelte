@@ -580,6 +580,15 @@
             />
           </a>
         </div>
+        <div class="flex items-center justify-center bg-white rounded-lg p-6 w-full sm:w-[calc(50%-0.75rem)]">
+          <a href="https://www.aerotoyota.co.jp" target="_blank" rel="noopener noreferrer" class="block">
+            <img
+              src="/images/sponsors/AeroToyota/AERO-TOYOTA_logo.svg"
+              alt="AERO TOYOTA"
+              class="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
