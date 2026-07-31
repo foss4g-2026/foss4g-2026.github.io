@@ -20,6 +20,12 @@
     rel="noopener noreferrer"
   />
   
+  <!-- Travel Registration Service Notice -->
+  <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
+    <p class="font-semibold mb-2">{$t('travel_guide.safety.registration_title')}</p>
+    <p>{$t('travel_guide.safety.registration_note')}</p>
+  </div>
+  
   <!-- VAT notice banner -->
   <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 my-6">
     <p class="font-semibold">{$t('register.registration.vat_notice.title')}</p>
