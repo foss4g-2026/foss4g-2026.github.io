@@ -94,6 +94,7 @@
               <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/organizers'} enabled={isNavEnabled('about', 'organizers')}>{$t('nav.about_sub.organizers')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/map'} enabled={isNavEnabled('about', 'map')}>{$t('nav.about_sub.map')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/about/apps'} enabled={isNavEnabled('about', 'apps')}>{$t('nav.about_sub.apps')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/code-of-conduct'} enabled={isNavEnabled('about', 'codeOfConduct')}>{$t('nav.about_sub.code_of_conduct')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/privacy-policy'} enabled={isNavEnabled('about', 'privacyPolicy')}>{$t('nav.about_sub.privacy_policy')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/about/terms-conditions'} enabled={isNavEnabled('about', 'termsConditions')}>{$t('nav.about_sub.terms_conditions')}</NavLink></li>
@@ -199,6 +200,7 @@
             <li><NavLink href={'/' + data.locale + '/about/concept'} enabled={isNavEnabled('about', 'concept')}>{$t('nav.about_sub.concept')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/organizers'} enabled={isNavEnabled('about', 'organizers')}>{$t('nav.about_sub.organizers')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/map'} enabled={isNavEnabled('about', 'map')}>{$t('nav.about_sub.map')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/about/apps'} enabled={isNavEnabled('about', 'apps')}>{$t('nav.about_sub.apps')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/code-of-conduct'} enabled={isNavEnabled('about', 'codeOfConduct')}>{$t('nav.about_sub.code_of_conduct')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/privacy-policy'} enabled={isNavEnabled('about', 'privacyPolicy')}>{$t('nav.about_sub.privacy_policy')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/about/terms-conditions'} enabled={isNavEnabled('about', 'termsConditions')}>{$t('nav.about_sub.terms_conditions')}</NavLink></li>
