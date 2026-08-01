@@ -79,7 +79,6 @@
       <h3 class="text-lg font-bold text-red-800 mb-3">{$t('about.sponsors.call_for_sponsors.status_notice.title')}</h3>
       <ul class="list-disc list-inside space-y-2 text-red-900">
         <li>{$t('about.sponsors.call_for_sponsors.status_notice.closed')}</li>
-        <li>{$t('about.sponsors.call_for_sponsors.status_notice.regular_deadline')}</li>
         <li>{$t('about.sponsors.call_for_sponsors.status_notice.extended')}</li>
       </ul>
     </div>
