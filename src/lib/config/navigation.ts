@@ -9,6 +9,7 @@ export const navigationConfig = {
       map: { enabled: true },
       organizers: { enabled: true },
       concept: { enabled: true },
+      apps: { enabled: true },
       codeOfConduct: { enabled: true },
       privacyPolicy: { enabled: true },
       termsConditions: { enabled: true }

@@ -14,6 +14,7 @@
       "map": "マップ",
       "organizers": "主催者",
       "concept": "コンセプト・ロゴ",
+      "apps": "便利アプリ",
       "code_of_conduct": "行動規範",
       "privacy_policy": "プライバシーポリシー",
       "terms_conditions": "登録条件及び規約"
@@ -1752,9 +1753,38 @@
       "map_description": "会議会場の地図と広島の探索。",
       "organizers_description": "FOSS4G Hiroshima 2026を支える組織委員会のご紹介。",
       "concept_description": "会議テーマ・ビジョンの紹介と公式ロゴのダウンロード（CC BY 4.0）。",
+      "apps_description": "有志の方々が作成した便利アプリのご紹介。",
       "code_of_conduct_description": "すべての人にハラスメントのない会議体験を提供するための行動規範。",
       "privacy_policy_description": "個人情報の収集、使用、保護に関する方針。",
       "terms_conditions_description": "会議への参加登録に関する利用規約。"
+    },
+    "apps": {
+      "title": "便利アプリ",
+      "disclaimer": "こちらは有志の方々が作成したアプリです。FOSS4G Hiroshima 2026の公式アプリではありませんので、あくまで参考情報としてご利用ください。",
+      "cta_prefix": "便利なアプリを作成された方は、ぜひ",
+      "cta_suffix": "にPRを作成してご紹介ください！",
+      "items": [
+        {
+          "name": "参加者統計マップ",
+          "description": "参加者の分布などを地図上で確認できる統計マップです。",
+          "url": "https://jinigarashi.github.io/foss4g2026-stats/"
+        },
+        {
+          "name": "FOSS4G 2026 Talk Explorer",
+          "description": "Pretalxから取得した発表情報を翻訳・類似性評価し、二次元の概念マップ上で表示するアプリです。多言語で発表内容をブラウジングでき、気になる発表をお気に入り登録してスケジュール表として一覧表示することもできます。",
+          "url": "https://foss4g2026talkexplorer.party071985.workers.dev/"
+        },
+        {
+          "name": "FOSS4G Hiroshima セッションタイムテーブル（日本語版）",
+          "description": "FOSS4G Hiroshimaのセッションタイムテーブルを日本語で確認できるアプリです。",
+          "url": "https://asahina820.github.io/foss4g-2026-talk-timetable-app/"
+        },
+        {
+          "name": "Thanks OSGeo マップ",
+          "description": "OSGeo設立20周年を記念して、メッセージを投稿できる地図アプリです。",
+          "url": "https://asahina820.github.io/thanks-osgeo-map/"
+        }
+      ]
     },
     "foss4g": {
       "title": "FOSS4Gについて",
