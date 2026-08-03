@@ -6,6 +6,7 @@ const base_routes = [
   '/about/map',
   '/about/organizers',
   '/about/concept',
+  '/about/apps',
   '/about/code-of-conduct',
   '/about/privacy-policy',
   '/about/terms-conditions',

@@ -52,6 +52,16 @@
     <p class="text-gray-700 mb-4">{$t('about.landing.concept_description')}</p>
   </section>
 
+  <!-- Community Apps -->
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold mb-4">
+      <a href="/{lang}/about/apps" class="text-blue-600 hover:text-blue-800 hover:underline">
+        {$t('nav.about_sub.apps')}
+      </a>
+    </h2>
+    <p class="text-gray-700 mb-4">{$t('about.landing.apps_description')}</p>
+  </section>
+
   <!-- Code of Conduct -->
   <section class="mb-12">
     <h2 class="text-2xl font-semibold mb-4">

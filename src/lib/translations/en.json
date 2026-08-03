@@ -222,6 +222,7 @@
       "map": "Map",
       "organizers": "Organizers",
       "concept": "Concept & Logo",
+      "apps": "Community Apps",
       "code_of_conduct": "Code of Conduct",
       "privacy_policy": "Privacy Policy",
       "terms_conditions": "Terms and Conditions"
@@ -1885,9 +1886,38 @@
       "map_description": "View the conference venues and explore Hiroshima.",
       "organizers_description": "Meet the organizing committee behind FOSS4G Hiroshima 2026.",
       "concept_description": "Discover our conference theme, vision, and download the official logo (CC BY 4.0).",
+      "apps_description": "A showcase of useful apps built by community volunteers.",
       "code_of_conduct_description": "Our commitment to a harassment-free conference experience for everyone.",
       "privacy_policy_description": "How we collect, use, and protect your personal information.",
       "terms_conditions_description": "Terms and conditions for conference registration and participation."
+    },
+    "apps": {
+      "title": "Community Apps",
+      "disclaimer": "These apps were created by community volunteers. They are not official FOSS4G Hiroshima 2026 applications, so please use them for reference only.",
+      "cta_prefix": "Built a useful app? Please open a PR at",
+      "cta_suffix": "to share it here!",
+      "items": [
+        {
+          "name": "Participant Statistics Map",
+          "description": "A map visualizing statistics about conference participants.",
+          "url": "https://jinigarashi.github.io/foss4g2026-stats/"
+        },
+        {
+          "name": "FOSS4G 2026 Talk Explorer",
+          "description": "Fetches talks from Pretalx, translates and evaluates their similarity, and displays them on a 2D concept map. Browse multilingual talk content, and bookmark favorites to view them as a personal schedule.",
+          "url": "https://foss4g2026talkexplorer.party071985.workers.dev/"
+        },
+        {
+          "name": "FOSS4G Hiroshima Session Timetable (Japanese)",
+          "description": "An app that lets you view the FOSS4G Hiroshima session timetable in Japanese.",
+          "url": "https://asahina820.github.io/foss4g-2026-talk-timetable-app/"
+        },
+        {
+          "name": "Thanks OSGeo Map",
+          "description": "A map app where you can post messages to celebrate OSGeo's 20th anniversary.",
+          "url": "https://asahina820.github.io/thanks-osgeo-map/"
+        }
+      ]
     },
     "foss4g": {
       "title": "About FOSS4G",
