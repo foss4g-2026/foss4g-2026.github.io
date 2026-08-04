@@ -27,3 +27,6 @@ dist-ssr
 /build
 # translation files
 reports/
+
+# Playwright MCP output
+.playwright-mcp/

@@ -32,7 +32,8 @@ export const navigationConfig = {
     subItems: {
       generalSessions: { enabled: true },
       academicTrack: { enabled: true },
-      workshops: { enabled: true }
+      workshops: { enabled: true },
+      sessionChairGuidelines: { enabled: true }
     }
   },
   program: {

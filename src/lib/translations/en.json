@@ -239,7 +239,8 @@
     "cfp_sub": {
       "general_sessions": "General Sessions",
       "academic_track": "Academic Track",
-      "workshops": "Workshop Proposals"
+      "workshops": "Workshop Proposals",
+      "session_chair_guidelines": "Session Chair Guidelines"
     },
     "program_sub": {
       "outline": "Outline",
@@ -2923,6 +2924,71 @@
           ]
         }
       }
+    },
+    "session_chair": {
+      "title": "Session Chair Guidelines — FOSS4G Hiroshima 2026",
+      "intro": "Thank you for volunteering as a session chair! FOSS4G conferences are known for being welcoming and easy-going, and as a session chair you play a big part in keeping that atmosphere.",
+      "intro_note": "This guide covers what you're expected to do before, during, and after your session.",
+      "before": {
+        "title": "Before the Session",
+        "items": [
+          "<strong>Arrive at least 15 minutes before your session starts.</strong> This gives you time to sort out any last-minute issues.",
+          "<strong>Check in with each speaker</strong> in your session. If you don't know them personally, this is also a great way to get to know new people. Ask if they have any preference for how they'd like to be introduced.",
+          "<strong>Confirm the equipment</strong> with each speaker — microphone, slide advancing, laser pointer, and any adapters they may need.",
+          "<strong>Confirm timing</strong> with each speaker: presentation length and how much time is reserved for Q&A.",
+          "Room volunteers will be present to help with technical issues — don't hesitate to ask them."
+        ]
+      },
+      "running": {
+        "title": "Running the Session",
+        "items": [
+          {
+            "text": "<strong>Open the session</strong> with a brief introduction of the theme and the speakers."
+          },
+          {
+            "text": "<strong>Keep to the schedule.</strong> This matters more than it might seem: there are multiple parallel sessions running at once, and attendees plan their moves between rooms based on the published times.",
+            "subitems": [
+              "Talks should start on time (not early) — people may still be arriving from other sessions.",
+              "Talks should end on time (not late) — the audience needs time to move to their next session."
+            ]
+          },
+          {
+            "text": "<strong>Timing per talk:</strong>",
+            "subitems": [
+              "Regular Talk: 30-minute slot (20 min presentation + 5 min Q&A + 5 min for room changes and setup).",
+              "Lightning Talk: 5-minute slot (4 min presentation + 1 min for setup)."
+            ]
+          },
+          {
+            "text": "<strong>Signaling remaining time:</strong> The timekeeper will hold up a card showing the time remaining. Keep an eye on the timekeeper, and give the speaker a verbal heads-up when time is running short."
+          },
+          {
+            "text": "<strong>Facilitate Q&A</strong>: call on raised hands, and if time allows and no one asks a question, feel free to ask one yourself to keep the momentum going."
+          },
+          {
+            "text": "<strong>Guide the transition</strong> between speakers smoothly, including any equipment swaps."
+          },
+          {
+            "text": "If the session is recorded or live-streamed, remind the audience that questions need to be spoken into a microphone, even if the room feels small enough that it seems unnecessary."
+          }
+        ]
+      },
+      "issues": {
+        "title": "Handling Issues",
+        "items": [
+          "<strong>Equipment trouble or a late/absent speaker:</strong> contact the room volunteer or the organizing committee HQ.",
+          "<strong>If a speaker doesn't show up:</strong> do not skip ahead to the next scheduled talk — people from other sessions may be planning to arrive specifically for that later talk. Use the unexpected gap however works best (e.g. an early break, extra Q&A for the previous talk), and be sure to notify the program committee about the no-show so it can be tracked.",
+          "<strong>Unexpected situations</strong> (a talk going off-topic, running long, etc.): use your judgment to adjust the flow while keeping later talks on schedule."
+        ]
+      },
+      "after": {
+        "title": "After the Session",
+        "items": [
+          "<strong>Thank the speakers</strong> for presenting.",
+          "<strong>Report back briefly</strong> to the organizing committee if anything notable happened (technical issues, no-shows, etc.)."
+        ]
+      },
+      "footer": "Questions? Feel free to reach out to the Program Contents committee anytime. We're glad to have you on board!"
     }
   },
   "program_schedule": {

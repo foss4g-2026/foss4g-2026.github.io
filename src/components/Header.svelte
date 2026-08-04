@@ -122,6 +122,7 @@
               <li><NavLink href={'/' + data.locale + '/call-for-papers/general-sessions'} enabled={isNavEnabled('cfp', 'generalSessions')}>{$t('nav.cfp_sub.general_sessions')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/call-for-papers/academic-track'} enabled={isNavEnabled('cfp', 'academicTrack')}>{$t('nav.cfp_sub.academic_track')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/call-for-papers/workshops'} enabled={isNavEnabled('cfp', 'workshops')}>{$t('nav.cfp_sub.workshops')}</NavLink></li>
+              <li><NavLink href={'/' + data.locale + '/call-for-papers/session-chair-guidelines'} enabled={isNavEnabled('cfp', 'sessionChairGuidelines')}>{$t('nav.cfp_sub.session_chair_guidelines')}</NavLink></li>
             </ul>
           </details>
         </li>
@@ -232,6 +233,7 @@
             <li><NavLink href={'/' + data.locale + '/call-for-papers/general-sessions'} enabled={isNavEnabled('cfp', 'generalSessions')}>{$t('nav.cfp_sub.general_sessions')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/call-for-papers/academic-track'} enabled={isNavEnabled('cfp', 'academicTrack')}>{$t('nav.cfp_sub.academic_track')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/call-for-papers/workshops'} enabled={isNavEnabled('cfp', 'workshops')}>{$t('nav.cfp_sub.workshops')}</NavLink></li>
+            <li><NavLink href={'/' + data.locale + '/call-for-papers/session-chair-guidelines'} enabled={isNavEnabled('cfp', 'sessionChairGuidelines')}>{$t('nav.cfp_sub.session_chair_guidelines')}</NavLink></li>
           </ul>
         </details>
       </li>
