@@ -1,0 +1,303 @@
+[
+  {
+    "name_en": "Mikazuki",
+    "name_ja": "ミカヅキ",
+    "category_en": "Hiroshima-style Okonomiyaki",
+    "category_ja": "お好み焼き（広島風）",
+    "latitude": 34.387382,
+    "longitude": 132.448977,
+    "walk_time": "1 min walk / 徒歩1分",
+    "opening_hours": "11:30 AM – 2:00 PM, 5:30 PM – 10:00 PM",
+    "dietary_tags": [],
+    "description": "",
+    "address_ja": "〒730-0812 広島県広島市中区加古町8-13 レジデンスかこまち",
+    "address_en": "8-13 Kakomachi, Naka Ward, Hiroshima 730-0812, Japan",
+    "phone": "+81 82-249-1414",
+    "website": "https://www.instagram.com/okonomiyaki_mikazuki",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.387382&mlon=132.448977#map=19/34.387382/132.448977"
+  },
+  {
+    "name_en": "Ichi Okonomiyaki",
+    "name_ja": "お好み焼き・鉄板焼き 壱",
+    "category_en": "Hiroshima-style Okonomiyaki",
+    "category_ja": "お好み焼き（広島風）",
+    "latitude": 34.387817,
+    "longitude": 132.449337,
+    "walk_time": "2 min walk / 徒歩2分",
+    "opening_hours": "11:00 AM – 10:00 PM",
+    "dietary_tags": [],
+    "description": "",
+    "address_ja": "〒730-0812 広島県広島市中区加古町5-14 新本ビル1F",
+    "address_en": "1F, 5-14 Kakomachi, Naka Ward, Hiroshima 730-0812, Japan",
+    "phone": "+81 82-246-7335",
+    "website": "",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.387817&mlon=132.449337#map=19/34.387817/132.449337"
+  },
+  {
+    "name_en": "Yotte-ne Shimakara Kitchen Cafe",
+    "name_ja": "ナチュラルキッチン シマカラ食堂",
+    "category_en": "Japanese Set Meals",
+    "category_ja": "定食",
+    "latitude": 34.390302,
+    "longitude": 132.449397,
+    "walk_time": "6 min walk / 徒歩6分",
+    "opening_hours": "10:00 AM – 3:00 PM (lunch), 3:00 PM – 5:00 PM (cafe), 5:00 PM – 8:30 PM (dinner)",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "description": "Vegan options available / ヴィーガンメニューあり",
+    "address_ja": "〒730-0811 広島県広島市中区中島町10-1 1F",
+    "address_en": "1F, 10-1 Nakajimachō, Naka Ward, Hiroshima 730-0811, Japan",
+    "phone": "+81 82-236-9303",
+    "website": "https://yotte-ne-shimakara.com/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.390302&mlon=132.449397#map=19/34.390302/132.449397"
+  },
+  {
+    "name_en": "Okkundou Mazemen",
+    "name_ja": "おっくん堂",
+    "category_en": "Soupless Tantan Noodles",
+    "category_ja": "汁なし担々麺",
+    "latitude": 34.389458,
+    "longitude": 132.454225,
+    "walk_time": "11 min walk / 徒歩11分",
+    "opening_hours": "11:00 AM – 10:00 PM (L.O. 9:30 PM)",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "description": "Vegetarian options available / ベジタリアンメニューあり",
+    "address_ja": "〒730-0051 広島県広島市中区大手町3-3-3 さんさんビル1F",
+    "address_en": "1F, 3-3-3 Ōtemachi, Naka Ward, Hiroshima 730-0051, Japan",
+    "phone": "+81 82-246-1377",
+    "website": "https://okkundo-mazemen.com/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.389458&mlon=132.454225#map=19/34.389458/132.454225"
+  },
+  {
+    "name_en": "McDonald's Funairi",
+    "name_ja": "マクドナルド 舟入店",
+    "category_en": "Fast Food",
+    "category_ja": "ファストフード",
+    "latitude": 34.385791,
+    "longitude": 132.445389,
+    "walk_time": "8 min walk / 徒歩8分",
+    "opening_hours": "Open 24 hours",
+    "dietary_tags": [],
+    "description": "",
+    "address_ja": "〒730-0842 広島県広島市中区舟入中町12-8",
+    "address_en": "12-8 Funairi Nakamachi, Naka Ward, Hiroshima 730-0842, Japan",
+    "phone": "+81 82-234-7003",
+    "website": "https://map.mcdonalds.co.jp/map/34009",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.385791&mlon=132.445389#map=19/34.385791/132.445389"
+  },
+  {
+    "name_en": "7-Eleven Hiroshima Kakomachi",
+    "name_ja": "セブン-イレブン 広島加古町店",
+    "category_en": "Convenience Store",
+    "category_ja": "コンビニ",
+    "latitude": 34.387581,
+    "longitude": 132.449267,
+    "walk_time": "1 min walk / 徒歩1分",
+    "opening_hours": "Open 24 hours",
+    "dietary_tags": [],
+    "description": "",
+    "address_ja": "〒730-0812 広島県広島市中区加古町5-9",
+    "address_en": "5-9 Kakomachi, Naka Ward, Hiroshima 730-0812, Japan",
+    "phone": "+81 82-246-7039",
+    "website": "http://www.sej.co.jp/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.387581&mlon=132.449267#map=19/34.387581/132.449267"
+  },
+  {
+    "name_en": "Jirokichi",
+    "name_ja": "お好み焼き・鉄板焼き 次郎吉",
+    "category_en": "Okonomiyaki and Teppanyaki",
+    "category_ja": "お好み焼・鉄板焼",
+    "latitude": 34.389591,
+    "longitude": 132.459913,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "vegetarian",
+      "vegan",
+      "gluten-free"
+    ],
+    "description": "They also cater to vegetarians and vegans, as well as gluten-free diets! This restaurant is also popular with tourists from overseas!",
+    "address_ja": "〒730-0037 広島県広島市中区中町9-26 トミヤビル2階",
+    "address_en": "2F, 9-26 Nakamachi, Naka Ward, Hiroshima 730-0037, Japan",
+    "phone": "+81 82-249-8632",
+    "website": "",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.389591&mlon=132.459913#map=19/34.389591/132.459913"
+  },
+  {
+    "name_en": "Keiai",
+    "name_ja": "桂愛",
+    "category_en": "Chinese vegetarian cuisine",
+    "category_ja": "中華素食料理",
+    "latitude": 34.389961,
+    "longitude": 132.459375,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "description": "A Chinese restaurant where vegetarians and vegans can enjoy almost all of the menu. *Some dishes use eggs. In addition, they do not use the five pungent vegetables such as chives, garlic, or onions. A restaurant where you can enjoy typical Chinese dishes such as Twice Cooked Pork, Green Pepper Pork Stir Fry, and Mapo Tofu. They can accommodate a wide range of orders from lunch to dinner!",
+    "address_ja": "〒730-0037 広島県広島市中区中町4-14-104 チュリス中町ビル1階",
+    "address_en": "1F, 4-14-104 Nakamachi, Naka Ward, Hiroshima 730-0037, Japan",
+    "phone": "+81 80-4264-7758",
+    "website": "https://www.instagram.com/keiai_hiroshima/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.389961&mlon=132.459375#map=19/34.389961/132.459375"
+  },
+  {
+    "name_en": "Chidiya Kanak",
+    "name_ja": "インド料理 チュリヤカナック",
+    "category_en": "Indian Cuisine",
+    "category_ja": "インド料理",
+    "latitude": 34.392845,
+    "longitude": 132.455826,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "vegan",
+      "halal-dedicated",
+      "vegetarian"
+    ],
+    "description": "\"Churiyakanak\" is an Indian restaurant located near the Peace Memorial Park. All of the menu items at this restaurant are Halal. They can also flexibly accommodate vegetarian and vegan orders. Group reservations are also accepted for up to 40 people, so they can be used by customers from countries such as India, where large groups of people often travel.",
+    "address_ja": "〒730-0051 広島県広島市中区大手町2-2-10 松岡ビル1F",
+    "address_en": "1F, 2-2-10 Ōtemachi, Naka Ward, Hiroshima 730-0051, Japan",
+    "phone": "+81 82-236-7308",
+    "website": "http://www.kanak-hiroshima.com/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.392845&mlon=132.455826#map=19/34.392845/132.455826"
+  },
+  {
+    "name_en": "Gyumon Ramen",
+    "name_ja": "和牛麺割烹 牛門 広島店",
+    "category_en": "Japanese Ramen (Beef broth)",
+    "category_ja": "日本のラーメン（牛骨ベース）",
+    "latitude": 34.39279,
+    "longitude": 132.458627,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "halal-dedicated"
+    ],
+    "description": "This restaurant explicitly offers Halal ramen options using beef. / 牛肉を使ったハラールラーメンを明示的に提供しているお店です。",
+    "address_ja": "〒730-0035 広島県広島市中区本通8-18 HM本通会館4階",
+    "address_en": "4F, 8-18 Hondōri, Naka Ward, Hiroshima 730-0035, Japan",
+    "phone": "+81 82-298-9945",
+    "website": "https://gyumon-group.com/ramen-hiroshima/en/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.39279&mlon=132.458627#map=19/34.39279/132.458627"
+  },
+  {
+    "name_en": "Warung Matahari",
+    "name_ja": "ワルン マタハリ",
+    "category_en": "Indonesian Cuisine",
+    "category_ja": "インドネシア料理",
+    "latitude": 34.382584,
+    "longitude": 132.452469,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "halal-dedicated"
+    ],
+    "description": "A small restaurant serving authentic Indonesian food. It is quite small, so it is not suitable for large groups. Please note that prices are relatively high (Ramen is around 3,000 JPY). / 本格インドネシア料理のお店。かなり小さいお店のため大人数には不向きです。価格はやや高め（ラーメンは約3,000円）です。",
+    "address_ja": "〒730-0051 広島県広島市中区大手町5-8-13 エコービル1F",
+    "address_en": "1F, 5-8-13 Ōtemachi, Naka Ward, Hiroshima 730-0051, Japan",
+    "phone": "+81 82-240-2082",
+    "website": "http://www.warungmatahari.com/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.382584&mlon=132.452469#map=19/34.382584/132.452469"
+  },
+  {
+    "name_en": "Uzbekistan Palace",
+    "name_ja": "ウズベキスタン・パレス",
+    "category_en": "Uzbek Cuisine",
+    "category_ja": "ウズベク料理",
+    "latitude": 34.393898,
+    "longitude": 132.461954,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "halal-dedicated"
+    ],
+    "description": "Enjoy traditional Central Asian and Uzbek dishes prepared with Halal ingredients. / ハラール食材を使用した中央アジア・ウズベクの伝統料理を楽しめます。",
+    "address_ja": "〒730-0032 広島県広島市中区立町1-26 泰平ビル1F",
+    "address_en": "1F, 1-26 Tatemachi, Naka Ward, Hiroshima 730-0032, Japan",
+    "phone": "+81 82-247-1600",
+    "website": "https://food.balcom.jp/brand/uzbekistan-palace/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.393898&mlon=132.461954#map=19/34.393898/132.461954"
+  },
+  {
+    "name_en": "Gonta",
+    "name_ja": "居酒屋ごん太 広島店",
+    "category_en": "Yakiniku (Japanese BBQ) / Meat dishes",
+    "category_ja": "焼肉・肉料理",
+    "latitude": 34.389868,
+    "longitude": 132.459475,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "halal-dedicated"
+    ],
+    "description": "Offers a Halal-friendly menu so you can enjoy Japanese-style grilled meat safely. / ハラール対応メニューで安心して日本式焼肉を楽しめます。",
+    "address_ja": "〒730-0037 広島県広島市中区中町4-14 チュリス中町",
+    "address_en": "4-14 Nakamachi, Naka Ward, Hiroshima 730-0037, Japan",
+    "phone": "+81 82-258-7676",
+    "website": "https://izakayagontahiroshima.owst.jp/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.389868&mlon=132.459475#map=19/34.389868/132.459475"
+  },
+  {
+    "name_en": "Karsiyaka",
+    "name_ja": "トルコ料理 カルシャカ",
+    "category_en": "Turkish Cuisine",
+    "category_ja": "トルコ料理",
+    "latitude": 34.391963,
+    "longitude": 132.455376,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "halal-ingredients"
+    ],
+    "description": "Serves delicious Turkish dishes made with Halal ingredients. The price is a bit expensive, but the quality is great. / ハラール食材で作られた美味しいトルコ料理のお店。少し高めですがクオリティは抜群です。",
+    "address_ja": "〒730-0051 広島県広島市中区大手町2-6-20 上林ビル1階",
+    "address_en": "1F, 2-6-20 Ōtemachi, Naka Ward, Hiroshima 730-0051, Japan",
+    "phone": "+81 82-247-2202",
+    "website": "https://karsiyaka.jp/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.391963&mlon=132.455376#map=19/34.391963/132.455376"
+  },
+  {
+    "name_en": "Namaste",
+    "name_ja": "ナマステ",
+    "category_en": "Indian / Nepalese Cuisine",
+    "category_ja": "インド・ネパール料理",
+    "latitude": 34.394914,
+    "longitude": 132.462353,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "halal-ingredients"
+    ],
+    "description": "A casual dining place using Halal meat and ingredients for their traditional curries. / ハラール肉・食材を使用した伝統的なカレーを気軽に楽しめる店。",
+    "address_ja": "〒730-0013 広島県広島市中区八丁堀11-13 八丁堀アロービル3F",
+    "address_en": "3F, 11-13 Hatchōbori, Naka Ward, Hiroshima 730-0013, Japan",
+    "phone": "+81 82-222-3240",
+    "website": "https://namaste-in.jp/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.394914&mlon=132.462353#map=19/34.394914/132.462353"
+  },
+  {
+    "name_en": "Zaika",
+    "name_ja": "ジャイカ（ZAIKA Indian Food）",
+    "category_en": "Indian / Pakistani Cuisine",
+    "category_ja": "インド・パキスタン料理",
+    "latitude": 34.386321,
+    "longitude": 132.463887,
+    "walk_time": "",
+    "opening_hours": "",
+    "dietary_tags": [
+      "halal-ingredients"
+    ],
+    "description": "Another excellent choice for spice lovers, utilizing Halal-certified ingredients for their menus. / ハラール認証食材を使用したスパイス料理が充実する優良店。",
+    "address_ja": "〒730-0044 広島県広島市中区宝町2-1 フジグラン広島3F フードコート",
+    "address_en": "3F food court, 2-1 Takaramachi, Naka Ward, Hiroshima 730-0044, Japan",
+    "phone": "+81 82-243-5676",
+    "website": "http://g-hiroshima.the-fuji.com/shop/zaika/",
+    "openstreetmap_url": "https://www.openstreetmap.org/?mlat=34.386321&mlon=132.463887#map=19/34.386321/132.463887"
+  }
+]

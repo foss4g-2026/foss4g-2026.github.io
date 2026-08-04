@@ -1,5 +1,9 @@
 <script lang="ts">
   import { t, json, locale } from 'svelte-i18n'
+  import { page } from '$app/stores'
+  import RestaurantMap from '$components/RestaurantMap.svelte'
+  import restaurantsData from '$lib/data/restaurants.json'
+  $: lang = $page.params.lang
 </script>
 
 <svelte:head>
@@ -312,6 +316,17 @@
     <!-- Dining Guide -->
     <h2 class="text-3xl font-bold mb-4">{$t('travel_guide.dining_title')}</h2>
     <p class="mb-6">{$t('travel_guide.dining_intro')}</p>
+
+    <!-- Restaurant Map -->
+    <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.dining_map_title')}</h3>
+    <p class="mb-4 text-gray-700">{$t('travel_guide.dining_map_intro')}</p>
+    <div class="mb-8">
+      <RestaurantMap
+        restaurants={restaurantsData}
+        mapStyle={$t('map.settings.style')}
+        lang={lang}
+      />
+    </div>
 
     <!-- Halal Dedicated -->
     <h3 class="text-xl font-semibold mb-4">{$t('travel_guide.halal_dedicated.title')}</h3>
