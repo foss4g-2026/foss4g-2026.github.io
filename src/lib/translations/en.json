@@ -1579,6 +1579,27 @@
       "why_safe": "Why it is safe: Traditional Japanese seafood dishes (Seafood Washoku) focus mainly on fish, seaweed, and vegetables rather than meat.",
       "affordable": "Affordable: Conveyor belt sushi (Kaiten-sushi) and local Udon shops are very cheap, delicious, and easy to find all over Hiroshima.",
       "note": "Note: Some soy sauces or soup stocks (Dashi) may contain a small amount of cooking alcohol (Mirin/Sake). If you are strict about this, please ask the restaurant staff before ordering."
+    },
+    "dining_map_title": "Restaurant Map near Conference Venues",
+    "dining_map_intro": "The map below shows restaurants near the main conference venues. Click a marker to see details. Use the filter buttons to narrow results by dietary needs."
+  },
+  "restaurant_map": {
+    "filter": {
+      "all": "All",
+      "halal_dedicated": "Halal (Dedicated)",
+      "halal_ingredients": "Halal (Ingredients)",
+      "vegetarian": "Vegetarian / Vegan",
+      "other": "Other"
+    },
+    "legend": {
+      "halal_dedicated": "Halal (Dedicated)",
+      "halal_ingredients": "Halal (Ingredients)",
+      "vegetarian_vegan": "Vegetarian / Vegan",
+      "other": "Other"
+    },
+    "popup": {
+      "website": "Website",
+      "osm": "OpenStreetMap"
     }
   },
   "accommodation": {
