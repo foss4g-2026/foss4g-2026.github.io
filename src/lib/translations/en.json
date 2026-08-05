@@ -240,7 +240,8 @@
       "general_sessions": "General Sessions",
       "academic_track": "Academic Track",
       "workshops": "Workshop Proposals",
-      "session_chair_guidelines": "Session Chair Guidelines"
+      "session_chair_guidelines": "Session Chair Guidelines",
+      "speaker_guidelines": "Speaker Guidelines"
     },
     "program_sub": {
       "outline": "Outline",
@@ -388,6 +389,7 @@
     "announcement": "Program details will be announced in April 2026",
     "title": "Presentations",
     "confirmed_note": "Only presentations confirmed in the proposal submission system are listed. Schedule is subject to change.",
+    "speaker_guidelines_link": "Presenting at FOSS4G Hiroshima 2026? Please read the Speaker Guidelines.",
     "search_placeholder": "Search by title or speaker name...",
     "general_tracks": "General Tracks",
     "academic_tracks": "Academic Tracks",
@@ -3011,6 +3013,68 @@
         ]
       },
       "footer": "Questions? Feel free to reach out to the Program Contents committee anytime. We're glad to have you on board!"
+    },
+    "speaker": {
+      "title": "Speaker Guidelines — FOSS4G Hiroshima 2026",
+      "intro": "FOSS4G Hiroshima 2026 is getting closer, and preparations are going smoothly. We're working hard to make this a great conference for everyone.",
+      "intro_note": "Here are a few things to keep in mind as you prepare your presentation.",
+      "sections": [
+        {
+          "title": "Presentation PC",
+          "items": [
+            "Please use <strong>your own laptop</strong> for your presentation.",
+            "<strong>Windows</strong> and <strong>macOS</strong> are the recommended operating systems.",
+            "Power adapters and chargers will <strong>not</strong> be provided. Please bring your own if needed."
+          ]
+        },
+        {
+          "title": "Presentation Equipment",
+          "items": [
+            "<strong>Display Connection:</strong> HDMI (USB-C to HDMI adapters are available for loan, but since the quantity is limited, those who need one should prepare their own)",
+            "<strong>Microphones:</strong> Wireless microphones are available in <strong>Phoenix Hall, Dahlia, Cosmos, and Ran</strong>. No microphones are used in the <strong>Meeting Rooms</strong>.",
+            "<strong>Laser Pointers &amp; Presentation Remotes:</strong> These will not be provided. Please bring your own if needed."
+          ]
+        },
+        {
+          "title": "Presentation Slides",
+          "items": [
+            "A <strong>16:9 aspect ratio (1920 × 1080 px recommended)</strong> is recommended.",
+            "If your presentation includes videos, audio, animations, or custom fonts, please verify that everything works correctly before your session."
+          ]
+        },
+        {
+          "title": "Venue Wi-Fi",
+          "items": [
+            "Wi-Fi will be available for speakers on the day of the conference. If your presentation requires a more stable Internet connection, please prepare an alternative such as mobile tethering.",
+            "If your presentation depends on websites, cloud services, or external APIs, please prepare offline alternatives in case of network issues."
+          ]
+        },
+        {
+          "title": "Before Your Presentation",
+          "items": [
+            "Please check your laptop connection during the registration period or between sessions.",
+            "There is <strong>no Speaker Ready Room</strong>.",
+            "Please arrive at your presentation room <strong>at least 30 minutes before</strong> your session starts.",
+            "After arriving, please check in with the session chair or room staff."
+          ]
+        },
+        {
+          "title": "Interpretation",
+          "items": [
+            "Japanese–English interpretation will be provided <strong>for Keynote sessions only</strong>.",
+            "Keynote speakers may be asked to share their presentation slides in advance if necessary."
+          ]
+        },
+        {
+          "title": "Recording & Archive",
+          "items": [
+            "<strong>Keynote, Talk, and Lightning Talk</strong> sessions will be recorded.",
+            "Recordings will be published on the <strong>OSGeo.JP YouTube channel</strong> after the conference.",
+            "Sessions will <strong>not</strong> be live-streamed.",
+            "Please ensure that your slides and demonstrations do not contain personal information, authentication credentials, API keys, passwords, confidential information, or other sensitive content."
+          ]
+        }
+      ]
     }
   },
   "program_schedule": {
