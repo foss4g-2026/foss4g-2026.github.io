@@ -794,7 +794,7 @@
   },
   "b2b_session": {
     "title": "B2B Session",
-    "date": "Tuesday, September 1, 2026 | 12:00 – 15:30",
+    "date": "Tuesday, September 1, 2026 | 12:00 – 15:00",
     "intro": "The B2B session is for companies, organizations, and individuals who are using FOSS4G technology in their business, or who want to newly challenge themselves to adopt it.",
     "description": "The history of Open Source Software, including FOSS4G, has grown significantly not only through individual and academic contributions but also through adoption and support from many businesses. The spread of FOSS4G in business has played, and will continue to play, a major role in contributing to a sustainable community and society. We encourage you to take this opportunity to share your case studies of solving challenges with FOSS4G or new ideas, and to use it as a chance to find new business partners.",
     "lunch_description": "This B2B session will have lunchtime as a buffet, featuring presentations from sponsor companies. After the lunch buffet, there will be a café time where you can enjoy famous Hiroshima sweets selected by the LOC (Local Organizing Committee). Please use this time to share new ideas over coffee or Japanese tea.",
@@ -817,15 +817,15 @@
         "content": "Presentations by Sponsors"
       },
       {
-        "time": "13:00 – 15:30",
+        "time": "13:00 – 15:00",
         "content": "Networking"
       }
     ],
     "datetime_title": "Date and Time",
-    "datetime": "Tuesday, September 1, 2026, 12:00 – 15:30",
+    "datetime": "Tuesday, September 1, 2026, 12:00 – 15:00",
     "datetime_details": [
       "12:00 – 13:00: Lunch Buffet (Japanese cuisine along with Hiroshima sake and craft beer)",
-      "13:00 – 15:30: Coffee Break (Hiroshima's famous sweets and fruits, selected by the LOC, along with coffee and Japanese tea)"
+      "14:00 – 15:00: Coffee Break (Hiroshima's famous sweets and fruits, selected by the LOC, along with coffee and Japanese tea)"
     ]
   },
   "ice_breaker": {
