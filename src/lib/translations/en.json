@@ -252,6 +252,7 @@
       "student_poster": "High School Student Posters",
       "demonstration": "Interactive Demonstrations",
       "community_events": "Community Events",
+      "birds_of_a_feather": "Birds of a Feather",
       "b2b_session": "B2B Session",
       "hiring_session": "Hiring Session",
       "ice_breaker": "Ice Breaker",
@@ -3169,5 +3170,15 @@
     "guideline_2": "Presenters are responsible for printing and bringing their own posters. We are unable to arrange printing or delivery on your behalf.",
     "list_title": "List of Poster Presentations",
     "click_hint": "Click a card to expand the abstract."
+  },
+  "bof": {
+    "title": "Birds of a Feather Sessions",
+    "intro": "Birds of a Feather (BoF) sessions are informal, self-organized gatherings that take place throughout the main conference.",
+    "description": "These sessions provide an opportunity for attendees with shared interests to come together, discuss specific topics, share experiences, and collaborate on ideas in a relaxed setting.",
+    "room_before": "A room for BoF sessions will be provided at the FOSS4G Hiroshima conference. Please check the ",
+    "wiki_link_text": "OSGeoWiki",
+    "room_after": " for details.",
+    "organize_before": "If you would like to organize a BoF session, please add the information to the ",
+    "organize_after": " !"
   }
 }

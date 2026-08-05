@@ -44,6 +44,7 @@
       "student_poster": "高校生ポスター",
       "demonstration": "インタラクティブデモンストレーション",
       "community_events": "コミュニティイベント",
+      "birds_of_a_feather": "Birds of a Feather",
       "b2b_session": "B2Bセッション",
       "hiring_session": "Hiring Session",
       "ice_breaker": "アイスブレイカー",
@@ -2997,5 +2998,15 @@
     "guideline_2": "ポスターは発表者ご自身で印刷のうえ、会場へお持ち込みください。印刷物の手配・郵送等の対応はいたしかねます。",
     "list_title": "ポスター発表リスト",
     "click_hint": "カードをクリックするとアブストラクトが表示されます。"
+  },
+  "bof": {
+    "title": "Birds of a Feather セッション",
+    "intro": "Birds of a Feather（BoF）セッションは、メインカンファレンス期間中に開催される、非公式かつ参加者主導型の集まりです。",
+    "description": "共通の関心を持つ参加者がリラックスした雰囲気の中で交流し、特定のトピックについて議論したり、経験を共有したり、アイデアを持ち寄って協力したりする場として活用いただけます。",
+    "room_before": "FOSS4G Hiroshimaでは、BoF用の部屋が提供されます。詳細は",
+    "wiki_link_text": "OSGeoWiki",
+    "room_after": "をご覧ください。",
+    "organize_before": "BoFを企画したい方は",
+    "organize_after": "に記入してください！"
   }
 }
