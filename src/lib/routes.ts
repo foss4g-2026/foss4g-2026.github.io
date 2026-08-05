@@ -40,6 +40,10 @@ const base_routes = [
   '/program-schedule/poster-session',
   '/program-schedule/student-poster',
   '/program-schedule/demonstration',
+  '/program-schedule/community-events',
+  '/program-schedule/birds-of-a-feather',
+  '/program-schedule/b2b-session',
+  '/program-schedule/hiring-session',
   '/program-schedule/ice-breaker',
   '/program-schedule/gala-dinner',
   '/program-schedule/excursion',
@@ -52,7 +56,9 @@ const base_routes = [
   '/attending/accommodation',
   '/attending/childcare',
   // Contact (single page)
-  '/contact'
+  '/contact',
+  // Other single pages
+  '/tokushoho'
 ] as const
 
 export const routes = {
