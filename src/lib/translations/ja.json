@@ -678,25 +678,25 @@
         "lat": 34.38779
       },
       {
-        "name": "Overture Maps Office Hours",
+        "name": "Overture Community Meetup",
         "description": [
-          "FOSS4G 2026 広島の開催期間中、Overture Maps Foundation が主催する非公式セッション「Overture Maps Office Hours」が開催されます。このセッションでは、Overture の無料かつオープンなグローバルデータセットおよび ID 参照システムについて紹介します。",
+          "FOSS4G 2026 広島の開催期間中、Overture Maps Foundation が主催する非公式セッション「Overture Community Meetup」が開催されます。このセッションでは、Overture の無料かつオープンなグローバルデータセットおよび ID 参照システムについて紹介します。",
           "参加者は、質問をしたり、実演や体験型アクティビティに参加したりして、Overture Maps についてさらに詳しく学ぶ機会を得ることができます。",
           "---",
           "イベント詳細",
-          "日程：2026年8月30日～9月3日の期間中 具体的な日時等は未定",
-          "開催会場：FOSS4G Hiroshima 2026会場内　具体的な会場は未定",
+          "日程：2026年8月31日 14:00～16:00",
+          "開催会場：RCC文化センター Room701（広島県広島市中区橋本町5-11）",
           "参加対象： Overture Maps、公開されているグローバルデータセット、および実機デモに関心のある方ならどなたでも参加可能"
         ],
         "organization_name": "Overture Maps Foundation",
         "Representative Name": "Dana Bauer",
-        "planned_location": "会場は未定",
+        "planned_location": "RCC文化センター Room701（広島県広島市中区橋本町5-11）",
         "email": "dana@overturemaps.org",
-        "event_timing": "2026年8月30日～9月3日の期間中 具体的な日時等は未定",
+        "event_timing": "2026年8月31日 14:00～16:00",
         "url": "",
-        "lng": 132.4507,
-        "lat": 34.3921,
-        "coment": "場所未定、決定次第地図に記載"
+        "lng": 132.469399,
+        "lat": 34.395196,
+        "coment": ""
       },
       {
         "name": "XR meets FOSS4G: Practical and open Exchange on AR, VR and Geospatial Use Cases",
@@ -708,19 +708,19 @@
           "XRおよび地理空間技術に関心をお持ちの皆様のご参加を心よりお待ちしております。",
           "---",
           "イベント詳細",
-          "日程：2026年8月30日～9月3日の期間中 具体的な日時等は未定",
-          "開催会場：FOSS4G Hiroshima 2026会場内　具体的な会場は未定",
+          "日程：2026年8月31日 14:00～16:00",
+          "開催会場：RCC文化センター Room702（広島県広島市中区橋本町5-11）",
           "参加対象： AR、VR、複合現実（MR）、地理空間可視化、ナビゲーション、オープンソースツール、および実践的な知見に関心のある方"
         ],
         "organization_name": "Rohde & Schwarz GmbH & Co. KG",
         "Representative Name": "Alexander Engel",
-        "planned_location": "会場は未定",
+        "planned_location": "RCC文化センター Room702（広島県広島市中区橋本町5-11）",
         "email": "alexander-a.engel@rohde-schwarz.com",
-        "event_timing": "2026年8月30日～9月3日の期間中 具体的な日時等は未定",
+        "event_timing": "2026年8月31日 14:00～16:00",
         "url": "",
-        "lng": 132.4513,
-        "lat": 34.3921,
-        "coment": "場所未定、決定次第地図に記載"
+        "lng": 132.469279,
+        "lat": 34.394925,
+        "coment": ""
       },
       {
         "name": "One map, many engines. Render together — MapLibre Meetup Hiroshima 2026",
