@@ -33,6 +33,7 @@ export const navigationConfig = {
       generalSessions: { enabled: true },
       academicTrack: { enabled: true },
       workshops: { enabled: true },
+      speakerGuidelines: { enabled: true },
       sessionChairGuidelines: { enabled: true }
     }
   },

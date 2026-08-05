@@ -29,6 +29,7 @@ const base_routes = [
   '/call-for-papers/general-sessions',
   '/call-for-papers/academic-track',
   '/call-for-papers/workshops',
+  '/call-for-papers/speaker-guidelines',
   '/call-for-papers/session-chair-guidelines',
   // Program Schedule sub-pages
   '/program-schedule',

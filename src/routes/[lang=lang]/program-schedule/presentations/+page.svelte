@@ -49,6 +49,17 @@
     </p>
   </div>
 
+  <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
+    <p class="text-blue-800">
+      <a
+        href={'/' + page.params.lang + '/call-for-papers/speaker-guidelines'}
+        class="underline hover:text-blue-900 font-medium"
+      >
+        {$t('presentations.speaker_guidelines_link')}
+      </a>
+    </p>
+  </div>
+
   <div bind:this={widgetContainer} class="w-full overflow-auto border rounded-lg" style="max-height: 70vh;"></div>
 
 </div>

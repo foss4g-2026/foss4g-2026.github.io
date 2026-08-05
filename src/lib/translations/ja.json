@@ -32,7 +32,8 @@
       "general_sessions": "一般セッション",
       "academic_track": "アカデミックトラック",
       "workshops": "ワークショップ提案",
-      "session_chair_guidelines": "セッションチェア ガイドライン"
+      "session_chair_guidelines": "セッションチェア ガイドライン",
+      "speaker_guidelines": "スピーカーガイドライン"
     },
     "program_sub": {
       "outline": "アウトライン",
@@ -388,6 +389,7 @@
     "announcement": "プログラムの詳細は2026年4月に公開予定です",
     "title": "発表一覧",
     "confirmed_note": "このページには、プロポーザル登録システムで参加を確認済みの発表のみを掲載しています。スケジュールは今後変更になる場合があります。",
+    "speaker_guidelines_link": "ご登壇される方は「スピーカーガイドライン」をご確認ください。",
     "search_placeholder": "タイトルまたは発表者名で検索...",
     "general_tracks": "General Tracks",
     "academic_tracks": "Academic Tracks",
@@ -2787,6 +2789,68 @@
         ]
       },
       "footer": "何か不明点があれば、Program Contents committeeまで遠慮なくご連絡ください。よろしくお願いします！"
+    },
+    "speaker": {
+      "title": "スピーカーガイドライン — FOSS4G Hiroshima 2026",
+      "intro": "FOSS4G Hiroshima 2026の開催が近づいてきました。準備は順調に進んでおり、皆さんにとって良いカンファレンスになるよう取り組んでいます。",
+      "intro_note": "プレゼンテーションの準備にあたって、いくつか留意していただきたい点をご紹介します。",
+      "sections": [
+        {
+          "title": "発表用PC",
+          "items": [
+            "発表は<strong>登壇者ご自身のPC</strong>をご使用ください。",
+            "推奨OSは <strong>Windows</strong> または <strong>macOS</strong> です。",
+            "電源アダプター・充電器の貸し出しは<strong>ありません</strong>ので、必要な場合は各自でご持参ください。"
+          ]
+        },
+        {
+          "title": "発表機材・設備",
+          "items": [
+            "<strong>映像出力：</strong>HDMI（USB-C - HDMI変換アダプターの貸し出しはありますが、数に限りがあるので必要な方は各自で用意してください）",
+            "<strong>マイク：</strong><strong>Phoenix Hall、Dahlia、Cosmos、Ran</strong>ではワイヤレスマイクを使用します。<strong>会議室（Room）</strong>ではマイクは使用しません。",
+            "<strong>レーザーポインター・スライドリモコン：</strong>貸し出しはありません。必要な場合は各自でご用意ください。"
+          ]
+        },
+        {
+          "title": "スライド",
+          "items": [
+            "スライドサイズは <strong>16:9（1920×1080px推奨）</strong> を推奨します。",
+            "動画・音声・アニメーション・外部フォントをご利用の場合は、事前に動作をご確認ください。"
+          ]
+        },
+        {
+          "title": "会場Wi-Fi",
+          "items": [
+            "当日の発表者にはWi-Fiをご利用いただけますが、より安定したインターネット接続が必要な場合は、テザリングなどの代替手段をご準備ください。",
+            "ネットワーク障害に備え、Webサービスやクラウドサービスを利用する場合は、オフラインでの代替手段をご準備ください。"
+          ]
+        },
+        {
+          "title": "発表前の準備",
+          "items": [
+            "接続確認は受付時間またはセッション間の休憩時間に行ってください。",
+            "<strong>控室はありません</strong>。",
+            "<strong>発表開始30分前まで</strong>を目安に発表会場へお越しください。",
+            "会場到着後は、セッションチェアまたは会場スタッフへお声がけください。"
+          ]
+        },
+        {
+          "title": "通訳",
+          "items": [
+            "<strong>Keynoteセッションのみ</strong>日英通訳を実施します。",
+            "Keynote登壇者には、必要に応じてスライドの事前共有をお願いする場合があります。"
+          ]
+        },
+        {
+          "title": "録画・アーカイブ",
+          "items": [
+            "<strong>Keynote、Talk、Lightning Talk</strong>は録画を行います。",
+            "録画はイベント終了後、<strong>OSGeo.JP公式YouTubeチャンネル</strong>で公開予定です。",
+            "ライブ配信は<strong>行いません</strong>。",
+            "スライドやデモには、個人情報・認証情報・APIキー・パスワード・機密情報などを含めないようご注意ください。"
+          ]
+        }
+      ]
     }
   },
   "venue": {
