@@ -2799,7 +2799,8 @@
           "title": "発表時間の枠について",
           "items": [
             "<strong>General Session Talk（通常発表）：</strong>30分の枠です（発表20分＋質疑応答5分＋部屋の入れ替え・次の登壇者の準備5分）",
-            "<strong>Lightning Talk（ライトニングトーク）：</strong>5分の枠です（発表4分＋次の登壇者の準備1分）"
+            "<strong>Lightning Talk（ライトニングトーク）：</strong>5分の枠です（発表4分＋次の登壇者の準備1分）",
+            "<strong>Sponsor session（スポンサートーク）：</strong>スポンサーランクによって発表時間が異なります。詳細は<a href=\"/documents/SponsorshipProspectus.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a>をご確認ください。なお、タイムテーブルには入れ替えの時間が含まれています（例：Diamondは発表25分＋入れ替え5分）"
           ]
         },
         {
