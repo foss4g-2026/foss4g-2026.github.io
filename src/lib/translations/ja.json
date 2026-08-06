@@ -2796,6 +2796,13 @@
       "intro_note": "プレゼンテーションの準備にあたって、いくつか留意していただきたい点をご紹介します。",
       "sections": [
         {
+          "title": "発表時間の枠について",
+          "items": [
+            "<strong>General Session Talk（通常発表）：</strong>30分の枠です（発表20分＋質疑応答5分＋部屋の入れ替え・次の登壇者の準備5分）",
+            "<strong>Lightning Talk（ライトニングトーク）：</strong>5分の枠です（発表4分＋次の登壇者の準備1分）"
+          ]
+        },
+        {
           "title": "発表用PC",
           "items": [
             "発表は<strong>登壇者ご自身のPC</strong>をご使用ください。",
