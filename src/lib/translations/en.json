@@ -3255,9 +3255,23 @@
     "venue_name": "The lobby in front of Phoenix Hall",
     "schedule_title": "Core Time",
     "core_time": "September 2, 15:30–16:30",
-    "guidelines_title": "Poster Guidelines",
-    "guideline_1": "Each submission is allocated one poster, with a size of A0.",
-    "guideline_2": "Presenters are responsible for printing and bringing their own posters. We are unable to arrange printing or delivery on your behalf.",
+    "presenters_title": "For Presenters",
+    "presenters": [
+      "Please prepare <strong>one A0-sized poster in portrait orientation</strong> for each accepted submission.",
+      "Please print your poster and bring it to the venue. Printing and shipping services are not provided by the organizers.",
+      "If you would like to display more than one poster, please contact the organizing committee in advance.",
+      "Posters may be mounted from <strong>09:00 on September 1</strong>. Please mount your poster yourself.",
+      "Mounting pins will be provided at the venue. As the poster boards are fabric-covered, adhesive tapes and stickers cannot be used.",
+      "Poster boards are <strong>not assigned</strong>. You may use any available board in the High School Poster Session area.",
+      "Please be present at your poster during the <strong>Core Time (September 2, 15:30–16:30)</strong> to answer questions and interact with attendees.",
+      "Please remove your poster by <strong>18:30 on September 3</strong>. Any posters remaining after <strong>19:00</strong> will be disposed of by the organizing committee."
+    ],
+    "attendees_title": "For Attendees",
+    "attendees": [
+      "Posters are open for viewing throughout the conference.",
+      "Posters will remain on display for the entire conference, so you are welcome to browse them at any time.",
+      "During the Core Time, student presenters will be available at their posters, giving you the opportunity to ask questions and learn more about their work."
+    ],
     "list_title": "List of Poster Presentations",
     "click_hint": "Click a card to expand the abstract."
   },
