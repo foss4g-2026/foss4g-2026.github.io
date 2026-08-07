@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import demoData from '$lib/data/demonstration.json'
 
   interface Demonstration {
@@ -46,7 +46,6 @@
       <div>
         <p class="font-semibold text-green-800">{$t('demonstration.venue_title')}</p>
         <p class="text-green-900">{$t('demonstration.venue_name')}</p>
-        <p class="text-green-900 text-sm">{$t('demonstration.venue_note')}</p>
       </div>
       <div>
         <p class="font-semibold text-green-800">{$t('demonstration.schedule_title')}</p>
@@ -55,19 +54,23 @@
     </div>
   </div>
 
-  <!-- Schedule -->
-  <div class="mb-8">
-    <h2 class="text-2xl font-semibold mb-3">{$t('demonstration.schedule_title')}</h2>
-    <p class="text-gray-700 mb-2">{$t('demonstration.schedule_description')}</p>
-    <p class="text-gray-700">{$t('demonstration.schedule_note')}</p>
-  </div>
-
-  <!-- Information for Presenters -->
+  <!-- For Presenters -->
   <div class="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-8">
     <h2 class="text-xl font-semibold mb-3">{$t('demonstration.presenters_title')}</h2>
     <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li>{$t('demonstration.presenter_1')}</li>
-      <li>{$t('demonstration.presenter_2')}</li>
+      {#each ($json('demonstration.presenters') as unknown as string[]) as item}
+        <li>{@html item}</li>
+      {/each}
+    </ul>
+  </div>
+
+  <!-- For Attendees -->
+  <div class="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-8">
+    <h2 class="text-xl font-semibold mb-3">{$t('demonstration.attendees_title')}</h2>
+    <ul class="list-disc pl-6 space-y-2 text-gray-700">
+      {#each ($json('demonstration.attendees') as unknown as string[]) as item}
+        <li>{@html item}</li>
+      {/each}
     </ul>
   </div>
 
