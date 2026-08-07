@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t } from 'svelte-i18n'
+  import { t, json } from 'svelte-i18n'
   import schoolPosterData from '$lib/data/schoolPosters.json'
 
   interface Poster {
@@ -43,12 +43,23 @@
     </div>
   </div>
 
-  <!-- Guidelines -->
+  <!-- For Presenters -->
   <div class="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-8">
-    <h2 class="text-xl font-semibold mb-3">{$t('student_poster.guidelines_title')}</h2>
+    <h2 class="text-xl font-semibold mb-3">{$t('student_poster.presenters_title')}</h2>
     <ul class="list-disc pl-6 space-y-2 text-gray-700">
-      <li>{$t('student_poster.guideline_1')}</li>
-      <li>{$t('student_poster.guideline_2')}</li>
+      {#each ($json('student_poster.presenters') as unknown as string[]) as item}
+        <li>{@html item}</li>
+      {/each}
+    </ul>
+  </div>
+
+  <!-- For Attendees -->
+  <div class="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-8">
+    <h2 class="text-xl font-semibold mb-3">{$t('student_poster.attendees_title')}</h2>
+    <ul class="list-disc pl-6 space-y-2 text-gray-700">
+      {#each ($json('student_poster.attendees') as unknown as string[]) as item}
+        <li>{@html item}</li>
+      {/each}
     </ul>
   </div>
 
