@@ -965,11 +965,15 @@
     "announcement": "Program details will be announced in April 2026",
     "title": "Workshops",
     "purchase_ticket_button": "Register Now",
+    "workshop_ticket_button": "Buy Workshop Tickets",
     "ticket_info": "Workshop tickets are now available! Each workshop slot is a separate ticket. Spots are limited — register early to secure your preferred session!",
+    "ticket_info_registration_required": "A workshop ticket alone does not grant admission. Conference registration is required in order to attend a workshop, so please make sure you have also registered for the conference.",
+    "ticket_info_workshop_only": "Note: The \"Buy Workshop Tickets\" button above lists only the four workshop tickets. Use \"Register Now\" for conference registration and other tickets.",
     "schedule_description": "Workshops are held in classroom-style half-day sessions, either in the morning or afternoon. They will take place on Sunday, August 30 and Monday, August 31, 2026, with a maximum duration of 3 hours.",
     "schedule_note_timetable": "Please note that the timetable is provisional and subject to change, including possible adjustments to room assignments.",
     "schedule_note_sponsored": "Information on sponsored workshops will be announced at a later date.",
     "schedule_note_unconfirmed": "Presentations that have not yet been confirmed in the proposal submission system are currently not displayed.",
+    "schedule_note_community_events": "The two community event slots on the afternoon of Monday, August 31 are open to everyone and do not require a workshop ticket.",
     "coming_soon_message": "Program details will be available in July 2026",
     "intro": {
       "description": "Detailed information about workshops will be published once the call for papers closes and the program committee completes the review process."

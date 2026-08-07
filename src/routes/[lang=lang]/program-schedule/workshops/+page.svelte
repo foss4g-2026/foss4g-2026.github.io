@@ -33,8 +33,16 @@
 <div class="py-4">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.program_sub.workshops')}</h1>
 
-  <!-- Ticket Purchase Button -->
-  <SubmitButton 
+  <!-- Ticket Purchase Buttons -->
+  <SubmitButton
+    href="https://ti.to/osgeo-jp/foss4g-2026/with/0btqhgt4-km,t93rtla4wnu,torh-7reago,rk-ja0ibxdg"
+    text={$t('workshops.workshop_ticket_button')}
+    disabled={false}
+    target="_blank"
+    rel="noopener noreferrer"
+  />
+
+  <SubmitButton
     href="https://ti.to/osgeo-jp/foss4g-2026"
     text={$t('workshops.purchase_ticket_button')}
     disabled={false}
@@ -45,6 +53,8 @@
   <!-- Ticket Info Banner -->
   <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
     <p class="text-base text-gray-800">{$t('workshops.ticket_info')}</p>
+    <p class="text-base font-bold text-gray-900 mt-2">{$t('workshops.ticket_info_registration_required')}</p>
+    <p class="text-sm text-gray-700 mt-2">{$t('workshops.ticket_info_workshop_only')}</p>
   </div>
 
   <div class="prose max-w-none mb-8">
@@ -53,6 +63,7 @@
     <ul class="list-disc pl-6 text-sm text-gray-600">
       <li>{$t('workshops.schedule_note_sponsored')}</li>
       <li>{$t('workshops.schedule_note_unconfirmed')}</li>
+      <li>{$t('workshops.schedule_note_community_events')}</li>
     </ul>
   </div>
 
