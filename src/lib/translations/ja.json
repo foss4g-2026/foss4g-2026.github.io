@@ -127,6 +127,18 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "speaker_guidelines_aug5": {
+          "date": "2026年8月5日",
+          "title": "スピーカーガイドラインを公開しました",
+          "description": "詳細を見る",
+          "link": "/call-for-papers/speaker-guidelines"
+        },
+        "bof_aug5": {
+          "date": "2026年8月5日",
+          "title": "Birds of a Feather セッションのページを公開しました",
+          "description": "詳細を見る",
+          "link": "/program-schedule/birds-of-a-feather"
+        },
         "demonstration_jul26": {
           "date": "2026年7月26日",
           "title": "インタラクティブデモンストレーションのページを公開しました",
