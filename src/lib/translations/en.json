@@ -22,6 +22,18 @@
     "news": {
       "title": "News",
       "items": {
+        "speaker_guidelines_aug5": {
+          "date": "August 5, 2026",
+          "title": "Speaker Guidelines Now Available",
+          "description": "View details",
+          "link": "/call-for-papers/speaker-guidelines"
+        },
+        "bof_aug5": {
+          "date": "August 5, 2026",
+          "title": "Birds of a Feather Sessions Page Now Available",
+          "description": "View details",
+          "link": "/program-schedule/birds-of-a-feather"
+        },
         "demonstration_jul26": {
           "date": "July 26, 2026",
           "title": "Interactive Demonstrations Page Now Available",
