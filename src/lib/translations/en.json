@@ -694,8 +694,7 @@
         "name": "Overture Community Meetup",
         "description": [
           "Join the Overture Maps Foundation for a community meetup during FOSS4G Hiroshima. On the program: Live demos of building with Overture data, and a short introduction to how Overture’s open collaboration model works, plus time to connect with the Overture team and community.",
-          "This event is free to attend. Capacity is limited. We’ve kept 10 slots open for community demos and lightning talks. Building something with Overture data? Show it. Sign up when you register:",
-          "https://forms.gle/9FCxyJ9EWCvhCuRj8",
+          "This event is free to attend. Capacity is limited. We’ve kept 10 slots open for community demos and lightning talks. Building something with Overture data? Show it. Sign up when you register.",
           "---",
           "Event Details",
           "Date : August 31 , 2026, 14:00 PM to 16:00 PM",
@@ -707,7 +706,7 @@
         "planned_location": "RCC Bunka Center Room701(5-11 Hashimoto-cho, Naka-ku, Hiroshima City, Hiroshima Prefecture)",
         "email": "dana@overturemaps.org",
         "event_timing": "August 31 , 2026, 14:00 PM to 16:00 PM",
-        "url": "",
+        "url": "https://forms.gle/9FCxyJ9EWCvhCuRj8",
         "lng": 132.469399,
         "lat": 34.395196,
         "coment": ""
