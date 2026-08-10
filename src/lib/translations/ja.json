@@ -694,7 +694,6 @@
         "description": [
           "FOSS4G Hiroshimaの開催に合わせて、Overture Maps Foundationによるコミュニティ・ミートアップを開催します。プログラムでは、Overtureのデータを使った開発のライブデモや、Overtureのオープンなコラボレーションモデルについての簡単な紹介を行うほか、Overtureチームやコミュニティのメンバーと交流する時間も設けています。",
           "参加費は無料ですが、定員には限りがあります。コミュニティによるデモやライトニングトーク用に10枠を確保していますので、Overtureのデータを使って何かを開発されている方は、ぜひその成果をご披露ください。参加登録時に申し込みが可能です。",
-          "https://forms.gle/9FCxyJ9EWCvhCuRj8",
           "---",
           "イベント詳細",
           "日程：2026年8月31日 14:00～16:00",
@@ -706,7 +705,7 @@
         "planned_location": "RCC文化センター Room701（広島県広島市中区橋本町5-11）",
         "email": "dana@overturemaps.org",
         "event_timing": "2026年8月31日 14:00～16:00",
-        "url": "",
+        "url": "https://forms.gle/9FCxyJ9EWCvhCuRj8",
         "lng": 132.469399,
         "lat": 34.395196,
         "coment": ""
