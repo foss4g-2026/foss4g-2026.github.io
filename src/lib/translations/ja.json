@@ -846,6 +846,7 @@
     "venue_name": "広島ゲートパーク　大屋根広場",
     "venue_link": "https://gate-park.jp/en/",
     "venue_description": "広島ゲートパークは、かつて広島市民球場があった場所に生まれ変わった開放的な市民公園です。国際会議場から約1kmの道のりには原爆ドームをはじめとする広島の歴史的な風景が広がり、歩いて向かう道のりそのものが広島を感じる体験となるでしょう。",
+    "venue_map_prompt": "広島ゲートパークへのアクセスは以下を参考にしてください。",
     "what_to_expect_title": "当日の楽しみ方",
     "what_to_expect": [
       "FOSS4G参加者には、飲食チケットが配布されます。会場内のキッチンカーで、広島の味を気軽にお楽しみください。",
@@ -853,6 +854,23 @@
       "広島の復興と平和を象徴するこの場で、盆踊りをともに楽しんでください。歴史と文化が息づく空間で、世界とつながる特別な夜になるはずです。"
     ],
     "closing": "飲み物を手に取り、輪に加わり、FOSS4G広島の旅をここから始めましょう。",
+    "hiroshima_ondo_title": "広島音頭の踊り方",
+    "hiroshima_ondo_intro": "Ice Breakerでは盆踊り（広島音頭）を楽しみます。",
+    "hiroshima_ondo_body": "踊り方は、以下の画像をご覧ください。ぜひ事前にチェックして、当日は一緒に踊ってみてください！",
+    "organizations_title": "団体紹介",
+    "organizations_intro": "Ice Breakerは様々な団体の協力によって運営されています。Ice Breakerに携わる団体を紹介いたします。",
+    "organizations": [
+      {
+        "name": "よさこい：綺羅人（きらびと）",
+        "image": "/images/ice-breaker/YosakoiKirabito.webp",
+        "alt": "よさこい：綺羅人（きらびと）"
+      },
+      {
+        "name": "サンバ：サンバ連合ホーザ・ジ・ヒロシマ",
+        "image": "/images/ice-breaker/SanbaHozaTheHiroshima.webp",
+        "alt": "サンバ：サンバ連合ホーザ・ジ・ヒロシマ"
+      }
+    ],
     "dj_request": {
       "title": "DJタイム — リクエスト曲募集",
       "intro": "Ice Breakerの出し物の一環として、DJタイムを設ける予定です。この時間で流してほしいリクエスト曲を募集いたします。",
