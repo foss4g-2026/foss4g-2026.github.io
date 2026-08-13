@@ -852,6 +852,7 @@
     "venue_name": "Hiroshima Gate Park",
     "venue_link": "https://gate-park.jp/en/",
     "venue_description": "Hiroshima Gate Park is a vibrant public space reborn from the site of the former Hiroshima Municipal Baseball Stadium. Located approximately 1km from the International Conference Center, the walk there takes you past the Atomic Bomb Dome and other landmarks that tell the story of Hiroshima's resilience — making the journey itself part of the experience.",
+    "venue_map_prompt": "For directions to Hiroshima Gate Park, please refer to the information below.",
     "what_to_expect_title": "What to Expect",
     "what_to_expect": [
       "All FOSS4G attendees will receive food and drink voucher to spend at the event. A selection of food trucks will be on-site serving local Hiroshima flavors.",
@@ -859,6 +860,23 @@
       "Join in a Bon Odori (traditional Japanese folk dance) in a place that stands as a living symbol of Hiroshima's peace and recovery. It promises to be a truly memorable evening where culture, community, and geospatial passion come together."
     ],
     "closing": "Grab a drink, join the circle, and let your FOSS4G Hiroshima journey begin.",
+    "hiroshima_ondo_title": "How to Dance Hiroshima Ondo",
+    "hiroshima_ondo_intro": "At Ice Breaker, we will enjoy Bon Odori (Hiroshima Ondo) together.",
+    "hiroshima_ondo_body": "Please see the images below to learn the dance moves. We encourage you to check them out in advance and join us for the dance on the day!",
+    "organizations_title": "Participating Organizations",
+    "organizations_intro": "Ice Breaker is made possible through the cooperation of various organizations. Here, we introduce the organizations involved in Ice Breaker.",
+    "organizations": [
+      {
+        "name": "Yosakoi: Kirabito",
+        "image": "/images/ice-breaker/YosakoiKirabito.webp",
+        "alt": "Yosakoi: Kirabito"
+      },
+      {
+        "name": "Samba: Unidos Rosa de Hiroshima",
+        "image": "/images/ice-breaker/SanbaHozaTheHiroshima.webp",
+        "alt": "Samba: Unidos Rosa de Hiroshima"
+      }
+    ],
     "dj_request": {
       "title": "DJ Live — Song Requests",
       "intro": "As part of the Ice Breaker activities, we will be hosting a DJ live and are currently accepting song requests for this hour.",
