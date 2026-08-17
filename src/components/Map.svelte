@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { 
+  import '$lib/maplibre-worker'
+  import {
     MapLibre, 
     Marker,
     Popup,
