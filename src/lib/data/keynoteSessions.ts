@@ -50,6 +50,7 @@ export const keynoteSessionConfigs: KeynoteSessionConfig[] = [
     pretalxCode: 'VRKJJ9',
     date: 'September 3, 2026, 16:00–16:30',
     room: 'Phoenix Hall',
+    roleOverrides: { 'RDUYKQ': 'coordinator' }, // Toshikazu Seto 
   },
   {
     id: 'day3-closing-9x7g6y',
