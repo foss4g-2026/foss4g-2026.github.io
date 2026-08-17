@@ -7,7 +7,8 @@
     ScaleControl,
     GlobeControl
   } from 'svelte-maplibre-gl'
-  import maplibregl from 'maplibre-gl'
+  import '$lib/maplibre-worker'
+  import * as maplibregl from 'maplibre-gl'
   import { t } from 'svelte-i18n'
 
   interface Restaurant {

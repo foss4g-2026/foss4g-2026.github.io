@@ -7,7 +7,8 @@
     ScaleControl,
     GlobeControl
   } from 'svelte-maplibre-gl'
-  import maplibregl from 'maplibre-gl' // 💡 これを必ず入れてください
+  import '$lib/maplibre-worker'
+  import * as maplibregl from 'maplibre-gl' // 💡 これを必ず入れてください
 
   const { mapClass, style, center, zoom, items, ...props } = $props()
 
