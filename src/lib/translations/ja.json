@@ -872,14 +872,8 @@
       }
     ],
     "dj_request": {
-      "title": "DJタイム — リクエスト曲募集",
-      "intro": "Ice Breakerの出し物の一環として、DJタイムを設ける予定です。この時間で流してほしいリクエスト曲を募集いたします。",
-      "body": "FOSS4Gらしい曲、広島にちなんだ曲、単に盛り上がる曲などお待ちしております！",
-      "note": "（全てのリクエストにお答えできるよう努めますが、場合によってはお応えできない可能性もあります。ご容赦ください。）",
-      "form_prompt": "以下のGoogleフォームよりご応募ください。",
-      "form_label": "リクエスト曲を応募する",
-      "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSfpFZEv-Ye6LsUeYg3YxWqiRDrEdXpi8XKIPAh42wXicsamhg/viewform?usp=sharing&ouid=114636830858847167894",
-      "deadline": "ご応募は8月15日に締め切り予定です。"
+      "title": "DJライブ — 選曲リクエスト",
+      "thanks": "DJライブへの選曲リクエストをたくさんお寄せいただき、ありがとうございました！応募は締め切りました。Ice BreakerでのDJライブをどうぞお楽しみに。"
     }
   },
   "gala_dinner": {

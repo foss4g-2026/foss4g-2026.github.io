@@ -879,13 +879,7 @@
     ],
     "dj_request": {
       "title": "DJ Live — Song Requests",
-      "intro": "As part of the Ice Breaker activities, we will be hosting a DJ live and are currently accepting song requests for this hour.",
-      "body": "Whether it is a song that captures the spirit of FOSS4G, a track associated with Hiroshima, or simply an upbeat song to get everyone excited, we look forward to your suggestions!",
-      "note": "(While we will make every effort to accommodate all requests, please understand that we may not be able to include every selection.)",
-      "form_prompt": "Please submit your requests via the Google Form below:",
-      "form_label": "Submit a song request",
-      "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSfpFZEv-Ye6LsUeYg3YxWqiRDrEdXpi8XKIPAh42wXicsamhg/viewform?usp=sharing&ouid=114636830858847167894",
-      "deadline": "This request will be closed on August 15."
+      "thanks": "Thank you to everyone who submitted song requests! Submissions are now closed. We look forward to enjoying the DJ live together at the Ice Breaker."
     }
   },
   "gala_dinner": {
