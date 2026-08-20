@@ -360,15 +360,15 @@
     ]
   },
   {
-    "ID": "9HQNN9",
-    "Proposal title": "(Academic track) Open-Source Geospatial Workflow for Hydro-Morphological Vulnerability Modelling in Low-Lying Deltaic Systems: Application to the Core Niger Delta, Nigeria",
+    "ID": "HALY9B",
+    "Proposal title": "From Ancient Legends to Pixels: Reconstructing Ancient Esna Landscape with GIS and Remote Sensing",
     "Session type": {
       "en": "Poster"
     },
-    "Abstract": "A reproducible hydro-morphological vulnerability modelling workflow implemented using free and open-source geospatial technologies, demonstrated in the Core Niger Delta of Nigeria.",
-    "Description": "Low-lying deltaic environments face significant environmental vulnerabilities including flooding, sediment instability, and coastal hazards from sea-level rise. This study presents a systematic approach integrating terrain analysis and drainage morphometry within a unified FOSS4G modelling framework. Rather than relying on proprietary geographic information systems, the workflow uses QGIS, GRASS GIS, and SAGA GIS to support transparency and reproducibility.\n\nThe methodology employs SRTM 30-meter digital elevation data as the primary topographic dataset. Hydrological conditioning removes spurious depressions to ensure consistent flow routing. Key analyses include slope gradient derivation, flow direction and accumulation computation, stream network extraction, and drainage density calculation using grid-based methods. Surface moisture potential is represented through the Topographic Wetness Index, combining slope and upslope contributing area.\n\nSix hydro-morphological indicators are derived: elevation, slope, flow accumulation, topographic wetness index, drainage density, and distance to rivers. All variables are standardized using min-max normalization to 0-1 ranges, then integrated into a composite Hydro-Morphological Vulnerability Index using equal-weight linear combination. Results are classified into five vulnerability categories from Very Low to Very High.\n\nThe Core Niger Delta case study demonstrates how terrain-hydrology interactions increase vulnerability in low-elevation floodplains and intertidal swamp belts. Model performance will be evaluated through spatial comparison with documented flood-prone locations and sensitivity analysis varying indicator weights. This approach supports climate resilience planning and demonstrates FOSS4G's capacity for rigorous geospatial research applicable to other vulnerable deltaic regions.",
+    "Abstract": "",
+    "Description": "",
     "Speaker names": [
-      "Dr. Victor N. Sunday"
+      "-"
     ]
   }
 ]
