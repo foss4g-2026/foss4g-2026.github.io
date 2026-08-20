@@ -1,11 +1,8 @@
 <script lang="ts">
-  import { t, json } from 'svelte-i18n'
+  import { t } from 'svelte-i18n'
   import Table from '$components/Table.svelte'
 
   let isProspectusHovered = false
-  let isFormHovered = false
-
-  $: requiredInfo = $json('about.sponsors.call_for_sponsors.alternative_contact.required_info') as string[]
 
   $: headers = [
     $t('about.sponsors.packages.labels.title'),
@@ -77,10 +74,7 @@
     <!-- Sponsorship Status & Deadlines Notice -->
     <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-8">
       <h3 class="text-lg font-bold text-red-800 mb-3">{$t('about.sponsors.call_for_sponsors.status_notice.title')}</h3>
-      <ul class="list-disc list-inside space-y-2 text-red-900">
-        <li>{$t('about.sponsors.call_for_sponsors.status_notice.closed')}</li>
-        <li>{$t('about.sponsors.call_for_sponsors.status_notice.extended')}</li>
-      </ul>
+      <p class="text-red-900 leading-relaxed">{$t('about.sponsors.call_for_sponsors.status_notice.body')}</p>
     </div>
 
     <div class="flex flex-col sm:flex-row gap-6 justify-center">
@@ -98,38 +92,6 @@
         >
         <span>{$t('about.sponsors.call_for_sponsors.prospectus_link')}</span>
       </a>
-      <a 
-        href="https://forms.gle/egvu9ehCRpmxDPSk7" 
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn btn-lg bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 inline-flex items-center gap-3 no-underline"
-        on:mouseenter={() => isFormHovered = true}
-        on:mouseleave={() => isFormHovered = false}
-      >
-        <img 
-          src={isFormHovered ? "/images/logo-16.svg" : "/images/logo-04.svg"} 
-          alt="FOSS4G 2026 Logo" 
-          class="w-8 h-8 object-contain transition-all duration-200"
-        >
-        <span>{$t('about.sponsors.call_for_sponsors.application_form')}</span>
-      </a>
-    </div>
-    
-    <!-- Alternative Contact Method -->
-    <div class="mt-8 bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg">
-      <h3 class="text-lg font-semibold text-yellow-900 mb-3">{$t('about.sponsors.call_for_sponsors.alternative_contact.title')}</h3>
-      <p class="text-yellow-800 mb-4">
-        {$t('about.sponsors.call_for_sponsors.alternative_contact.intro')}
-      </p>
-      <p class="font-semibold text-yellow-900 mb-2">{$t('about.sponsors.call_for_sponsors.alternative_contact.required_info_title')}</p>
-      <ul class="list-disc list-inside text-yellow-800 mb-4 space-y-1">
-        {#each requiredInfo as item}
-          <li>{item}</li>
-        {/each}
-      </ul>
-      <p class="text-sm text-yellow-800 italic">
-        {$t('about.sponsors.call_for_sponsors.alternative_contact.note')}
-      </p>
     </div>
   </div>
   

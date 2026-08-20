@@ -2246,23 +2246,9 @@
         "title": "Call for Sponsors",
         "intro": "FOSS4G 2026 marks its 20th anniversary, broadcasting 'Bridging Geospatial Technology and Humanitarian Support' to the world from Hiroshima, a symbol of peace. We sincerely invite your support as a partner in creating the future of open source.",
         "prospectus_link": "Prospectus(PDF)",
-        "application_form": "Application Form",
-        "alternative_contact": {
-          "title": "For companies unable to access the Google Form",
-          "intro": "If you are unable to access the form or upload files (e.g., due to Google account restrictions or company security policies), we gladly accept sponsorship applications via email. Please send an email to our organizing committee sponsor[at]foss4g.org with the following required information:",
-          "required_info_title": "<Required Information>",
-          "required_info": [
-            "Company or Organization Name",
-            "Contact Person Name",
-            "Email Address",
-            "Preferred Sponsorship Level (Silver, Bronze, or Other) - Diamond, Platinum, and Gold sponsorships are closed."
-          ],
-          "note": "Upon receiving your email, our team will contact you to confirm further details, such as your exhibition booth preferences and logo submission."
-        },
         "status_notice": {
-          "title": "Important Notice: Sponsorship Status and Deadlines",
-          "closed": "Diamond, Platinum, and Gold Sponsorships: Closed.",
-          "extended": "Extended/Conditional Acceptance (Silver & Bronze only): Saturday, August 1 – Friday, August 21. *Disclaimer: For applications received during this extended period, please be aware that some benefits (such as logo placement on printed materials and specific exposure) may not be guaranteed/provided."
+          "title": "Important Notice: Sponsorship Applications Now Closed",
+          "body": "Thank you for your tremendous support of FOSS4G 2026. Due to overwhelming demand and the venue's capacity limits, sponsorship applications for all levels (Diamond, Platinum, Gold, Silver, and Bronze) are now closed as of August 20, 2026. We sincerely thank everyone who applied."
         }
       },
       "benefits": {
@@ -2299,7 +2285,7 @@
           "booth": "3×2m"
         },
         "silver": {
-          "title": "Silver",
+          "title": "Silver (Closed)",
           "cost": "1,000,000",
           "tickets": "2",
           "cxo_tickets": "1",
@@ -2307,7 +2293,7 @@
           "booth": "2×2m"
         },
         "bronze": {
-          "title": "Bronze",
+          "title": "Bronze (Closed)",
           "cost": "500,000",
           "tickets": "1",
           "cxo_tickets": "1",
