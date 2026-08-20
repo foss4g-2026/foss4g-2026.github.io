@@ -2365,8 +2365,8 @@
           "JPY 80,000"
         ],
         [
-          "Local",
-          "JPY 40,000"
+          "<s>Local</s>",
+          "<s>JPY 40,000</s>"
         ],
         [
           "Studentship",
