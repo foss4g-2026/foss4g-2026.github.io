@@ -856,7 +856,18 @@
     "closing": "飲み物を手に取り、輪に加わり、FOSS4G広島の旅をここから始めましょう。",
     "hiroshima_ondo_title": "広島音頭の踊り方",
     "hiroshima_ondo_intro": "Ice Breakerでは盆踊り（広島音頭）を楽しみます。",
-    "hiroshima_ondo_body": "踊り方は、以下の画像をご覧ください。ぜひ事前にチェックして、当日は一緒に踊ってみてください！",
+    "hiroshima_ondo_body": "踊り方は、以下の画像および動画をご覧ください。ぜひ事前にチェックして、当日は一緒に踊ってみてください！",
+    "hiroshima_ondo_lead": "広島県民謡協会所属の有志の皆様の先導により、ご一緒に広島音頭を踊りましょう！",
+    "hiroshima_ondo_videos": [
+      {
+        "title": "広島音頭 フルコーラス",
+        "url": "https://www.youtube.com/watch?v=gg1URiQTJKM"
+      },
+      {
+        "title": "広島音頭 レクチャー",
+        "url": "https://www.youtube.com/watch?v=Ls-rzJPr-L8"
+      }
+    ],
     "organizations_title": "団体紹介",
     "organizations_intro": "Ice Breakerは様々な団体の協力によって運営されています。Ice Breakerに携わる団体を紹介いたします。",
     "organizations": [
