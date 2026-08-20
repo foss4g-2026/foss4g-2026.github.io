@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     132.45104,
+     34.39207
+    ]
+   },
+   "properties": {
+    "key": "conference",
+    "glyph": "🏛️",
+    "name_en": "Hiroshima International Conference Center",
+    "name_ja": "広島国際会議場",
+    "role_en": "Main conference venue, 1–3 September",
+    "role_ja": "学会本会場（9月1–3日）",
+    "addr_ja": "広島市中区中島町1-5",
+    "url": "https://www.pcf.city.hiroshima.jp/hicc/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     132.45498,
+     34.39742
+    ]
+   },
+   "properties": {
+    "key": "gatepark",
+    "glyph": "🎆",
+    "name_en": "Hiroshima Gate Park",
+    "name_ja": "ひろしまゲートパーク",
+    "role_en": "Ice Breaker venue — HIROSHIMA FUSION NIGHT, 1 September",
+    "role_ja": "アイスブレイク会場（9月1日）",
+    "addr_ja": "広島市中区基町5-25",
+    "url": "https://gate-park.jp/"
+   }
+  }
+ ]
+}
