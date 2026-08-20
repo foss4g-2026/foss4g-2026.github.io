@@ -59,7 +59,17 @@
 
     <h2 class="text-2xl font-semibold mb-4">{$t('ice_breaker.hiroshima_ondo_title')}</h2>
     <p class="text-base mb-2">{$t('ice_breaker.hiroshima_ondo_intro')}</p>
-    <p class="text-base mb-4">{$t('ice_breaker.hiroshima_ondo_body')}</p>
+    <p class="text-base mb-2">{$t('ice_breaker.hiroshima_ondo_body')}</p>
+    <p class="text-base mb-4">{$t('ice_breaker.hiroshima_ondo_lead')}</p>
+    <ul class="list-disc pl-6 mb-6">
+      {#each ($json('ice_breaker.hiroshima_ondo_videos') as unknown as any[]) as video}
+        <li class="text-base mb-2">
+          <a href={video.url} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+            {video.title}
+          </a>
+        </li>
+      {/each}
+    </ul>
     <div class="flex justify-center mb-8">
       <img
         src="/images/ice-breaker/HiroshimaOndo.webp"
