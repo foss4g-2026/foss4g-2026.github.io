@@ -504,9 +504,10 @@
   :global(.ib-pop .maplibregl-popup-close-button:hover) { background: #eaeaea; color: #000; }
 
   /* Info sheet */
-  .ib-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 1000; }
+  /* Above the fullscreen overlay (z-index 2000) so the info sheet stays on top in fullscreen. */
+  .ib-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 2100; }
   .ib-sheet {
-    position: fixed; z-index: 1001; left: 50%; transform: translateX(-50%);
+    position: fixed; z-index: 2101; left: 50%; transform: translateX(-50%);
     bottom: 0; width: 100%; max-width: 640px; max-height: 85vh;
     background: #fff; border-radius: 16px 16px 0 0; box-shadow: 0 -4px 24px rgba(0,0,0,0.3);
     display: flex; flex-direction: column;
