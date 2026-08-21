@@ -8,7 +8,11 @@
   import routeRaw from '$lib/data/icebreaker/walking_route.geojson?raw'
   import sakeRaw from '$lib/data/icebreaker/sake_shops.geojson?raw'
 
-  const { style }: { style: string } = $props()
+  const {
+    style,
+    title = 'FOSS4G Hiroshima 2026',
+    showInfo = true,
+  }: { style: string; title?: string; showInfo?: boolean } = $props()
 
   const food = JSON.parse(foodRaw)
   const venuesFC = JSON.parse(venuesRaw)
@@ -48,6 +52,17 @@
   let selectedCat = $state('all')
   let showEvent = $state(true)
   let showSake = $state(false)
+  let isFullscreen = $state(false)
+
+  function toggleFullscreen() {
+    isFullscreen = !isFullscreen
+    // Let the CSS overlay apply, then resize the map to the new container size.
+    setTimeout(() => map?.resize(), 60)
+  }
+
+  function onKeydown(e: KeyboardEvent) {
+    if (e.key === 'Escape' && isFullscreen) toggleFullscreen()
+  }
 
   const foodFilter = $derived(
     selectedCat === 'all' ? undefined : (['==', ['get', 'category'], selectedCat] as any)
@@ -123,6 +138,7 @@
 
   // Deep-linking: #/info/<tab> opens the sheet on that tab.
   function applyHash() {
+    if (!showInfo) return
     const m = /^#\/info\/(icebreaker|route|hiroshima|sake)$/.exec(location.hash)
     if (m) openInfo(m[1] as typeof infoTab)
   }
@@ -138,7 +154,20 @@
   }
 </script>
 
-<div class="ib-map-wrap">
+<svelte:window onkeydown={onKeydown} />
+
+<div class="ib-map-wrap" class:fullscreen={isFullscreen}>
+  {#if isFullscreen}
+    <header class="ib-header">
+      <img class="ib-header-logo" src="/images/logo-04.svg" alt="FOSS4G Hiroshima 2026" />
+      <h2 class="ib-header-title">{title}</h2>
+      {#if showInfo}
+        <button class="ib-header-btn" onclick={() => openInfo('icebreaker')} aria-label="Event information" title="Event info">ℹ️</button>
+      {/if}
+      <button class="ib-header-btn" onclick={toggleFullscreen} aria-label="Exit fullscreen" title="Exit fullscreen">✕</button>
+    </header>
+  {/if}
+  <div class="ib-map-inner">
   <MapLibre
     bind:map
     class="ib-map"
@@ -255,13 +284,18 @@
     {/if}
   </MapLibre>
 
-  <!-- Info button -->
-  <button class="ib-info-btn" onclick={() => openInfo('icebreaker')} aria-label="Event information" title="Event info">ℹ️</button>
+  <!-- Info button (floating; hidden in fullscreen where the header carries it) -->
+  {#if !isFullscreen && showInfo}
+    <button class="ib-info-btn" onclick={() => openInfo('icebreaker')} aria-label="Event information" title="Event info">ℹ️</button>
+  {/if}
 
   <!-- Layer toggles -->
   <div class="ib-layer-toggles">
     <button class="ib-layer-btn" class:active={showEvent} aria-pressed={showEvent} title="Ice Breaker venues & walking route" onclick={() => (showEvent = !showEvent)}>🎆</button>
     <button class="ib-layer-btn" class:active={showSake} aria-pressed={showSake} title="Where to buy the sake" onclick={() => (showSake = !showSake)}>🍶</button>
+    {#if !isFullscreen}
+      <button class="ib-layer-btn" title="Fullscreen" aria-label="Fullscreen" onclick={toggleFullscreen}>⛶</button>
+    {/if}
   </div>
 
   <!-- Count badge -->
@@ -278,10 +312,11 @@
       >{f.icon} {tabLabel(f)}</button>
     {/each}
   </div>
+  </div>
 </div>
 
 <!-- Info sheet -->
-{#if infoOpen}
+{#if infoOpen && showInfo}
   <div class="ib-backdrop" role="presentation" onclick={() => (infoOpen = false)}></div>
   <div class="ib-sheet" role="dialog" aria-modal="true" aria-label="Event information">
     <div class="ib-sheet-head">
@@ -369,7 +404,29 @@
 
 <style>
   .ib-map-wrap { position: relative; }
+  .ib-map-inner { position: relative; }
   :global(.ib-map) { height: 32rem; width: 100%; border-radius: 0.5rem; }
+
+  /* Fullscreen overlay */
+  .ib-map-wrap.fullscreen {
+    position: fixed; inset: 0; z-index: 2000; background: #fff;
+    display: flex; flex-direction: column;
+  }
+  .ib-map-wrap.fullscreen .ib-map-inner { flex: 1; min-height: 0; }
+  .ib-map-wrap.fullscreen :global(.ib-map) { height: 100%; border-radius: 0; }
+
+  /* Fullscreen header (reference-style) */
+  .ib-header {
+    display: flex; align-items: center; gap: 12px;
+    padding: 8px 14px; background: #fff; border-bottom: 1px solid #e5e5e5;
+  }
+  .ib-header-logo { height: 30px; width: auto; }
+  .ib-header-title { flex: 1; margin: 0; font-size: 16px; font-weight: 700; color: #222; line-height: 1.2; }
+  .ib-header-btn {
+    width: 40px; height: 40px; border: none; background: transparent;
+    font-size: 20px; cursor: pointer; border-radius: 50%; flex: 0 0 auto;
+  }
+  .ib-header-btn:hover { background: #f0f0f0; }
 
   .ib-info-btn {
     position: absolute; top: 10px; right: 10px; z-index: 5;

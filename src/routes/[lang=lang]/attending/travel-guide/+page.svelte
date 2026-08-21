@@ -2,6 +2,7 @@
   import { t, json, locale } from 'svelte-i18n'
   import { page } from '$app/stores'
   import RestaurantMap from '$components/RestaurantMap.svelte'
+  import IceBreakerMap from '$components/IceBreakerMap.svelte'
   import restaurantsData from '$lib/data/restaurants.json'
   $: lang = $page.params.lang
 </script>
@@ -76,6 +77,10 @@
         <li>{item}</li>
       {/each}
     </ul>
+
+    <div class="mb-6">
+      <IceBreakerMap style={$t('map.settings.style')} title={$t('travel_guide.food_map_title')} showInfo={false} />
+    </div>
 
     <hr class="my-8" />
 

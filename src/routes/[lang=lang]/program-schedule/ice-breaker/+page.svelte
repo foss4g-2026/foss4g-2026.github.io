@@ -28,7 +28,7 @@
   </div>
 
   <div class="mb-8">
-    <IceBreakerMap style={$t('map.settings.style')} />
+    <IceBreakerMap style={$t('map.settings.style')} title={$t('ice_breaker.map_title')} />
   </div>
 
   <div class="prose max-w-none mb-8">
