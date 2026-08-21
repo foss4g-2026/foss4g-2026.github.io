@@ -891,7 +891,8 @@
     "dj_request": {
       "title": "DJ Live — Song Requests",
       "thanks": "Thank you to everyone who submitted song requests! Submissions are now closed. We look forward to enjoying the DJ live together at the Ice Breaker."
-    }
+    },
+    "map_title": "FOSS4G Hiroshima 2026 Ice Breaker Map"
   },
   "gala_dinner": {
     "title": "Gala Dinner",
@@ -1623,7 +1624,8 @@
       "note": "Note: Some soy sauces or soup stocks (Dashi) may contain a small amount of cooking alcohol (Mirin/Sake). If you are strict about this, please ask the restaurant staff before ordering."
     },
     "dining_map_title": "Restaurant Map near Conference Venues",
-    "dining_map_intro": "The map below shows restaurants near the main conference venues. Click a marker to see details. Use the filter buttons to narrow results by dietary needs."
+    "dining_map_intro": "The map below shows restaurants near the main conference venues. Click a marker to see details. Use the filter buttons to narrow results by dietary needs.",
+    "food_map_title": "FOSS4G Hiroshima 2026 Food Map"
   },
   "restaurant_map": {
     "filter": {
