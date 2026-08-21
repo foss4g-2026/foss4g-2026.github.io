@@ -76,6 +76,7 @@
     { day: 0, start: '10:00', end: '13:00', type: 'workshop', title: 'Workshops Day 1 – Session 1', subtitle: '10:00 – 13:00', link: '/program-schedule/workshops/' },
     { day: 0, start: '13:00', end: '14:00', type: 'neutral',  title: 'Break' },
     { day: 0, start: '14:00', end: '17:00', type: 'workshop', title: 'Workshops Day 1 – Session 2', subtitle: '14:00 – 17:00', link: '/program-schedule/workshops/' },
+    { day: 0, start: '19:00', end: 'Late',  type: 'social',   title: 'TGP Dinner', subtitle: '19:00 – 21:00' },
 
     // ── Aug 31 (Mon) Workshop Day 2 ──
     { day: 1, start: '09:00', end: '10:00', type: 'neutral',  title: 'Registration / Setup' },
@@ -101,7 +102,7 @@
     { day: 3, start: '09:30', end: '11:00', type: 'keynote',  title: 'Keynote Sessions', subtitle: '09:30 – 11:00', venue: 'Phoenix Hall', link: '/program-schedule/keynote/' },
     { day: 3, start: '11:00', end: '12:00', type: 'session',  title: 'General Sessions / Academic Track', link: '/program-schedule/presentations/' },
     { day: 3, start: '12:00', end: '13:00', type: 'lunch',    title: 'Lunch\nHiring Session 12:00 – 13:00', link: '/program-schedule/hiring-session/' },
-    { day: 3, start: '13:00', end: '15:00', type: 'session',  title: 'General Sessions / Academic Track\nLightning Talks', link: '/program-schedule/presentations/' },
+    { day: 3, start: '13:00', end: '15:00', type: 'session',  title: 'General Sessions / Academic Track\nLightning Talks\n(Poster Core Time)', link: '/program-schedule/presentations/' },
     { day: 3, start: '15:00', end: '15:30', type: 'neutral',  title: 'Coffee Break' },
     { day: 3, start: '15:30', end: '18:00', type: 'special',  title: 'General Sessions / Academic Track\n\nHigh School Poster core time\n15:30 – 16:30\n(Phoenix Hall Lobby)', link: '/program-schedule/presentations/' },
     { day: 3, start: '18:00', end: '19:00', type: 'social',   title: 'Chartered bus to Gala Dinner' },

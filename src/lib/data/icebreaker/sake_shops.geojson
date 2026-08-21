@@ -1,0 +1,41 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     132.45469,
+     34.39567
+    ]
+   },
+   "properties": {
+    "name_en": "Orizuru Tower",
+    "name_ja": "おりづるタワー",
+    "note_en": "Directly on the walking route, beside the A-Bomb Dome.",
+    "note_ja": "徒歩ルート沿い、原爆ドーム隣",
+    "url": "https://www.orizurutower.jp/",
+    "brands": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     132.47649,
+     34.39782
+    ]
+   },
+   "properties": {
+    "name_en": "ekie, Hiroshima Station",
+    "name_ja": "ekie 広島駅",
+    "note_en": "Inside Hiroshima Station — convenient on your way out of town.",
+    "note_ja": "広島駅構内",
+    "url": "https://www.ekie.jp/",
+    "brands": []
+   }
+  }
+ ]
+}

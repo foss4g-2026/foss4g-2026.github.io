@@ -1,6 +1,6 @@
 <script lang="ts">
   import { t, json } from 'svelte-i18n'
-  import Map from '$components/Map.svelte'
+  import IceBreakerMap from '$components/IceBreakerMap.svelte'
 </script>
 
 <svelte:head>
@@ -28,24 +28,7 @@
   </div>
 
   <div class="mb-8">
-    <Map
-      mapClass="h-96 w-full rounded-lg"
-      style={$t('map.settings.style')}
-      center={[132.454972, 34.397063]}
-      zoom={14}
-      items={[
-        {
-          coordinates: [132.451065, 34.392088],
-          label: "🏛️",
-          description: "International Conference Center Hiroshima"
-        },
-        {
-          coordinates: [132.454972, 34.397063],
-          label: "🎆",
-          description: "Hiroshima Gate Park"
-        }
-      ]}
-    />
+    <IceBreakerMap style={$t('map.settings.style')} title={$t('ice_breaker.map_title')} />
   </div>
 
   <div class="prose max-w-none mb-8">

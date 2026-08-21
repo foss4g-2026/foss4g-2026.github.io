@@ -1,0 +1,127 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      132.450968,
+      34.391885
+     ],
+     [
+      132.451286,
+      34.3918
+     ],
+     [
+      132.451445,
+      34.392215
+     ],
+     [
+      132.451613,
+      34.392171
+     ],
+     [
+      132.452014,
+      34.392901
+     ],
+     [
+      132.45212,
+      34.393141
+     ],
+     [
+      132.452143,
+      34.393552
+     ],
+     [
+      132.45219,
+      34.393558
+     ],
+     [
+      132.452184,
+      34.393671
+     ],
+     [
+      132.452317,
+      34.393709
+     ],
+     [
+      132.452649,
+      34.393878
+     ],
+     [
+      132.454224,
+      34.394312
+     ],
+     [
+      132.454135,
+      34.394533
+     ],
+     [
+      132.454118,
+      34.39473
+     ],
+     [
+      132.454155,
+      34.394925
+     ],
+     [
+      132.454483,
+      34.395851
+     ],
+     [
+      132.454321,
+      34.395893
+     ],
+     [
+      132.454431,
+      34.396213
+     ],
+     [
+      132.45484,
+      34.396117
+     ],
+     [
+      132.454998,
+      34.396549
+     ],
+     [
+      132.455205,
+      34.396538
+     ],
+     [
+      132.454848,
+      34.397366
+     ],
+     [
+      132.454928,
+      34.397453
+     ]
+    ]
+   },
+   "properties": {
+    "name_en": "Conference Center to Ice Breaker venue",
+    "name_ja": "広島国際会議場 → アイスブレイク会場",
+    "distance_m": 924,
+    "duration_min": 15,
+    "notice_ja": "国際会議場から ICE BREAKER 会場までは徒歩約15分 ※バスは出ません／帽子などの持参をおすすめ",
+    "notice_en": "About a 15-minute walk from the Conference Center to the Ice Breaker venue. No shuttle bus is provided. Bring a hat and water — early September in Hiroshima is hot.",
+    "waypoints": [
+     {
+      "name_en": "Cenotaph for the A-bomb Victims",
+      "name_ja": "原爆死没者慰霊碑"
+     },
+     {
+      "name_en": "Motoyasu Bridge",
+      "name_ja": "元安橋"
+     },
+     {
+      "name_en": "A-Bomb Dome",
+      "name_ja": "原爆ドーム"
+     }
+    ]
+   }
+  }
+ ]
+}

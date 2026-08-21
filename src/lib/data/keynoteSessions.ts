@@ -23,7 +23,7 @@ export const keynoteSessionConfigs: KeynoteSessionConfig[] = [
     id: 'day1-shuzun',
     dayLabel: 'Day 1',
     pretalxCode: 'SHUZUN',
-    date: 'September 1, 2026, 10:45–11:30',
+    date: 'September 1, 2026, 10:45–12:00',
     room: 'Phoenix Hall',
     roleOverrides: { '77LQA9': 'coordinator' }, // Toru Mori
   },
