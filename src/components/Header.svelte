@@ -77,9 +77,9 @@
 </script>
 
 <div class="navbar bg-white shadow-md sticky top-0 z-50" style="font-family: 'Inter', sans-serif;">
-  <div class="navbar-start">
+  <div class="navbar-start flex-none w-auto">
     <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost xl:hidden">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
         </svg>
@@ -192,7 +192,7 @@
       <img src="/images/logo-03.svg" alt="FOSS4G Hiroshima 2026" class="h-10" />
     </Link>
   </div>
-  <div class="navbar-center hidden lg:flex">
+  <div class="hidden xl:flex flex-1 min-w-0 px-4">
     <ul class="menu menu-horizontal px-1">
       <!-- About Dropdown -->
       <li>
@@ -296,9 +296,9 @@
       <li><Link href={'/' + data.locale + '/contact'}>{$t('nav.contact')}</Link></li>
     </ul>
   </div>
-  <div class="navbar-end">
+  <div class="navbar-end flex-none w-auto ml-auto">
     <!-- Language Switcher for Desktop -->
-    <div class="dropdown dropdown-end hidden lg:block">
+    <div class="dropdown dropdown-end hidden xl:block">
       <div tabindex="0" role="button" class="btn btn-ghost">
         <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_DSK9"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>
         {currentLanguage}
