@@ -51,6 +51,7 @@ const base_routes = [
   '/program-schedule/geochicas',
   // Attending sub-pages
   '/attending',
+  '/attending/attendee-guide',
   '/attending/venue',
   '/attending/transport',
   '/attending/travel-guide',

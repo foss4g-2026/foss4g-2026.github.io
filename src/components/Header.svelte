@@ -154,6 +154,7 @@
           <details bind:open={mobileAttendingOpen}>
             <summary onclick={(e) => { e.stopPropagation(); closeMobileDropdowns('attending'); }}>{$t('nav.attending')}</summary>
             <ul class="p-2">
+              <li><NavLink href={'/' + data.locale + '/attending/attendee-guide'} enabled={isNavEnabled('attending', 'attendeeGuide')}>{$t('nav.attending_sub.attendee_guide')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/attending/venue'} enabled={isNavEnabled('attending', 'venue')}>{$t('nav.attending_sub.venue')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
               <li><NavLink href={'/' + data.locale + '/attending/travel-guide'} enabled={isNavEnabled('attending', 'travelGuide')}>{$t('nav.attending_sub.travel_guide')}</NavLink></li>
@@ -271,6 +272,7 @@
         <details bind:open={desktopAttendingOpen}>
           <summary onclick={() => closeDesktopDropdowns('attending')}>{$t('nav.attending')}</summary>
           <ul class="bg-white rounded-lg shadow-xl border border-gray-100 p-2 w-52 mt-2">
+            <li><NavLink href={'/' + data.locale + '/attending/attendee-guide'} enabled={isNavEnabled('attending', 'attendeeGuide')}>{$t('nav.attending_sub.attendee_guide')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/attending/venue'} enabled={isNavEnabled('attending', 'venue')}>{$t('nav.attending_sub.venue')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/attending/transport'} enabled={isNavEnabled('attending', 'transport')}>{$t('nav.attending_sub.transport')}</NavLink></li>
             <li><NavLink href={'/' + data.locale + '/attending/travel-guide'} enabled={isNavEnabled('attending', 'travelGuide')}>{$t('nav.attending_sub.travel_guide')}</NavLink></li>

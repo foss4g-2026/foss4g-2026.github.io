@@ -274,6 +274,7 @@
       "geochicas": "Geochicas"
     },
     "attending_sub": {
+      "attendee_guide": "Attendee Guide",
       "venue": "Conference Venue",
       "transport": "Transport Information",
       "travel_guide": "Travel Guide",
@@ -3321,5 +3322,71 @@
     "room_after": " for details.",
     "organize_before": "If you would like to organize a BoF session, please add the information to the ",
     "organize_after": " !"
+  },
+  "attendee_guide": {
+    "title": "Attendee Guide",
+    "intro": [
+      "Welcome to FOSS4G Hiroshima 2026!",
+      "This guide includes useful information about the venue, registration, local transport, cash, connectivity, and more. Please save it for your trip.",
+      "Please check the official website for the latest updates."
+    ],
+    "sections": [
+      {
+        "title": "Event overview",
+        "html": "<ul><li>Workshops: August 30–31, at RCC Bunka Center</li><li>Main Conference: September 1–3, at International Conference Center Hiroshima</li><li>Community Sprint: September 4, at JMS Aster Plaza</li><li>Excursion: September 5</li></ul><p>Please see “Program &amp; Schedule” on the official website for details. The schedule and room assignments may change.</p>"
+      },
+      {
+        "title": "Entering Japan",
+        "html": "<p>Visa requirements depend on your nationality, purpose of visit, and length of stay. Please check the requirements that apply to you before traveling.</p><p>To make arrival procedures smoother, you may wish to use Visit Japan Web if applicable.</p>"
+      },
+      {
+        "title": "Venue and registration",
+        "html": "<p>The main conference venue is <strong>International Conference Center Hiroshima</strong>, located inside Peace Memorial Park.</p><p>Address: 1-5 Nakajima-cho, Naka-ku, Hiroshima.</p><p><strong>Registration is on Basement 1 (B1).</strong></p><p>Please use the entrance leading to B1, not the main entrance on the first floor.</p><p>Workshops are held at <strong>RCC Bunka Center</strong>, about a 10-minute walk from Hiroshima Station South Exit and a 5-minute walk from Kanayamacho streetcar stop. Please confirm your workshop venue and start time in advance.</p><p>Workshop registration will take place in Room 609 on August 30 (Workshop Day 1), and in the 7th-floor lobby on August 31 (Workshop Day 2).</p>"
+      },
+      {
+        "title": "Registration / Check-in",
+        "html": "<p>Please present the QR code included in the confirmation email you received when registering for the <strong>Conference</strong> at the registration desk.</p><p>Please note that the QR code required for registration is the one for <strong>Conference registration</strong>. QR codes for workshops, the Gala Dinner, or other tickets cannot be used for Conference check-in.</p><p>If you purchased an additional T-shirt or an <strong>Icebreaker (Additional)</strong> ticket, please present the QR code sent to you when you purchased each respective ticket.</p>"
+      },
+      {
+        "title": "Lunch Boxes",
+        "html": "<p>Lunch boxes will be provided for participants attending the workshops and the main conference. Please collect your lunch box at the following locations:</p><ul><li><strong>Workshop days:</strong> In front of the registration desk</li><li><strong>Conference days:</strong> In front of the Dahlia Room</li></ul><p>Two types of lunch boxes will be available: a regular meal and a vegetarian/halal-friendly meal. Please take the option you prefer.</p><p>We are preparing lunch boxes with the aim of providing one for every participant; however, availability cannot be guaranteed. Thank you for your understanding.</p><p>Please dispose of any rubbish in the designated rubbish bags provided at the venue.</p>"
+      },
+      {
+        "title": "Luggage storage area",
+        "html": "<p>A self-service luggage storage area will be available at the venue for attendees and sponsors. You may use it for temporary storage of suitcases or boxes brought or sent by sponsors.</p><p>This area will not be staffed. Please do not leave valuables, passports, cash, laptops, or other important items. You are responsible for your belongings; the organizers cannot accept responsibility for loss, theft, or damage.</p>"
+      },
+      {
+        "title": "Getting to Hiroshima",
+        "html": "<p>From Hiroshima Airport, the airport limousine bus to Hiroshima Station takes about 50 minutes.</p><p>From Kansai International Airport, the common route is via Shin-Osaka and the Sanyo Shinkansen.</p><p>Trains and buses in Japan are usually very punctual. Please allow enough time for transfers. Most public transport does not run all night, so check the last service.</p>"
+      },
+      {
+        "title": "Getting around Hiroshima",
+        "html": "<p>Hiroshima’s streetcars (Hiroden) are convenient for travel from Hiroshima Station to the city center. Get off at <strong>Genbaku-dome-mae</strong>; the venue is about a 10-minute walk away. Hiroshima Bus Route 24 stops directly at Peace Memorial Park.</p><h3>IC cards and cash</h3><p>For local public transport, please use an <strong>IC card or cash</strong>. Contactless bank cards may not be accepted.</p><p>When using an IC card in Hiroshima, hold it firmly on the card reader for <strong>about three seconds</strong> when boarding and getting off. The system differs from Tokyo and some other cities.</p><p>If paying cash on a bus or streetcar, pay near the <strong>driver or conductor</strong>. You may need coins.</p>"
+      },
+      {
+        "title": "Cash and payments",
+        "html": "<p>Cards and digital payments are common in Japan, but some vending machines and small shops accept <strong>cash only</strong>. Some machines accept <strong>¥1,000 notes only</strong>.</p><p>Please keep enough cash, including ¥1,000 notes and coins. They are useful for buses, streetcars, vending machines, and coin lockers.</p>"
+      },
+      {
+        "title": "Electricity and connectivity",
+        "html": "<p>Japan uses <strong>100V electricity and Type A plugs</strong> (two flat parallel pins). Please bring your own plug adapter if needed, and make sure your device supports 100V.</p><p><strong>The organizers will not provide or lend plug adapters or other power accessories.</strong> Please arrange these yourself before traveling. If you forget one, plug adapters may be available at electronics stores near the venue or at some convenience stores. Availability and plug types vary by store.</p><p>Wi-Fi is available at the venue and many hotels. For connectivity while traveling, consider an eSIM, SIM card, or international roaming.</p>"
+      },
+      {
+        "title": "Weather and clothing",
+        "html": "<p>Late August and early September in Hiroshima are hot and humid. Bring light clothing, water, and sun protection. A light jacket is also useful indoors because of air conditioning.</p><p>Sudden rain and typhoons are possible at this time of year. Please check the forecast before and during your stay.</p>"
+      },
+      {
+        "title": "Food and dietary needs",
+        "html": "<p>Hiroshima is known for okonomiyaki, oysters, and lemon products. If you have dietary requirements or allergies, please prepare a short explanation in English and Japanese, and tell restaurant or event staff.</p>"
+      },
+      {
+        "title": "Social events",
+        "html": "<ul><li><strong>Ice Breaker</strong>: Tuesday, September 1 from 18:00, at HIROSHIMA GATE PARK. Food and drink vouchers will be provided. This is an outdoor event.</li><li><strong>Gala Dinner</strong>: Wednesday, September 2 evening, at Grand Prince Hotel Hiroshima. Chartered buses will leave from the main venue. A separate ticket is required.</li><li><strong>Excursion</strong>: Saturday, September 5. The excursion visits Peace Memorial Park and Miyajima. Return transportation is not included.</li></ul>"
+      },
+      {
+        "title": "While you are in Hiroshima",
+        "html": "<p>Peace Memorial Park and the Atomic Bomb Dome are important places that share Hiroshima’s history and hope for peace. Please visit with respect.</p><p>Central Hiroshima is easy to explore on foot and by streetcar. The Genbaku-dome-mae, Kamiyacho, and Hatchobori areas have many restaurants and shops.</p><p>We look forward to welcoming you to Hiroshima!</p><p>FOSS4G Hiroshima 2026 Local Organizing Committee</p>"
+      }
+    ]
   }
 }
