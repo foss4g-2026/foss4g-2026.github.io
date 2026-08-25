@@ -1982,6 +1982,11 @@
           "name": "Thanks OSGeo Map",
           "description": "A map app where you can post messages to celebrate OSGeo's 20th anniversary.",
           "url": "https://asahina820.github.io/thanks-osgeo-map/"
+        },
+        {
+          "name": "Open Source GIS Tech Landscape 2026",
+          "description": "A one-page landscape of the open source GIS ecosystem, built from all 358 talks at FOSS4G Hiroshima 2026. Tap any field to see its talks with times and rooms, or browse by application theme.",
+          "url": "https://opensource-gis-tech-landscape-2026.hrko9gis.workers.dev/"
         }
       ]
     },
