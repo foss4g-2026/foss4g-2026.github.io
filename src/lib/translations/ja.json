@@ -1849,6 +1849,11 @@
           "name": "Thanks OSGeo マップ",
           "description": "OSGeo設立20周年を記念して、メッセージを投稿できる地図アプリです。",
           "url": "https://asahina820.github.io/thanks-osgeo-map/"
+        },
+        {
+          "name": "オープンソースGIS 技術ランドスケープ 2026",
+          "description": "FOSS4G Hiroshima 2026の全358発表を分類し、オープンソースGISの技術分野を1枚のマップにまとめたアプリです。分野をタップすると、その分野の発表を時刻・会場付きで一覧できます。応用テーマ別の絞り込みにも対応しています。",
+          "url": "https://opensource-gis-tech-landscape-2026.hrko9gis.workers.dev/ja/"
         }
       ]
     },
