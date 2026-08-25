@@ -15,7 +15,10 @@
     "Jared K Marcotte",
     "Edoardo Neerhut",
     "Hirofumi Hayashi",
-    "Hiroshi Miura"
+    "Hiroshi Miura",
+    "Yuhi Yamamoto",
+    "Nobusuke Iwasaki",
+    "Sogawa Yuka"
   ]
 </script>
 
