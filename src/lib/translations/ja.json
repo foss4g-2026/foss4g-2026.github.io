@@ -2126,6 +2126,8 @@
         "description_link": "Adopt-a-ticket",
         "description_after": "プログラムに参加してくださったすべての方々に深く感謝いたします。ワークショップ講師、旅費助成受給者、その他の参加者のチケット費用を負担していただくことで、FOSS4G Hiroshima 2026をより包括的で、多様性に富み、アクセスしやすいものにしていただきました。これらの行為は、オープンソースが本当に何であるかを思い出させてくれます — 人々が人々を支援することです。",
         "supporters_title": "Adopt-a-ticket 寄付者の皆様",
+        "tgp_supporters_title": "Travel Grant Program へのご支援企業",
+        "tgp_supporters_description": "また、Travel Grant Program (TGP) をご支援いただき、世界中からの参加者が FOSS4G Hiroshima 2026 に参加できるよう後押ししてくださった以下の企業の皆様に、心より感謝申し上げます。",
         "thank_you": "その精神の一部となっていただき、ありがとうございます。"
       },
       "call_for_sponsors": {
