@@ -60,6 +60,7 @@ export const navigationConfig = {
   attending: {
     enabled: true,
     subItems: {
+      attendeeGuide: { enabled: true },
       venue: { enabled: true },
       transport: { enabled: true },
       travelGuide: { enabled: true },
