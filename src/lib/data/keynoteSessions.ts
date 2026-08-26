@@ -56,7 +56,7 @@ export const keynoteSessionConfigs: KeynoteSessionConfig[] = [
     id: 'day3-closing-9x7g6y',
     dayLabel: 'Day 3',
     pretalxCode: 'HDRU7L',
-    date: 'September 3, 2026, 16:30–18:00',
+    date: 'September 3, 2026, 16:30–17:30',
     room: 'Phoenix Hall',
   },
 ]
