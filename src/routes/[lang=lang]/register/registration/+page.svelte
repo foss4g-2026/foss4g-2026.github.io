@@ -40,6 +40,12 @@
       rows={$json('register.registration.main_registration_types') as unknown as string[][]}
       class="mb-6"
     />
+
+    <!-- Last Chance notice -->
+    <div class="bg-orange-50 border-l-4 border-orange-500 p-4 mb-4">
+      <p class="font-semibold text-orange-800 mb-1">{$t('register.registration.last_chance.title')}</p>
+      <p class="text-sm text-orange-900">{$t('register.registration.last_chance.description')}</p>
+    </div>
   </div>
 
   <div class="prose max-w-none">

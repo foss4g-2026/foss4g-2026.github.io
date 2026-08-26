@@ -22,6 +22,18 @@
     "news": {
       "title": "News",
       "items": {
+        "last_chance_aug20": {
+          "date": "August 20, 2026",
+          "title": "Last Chance Tickets Now on Sale",
+          "description": "View details",
+          "link": "/register/registration"
+        },
+        "attendee_guide_aug": {
+          "date": "August 25, 2026",
+          "title": "Attendee Guide Now Available",
+          "description": "View details",
+          "link": "/attending/attendee-guide"
+        },
         "speaker_guidelines_aug5": {
           "date": "August 5, 2026",
           "title": "Speaker Guidelines Now Available",
@@ -2369,7 +2381,11 @@
           "<s>JPY 50,000</s>"
         ],
         [
-          "Regular (May 9 - September 3, 2026)",
+          "<s>Regular (May 9 - August 19, 2026)</s>",
+          "<s>JPY 80,000</s>"
+        ],
+        [
+          "Last Chance Ticket (August 20 - September 3, 2026) — 200 tickets only. This ticket DOES NOT INCLUDE any goods including T-shirt.",
           "JPY 80,000"
         ],
         [
@@ -2399,6 +2415,10 @@
           "+JPY 3,000"
         ]
       ],
+      "last_chance": {
+        "title": "Last Chance Conference Registration",
+        "description": "Last Chance Conference Registration includes full conference registration for Tuesday 1st, Wednesday 2nd and Thursday 3rd September as well as access to the icebreaker on Tuesday night."
+      },
       "get_ticket_button": "Get your ticket here",
       "ticket_link_note": "Registration is scheduled to begin in February 2026",
       "fees_note_additional": "Registration fees include one ticket each for Ice Breaker. For additional attendees, please purchase Additional tickets.",
