@@ -1251,6 +1251,7 @@
   },
   "travel_guide": {
     "title": "Travel Guide",
+    "toc_title": "Contents",
     "welcome": {
       "title": "Welcome to Hiroshima",
       "description": "Welcome to Hiroshima, Japan. We hope you enjoy your stay and your participation in our conference."

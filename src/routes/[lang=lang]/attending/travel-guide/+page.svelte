@@ -14,6 +14,37 @@
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-bold mb-8">{$t('nav.attending_sub.travel_guide')}</h1>
 
+  <!-- Table of Contents -->
+  <nav id="toc" class="mb-8 p-4 bg-base-200 rounded-lg text-sm">
+    <p class="font-semibold mb-2">{$t('travel_guide.toc_title')}</p>
+    <ul class="list-none pl-0 columns-1 sm:columns-2 gap-x-8 space-y-1">
+      {#if $locale !== 'ja'}
+        <li><a href="#safety" class="hover:underline text-blue-600">{$t('travel_guide.safety.title')}</a></li>
+        <li><a href="#culture" class="hover:underline text-blue-600">{$t('travel_guide.culture.title')}</a></li>
+        <li><a href="#food-culture" class="hover:underline text-blue-600">{$t('travel_guide.food.title')}</a></li>
+        <li><a href="#peace" class="hover:underline text-blue-600">{$t('travel_guide.peace.title')}</a></li>
+        <li><a href="#language" class="hover:underline text-blue-600">{$t('travel_guide.language.title')}</a></li>
+        <li><a href="#transportation" class="hover:underline text-blue-600">{$t('travel_guide.transportation.title')}</a></li>
+        <li><a href="#currency" class="hover:underline text-blue-600">{$t('travel_guide.currency.title')}</a></li>
+        <li><a href="#electricity" class="hover:underline text-blue-600">{$t('travel_guide.electricity.title')}</a></li>
+        <li><a href="#emergency" class="hover:underline text-blue-600">{$t('travel_guide.emergency.title')}</a></li>
+        <li><a href="#internet" class="hover:underline text-blue-600">{$t('travel_guide.internet.title')}</a></li>
+        <li><a href="#smoking" class="hover:underline text-blue-600">{$t('travel_guide.smoking.title')}</a></li>
+        <li><a href="#lgbtq" class="hover:underline text-blue-600">{$t('travel_guide.lgbtq.title')}</a></li>
+        <li><a href="#places-nearby" class="hover:underline text-blue-600">{$t('travel_guide.places_nearby.title')}</a></li>
+      {/if}
+      <li><a href="#must-see" class="hover:underline text-blue-600">{$t('travel_guide.must_see.title')}</a></li>
+      <li><a href="#miyajima" class="hover:underline text-blue-600">{$t('travel_guide.miyajima.title')}</a></li>
+      <li><a href="#transport-exp" class="hover:underline text-blue-600">{$t('travel_guide.transport_exp.title')}</a></li>
+      <li><a href="#historic-towns" class="hover:underline text-blue-600">{$t('travel_guide.historic_towns.title')}</a></li>
+      <li><a href="#maritime" class="hover:underline text-blue-600">{$t('travel_guide.maritime.title')}</a></li>
+      <li><a href="#day-trips" class="hover:underline text-blue-600">{$t('travel_guide.day_trips.title')}</a></li>
+      <li><a href="#onsen" class="hover:underline text-blue-600">{$t('travel_guide.onsen.title')}</a></li>
+      <li><a href="#food-try" class="hover:underline text-blue-600">{$t('travel_guide.food_try.title')}</a></li>
+      <li><a href="#dining" class="hover:underline text-blue-600">{$t('travel_guide.dining_title')}</a></li>
+    </ul>
+  </nav>
+
   <div class="prose max-w-none">
 
     {#if $locale !== 'ja'}
@@ -24,7 +55,7 @@
     <hr class="my-8" />
 
     <!-- Safety -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.safety.title')}</h2>
+    <h2 id="safety" class="text-2xl font-semibold mb-4">{$t('travel_guide.safety.title')}</h2>
     <p class="mb-2">{$t('travel_guide.safety.description')}</p>
     <p class="mb-1 font-medium">{$t('travel_guide.safety.resources_title')}</p>
     <ul class="list-disc pl-6 mb-6">
@@ -44,26 +75,29 @@
     <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.safety.registration_title')}</h3>
     <p class="mb-6">{$t('travel_guide.safety.registration_note')}</p>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Culture -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.culture.title')}</h2>
+    <h2 id="culture" class="text-2xl font-semibold mb-4">{$t('travel_guide.culture.title')}</h2>
     <ul class="list-disc pl-6 mb-6">
       {#each ($json('travel_guide.culture.items') as unknown as string[]) as item}
         <li>{item}</li>
       {/each}
     </ul>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Religion -->
     <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.religion.title')}</h2>
     <p class="mb-6">{$t('travel_guide.religion.description')}</p>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Food Culture -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.food.title')}</h2>
+    <h2 id="food-culture" class="text-2xl font-semibold mb-4">{$t('travel_guide.food.title')}</h2>
     <p class="mb-2">{$t('travel_guide.food.description')}</p>
     <p class="mb-1 font-medium">{$t('travel_guide.food.popular_title')}</p>
     <ul class="list-disc pl-6 mb-4">
@@ -82,10 +116,11 @@
       <IceBreakerMap style={$t('map.settings.style')} title={$t('travel_guide.food_map_title')} showInfo={false} />
     </div>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Peace -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.peace.title')}</h2>
+    <h2 id="peace" class="text-2xl font-semibold mb-4">{$t('travel_guide.peace.title')}</h2>
     <p class="mb-2">{$t('travel_guide.peace.description')}</p>
     <p class="mb-1 font-medium">{$t('travel_guide.peace.visit_title')}</p>
     <ul class="list-disc pl-6 mb-6">
@@ -94,10 +129,11 @@
       {/each}
     </ul>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Language -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.language.title')}</h2>
+    <h2 id="language" class="text-2xl font-semibold mb-4">{$t('travel_guide.language.title')}</h2>
     <p class="mb-2">{$t('travel_guide.language.description')}</p>
     <p class="mb-1 font-medium">{$t('travel_guide.language.phrases_title')}</p>
     <ul class="list-disc pl-6 mb-6">
@@ -106,47 +142,49 @@
       {/each}
     </ul>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Transportation -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.transportation.title')}</h2>
+    <h2 id="transportation" class="text-2xl font-semibold mb-4">{$t('travel_guide.transportation.title')}</h2>
     <p class="mb-6">{$t('travel_guide.transportation.description')}</p>
 
     <!-- Currency -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.currency.title')}</h2>
+    <h2 id="currency" class="text-2xl font-semibold mb-4">{$t('travel_guide.currency.title')}</h2>
     <p class="mb-6">{$t('travel_guide.currency.description')}</p>
 
     <!-- Electricity -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.electricity.title')}</h2>
+    <h2 id="electricity" class="text-2xl font-semibold mb-4">{$t('travel_guide.electricity.title')}</h2>
     <p class="mb-6">{$t('travel_guide.electricity.description')}</p>
 
     <!-- Emergency -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.emergency.title')}</h2>
+    <h2 id="emergency" class="text-2xl font-semibold mb-4">{$t('travel_guide.emergency.title')}</h2>
     <ul class="list-none pl-0 mb-6">
       <li>{$t('travel_guide.emergency.police')}</li>
       <li>{$t('travel_guide.emergency.fire')}</li>
     </ul>
 
     <!-- Internet -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.internet.title')}</h2>
+    <h2 id="internet" class="text-2xl font-semibold mb-4">{$t('travel_guide.internet.title')}</h2>
     <p class="mb-6">{$t('travel_guide.internet.description')}</p>
 
     <!-- Smoking -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.smoking.title')}</h2>
+    <h2 id="smoking" class="text-2xl font-semibold mb-4">{$t('travel_guide.smoking.title')}</h2>
     <p class="mb-6">{$t('travel_guide.smoking.description')}</p>
 
     <!-- LGBTQ -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.lgbtq.title')}</h2>
+    <h2 id="lgbtq" class="text-2xl font-semibold mb-4">{$t('travel_guide.lgbtq.title')}</h2>
     <p class="mb-2">{$t('travel_guide.lgbtq.description')}</p>
 
     <!-- Places Nearby -->
-    <h2 class="text-2xl font-semibold mt-4 mb-4">{$t('travel_guide.places_nearby.title')}</h2>
+    <h2 id="places-nearby" class="text-2xl font-semibold mt-4 mb-4">{$t('travel_guide.places_nearby.title')}</h2>
     <ul class="list-disc pl-6 mb-6">
       {#each ($json('travel_guide.places_nearby.items') as unknown as string[]) as item}
         <li>{item}</li>
       {/each}
     </ul>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
     {/if}
 
@@ -155,7 +193,7 @@
     <p class="mb-6">{$t('travel_guide.guide_intro')}</p>
 
     <!-- Must See -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.must_see.title')}</h2>
+    <h2 id="must-see" class="text-2xl font-semibold mb-4">{$t('travel_guide.must_see.title')}</h2>
 
     <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.must_see.peace_park.title')}</h3>
     <p class="mb-2">{$t('travel_guide.must_see.peace_park.description')}</p>
@@ -182,10 +220,11 @@
     </ul>
     <p class="mb-6">{$t('travel_guide.must_see.castle.visit_time')}</p>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Miyajima -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.miyajima.title')}</h2>
+    <h2 id="miyajima" class="text-2xl font-semibold mb-4">{$t('travel_guide.miyajima.title')}</h2>
 
     <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.miyajima.shrine.title')}</h3>
     <p class="mb-2">{$t('travel_guide.miyajima.shrine.description')}</p>
@@ -202,10 +241,11 @@
     <p class="mb-2">{$t('travel_guide.miyajima.misen.description')}</p>
     <p class="mb-6">{$t('travel_guide.miyajima.misen.visit_time')}</p>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Transport Experiences -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.transport_exp.title')}</h2>
+    <h2 id="transport-exp" class="text-2xl font-semibold mb-4">{$t('travel_guide.transport_exp.title')}</h2>
 
     <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.transport_exp.streetcar.title')}</h3>
     <p class="mb-2">{$t('travel_guide.transport_exp.streetcar.description')}</p>
@@ -217,10 +257,11 @@
     <p class="mb-1"><strong>{$t('travel_guide.transport_exp.ferry.time_title')}</strong> {$t('travel_guide.transport_exp.ferry.time')}</p>
     <p class="mb-6"><strong>{$t('travel_guide.transport_exp.ferry.fare_title')}</strong> {$t('travel_guide.transport_exp.ferry.fare')}</p>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Historic Towns -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.historic_towns.title')}</h2>
+    <h2 id="historic-towns" class="text-2xl font-semibold mb-4">{$t('travel_guide.historic_towns.title')}</h2>
 
     <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.historic_towns.onomichi.title')}</h3>
     <p class="mb-2">{$t('travel_guide.historic_towns.onomichi.description')}</p>
@@ -236,10 +277,11 @@
     <p class="mb-2">{$t('travel_guide.historic_towns.takehara.description')}</p>
     <p class="mb-6">{$t('travel_guide.historic_towns.takehara.access')}</p>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Maritime -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.maritime.title')}</h2>
+    <h2 id="maritime" class="text-2xl font-semibold mb-4">{$t('travel_guide.maritime.title')}</h2>
 
     <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.maritime.yamato.title')}</h3>
     <p class="mb-2">{$t('travel_guide.maritime.yamato.description')}</p>
@@ -255,10 +297,11 @@
       {/each}
     </ul>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Day Trips -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.day_trips.title')}</h2>
+    <h2 id="day-trips" class="text-2xl font-semibold mb-4">{$t('travel_guide.day_trips.title')}</h2>
 
     <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.day_trips.shimanami.title')}</h3>
     <p class="mb-2">{$t('travel_guide.day_trips.shimanami.description')}</p>
@@ -276,19 +319,21 @@
     <p class="mb-1">{$t('travel_guide.day_trips.sandankyo.access')}</p>
     <p class="mb-6">{$t('travel_guide.day_trips.sandankyo.visit_time')}</p>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Onsen -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.onsen.title')}</h2>
+    <h2 id="onsen" class="text-2xl font-semibold mb-4">{$t('travel_guide.onsen.title')}</h2>
     <h3 class="text-xl font-semibold mb-2">{$t('travel_guide.onsen.dogo.title')}</h3>
     <p class="mb-2">{$t('travel_guide.onsen.dogo.description')}</p>
     <p class="mb-1">{$t('travel_guide.onsen.dogo.access')}</p>
     <p class="mb-6">{$t('travel_guide.onsen.dogo.visit_time')}</p>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Food to Try -->
-    <h2 class="text-2xl font-semibold mb-4">{$t('travel_guide.food_try.title')}</h2>
+    <h2 id="food-try" class="text-2xl font-semibold mb-4">{$t('travel_guide.food_try.title')}</h2>
     <ul class="list-disc pl-6 mb-6">
       {#each ($json('travel_guide.food_try.items') as unknown as string[]) as item}
         <li>{item}</li>
@@ -316,10 +361,11 @@
       {/each}
     </ul>
 
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
     <hr class="my-8" />
 
     <!-- Dining Guide -->
-    <h2 class="text-3xl font-bold mb-4">{$t('travel_guide.dining_title')}</h2>
+    <h2 id="dining" class="text-3xl font-bold mb-4">{$t('travel_guide.dining_title')}</h2>
     <p class="mb-6">{$t('travel_guide.dining_intro')}</p>
 
     <!-- Restaurant Map -->
@@ -377,6 +423,8 @@
       <li>{$t('travel_guide.seafood.affordable')}</li>
     </ul>
     <p class="text-sm text-gray-600 mb-8"><em>{$t('travel_guide.seafood.note')}</em></p>
+
+    <a href="#toc" class="block text-xs text-gray-400 hover:text-blue-600 mb-2">↑ Contents</a>
 
   </div>
 </div>

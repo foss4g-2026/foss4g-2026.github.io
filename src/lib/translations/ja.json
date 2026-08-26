@@ -1118,6 +1118,7 @@
   },
   "travel_guide": {
     "title": "旅行ガイド",
+    "toc_title": "目次",
     "welcome": {
       "title": "広島へようこそ",
       "description": "日本の広島へようこそ。滞在と会議へのご参加をお楽しみいただければ幸いです。"
