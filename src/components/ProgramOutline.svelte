@@ -12,11 +12,13 @@
    *   Row  8  → 14:00–15:00  (60 min)
    *   Row  9  → 15:00–15:30  (30 min)
    *   Row 10  → 15:30–16:00  (30 min)
-   *   Row 11  → 16:00–17:00  (60 min)
-   *   Row 12  → 17:00–18:00  (60 min)
-   *   Row 13  → 18:00–18:30  (30 min)
-   *   Row 14  → 18:30–19:00  (30 min)
-   *   Row 15  → 19:00–Late   (evening)
+   *   Row 11  → 16:00–16:30  (30 min)
+   *   Row 12  → 16:30–17:00  (30 min)
+   *   Row 13  → 17:00–17:30  (30 min)
+   *   Row 14  → 17:30–18:00  (30 min)
+   *   Row 15  → 18:00–18:30  (30 min)
+   *   Row 16  → 18:30–19:00  (30 min)
+   *   Row 17  → 19:00–Late   (evening)
    */
   export let lang: string = 'en'
 
@@ -30,23 +32,25 @@
     { start: '14:00', end: '15:00', row: 8 },
     { start: '15:00', end: '15:30', row: 9 },
     { start: '15:30', end: '16:00', row: 10 },
-    { start: '16:00', end: '17:00', row: 11 },
-    { start: '17:00', end: '18:00', row: 12 },
-    { start: '18:00', end: '18:30', row: 13 },
-    { start: '18:30', end: '19:00', row: 14 },
-    { start: '19:00', end: 'Late',  row: 15 },
+    { start: '16:00', end: '16:30', row: 11 },
+    { start: '16:30', end: '17:00', row: 12 },
+    { start: '17:00', end: '17:30', row: 13 },
+    { start: '17:30', end: '18:00', row: 14 },
+    { start: '18:00', end: '18:30', row: 15 },
+    { start: '18:30', end: '19:00', row: 16 },
+    { start: '19:00', end: 'Late',  row: 17 },
   ]
 
   function tr(time: string): number {
     const slot = TIME_ROWS.find(s => s.start === time)
     if (slot) return slot.row
     // 'Late' / end of last slot
-    if (time === 'Late' || time === '21:00') return 16
+    if (time === 'Late' || time === '21:00') return 18
     // fallback: parse minutes
     const [h, m] = time.split(':').map(Number)
     if (h < 10) return 2
     if (h < 15) return Math.round((h - 10) * 2 + Math.ceil(m / 30)) + 4
-    return 15
+    return 17
   }
 
   const days = [
@@ -116,8 +120,9 @@
     { day: 4, start: '13:00', end: '15:00', type: 'session',  title: 'General Sessions / Academic Track\nLightning Talks', link: '/program-schedule/presentations/' },
     { day: 4, start: '15:00', end: '15:30', type: 'neutral',  title: 'Coffee Break' },
     { day: 4, start: '15:30', end: '16:00', type: 'neutral',  title: '(30 min buffer)' },
-    { day: 4, start: '16:00', end: '18:00', type: 'keynote',  title: 'Keynote Sessions', subtitle: '16:00 – 18:00', venue: 'Phoenix Hall', link: '/program-schedule/keynote/' },
-    { day: 4, start: '18:00', end: '18:30', type: 'keynote',  title: 'Closing Ceremony' },
+    { day: 4, start: '16:00', end: '16:30', type: 'keynote',  title: 'Keynote Sessions', subtitle: '16:00 – 16:30', venue: 'Phoenix Hall', link: '/program-schedule/keynote/' },
+    { day: 4, start: '16:30', end: '17:30', type: 'keynote',  title: 'Keynote Sessions', subtitle: '16:30 – 17:30', venue: 'Phoenix Hall', link: '/program-schedule/keynote/' },
+    { day: 4, start: '17:30', end: '18:30', type: 'keynote',  title: 'Closing Ceremony', subtitle: '17:30 – 18:30' },
     { day: 4, start: '18:30', end: 'Late',  type: 'social',   title: 'Informal' },
 
     // ── Sep 4 (Fri) Community Sprint ──
@@ -193,7 +198,7 @@
       {#each events as ev}
         {@const col = ev.day + 2}
         {@const rowStart = tr(ev.start)}
-        {@const rowEnd = ev.end === 'Late' ? 16 : tr(ev.end)}
+        {@const rowEnd = ev.end === 'Late' ? 18 : tr(ev.end)}
         {@const style = typeColors[ev.type] ?? { bg: '#eee', color: '#17365D' }}
         <div
           class="po-cell po-event po-event--{ev.type}"
@@ -296,11 +301,13 @@
       60px          /* row 8:  14:00–15:00  60 min */
       30px          /* row 9:  15:00–15:30  30 min */
       30px          /* row 10: 15:30–16:00  30 min */
-      60px          /* row 11: 16:00–17:00  60 min */
-      60px          /* row 12: 17:00–18:00  60 min */
-      30px          /* row 13: 18:00–18:30  30 min */
-      30px          /* row 14: 18:30–19:00  30 min */
-      60px;         /* row 15: 19:00–Late   evening */
+      55px          /* row 11: 16:00–16:30  30 min (taller to fit keynote card) */
+      55px          /* row 12: 16:30–17:00  30 min (taller to fit keynote card) */
+      55px          /* row 13: 17:00–17:30  30 min (taller to fit keynote card) */
+      55px          /* row 14: 17:30–18:00  30 min (taller to fit keynote card) */
+      30px          /* row 15: 18:00–18:30  30 min */
+      30px          /* row 16: 18:30–19:00  30 min */
+      60px;         /* row 17: 19:00–Late   evening */
     border-top:  1px solid var(--border);
     border-left: 1px solid var(--border);
   }
