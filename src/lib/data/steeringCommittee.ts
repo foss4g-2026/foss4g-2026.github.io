@@ -6,6 +6,7 @@ export interface SteeringMember {
   jobTitle: string
   profile: string
   photo: string
+  linkedin?: string
 }
 
 export const steeringCommitteeMembers: SteeringMember[] = [
@@ -18,6 +19,7 @@ export const steeringCommitteeMembers: SteeringMember[] = [
     profile:
       'Toshi is a social geographer and geospatial information scientist at Komazawa University, Japan and visiting researcher at the 3D geoinformation research group at TU Delft. He is a member of OSGeo.JP, OpenStreetMap Foundation Japan, and an OSGeo foundation charter member. In recent years, he has been engaged in research on participatory GIS and civic-tech open data.',
     photo: 'LOC_ToshikazuSeto.webp',
+    linkedin: 'https://www.linkedin.com/in/toshikazu-seto-a33577154/',
   },
   {
     name: 'Yuichiro Nishimura',
@@ -28,6 +30,7 @@ export const steeringCommitteeMembers: SteeringMember[] = [
     profile:
       "Yuichiro Nishimura is a professor at Nara Women's University. His original research focuses on time-geographical studies; recently he has been deeply involved in studies about GIS and society in Japan. He has been active in FOSS4G activities in Japan and has participated in several global conferences since 2011. He was elected as an OSGeo Charter Member in 2015, and has organised several global SotM events in Japan, IGU Kyoto Regional Conference 2013, and ICC Tokyo 2019.",
     photo: 'LOC_YuichiroNishimura.webp',
+    linkedin: 'https://www.linkedin.com/in/yuichiro-nishimura-16455b22/',
   },
   {
     name: 'Keiichi Katsube',
@@ -38,6 +41,7 @@ export const steeringCommitteeMembers: SteeringMember[] = [
     profile:
       'Chief Secretary of OSGeo.JP. Administrator of the QGIS User Group Japan (Facebook Group).',
     photo: 'LOC_KeiichiKatsube.webp',
+    linkedin: 'https://www.linkedin.com/in/keiichi-katsube-2b87b883/',
   },
   {
     name: 'Taro Matsuzawa',
@@ -47,6 +51,7 @@ export const steeringCommitteeMembers: SteeringMember[] = [
     jobTitle: 'GIS Engineer',
     profile: 'GIS engineer from Geolonia, contributor of UNOpenGIS/7.',
     photo: 'LOC_TaroMatsuzawa.webp',
+    linkedin: 'https://www.linkedin.com/in/tmatsuzawa/',
   },
   {
     name: 'Jin Igarashi',
@@ -57,6 +62,7 @@ export const steeringCommitteeMembers: SteeringMember[] = [
     profile:
       'Jin Igarashi is a senior software developer working on geospatial for many years. Since he was involved in water projects as a GIS developer in Eastern Africa in 2014, he has developed and maintained several open source software tools (called GIS for water) supporting water utilities in Africa. He is passionate about driving innovation in the WASH field due to his background in information technologies and WASH experience.',
     photo: 'LOC_JinIgarashi.webp',
+    linkedin: 'https://www.linkedin.com/in/jinigarashi/',
   },
   {
     name: 'Hinako Iseki',
@@ -66,6 +72,7 @@ export const steeringCommitteeMembers: SteeringMember[] = [
     jobTitle: 'Engineer / Board Member',
     profile: 'Software engineer at Eukarya Inc. Board member of OSGeo Japan.',
     photo: 'LOC_HinakoIseki.webp',
+    linkedin: 'https://www.linkedin.com/in/asahina820/',
   },
   {
     name: 'Haruki Inoue',
@@ -76,6 +83,7 @@ export const steeringCommitteeMembers: SteeringMember[] = [
     profile:
       "I'm involved in developing iOS apps for B2B office solutions. In my spare time and as a side business, I work on development projects using GIS. I'm also active as a board member of OSGeo Japan.",
     photo: 'LOC_HarukiInoue.webp',
+    linkedin: 'https://www.linkedin.com/in/haruki-inoue-939b69391/',
   },
   {
     name: 'Eita Horishita',
@@ -86,6 +94,7 @@ export const steeringCommitteeMembers: SteeringMember[] = [
     profile:
       'Specialist in technical research for Science, Technology and Innovation (STI) strategy, with applied expertise in GIS and urban environmental management.',
     photo: 'LOC_EitaHorishita.webp',
+    linkedin: 'https://www.linkedin.com/in/eita-horishita-2b8a605a/',
   },
   {
     name: "Zenichi TAKEUCHI",

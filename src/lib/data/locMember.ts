@@ -5,7 +5,8 @@ export interface LocMember {
   affiliation: string
   jobTitle: string
   profile: string
-  photo: string  
+  photo: string
+  linkedin?: string
 }
 
 export const locMembers: LocMember[] = [
