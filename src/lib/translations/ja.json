@@ -59,7 +59,8 @@
       "transport": "交通情報",
       "travel_guide": "旅行ガイド",
       "accommodation": "宿泊",
-      "childcare": "託児サービス"
+      "childcare": "託児サービス",
+      "qfield_app": "QFieldカンファレンスアプリ"
     },
     "sponsors_sub": {
       "our_sponsors": "スポンサー一覧",
@@ -1126,6 +1127,10 @@
     "childcare": {
       "title": "託児サービス",
       "description": "託児サービスの提供に関する情報。"
+    },
+    "qfield_app": {
+      "title": "QFieldカンファレンスアプリ",
+      "description": "モバイルGISアプリ QField で、カンファレンスのスケジュールと会場マップをオフラインで持ち歩けます。"
     }
   },
   "travel_guide": {
@@ -3239,5 +3244,46 @@
         "html": "<p>平和記念公園と原爆ドームは、広島の歴史と平和への願いを伝える大切な場所です。敬意をもってお訪ねください。</p><p>広島の中心部は徒歩や路面電車で巡りやすいです。原爆ドーム前、紙屋町、八丁堀の周辺には多くの飲食店や店があります。</p><p>広島でお会いできるのを楽しみにしています！</p><p>FOSS4G Hiroshima 2026 実行委員会</p>"
       }
     ]
+  },
+  "qfield_app": {
+    "title": "QFieldカンファレンスアプリ",
+    "hero": {
+      "title": "カンファレンスをポケットに",
+      "subtitle": "スマートフォンでQRコードを読み取ると、FOSS4G Hiroshima 2026 公式プロジェクトがQFieldで開きます。スケジュール、会場のフロアマップ、周辺スポットをすべてオフラインで利用できます。",
+      "app_screenshot_alt": "広島国際会議場のフロアマップを表示しているQFieldの画面"
+    },
+    "about": {
+      "title": "QFieldとは",
+      "description": "QFieldは、QGISをベースにしたフィールドでのデータ収集・編集のためのフリーでオープンソースのモバイルアプリです。QGISのプロジェクトをスマートフォンやタブレットで開き、完全にオフラインで利用できます。",
+      "conference_project": "OPENGIS.ch が FOSS4G Hiroshima 2026 専用のQFieldプロジェクトを用意してくれました。端末にダウンロードしておけば、インターネットに接続しなくてもカンファレンスのスケジュールを確認したり、会場内を移動する際の案内として使えます。"
+    },
+    "features_title": "できること",
+    "features": [
+      {
+        "title": "スケジュール検索",
+        "description": "カンファレンスの全プログラムを検索でき、各セッションの会場（部屋）を確認できます。会場の各フロアごとに部屋を切り替えて表示できます。"
+      },
+      {
+        "title": "周辺スポット（POI）",
+        "description": "会場周辺のレストラン、ホテル、バーなど、広島滞在に役立つスポットを地図上で確認できます。"
+      },
+      {
+        "title": "オフラインで利用可能",
+        "description": "プロジェクトを端末にダウンロードすれば、ネットワークに接続していなくてもすべての情報を利用できます。現地のSIMやWi-Fiがなくても安心です。"
+      }
+    ],
+    "howto": {
+      "title": "使い方",
+      "step1": "App Store または Google Play から、スマートフォンやタブレットに QField をインストールします。",
+      "step2": "下のQRコードをスマートフォンで読み取るか、その下のリンクを開きます。",
+      "step3": "FOSS4G Hiroshima 2026 のプロジェクトがQFieldで開き、端末にダウンロードされます。これで準備完了です。",
+      "badge_appstore_alt": "App StoreでQFieldをダウンロード",
+      "badge_googleplay_alt": "Google PlayでQFieldを入手",
+      "qr_alt": "QFieldでFOSS4G Hiroshima 2026プロジェクトを開くQRコード"
+    },
+    "credit": {
+      "text": "QField用のカンファレンスプロジェクトは、",
+      "suffix": " のご厚意により提供されています。"
+    }
   }
 }

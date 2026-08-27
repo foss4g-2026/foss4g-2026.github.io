@@ -291,7 +291,8 @@
       "transport": "Transport Information",
       "travel_guide": "Travel Guide",
       "accommodation": "Accommodation",
-      "childcare": "Childcare"
+      "childcare": "Childcare",
+      "qfield_app": "QField Conference App"
     },
     "sponsors_sub": {
       "our_sponsors": "Our Sponsors",
@@ -3234,6 +3235,10 @@
     "childcare": {
       "title": "Childcare service",
       "description": "We provides childcare services to make it easier for attendees with young families to participate."
+    },
+    "qfield_app": {
+      "title": "QField Conference App",
+      "description": "Take the conference schedule and venue maps with you offline in QField, the mobile GIS app."
     }
   },
   "contact": {
@@ -3411,5 +3416,46 @@
         "html": "<p>Peace Memorial Park and the Atomic Bomb Dome are important places that share Hiroshima’s history and hope for peace. Please visit with respect.</p><p>Central Hiroshima is easy to explore on foot and by streetcar. The Genbaku-dome-mae, Kamiyacho, and Hatchobori areas have many restaurants and shops.</p><p>We look forward to welcoming you to Hiroshima!</p><p>FOSS4G Hiroshima 2026 Local Organizing Committee</p>"
       }
     ]
+  },
+  "qfield_app": {
+    "title": "QField Conference App",
+    "hero": {
+      "title": "Take the conference in your pocket",
+      "subtitle": "Scan the QR code with your phone to open the official FOSS4G Hiroshima 2026 project in QField — schedule, venue floor plans and nearby spots, all available offline.",
+      "app_screenshot_alt": "QField showing the International Conference Center Hiroshima floor plan"
+    },
+    "about": {
+      "title": "What is QField?",
+      "description": "QField is a free and open source mobile app for field data collection and editing, built on QGIS. It lets you open QGIS projects on your phone or tablet and work with them completely offline.",
+      "conference_project": "OPENGIS.ch has prepared a dedicated QField project for FOSS4G Hiroshima 2026. Once it is downloaded to your device, you can browse the conference schedule and find your way around the venues without an internet connection."
+    },
+    "features_title": "What you can do",
+    "features": [
+      {
+        "title": "Searchable schedule",
+        "description": "Search the full conference programme and see which room each session is in, with room selection across the different floors of the venue."
+      },
+      {
+        "title": "Points of interest",
+        "description": "Restaurants, hotels, bars and other useful spots around the venues in Hiroshima, ready on the map."
+      },
+      {
+        "title": "Works offline",
+        "description": "Once the project is on your device, everything works without a network connection — handy if you are travelling without a local SIM or Wi-Fi."
+      }
+    ],
+    "howto": {
+      "title": "How to get started",
+      "step1": "Install QField on your phone or tablet from the App Store or Google Play.",
+      "step2": "Scan the QR code below with your phone, or open the link underneath it.",
+      "step3": "The FOSS4G Hiroshima 2026 project opens in QField and downloads to your device — you are ready to go.",
+      "badge_appstore_alt": "Download QField on the App Store",
+      "badge_googleplay_alt": "Get QField on Google Play",
+      "qr_alt": "QR code to open the FOSS4G Hiroshima 2026 project in QField"
+    },
+    "credit": {
+      "text": "The conference project for QField is kindly provided by",
+      "suffix": "."
+    }
   }
 }
