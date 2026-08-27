@@ -65,7 +65,8 @@ export const navigationConfig = {
       transport: { enabled: true },
       travelGuide: { enabled: true },
       accommodation: { enabled: true },
-      childcare: { enabled: true }
+      childcare: { enabled: true },
+      qfieldApp: { enabled: true }
     }
   },
   sponsors: {

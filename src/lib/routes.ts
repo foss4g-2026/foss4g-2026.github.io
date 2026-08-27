@@ -57,6 +57,7 @@ const base_routes = [
   '/attending/travel-guide',
   '/attending/accommodation',
   '/attending/childcare',
+  '/attending/qfield-app',
   // Contact (single page)
   '/contact',
   // Other single pages
