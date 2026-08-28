@@ -83,6 +83,17 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.community_apps_aug28.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.community_apps_aug28.title')}
+            </h3>
+            <p class="text-sm text-gray-700">{$t('teaser.news.items.community_apps_aug28.description')}</p>
+            <a href={'/' + page.params.lang + $t('teaser.news.items.community_apps_aug28.link')} class="text-sm text-green-700 hover:underline">
+              {$t('teaser.news.items.community_apps_aug28.link_text')}
+            </a>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.attendee_guide_aug.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.attendee_guide_aug.title')}
@@ -91,7 +102,7 @@
               {$t('teaser.news.items.attendee_guide_aug.description')}
             </a>
           </div>
-          <!-- News Item 2 -->
+          <!-- News Item 3 -->
           <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.last_chance_aug20.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
@@ -99,16 +110,6 @@
             </h3>
             <a href={'/' + page.params.lang + $t('teaser.news.items.last_chance_aug20.link')} class="text-sm text-green-700 hover:underline">
               {$t('teaser.news.items.last_chance_aug20.description')}
-            </a>
-          </div>
-          <!-- News Item 3 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.speaker_guidelines_aug5.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.speaker_guidelines_aug5.title')}
-            </h3>
-            <a href={'/' + page.params.lang + $t('teaser.news.items.speaker_guidelines_aug5.link')} class="text-sm text-green-700 hover:underline">
-              {$t('teaser.news.items.speaker_guidelines_aug5.description')}
             </a>
           </div>
         </div>

@@ -34,6 +34,13 @@
           "description": "View details",
           "link": "/attending/attendee-guide"
         },
+        "community_apps_aug28": {
+          "date": "August 28, 2026",
+          "title": "Community Apps Updated",
+          "description": "New apps added: QField Conference App and FOSS4G Hiroshima 2026 Venue Map.",
+          "link": "/about/apps",
+          "link_text": "View Community Apps"
+        },
         "speaker_guidelines_aug5": {
           "date": "August 5, 2026",
           "title": "Speaker Guidelines Now Available",
@@ -2002,6 +2009,16 @@
           "name": "Open Source GIS Tech Landscape 2026",
           "description": "A one-page landscape of the open source GIS ecosystem, built from all 358 talks at FOSS4G Hiroshima 2026. Tap any field to see its talks with times and rooms, or browse by application theme.",
           "url": "https://opensource-gis-tech-landscape-2026.hrko9gis.workers.dev/"
+        },
+        {
+          "name": "QField Conference App",
+          "description": "A free and open source mobile app built on QGIS. Open the official FOSS4G Hiroshima 2026 project to browse the conference schedule and navigate the venues — all available offline.",
+          "url": "/attending/qfield-app/"
+        },
+        {
+          "name": "FOSS4G Hiroshima 2026 Venue Map",
+          "description": "An interactive map app for navigating conference venues. Tap a pin on the map to see the venue's address, access info, and description. At programme venues, you can open the schedule directly. Zoom into the main venue (International Conference Center Hiroshima) to explore floor plans, switch floors, and see the current and next session for each room.",
+          "url": "https://foss4g-hiroshima-2026.expo.app/"
         }
       ]
     },
