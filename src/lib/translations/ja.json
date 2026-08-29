@@ -141,6 +141,13 @@
           "description": "詳細を見る",
           "link": "/attending/attendee-guide"
         },
+        "community_apps_aug28": {
+          "date": "2026年8月28日",
+          "title": "便利アプリを更新しました",
+          "description": "QFieldカンファレンスアプリとFOSS4G Hiroshima 2026 会場マップを新たに追加しました。",
+          "link": "/about/apps",
+          "link_text": "便利アプリ一覧を見る"
+        },
         "speaker_guidelines_aug5": {
           "date": "2026年8月5日",
           "title": "スピーカーガイドラインを公開しました",
@@ -1873,6 +1880,16 @@
           "name": "オープンソースGIS 技術ランドスケープ 2026",
           "description": "FOSS4G Hiroshima 2026の全358発表を分類し、オープンソースGISの技術分野を1枚のマップにまとめたアプリです。分野をタップすると、その分野の発表を時刻・会場付きで一覧できます。応用テーマ別の絞り込みにも対応しています。",
           "url": "https://opensource-gis-tech-landscape-2026.hrko9gis.workers.dev/ja/"
+        },
+        {
+          "name": "QFieldカンファレンスアプリ",
+          "description": "QGISをベースにしたフリーでオープンソースのモバイルアプリです。FOSS4G Hiroshima 2026公式プロジェクトを開くと、カンファレンスのスケジュール確認や会場内の案内をオフラインで利用できます。",
+          "url": "/attending/qfield-app/"
+        },
+        {
+          "name": "FOSS4G Hiroshima 2026 会場マップ",
+          "description": "カンファレンス会場をナビゲートできるインタラクティブなマップアプリです。地図上のピンをタップすると、その会場の住所・アクセス方法・説明が表示され、プログラムのある会場ではスケジュールも確認できます。メイン会場（広島国際会議場）にズームするとフロアマップが表示され、階の切り替えや各部屋の現在・次のセッションの確認ができます。",
+          "url": "https://foss4g-hiroshima-2026.expo.app/"
         }
       ]
     },
