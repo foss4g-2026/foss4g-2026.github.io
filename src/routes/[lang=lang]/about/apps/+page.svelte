@@ -2,7 +2,14 @@
   import { t, json } from 'svelte-i18n'
   import Card from '$components/Card.svelte'
 
+  export let data: { locale: 'en' | 'ja' }
+
   $: items = $json('about.apps.items') as unknown as { name: string; description: string; url: string }[]
+
+  // Internal links (starting with "/") need the current language prefix and
+  // should open in the same tab; external links keep opening in a new tab.
+  const isInternal = (url: string) => url.startsWith('/')
+  $: resolveUrl = (url: string) => (isInternal(url) ? `/${data.locale}${url}` : url)
 </script>
 
 <svelte:head>
@@ -21,12 +28,12 @@
       <Card title={app.name}>
         <p class="text-gray-700 mb-4">{app.description}</p>
         <a
-          href={app.url}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={resolveUrl(app.url)}
+          target={isInternal(app.url) ? undefined : '_blank'}
+          rel={isInternal(app.url) ? undefined : 'noopener noreferrer'}
           class="link link-primary break-all"
         >
-          {app.url}
+          {resolveUrl(app.url)}
         </a>
       </Card>
     {/each}
