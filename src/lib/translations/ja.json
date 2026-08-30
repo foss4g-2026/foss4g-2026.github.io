@@ -129,6 +129,13 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "conference_starts_aug30": {
+          "date": "2026年8月30日",
+          "title": "FOSS4G Hiroshima 2026 が開幕しました！",
+          "description": "FOSS4G Hiroshima 2026 が本日開幕しました。広島でお会いできることを楽しみにしています！",
+          "link": "/program-schedule/outline",
+          "link_text": "プログラム概要を見る"
+        },
         "last_chance_aug20": {
           "date": "2026年8月20日",
           "title": "ラストチャンスチケット販売開始",

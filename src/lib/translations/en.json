@@ -22,6 +22,13 @@
     "news": {
       "title": "News",
       "items": {
+        "conference_starts_aug30": {
+          "date": "August 30, 2026",
+          "title": "FOSS4G Hiroshima 2026 Has Started!",
+          "description": "FOSS4G Hiroshima 2026 officially kicks off today. We look forward to seeing you in Hiroshima!",
+          "link": "/program-schedule/outline",
+          "link_text": "View Program Outline"
+        },
         "last_chance_aug20": {
           "date": "August 20, 2026",
           "title": "Last Chance Tickets Now on Sale",
