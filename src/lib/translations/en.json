@@ -841,7 +841,7 @@
     "venue": "Himawari",
     "ticket_title": "Ticket",
     "ticket_price": "3,000 JPY",
-    "ticket_note": "B2B tickets can be purchased at the time of purchasing your main conference ticket or at any time afterward. Please note that B2B tickets are available only to main conference participants.",
+    "ticket_note": "B2B tickets can be purchased at the time of purchasing your main conference ticket or at any time afterward. Please note that B2B tickets are available only to main conference participants. At the venue entrance, please show your B2B ticket QR code to check in. You will receive a B2B participant sticker for re-entry — please attach it to your name holder and show it when returning.",
     "schedule_title": "Event Schedule",
     "schedule": [
       {
@@ -860,7 +860,8 @@
     "datetime_title": "Date and Time",
     "datetime": "Tuesday, September 1, 2026, 12:00 – 15:00",
     "datetime_details": [
-      "12:00 – 13:00: Lunch Buffet (Japanese cuisine along with Hiroshima sake and craft beer)",
+      "11:30: Doors open — drinks available from 11:30",
+      "12:00 – 13:30: Lunch Buffet (Japanese cuisine along with Hiroshima sake and craft beer)",
       "14:00 – 15:00: Coffee Break (Hiroshima's famous sweets and fruits, selected by the LOC, along with coffee and Japanese tea)"
     ]
   },
