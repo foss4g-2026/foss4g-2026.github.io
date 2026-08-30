@@ -4,11 +4,15 @@
 
   // Conference start date: August 30, 2026
   const conferenceStartDate = new Date('2026-08-30T00:00:00+09:00')
+  // Conference end date: September 5, 2026
+  const conferenceEndDate = new Date('2026-09-05T23:59:59+09:00')
   
   let days = 0
   let hours = 0
   let minutes = 0
   let seconds = 0
+  let isUnderway = false
+  let isOver = false
   let interval: NodeJS.Timeout
 
   function updateCountdown() {
@@ -20,8 +24,16 @@
       hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
       minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60))
       seconds = Math.floor((timeDiff % (1000 * 60)) / 1000)
+      isUnderway = false
+      isOver = false
+    } else if (now.getTime() <= conferenceEndDate.getTime()) {
+      days = hours = minutes = seconds = 0
+      isUnderway = true
+      isOver = false
     } else {
       days = hours = minutes = seconds = 0
+      isUnderway = false
+      isOver = true
     }
   }
 
@@ -71,3 +83,23 @@
     </p>
   </div>
 </div>
+
+{#if isUnderway}
+  <div class="mt-8 text-center">
+    <div class="inline-block w-full max-w-lg border-t border-b border-white/30 py-3">
+      <p class="text-white text-sm tracking-[0.3em] uppercase" style="font-family: 'Archivo', sans-serif;">
+        FOSS4G Hiroshima 2026 &nbsp;·&nbsp; Now Underway
+      </p>
+    </div>
+  </div>
+{/if}
+
+{#if isOver}
+  <div class="mt-8 text-center">
+    <div class="inline-block w-full max-w-lg border-t border-b border-white/30 py-3">
+      <p class="text-white text-sm tracking-[0.3em] uppercase" style="font-family: 'Archivo', sans-serif;">
+        FOSS4G Hiroshima 2026 &nbsp;·&nbsp; Thank You for Joining Us
+      </p>
+    </div>
+  </div>
+{/if}
