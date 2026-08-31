@@ -2027,6 +2027,11 @@
           "name": "FOSS4G Hiroshima 2026 Venue Map",
           "description": "An interactive map app for navigating conference venues. Tap a pin on the map to see the venue's address, access info, and description. At programme venues, you can open the schedule directly. Zoom into the main venue (International Conference Center Hiroshima) to explore floor plans, switch floors, and see the current and next session for each room.",
           "url": "https://foss4g-hiroshima-2026.expo.app/"
+        },
+        {
+          "name": "Hiroshima Sightseeing Map",
+          "description": "A demo site for PASCO's sponsor session, showcasing their GeogrAPI service. A 3D sightseeing map of Hiroshima with aerial imagery and 3D buildings, where half-day, one-day and weekend tour courses guide you around highlights such as the Peace Memorial Park and Miyajima. Available until 9 September 2026.",
+          "url": "https://foss4g-hiroshima-2026.enginelabo.jp/"
         }
       ]
     },
