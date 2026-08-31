@@ -2868,6 +2868,10 @@
       "description": "Details about academic paper submissions and presentations.",
       "coming_soon_message": "Academic Track submissions will open in December 2025",
       "submit_button": "Submit a proposal for Academic Track",
+      "isprs_published": {
+        "title": "📄 Accepted Papers Now Published",
+        "body": "The accepted papers from the FOSS4G 2026 Academic Track are now published in the ISPRS Archives:"
+      },
       "overview": {
         "title": "Academic Track Overview",
         "description": "The Academic Track provides a forum for researchers and practitioners to present original research and developments in the field of free and open source geospatial software and data. The submission procedure is divided into two mandatory steps for authors to present their work at FOSS4G 2026."
