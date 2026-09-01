@@ -915,6 +915,10 @@
       "title": "DJライブ — 選曲リクエスト",
       "thanks": "DJライブへの選曲リクエストをたくさんお寄せいただき、ありがとうございました！応募は締め切りました。Ice BreakerでのDJライブをどうぞお楽しみに。"
     },
+    "survey": {
+      "title": "アンケートご協力のお願い",
+      "html": "<p>観光庁「地域のMICE誘致力強化促進事業」の一環として、Ice Breakerに関するアンケートを実施しています。</p><p><strong>ご回答はこちら：</strong> <a href=\"https://jp.surveymonkey.com/r/7XB9L3H\" target=\"_blank\" rel=\"noopener noreferrer\">https://jp.surveymonkey.com/r/7XB9L3H</a></p><h3>先着250名様に粗品をお渡しします。</h3><p>回答完了画面をスタッフにご提示ください。</p><ul><li><strong>9月1日（火）19:00～20:45</strong> — Ice Breaker会場内 Questionnaire Desk</li><li><strong>9月2日（水）・3日（木）</strong> — ランチタイム　レジストレーションデスク</li></ul><p>詳細は<a href=\"/documents/FOSS4G2026_IceBreaker_Survey_JA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">こちらのPDF</a>をご覧ください。</p>"
+    },
     "map_title": "FOSS4G Hiroshima 2026 アイスブレイカーマップ"
   },
   "gala_dinner": {
