@@ -1898,6 +1898,11 @@
           "name": "FOSS4G Hiroshima 2026 会場マップ",
           "description": "カンファレンス会場をナビゲートできるインタラクティブなマップアプリです。地図上のピンをタップすると、その会場の住所・アクセス方法・説明が表示され、プログラムのある会場ではスケジュールも確認できます。メイン会場（広島国際会議場）にズームするとフロアマップが表示され、階の切り替えや各部屋の現在・次のセッションの確認ができます。",
           "url": "https://foss4g-hiroshima-2026.expo.app/"
+        },
+        {
+          "name": "ぷらっと FOSS4G Hiroshima 2026（Maplat）",
+          "description": "FOSS4G Hiroshima 2026の会場と、広島市内・宮島の見どころを地図でたどるMaplatアプリ。明治期の実測図と現在の地図を重ねて、同じ場所の変化を見比べられます。制作：株式会社那由多 / Code for History。",
+          "url": "https://s.maplat.jp/r/hiroshimamap/"
         }
       ]
     },

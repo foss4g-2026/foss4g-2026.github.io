@@ -2027,6 +2027,11 @@
           "name": "FOSS4G Hiroshima 2026 Venue Map",
           "description": "An interactive map app for navigating conference venues. Tap a pin on the map to see the venue's address, access info, and description. At programme venues, you can open the schedule directly. Zoom into the main venue (International Conference Center Hiroshima) to explore floor plans, switch floors, and see the current and next session for each room.",
           "url": "https://foss4g-hiroshima-2026.expo.app/"
+        },
+        {
+          "name": "Puratto FOSS4G Hiroshima 2026 (Maplat)",
+          "description": "A Maplat app to explore FOSS4G conference venues, Hiroshima city highlights, and Miyajima by map. Overlays Meiji-era survey maps with modern maps so you can compare how the same places have changed over time. Created by Nayuta Inc. / Code for History.",
+          "url": "https://s.maplat.jp/r/hiroshimamap/"
         }
       ]
     },
