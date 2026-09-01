@@ -915,6 +915,10 @@
       "title": "DJライブ — 選曲リクエスト",
       "thanks": "DJライブへの選曲リクエストをたくさんお寄せいただき、ありがとうございました！応募は締め切りました。Ice BreakerでのDJライブをどうぞお楽しみに。"
     },
+    "survey": {
+      "title": "アンケートご協力のお願い",
+      "html": "<p>観光庁「地域のMICE誘致力強化促進事業」の一環として、Ice Breakerに関するアンケートを実施しています。</p><p><strong>ご回答はこちら：</strong> <a href=\"https://jp.surveymonkey.com/r/7XB9L3H\" target=\"_blank\" rel=\"noopener noreferrer\">https://jp.surveymonkey.com/r/7XB9L3H</a></p><h3>先着250名様に粗品をお渡しします。</h3><p>回答完了画面をスタッフにご提示ください。</p><ul><li><strong>9月1日（火）19:00～20:45</strong> — Ice Breaker会場内 Questionnaire Desk</li><li><strong>9月2日（水）・3日（木）</strong> — ランチタイム　レジストレーションデスク</li></ul><p>詳細は<a href=\"/documents/FOSS4G2026_IceBreaker_Survey_JA.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">こちらのPDF</a>をご覧ください。</p>"
+    },
     "map_title": "FOSS4G Hiroshima 2026 アイスブレイカーマップ"
   },
   "gala_dinner": {
@@ -1903,6 +1907,11 @@
           "name": "広島観光マップ",
           "description": "パスコのスポンサーセッションで紹介するGeogrAPIのデモサイトです。航空写真の重ね合わせや建物の立体表示に対応した広島の3D観光マップで、半日・1日・週末のツアーコースで平和記念公園や宮島などの見どころを自動で巡れます。公開は2026年9月9日までです。",
           "url": "https://foss4g-hiroshima-2026.enginelabo.jp/"
+        },
+        {
+          "name": "ぷらっと FOSS4G Hiroshima 2026（Maplat）",
+          "description": "FOSS4G Hiroshima 2026の会場と、広島市内・宮島の見どころを地図でたどるMaplatアプリ。明治期の実測図と現在の地図を重ねて、同じ場所の変化を見比べられます。制作：株式会社那由多 / Code for History。",
+          "url": "https://s.maplat.jp/r/hiroshimamap/"
         }
       ]
     },
@@ -2662,6 +2671,10 @@
       "title": "アカデミックトラック",
       "description": "学術論文の投稿と発表に関する詳細。",
       "submit_button": "アカデミックトラックに提案を投稿する",
+      "isprs_published": {
+        "title": "📄 採択論文が公開されました",
+        "body": "FOSS4G 2026 アカデミックトラックの採択論文がISPRS Archivesに公開されました："
+      },
       "overview": {
         "title": "アカデミックトラック概要",
         "description": "アカデミックトラックは、研究者と実務者が自由でオープンソースの地理空間ソフトウェアとデータの分野における独創的な研究と開発を発表するフォーラムを提供します。投稿手続きは、著者がFOSS4G 2026で研究を発表するための2つの必須ステップに分かれています。"

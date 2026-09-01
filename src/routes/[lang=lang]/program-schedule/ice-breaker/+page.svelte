@@ -80,5 +80,10 @@
     <p class="text-base mb-6">{$t('ice_breaker.dj_request.thanks')}</p>
 
     <p class="text-base italic">{$t('ice_breaker.closing')}</p>
+
+    <h2 class="text-2xl font-semibold mt-8 mb-4">{$t('ice_breaker.survey.title')}</h2>
+    <div class="text-base">
+      {@html $t('ice_breaker.survey.html')}
+    </div>
   </div>
 </div>

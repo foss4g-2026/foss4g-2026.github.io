@@ -921,6 +921,10 @@
       "title": "DJ Live — Song Requests",
       "thanks": "Thank you to everyone who submitted song requests! Submissions are now closed. We look forward to enjoying the DJ live together at the Ice Breaker."
     },
+    "survey": {
+      "title": "Survey on the Ice Breaker — Your Feedback Is Welcome",
+      "html": "<p>As part of a demonstration project supported by the Japan Tourism Agency, we are conducting a short survey on the Ice Breaker. Your feedback will help improve the hosting of future international conferences in Hiroshima and enhance the experience for overseas visitors.</p><p><strong>Take the survey:</strong> <a href=\"https://jp.surveymonkey.com/r/7XB9L3H?lang=en\" target=\"_blank\" rel=\"noopener noreferrer\">https://jp.surveymonkey.com/r/7XB9L3H?lang=en</a></p><h3>Small Gift for the First 250 Respondents</h3><p>Show your survey completion screen (or proof of completion) to the staff at either desk below:</p><ul><li><strong>Tuesday, September 1, 19:00-20:45</strong> — Questionnaire Desk, inside the Ice Breaker venue</li><li><strong>Wednesday, September 2 &amp; Thursday, September 3, lunchtime</strong> — Registration Desk</li></ul><p>Gifts are limited to the first 250 respondents.</p><p>For details (including the Japanese version and QR code), please see <a href=\"/documents/FOSS4G2026_IceBreaker_Survey_EN.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">this flyer (PDF)</a>.</p>"
+    },
     "map_title": "FOSS4G Hiroshima 2026 Ice Breaker Map"
   },
   "gala_dinner": {
@@ -2032,6 +2036,11 @@
           "name": "Hiroshima Sightseeing Map",
           "description": "A demo site for PASCO's sponsor session, showcasing their GeogrAPI service. A 3D sightseeing map of Hiroshima with aerial imagery and 3D buildings, where half-day, one-day and weekend tour courses guide you around highlights such as the Peace Memorial Park and Miyajima. Available until 9 September 2026.",
           "url": "https://foss4g-hiroshima-2026.enginelabo.jp/"
+        },
+        {
+          "name": "Puratto FOSS4G Hiroshima 2026 (Maplat)",
+          "description": "A Maplat app to explore FOSS4G conference venues, Hiroshima city highlights, and Miyajima by map. Overlays Meiji-era survey maps with modern maps so you can compare how the same places have changed over time. Created by Nayuta Inc. / Code for History.",
+          "url": "https://s.maplat.jp/r/hiroshimamap/"
         }
       ]
     },
@@ -2873,6 +2882,10 @@
       "description": "Details about academic paper submissions and presentations.",
       "coming_soon_message": "Academic Track submissions will open in December 2025",
       "submit_button": "Submit a proposal for Academic Track",
+      "isprs_published": {
+        "title": "📄 Accepted Papers Now Published",
+        "body": "The accepted papers from the FOSS4G 2026 Academic Track are now published in the ISPRS Archives:"
+      },
       "overview": {
         "title": "Academic Track Overview",
         "description": "The Academic Track provides a forum for researchers and practitioners to present original research and developments in the field of free and open source geospatial software and data. The submission procedure is divided into two mandatory steps for authors to present their work at FOSS4G 2026."
