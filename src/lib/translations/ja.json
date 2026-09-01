@@ -1904,6 +1904,11 @@
           "url": "https://foss4g-hiroshima-2026.expo.app/"
         },
         {
+          "name": "広島観光マップ",
+          "description": "パスコのスポンサーセッションで紹介するGeogrAPIのデモサイトです。航空写真の重ね合わせや建物の立体表示に対応した広島の3D観光マップで、半日・1日・週末のツアーコースで平和記念公園や宮島などの見どころを自動で巡れます。公開は2026年9月9日までです。",
+          "url": "https://foss4g-hiroshima-2026.enginelabo.jp/"
+        },
+        {
           "name": "ぷらっと FOSS4G Hiroshima 2026（Maplat）",
           "description": "FOSS4G Hiroshima 2026の会場と、広島市内・宮島の見どころを地図でたどるMaplatアプリ。明治期の実測図と現在の地図を重ねて、同じ場所の変化を見比べられます。制作：株式会社那由多 / Code for History。",
           "url": "https://s.maplat.jp/r/hiroshimamap/"

@@ -2033,6 +2033,11 @@
           "url": "https://foss4g-hiroshima-2026.expo.app/"
         },
         {
+          "name": "Hiroshima Sightseeing Map",
+          "description": "A demo site for PASCO's sponsor session, showcasing their GeogrAPI service. A 3D sightseeing map of Hiroshima with aerial imagery and 3D buildings, where half-day, one-day and weekend tour courses guide you around highlights such as the Peace Memorial Park and Miyajima. Available until 9 September 2026.",
+          "url": "https://foss4g-hiroshima-2026.enginelabo.jp/"
+        },
+        {
           "name": "Puratto FOSS4G Hiroshima 2026 (Maplat)",
           "description": "A Maplat app to explore FOSS4G conference venues, Hiroshima city highlights, and Miyajima by map. Overlays Meiji-era survey maps with modern maps so you can compare how the same places have changed over time. Created by Nayuta Inc. / Code for History.",
           "url": "https://s.maplat.jp/r/hiroshimamap/"
