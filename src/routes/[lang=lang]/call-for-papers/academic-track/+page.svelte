@@ -24,6 +24,17 @@
       Academic Track submission was closed on March 16, 2026.
     </p>
   </div>
+
+  <!-- ISPRS Published Notice -->
+  <div class="bg-green-50 border-l-4 border-green-600 p-4 mb-8">
+    <p class="font-semibold text-green-800">{$t('call_for_papers.academic_track.isprs_published.title')}</p>
+    <p class="text-green-700 mt-1">
+      {$t('call_for_papers.academic_track.isprs_published.body')}
+      <a href="https://isprs-archives.copernicus.org/articles/L-4-W1-2026/" target="_blank" rel="noopener noreferrer" class="text-green-800 underline font-semibold hover:text-green-900">
+        https://isprs-archives.copernicus.org/articles/L-4-W1-2026/
+      </a>
+    </p>
+  </div>
   
   <div class="prose max-w-none">
     <!-- Conference Registration Notice -->
