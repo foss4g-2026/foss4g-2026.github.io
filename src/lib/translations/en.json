@@ -22,6 +22,20 @@
     "news": {
       "title": "News",
       "items": {
+        "community_apps_sep2": {
+          "date": "September 2, 2026",
+          "title": "Community Apps Updated",
+          "description": "New apps added: Lost & Found, Puratto FOSS4G Hiroshima 2026 (Maplat), and Hiroshima Sightseeing Map.",
+          "link": "/about/apps",
+          "link_text": "View Community Apps"
+        },
+        "isprs_published_sep1": {
+          "date": "September 1, 2026",
+          "title": "Academic Track Papers Now Published",
+          "description": "The accepted papers from the FOSS4G 2026 Academic Track are now published in the ISPRS Archives.",
+          "link": "/call-for-papers/academic-track",
+          "link_text": "View details"
+        },
         "conference_starts_aug30": {
           "date": "August 30, 2026",
           "title": "FOSS4G Hiroshima 2026 Has Started!",
@@ -2041,6 +2055,11 @@
           "name": "Puratto FOSS4G Hiroshima 2026 (Maplat)",
           "description": "A Maplat app to explore FOSS4G conference venues, Hiroshima city highlights, and Miyajima by map. Overlays Meiji-era survey maps with modern maps so you can compare how the same places have changed over time. Created by Nayuta Inc. / Code for History.",
           "url": "https://s.maplat.jp/r/hiroshimamap/"
+        },
+        {
+          "name": "Lost & Found",
+          "description": "Lost something at the conference venue? Check this app for a list of found items.",
+          "url": "https://asahina820.github.io/FOSS4G-2026-lost-item-app/"
         }
       ]
     },
