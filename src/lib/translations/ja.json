@@ -129,6 +129,20 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "community_apps_sep2": {
+          "date": "2026年9月2日",
+          "title": "便利アプリを更新しました",
+          "description": "落とし物一覧（Lost & Found）、ぷらっと FOSS4G Hiroshima 2026（Maplat）、広島観光マップを新たに追加しました。",
+          "link": "/about/apps",
+          "link_text": "便利アプリ一覧を見る"
+        },
+        "isprs_published_sep1": {
+          "date": "2026年9月1日",
+          "title": "アカデミックトラック採択論文を公開しました",
+          "description": "FOSS4G 2026 アカデミックトラックの採択論文がISPRS Archivesに公開されました。",
+          "link": "/call-for-papers/academic-track",
+          "link_text": "詳細を見る"
+        },
         "conference_starts_aug30": {
           "date": "2026年8月30日",
           "title": "FOSS4G Hiroshima 2026 が開幕しました！",
@@ -1912,6 +1926,11 @@
           "name": "ぷらっと FOSS4G Hiroshima 2026（Maplat）",
           "description": "FOSS4G Hiroshima 2026の会場と、広島市内・宮島の見どころを地図でたどるMaplatアプリ。明治期の実測図と現在の地図を重ねて、同じ場所の変化を見比べられます。制作：株式会社那由多 / Code for History。",
           "url": "https://s.maplat.jp/r/hiroshimamap/"
+        },
+        {
+          "name": "落とし物一覧（Lost & Found）",
+          "description": "会場で落とし物をした方、または拾得物を確認したい方はこちらをご覧ください。",
+          "url": "https://asahina820.github.io/FOSS4G-2026-lost-item-app/"
         }
       ]
     },

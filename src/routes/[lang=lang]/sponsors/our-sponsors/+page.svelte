@@ -93,10 +93,6 @@
   <p class="text-gray-500 mb-6 text-lg">
     We are grateful to all our sponsors and partners who make FOSS4G Hiroshima 2026 possible.
   </p>
-  <p class="text-sm text-gray-500 mb-10 bg-gray-50 border-l-4 border-gray-300 px-4 py-3">
-    Detailed information for each sponsor will be added and updated.
-  </p>
-
   {#each categories as category}
     <section class="mb-14">
       <div class="flex items-center gap-3 mb-6">
