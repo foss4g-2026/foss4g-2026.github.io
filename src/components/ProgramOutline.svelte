@@ -121,7 +121,7 @@
     { day: 4, start: '15:30', end: '16:00', type: 'neutral',  title: 'Coffee Break' },
     { day: 4, start: '16:00', end: '16:30', type: 'keynote',  title: 'Keynote Sessions', subtitle: '16:00 – 16:30', venue: 'Phoenix Hall', link: '/program-schedule/keynote/' },
     { day: 4, start: '16:30', end: '17:30', type: 'keynote',  title: 'Keynote Sessions', subtitle: '16:30 – 17:30', venue: 'Phoenix Hall', link: '/program-schedule/keynote/' },
-    { day: 4, start: '17:30', end: '18:30', type: 'keynote',  title: 'Closing Ceremony', subtitle: '17:30 – 18:30' },
+    { day: 4, start: '17:30', end: '18:30', type: 'keynote',  title: 'Closing Ceremony\n(Group Photo)', subtitle: '17:30 – 18:30' },
     { day: 4, start: '18:30', end: 'Late',  type: 'social',   title: 'Informal' },
 
     // ── Sep 4 (Fri) Community Sprint ──
