@@ -64,7 +64,7 @@
       <SubmitButton 
         href={$t('program_schedule.geochicas.registration_url')}
         text={$t('program_schedule.geochicas.registration_title')}
-        disabled={false}
+        disabled={true}
         target="_blank"
         rel="noopener noreferrer"
       />

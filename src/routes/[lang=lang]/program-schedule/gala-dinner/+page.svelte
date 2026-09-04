@@ -51,7 +51,7 @@
   <SubmitButton 
     href={$t('gala_dinner.register_url')}
     text={$t('gala_dinner.register_button')}
-    disabled={false}
+    disabled={true}
     target="_blank"
     rel="noopener noreferrer"
   />
