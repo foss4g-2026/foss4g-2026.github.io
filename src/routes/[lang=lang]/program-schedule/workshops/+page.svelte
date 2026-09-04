@@ -37,7 +37,7 @@
   <SubmitButton
     href="https://ti.to/osgeo-jp/foss4g-2026/with/0btqhgt4-km,t93rtla4wnu,torh-7reago,rk-ja0ibxdg"
     text={$t('workshops.workshop_ticket_button')}
-    disabled={false}
+    disabled={true}
     target="_blank"
     rel="noopener noreferrer"
   />
@@ -45,7 +45,7 @@
   <SubmitButton
     href="https://ti.to/osgeo-jp/foss4g-2026"
     text={$t('workshops.purchase_ticket_button')}
-    disabled={false}
+    disabled={true}
     target="_blank"
     rel="noopener noreferrer"
   />

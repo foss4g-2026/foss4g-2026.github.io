@@ -71,7 +71,7 @@
   <SubmitButton
     href={$t('b2b_session.register_url')}
     text={$t('b2b_session.register_button')}
-    disabled={false}
+    disabled={true}
     target="_blank"
     rel="noopener noreferrer"
   />

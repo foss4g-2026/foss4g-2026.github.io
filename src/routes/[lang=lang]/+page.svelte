@@ -59,15 +59,18 @@
             </p>
             
             <!-- Register Button -->
-            <div class="pt-2">
-              <a 
-                href="https://ti.to/osgeo-jp/foss4g-2026" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105" 
-                style="background: linear-gradient(149.59deg, #C10609 4.86%, #F10606 104.98%); font-family: 'Inter', sans-serif;">
-                Register Now
-              </a>
+            <div class="pt-2 space-y-3">
+              <span 
+                class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-gray-400 rounded-lg shadow-sm cursor-not-allowed" 
+                style="background: #d1d5db; font-family: 'Inter', sans-serif;">
+                Registration Closed
+              </span>
+              <p class="text-base text-gray-600" style="font-family: 'Inter', sans-serif;">
+                Thank you for joining FOSS4G Hiroshima 2026!
+              </p>
+              <p class="text-sm text-gray-400 italic tracking-wide" style="font-family: 'Inter', sans-serif;">
+                Next goes to → <a href="https://2027.foss4g.org/" target="_blank" rel="noopener noreferrer" class="not-italic font-semibold underline hover:opacity-70" style="color: #2c5f2d;">FOSS4G Bristol 2027</a>
+              </p>
             </div>
           </div>
         </div>
@@ -277,11 +280,11 @@
         
         <!-- Registration Button -->
         <div class="pt-2">
-          <a href="/{$t('nav.languages.current_language') === 'English' ? 'en' : 'ja'}/register/registration" 
-             class="inline-flex items-center justify-center px-8 py-4 text-lg sm:text-xl font-medium text-white rounded-lg hover:opacity-90 transition-opacity" 
-             style="background: linear-gradient(149.59deg, #C10609 4.86%, #F10606 104.98%); font-family: 'Inter', sans-serif;">
-            Register Now
-          </a>
+          <span 
+             class="inline-flex items-center justify-center px-8 py-4 text-lg sm:text-xl font-medium text-gray-400 rounded-lg cursor-not-allowed" 
+             style="background: #4b5563; font-family: 'Inter', sans-serif;">
+            Registration Closed
+          </span>
         </div>
         
         <!-- Mailing List Button -->

@@ -14,8 +14,8 @@
   <!-- Register Now Button -->
   <SubmitButton 
     href="https://ti.to/osgeo-jp/foss4g-2026"
-    text="Register Now"
-    disabled={false}
+    text="Registration Closed"
+    disabled={true}
     target="_blank"
     rel="noopener noreferrer"
   />
