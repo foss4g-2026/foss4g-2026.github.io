@@ -272,15 +272,6 @@ export const locMembers: LocMember[] = [
     photo: "LOC_Masaki_Murakami.webp",
   },
   {
-    name: "Takeshi FURUTA",
-    nameJa: "古田武士",
-    committees: ["Participant / Delegate"],
-    affiliation: "MapQuest Solutions LLC",
-    jobTitle: "CEO",
-    profile: "GIS・ネットワーク・Linuxにまつわるエンジニアリングを得意としています。pythonなどの開発業務もやっています。",
-    photo: "LOC_Takeshi_Furuta.webp",
-  },
-  {
     name: "Akira Jodai",
     nameJa: "上代暁",
     committees: ["PR / Communication"],
