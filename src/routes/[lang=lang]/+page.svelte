@@ -86,6 +86,14 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- News Item 1 -->
           <div class="space-y-2">
+            <p class="text-xs text-gray-600">{$t('teaser.news.items.concluded_sep5.date')}</p>
+            <h3 class="text-lg font-normal text-gray-900">
+              {$t('teaser.news.items.concluded_sep5.title')}
+            </h3>
+            <p class="text-sm text-gray-700">{$t('teaser.news.items.concluded_sep5.description')}</p>
+          </div>
+          <!-- News Item 2 -->
+          <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.community_apps_sep2.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
               {$t('teaser.news.items.community_apps_sep2.title')}
@@ -95,7 +103,7 @@
               {$t('teaser.news.items.community_apps_sep2.link_text')}
             </a>
           </div>
-          <!-- News Item 2 -->
+          <!-- News Item 3 -->
           <div class="space-y-2">
             <p class="text-xs text-gray-600">{$t('teaser.news.items.isprs_published_sep1.date')}</p>
             <h3 class="text-lg font-normal text-gray-900">
@@ -104,17 +112,6 @@
             <p class="text-sm text-gray-700">{$t('teaser.news.items.isprs_published_sep1.description')}</p>
             <a href={'/' + page.params.lang + $t('teaser.news.items.isprs_published_sep1.link')} class="text-sm text-green-700 hover:underline">
               {$t('teaser.news.items.isprs_published_sep1.link_text')}
-            </a>
-          </div>
-          <!-- News Item 3 -->
-          <div class="space-y-2">
-            <p class="text-xs text-gray-600">{$t('teaser.news.items.conference_starts_aug30.date')}</p>
-            <h3 class="text-lg font-normal text-gray-900">
-              {$t('teaser.news.items.conference_starts_aug30.title')}
-            </h3>
-            <p class="text-sm text-gray-700">{$t('teaser.news.items.conference_starts_aug30.description')}</p>
-            <a href={'/' + page.params.lang + $t('teaser.news.items.conference_starts_aug30.link')} class="text-sm text-green-700 hover:underline">
-              {$t('teaser.news.items.conference_starts_aug30.link_text')}
             </a>
           </div>
         </div>
@@ -303,27 +300,21 @@
         <div class="flex flex-col items-center gap-4 pt-4">
           <p class="text-sm text-white/60 font-medium" style="font-family: 'Inter', sans-serif;">Follow us for event updates</p>
           <div class="flex gap-4">
-            <a href="https://www.linkedin.com/company/foss4g2026/" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/30 text-white hover:border-white/50 hover:bg-white/10 transition-all"
-               title="LinkedIn">
+            <span 
+               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/10 text-white/30 cursor-not-allowed"
+               title="LinkedIn (Closed)">
               <FontAwesomeIcon icon={faLinkedin} class="text-xl" />
-            </a>
-            <a href="https://t.me/foss4g" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/30 text-white hover:border-white/50 hover:bg-white/10 transition-all"
-               title="Telegram">
+            </span>
+            <span 
+               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/10 text-white/30 cursor-not-allowed"
+               title="Telegram (Closed)">
               <FontAwesomeIcon icon={faTelegram} class="text-xl" />
-            </a>
-            <a href="https://chat.whatsapp.com/Lffta4SIYKOH03aUw318Q1?mode=gi_t" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/30 text-white hover:border-white/50 hover:bg-white/10 transition-all"
-               title="WhatsApp Public Chat">
+            </span>
+            <span 
+               class="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/10 text-white/30 cursor-not-allowed"
+               title="WhatsApp (Closed)">
               <FontAwesomeIcon icon={faWhatsapp} class="text-xl" />
-            </a>
+            </span>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@
   // Conference start date: August 30, 2026
   const conferenceStartDate = new Date('2026-08-30T00:00:00+09:00')
   // Conference end date: September 5, 2026
-  const conferenceEndDate = new Date('2026-09-05T23:59:59+09:00')
+  const conferenceEndDate = new Date('2026-09-05T21:00:00+09:00')
   
   let days = 0
   let hours = 0
@@ -98,7 +98,7 @@
   <div class="mt-8 text-center">
     <div class="inline-block w-full max-w-lg border-t border-b border-white/30 py-3">
       <p class="text-white text-sm tracking-[0.3em] uppercase" style="font-family: 'Archivo', sans-serif;">
-        FOSS4G Hiroshima 2026 &nbsp;·&nbsp; Thank You for Joining Us
+        Thank You for Joining Us
       </p>
     </div>
   </div>

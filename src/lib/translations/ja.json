@@ -129,6 +129,11 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "concluded_sep5": {
+          "date": "2026年9月5日",
+          "title": "FOSS4G Hiroshima 2026 全プログラム終了",
+          "description": "全てのプログラムが終了しました。広島にお越しいただいた皆様、誠にありがとうございました。また会いましょう！"
+        },
         "community_apps_sep2": {
           "date": "2026年9月2日",
           "title": "便利アプリを更新しました",

@@ -47,7 +47,7 @@
   <SubmitButton 
     href={$t('community_events.form_url')}
     text={$t('community_events.apply_button_text')}
-    disabled={false}
+    disabled={true}
     target="_blank"
     rel="noopener noreferrer"
   />

@@ -22,6 +22,11 @@
     "news": {
       "title": "News",
       "items": {
+        "concluded_sep5": {
+          "date": "September 5, 2026",
+          "title": "FOSS4G Hiroshima 2026 Has Concluded",
+          "description": "All programs have now concluded. Thank you to everyone who joined us in Hiroshima. See you again!"
+        },
         "community_apps_sep2": {
           "date": "September 2, 2026",
           "title": "Community Apps Updated",
