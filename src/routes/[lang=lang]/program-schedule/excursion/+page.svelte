@@ -18,7 +18,7 @@
   <SubmitButton 
     href={$t('excursion.registration_url')}
     text={$t('excursion.registration_title')}
-    disabled={false}
+    disabled={true}
     target="_blank"
     rel="noopener noreferrer"
   />
