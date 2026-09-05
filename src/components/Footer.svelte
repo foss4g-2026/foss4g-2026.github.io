@@ -29,27 +29,21 @@
       <div class="flex flex-col items-center gap-2">
         <p class="text-sm text-gray-600 font-medium">Follow us for event updates</p>
         <div class="flex gap-4">
-          <a href="https://www.linkedin.com/company/foss4g2026/" 
-             target="_blank" 
-             rel="noopener noreferrer"
-             class="btn btn-circle btn-outline btn-sm hover:btn-primary"
-             title="LinkedIn">
+          <span 
+             class="btn btn-circle btn-sm cursor-not-allowed opacity-30"
+             title="LinkedIn (Closed)">
             <FontAwesomeIcon icon={faLinkedin} class="text-lg" />
-          </a>
-          <a href="https://t.me/foss4g" 
-             target="_blank" 
-             rel="noopener noreferrer"
-             class="btn btn-circle btn-outline btn-sm hover:btn-primary"
-             title="Telegram">
+          </span>
+          <span 
+             class="btn btn-circle btn-sm cursor-not-allowed opacity-30"
+             title="Telegram (Closed)">
             <FontAwesomeIcon icon={faTelegram} class="text-lg" />
-          </a>
-          <a href="https://chat.whatsapp.com/Lffta4SIYKOH03aUw318Q1?mode=gi_t" 
-             target="_blank" 
-             rel="noopener noreferrer"
-             class="btn btn-circle btn-outline btn-sm hover:btn-primary"
-             title="WhatsApp Public Chat">
+          </span>
+          <span 
+             class="btn btn-circle btn-sm cursor-not-allowed opacity-30"
+             title="WhatsApp (Closed)">
             <FontAwesomeIcon icon={faWhatsapp} class="text-lg" />
-          </a>
+          </span>
         </div>
       </div>
     </div>
