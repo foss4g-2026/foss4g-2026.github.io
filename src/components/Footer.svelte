@@ -52,5 +52,6 @@
     <div class="flex flex-wrap gap-4 mt-4 text-sm">
       <a href="/{locale}/tokushoho" class="link link-hover">特定商取引法に基づく表記</a>
     </div>
+    <div class="mt-2 text-xs text-gray-700">確認コード：6XWZau</div>
   </aside>
 </footer>
