@@ -120,6 +120,12 @@
     "news": {
       "title": "ニュース",
       "items": {
+        "talk_recording": {
+          "date": "2026年9月13日",
+          "title": "発表動画は2026年10月上旬より順次公開予定です",
+          "description": "詳細を見る",
+          "link": "/program-schedule/presentations"
+        },
         "community_events_map": {
           "date": "2026年6月26日",
           "title": "コミュニティイベントの一覧とマップを公開しました",
@@ -314,6 +320,10 @@
     "announcement": "プログラムの詳細は2026年4月に公開予定です",
     "title": "一般セッション",
     "confirmed_note": "このページには、プロポーザル登録システムで参加を確認済みの発表のみを掲載しています。スケジュールは今後変更になる場合があります。",
+    "recording_notice": {
+      "title": "発表動画の公開について",
+      "body": "会期中に収録した基調講演・一般セッション・アカデミックトラック・ライトニングトークの動画は、編集作業のため公開までに1ヶ月程度お時間をいただきます。2026年10月上旬を目処に、YouTubeにて順次公開する予定です。なお、発表者のご希望や収録状況により、公開されないセッションがあります。"
+    },
     "search_placeholder": "タイトルまたは発表者名で検索...",
     "general_tracks": "General Tracks",
     "academic_tracks": "Academic Tracks",

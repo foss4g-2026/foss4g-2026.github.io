@@ -22,6 +22,12 @@
     "news": {
       "title": "News",
       "items": {
+        "talk_recording": {
+          "date": "September 13, 2026",
+          "title": "Session Recordings to Be Published from Early October 2026",
+          "description": "View details",
+          "link": "/program-schedule/presentations"
+        },
         "community_events_map": {
           "date": "June 26, 2026",
           "title": "Community Event List and Map Now Available",
@@ -314,6 +320,10 @@
     "announcement": "Program details will be announced in April 2026",
     "title": "General Sessions",
     "confirmed_note": "Only presentations confirmed in the proposal submission system are listed. Schedule is subject to change.",
+    "recording_notice": {
+      "title": "About Session Recordings",
+      "body": "Videos of the keynotes, general sessions, academic track, and lightning talks recorded during the conference require about one month of editing before release. We plan to publish them on YouTube from early October 2026. Please note that some sessions may not be published, depending on the speakers\u2019 preferences or recording conditions."
+    },
     "search_placeholder": "Search by title or speaker name...",
     "general_tracks": "General Tracks",
     "academic_tracks": "Academic Tracks",

@@ -49,6 +49,11 @@
     </p>
   </div>
 
+  <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
+    <p class="text-blue-900 font-medium mb-2">{$t('presentations.recording_notice.title')}</p>
+    <p class="text-blue-800">{$t('presentations.recording_notice.body')}</p>
+  </div>
+
   <div bind:this={widgetContainer} class="w-full overflow-auto border rounded-lg" style="max-height: 70vh;"></div>
 
 </div>
