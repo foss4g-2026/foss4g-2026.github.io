@@ -19,7 +19,9 @@
     "Hiroshi Miura",
     "Yuhi Yamamoto",
     "Nobusuke Iwasaki",
-    "Sogawa Yuka"
+    "Sogawa Yuka",
+    "Satoshi Watanabe",
+    "Tomoyuki Shibuki"
   ]
 
   interface TgpSupporter {
